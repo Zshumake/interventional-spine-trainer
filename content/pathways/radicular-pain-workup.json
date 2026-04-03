@@ -1,0 +1,102 @@
+{
+  "id": "radicular-pain-workup",
+  "title": "Radicular Pain Workup & Epidural Approach Selection",
+  "description": "Guide for evaluating and managing patients with radicular low back pain, from initial presentation through epidural injection approach selection.",
+  "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "cervical-epidurals", "diagnostic-nerve-blocks"],
+  "startNode": "duration",
+  "nodes": {
+    "duration": {
+      "question": "How long has the patient had radicular symptoms?",
+      "type": "decision",
+      "body": "Duration guides candidacy for interventional treatment. Most acute radiculopathy resolves with conservative management.",
+      "options": [
+        { "label": "Less than 6 weeks", "next": "acute-conservative", "rationale": "Acute phase — trial of conservative therapy first" },
+        { "label": "6 weeks or more", "next": "red-flags", "rationale": "Subacute/chronic — candidate for interventional evaluation" },
+        { "label": "Progressive neurological deficit", "next": "urgent-referral", "rationale": "Severe/progressive deficits warrant urgent evaluation regardless of duration" }
+      ],
+      "evidenceCitation": "UpToDate recommends at least 6 weeks of conservative treatment before considering interventional procedures for radiculopathy."
+    },
+    "acute-conservative": {
+      "question": "Conservative Treatment for Acute Radiculopathy",
+      "type": "outcome",
+      "outcome": "Recommend conservative management: NSAIDs, activity modification, physical therapy. Reassess at 4-6 weeks. If symptoms persist or worsen, advance to interventional evaluation.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "Most acute radiculopathy is self-limited. Conservative treatment includes exercise/PT, nonopioid analgesics, and activity modification."
+    },
+    "urgent-referral": {
+      "question": "Urgent Neurologic or Surgical Referral",
+      "type": "outcome",
+      "outcome": "Urgent referral indicated. Evaluate for cauda equina syndrome (bilateral radicular signs, bowel/bladder dysfunction, saddle anesthesia), severe motor deficit (foot drop, progressive weakness), or other high-risk structural lesions.",
+      "outcomeColor": "red",
+      "evidenceCitation": "Patients with features of cauda equina syndrome should be referred for urgent neuroimaging and surgical evaluation."
+    },
+    "red-flags": {
+      "question": "Are there any red flags or urgent indications?",
+      "type": "decision",
+      "body": "Screen for cauda equina syndrome, progressive motor deficit, or signs of infection/malignancy before proceeding with interventional workup.",
+      "options": [
+        { "label": "No red flags — proceed with workup", "next": "imaging", "rationale": "Standard interventional evaluation pathway" },
+        { "label": "Red flags present", "next": "urgent-referral", "rationale": "Urgent evaluation required before interventional treatment" }
+      ]
+    },
+    "imaging": {
+      "question": "What does the MRI show?",
+      "type": "decision",
+      "body": "MRI is preferred for initial assessment. Imaging identifies disc herniation, stenosis, or other pathology responsive to epidural injection.",
+      "options": [
+        { "label": "Disc herniation with nerve root compression", "next": "laterality-disc", "rationale": "Primary indication for epidural steroid injection — strongest evidence base" },
+        { "label": "Spinal stenosis (central or lateral recess)", "next": "stenosis-approach", "rationale": "ESI evidence is less robust for stenosis than disc herniation, but clinical benefit is observed" },
+        { "label": "No clear structural correlate", "next": "consider-diagnostic", "rationale": "Consider diagnostic selective nerve block or EMG/NCS to localize pain generator" }
+      ],
+      "evidenceCitation": "An RCT found worse outcomes when the injection level differed from the radiologist's recommendation, highlighting the importance of correlating symptoms with imaging."
+    },
+    "laterality-disc": {
+      "question": "Is the radicular pain unilateral or bilateral?",
+      "type": "decision",
+      "body": "Laterality determines the optimal epidural approach for disc herniation with radiculopathy.",
+      "options": [
+        { "label": "Unilateral radicular pain", "next": "tfesi-recommendation", "rationale": "Transforaminal approach delivers medication directly to the affected nerve root" },
+        { "label": "Bilateral symptoms", "next": "interlaminar-recommendation", "rationale": "Interlaminar or caudal approach provides broader bilateral coverage" }
+      ],
+      "evidenceCitation": "Studies suggest better outcomes with transforaminal approach for unilateral pain, achieving ventral epidural spread in >90% of cases vs 30-40% for interlaminar."
+    },
+    "tfesi-recommendation": {
+      "question": "Recommended: Transforaminal Epidural Steroid Injection",
+      "type": "outcome",
+      "outcome": "Perform TFESI at the level below the disc pathology to target the traversing nerve root. Use dexamethasone (non-particulate) for cervical TFESI. For lumbar, dexamethasone is increasingly preferred. Include local anesthetic in the injectate. Limit to max 4 injections per 12 months. Reassess response at 2-4 weeks.",
+      "outcomeColor": "green",
+      "evidenceCitation": "Riew et al. (2000): 71% of patients receiving TFESI with steroid avoided surgery, sustained at 5+ years. Systematic reviews show modest short-term benefit (MD 7.6 on 0-100 pain scale, RR 0.62 for surgery at 3 months)."
+    },
+    "interlaminar-recommendation": {
+      "question": "Recommended: Interlaminar Epidural Steroid Injection",
+      "type": "outcome",
+      "outcome": "Perform interlaminar ESI at the level of the radiologic finding. Consider caudal approach for post-surgical patients or those on anticoagulation (avoids ligamentum flavum puncture). Particulate steroids are acceptable for interlaminar approach. Reassess at 2-4 weeks.",
+      "outcomeColor": "green",
+      "evidenceCitation": "Interlaminar approach is preferred when bilateral coverage is needed. Caudal approach useful when anticoagulation cannot be safely discontinued."
+    },
+    "stenosis-approach": {
+      "question": "Spinal Stenosis — Epidural Approach",
+      "type": "decision",
+      "body": "Evidence for ESI in stenosis is less robust than for disc herniation. Clinical benefit is observed in some patients, particularly those with radiculopathy who wish to avoid or have contraindications to surgery.",
+      "options": [
+        { "label": "Predominantly radicular symptoms with stenosis", "next": "interlaminar-recommendation", "rationale": "Interlaminar ESI can provide coverage of the affected segment" },
+        { "label": "Neurogenic claudication without clear radiculopathy", "next": "stenosis-limited", "rationale": "Evidence for ESI benefit is weaker; consider surgical evaluation" }
+      ],
+      "evidenceCitation": "Results from randomized trials for stenosis-related radicular pain are inconsistent. Benefits should be weighed against risks including dural puncture, infarct, and vertebral fracture."
+    },
+    "stenosis-limited": {
+      "question": "Limited Evidence for ESI in Neurogenic Claudication",
+      "type": "outcome",
+      "outcome": "ESI for central stenosis with neurogenic claudication has limited supporting evidence. Consider a trial of ESI with shared decision-making, or refer for surgical evaluation (decompression, interspinous spacer). Exercise therapy and pharmacotherapy remain first-line.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "UpToDate: The evidence for benefit in spinal stenosis is less clear than for herniated disc. Providers should carefully weigh benefits against risks."
+    },
+    "consider-diagnostic": {
+      "question": "Consider Diagnostic Workup",
+      "type": "outcome",
+      "outcome": "Without a clear structural correlate on MRI, consider: (1) EMG/NCS to evaluate for radiculopathy, (2) Selective nerve root block for diagnostic localization, or (3) Reassess the diagnosis — is the pain truly radicular? Consider facet, SI joint, or discogenic sources.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "Selective nerve root blocks have diagnostic value but carry a small risk of spinal cord injury from injectate spread. False-positive rates are a concern."
+    }
+  }
+}

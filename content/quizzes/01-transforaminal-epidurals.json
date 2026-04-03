@@ -1,0 +1,62 @@
+{
+  "topicId": "transforaminal-epidurals",
+  "questions": [
+    {
+      "id": "tfesi-001",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient has an L4-5 disc herniation causing right L5 radiculopathy. What is the most appropriate epidural approach and level?",
+      "options": [
+        "Right L4-5 transforaminal",
+        "Right L5-S1 transforaminal",
+        "Bilateral L4-5 interlaminar",
+        "Right L4-5 interlaminar"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "L4-5 transforaminal targets the exiting L4 nerve root, not the traversing L5 root compressed by the L4-5 disc.",
+        "2": "Interlaminar provides less targeted ventral epidural spread. TFESI achieves ventral spread in >90% of cases vs 30-40% for interlaminar.",
+        "3": "Interlaminar at L4-5 would provide some coverage but is less targeted than transforaminal for unilateral radiculopathy."
+      },
+      "explanation": "For an L4-5 disc herniation affecting the traversing L5 nerve root, the TFESI is performed at L5-S1 to deliver medication directly around the L5 nerve root as it exits. This 'below the disc' approach targets the affected nerve where it is most accessible.",
+      "comparisonTable": {
+        "headers": ["Approach", "Target", "Ventral Spread Rate", "Best Indication"],
+        "rows": [
+          ["TFESI at pathology level", "Exiting root", ">90%", "Foraminal stenosis"],
+          ["TFESI below disc", "Traversing root", ">90%", "Disc herniation"],
+          ["Interlaminar", "Bilateral epidural", "30-40%", "Central stenosis"],
+          ["Caudal", "Low lumbar epidural", "Variable", "Post-surgical, teaching"]
+        ]
+      },
+      "educationalObjective": "For disc herniations, perform TFESI below the level of pathology to target the traversing nerve root where it exits."
+    },
+    {
+      "id": "tfesi-002",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "A routine series of three epidural injections should be scheduled for all patients with radiculopathy.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "There is no evidence supporting routine series scheduling. Medicare LCD policy requires documented assessment of prior procedure effectiveness before authorizing subsequent injections. Dr. O'Brien identifies routine series as a common unethical billing practice."
+      },
+      "explanation": "There is no foundation for a routine series of three injections. Each epidural should be individually assessed for effectiveness before scheduling the next. This is both an evidence-based and medicolegal requirement.",
+      "educationalObjective": "Never schedule a routine series of epidural injections; each procedure must be individually justified by documented clinical response."
+    },
+    {
+      "id": "tfesi-003",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What type of steroid must be used for cervical transforaminal epidural steroid injections?",
+      "acceptedAnswers": [
+        "dexamethasone",
+        "non-particulate steroid",
+        "non-particulate",
+        "decadron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dexamethasone (a non-particulate steroid) is mandatory for cervical TFESI. Particulate steroids can cause catastrophic embolic spinal cord or brain infarction if inadvertently injected into a vertebral or radicular artery.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Dexamethasone is mandatory for all cervical transforaminal epidurals due to the catastrophic risk of particulate steroid embolization."
+    }
+  ]
+}

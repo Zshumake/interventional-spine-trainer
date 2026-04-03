@@ -1,0 +1,124 @@
+{
+  "id": "anticoagulation-risk-stratification",
+  "title": "Anticoagulation Risk Stratification for Spine Procedures",
+  "description": "Guide for managing anticoagulant and antiplatelet therapy before interventional spine procedures, stratified by procedure risk tier.",
+  "relatedTopics": ["anticoagulation-management"],
+  "startNode": "procedure-risk",
+  "nodes": {
+    "procedure-risk": {
+      "question": "What is the bleeding risk tier of the planned procedure?",
+      "type": "decision",
+      "body": "Pain medicine societies stratify procedures into three risk tiers based on the potential consequences of bleeding.",
+      "options": [
+        { "label": "Peripheral procedure (MBBs, peripheral joint injections, trigger points)", "next": "peripheral-approach", "rationale": "Low bleeding risk — bleeding can be identified and compressed" },
+        { "label": "Intermediate procedure (TFESI, facet joint injections, SIJ injection)", "next": "intermediate-approach", "rationale": "Moderate risk — near neural structures but not neuraxial" },
+        { "label": "Neuraxial procedure (interlaminar epidural, SCS lead placement)", "next": "neuraxial-approach", "rationale": "High risk — epidural hematoma can cause permanent paralysis" }
+      ],
+      "evidenceCitation": "SIS/ASIPP risk stratification: Peripheral (low risk, compressible), Intermediate (near neural structures), Neuraxial (highest risk, epidural hematoma potential)."
+    },
+    "peripheral-approach": {
+      "question": "Peripheral Procedures — Generally Safe to Continue Anticoagulation",
+      "type": "decision",
+      "body": "For peripheral procedures where bleeding can be visualized and compressed, evidence suggests that the thromboembolic risk of holding anticoagulation often exceeds the bleeding risk of continuing.",
+      "options": [
+        { "label": "Patient on aspirin or NSAIDs", "next": "peripheral-continue", "rationale": "Continue — do not hold for peripheral procedures" },
+        { "label": "Patient on warfarin or DOAC", "next": "peripheral-continue", "rationale": "Generally safe to continue — case-by-case assessment" },
+        { "label": "Patient on dual antiplatelet therapy (DAPT)", "next": "peripheral-dapt", "rationale": "Increased bleeding risk but still manageable for peripheral procedures" }
+      ],
+      "evidenceCitation": "IPSIS Task Force: Holding anticoagulation for peripheral procedures carries greater thromboembolic risk than the bleeding risk of continuing."
+    },
+    "peripheral-continue": {
+      "question": "Continue Anticoagulation for Peripheral Procedures",
+      "type": "outcome",
+      "outcome": "Proceed with the peripheral procedure without holding anticoagulation. Use a 25-gauge needle to minimize bleeding. Monitor the injection site post-procedure. The risk of thromboembolic events from holding medication (stroke, PE, MI) exceeds the risk of a compressible bleed at the injection site.",
+      "outcomeColor": "green",
+      "evidenceCitation": "Dr. O'Brien's practice: never holds anticoagulation for peripheral procedures. IPSIS supports this approach based on risk-benefit analysis."
+    },
+    "peripheral-dapt": {
+      "question": "DAPT for Peripheral Procedures",
+      "type": "outcome",
+      "outcome": "Dual antiplatelet therapy (aspirin + P2Y12 inhibitor) increases bleeding risk but peripheral procedures remain generally safe. Discuss with the prescribing cardiologist if concerned. Do NOT hold P2Y12 inhibitors without cardiology input, especially within 6 months of coronary stent placement.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "Holding P2Y12 inhibitors after recent coronary stent placement carries risk of stent thrombosis, which has ~40% mortality."
+    },
+    "intermediate-approach": {
+      "question": "What anticoagulant/antiplatelet is the patient taking?",
+      "type": "decision",
+      "body": "Intermediate-risk procedures require case-by-case assessment balancing bleeding risk against thromboembolic risk.",
+      "options": [
+        { "label": "Aspirin monotherapy", "next": "intermediate-aspirin", "rationale": "Low additional risk — generally continue" },
+        { "label": "Warfarin", "next": "intermediate-warfarin", "rationale": "Check INR — case-by-case decision" },
+        { "label": "DOAC (apixaban, rivaroxaban, dabigatran, edoxaban)", "next": "intermediate-doac", "rationale": "May need to hold 1-2 days depending on renal function" },
+        { "label": "P2Y12 inhibitor (clopidogrel, prasugrel, ticagrelor)", "next": "intermediate-p2y12", "rationale": "Coordinate with prescriber — hold time varies by agent" }
+      ]
+    },
+    "intermediate-aspirin": {
+      "question": "Aspirin for Intermediate Procedures",
+      "type": "outcome",
+      "outcome": "Continue aspirin monotherapy for intermediate-risk procedures. No evidence that holding aspirin reduces bleeding risk for these procedures, and stopping aspirin increases cardiovascular event risk.",
+      "outcomeColor": "green",
+      "evidenceCitation": "Multiple guidelines support continuing aspirin for intermediate-risk spine procedures."
+    },
+    "intermediate-warfarin": {
+      "question": "Warfarin for Intermediate Procedures",
+      "type": "outcome",
+      "outcome": "Check INR. If INR is within therapeutic range (typically <=3.0), many practitioners proceed with intermediate procedures. If INR is supratherapeutic, delay the procedure. The decision to hold warfarin requires individualized risk-benefit assessment considering the indication for anticoagulation (mechanical valve vs atrial fibrillation vs DVT prophylaxis). Coordinate with the prescribing physician.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "UpToDate: Decisions regarding anticoagulant discontinuation should include a risk-benefit analysis considering why the patient is taking the anticoagulant."
+    },
+    "intermediate-doac": {
+      "question": "DOAC for Intermediate Procedures",
+      "type": "outcome",
+      "outcome": "Consider holding for 1-2 half-lives (typically 24-48 hours for most DOACs). Adjust for renal function — dabigatran in particular requires longer hold times with CrCl <50. Resume 24 hours post-procedure if no complications. Bridging is NOT recommended for DOACs. Coordinate hold timing with the prescribing physician.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "DOAC half-lives: apixaban ~12h, rivaroxaban ~5-9h, dabigatran ~12-17h (longer with renal impairment), edoxaban ~10-14h."
+    },
+    "intermediate-p2y12": {
+      "question": "P2Y12 Inhibitor for Intermediate Procedures",
+      "type": "outcome",
+      "outcome": "Coordinate with the prescribing cardiologist. Typical hold times: clopidogrel 5-7 days, prasugrel 7-10 days, ticagrelor 5 days. CRITICAL: Do NOT hold within 6 months of bare metal stent or 12 months of drug-eluting stent placement without explicit cardiology approval — stent thrombosis risk is life-threatening.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "Premature discontinuation of P2Y12 inhibitors after coronary stent placement is a major risk factor for stent thrombosis."
+    },
+    "neuraxial-approach": {
+      "question": "What anticoagulant/antiplatelet is the patient taking?",
+      "type": "decision",
+      "body": "Neuraxial procedures carry the highest bleeding risk. Epidural hematoma, though rare, can cause permanent paralysis if not decompressed within 6-12 hours. Most guidelines recommend holding anticoagulation for neuraxial procedures.",
+      "options": [
+        { "label": "Aspirin monotherapy", "next": "neuraxial-aspirin", "rationale": "Most guidelines allow neuraxial procedures on aspirin" },
+        { "label": "Warfarin", "next": "neuraxial-warfarin", "rationale": "Must hold and verify normalized INR" },
+        { "label": "DOAC", "next": "neuraxial-doac", "rationale": "Must hold for 3-5 half-lives" },
+        { "label": "Therapeutic heparin (IV or LMWH)", "next": "neuraxial-heparin", "rationale": "Must hold and verify normalized coagulation" }
+      ],
+      "evidenceCitation": "Epidural hematoma after neuraxial procedures manifests with progressive neurological deficit. Average time to full manifestation is ~3 hours. Decompression within 6-12 hours is critical for recovery."
+    },
+    "neuraxial-aspirin": {
+      "question": "Aspirin for Neuraxial Procedures",
+      "type": "outcome",
+      "outcome": "Most guidelines (ASRA, SIS) allow neuraxial procedures on aspirin monotherapy (81-325 mg). NSAIDs are also generally acceptable. However, aspirin combined with another anticoagulant requires holding the second agent per its specific guidelines.",
+      "outcomeColor": "green",
+      "evidenceCitation": "ASRA guidelines: aspirin monotherapy is not a contraindication to neuraxial procedures."
+    },
+    "neuraxial-warfarin": {
+      "question": "Warfarin for Neuraxial Procedures — HOLD REQUIRED",
+      "type": "outcome",
+      "outcome": "Hold warfarin for 5 days before the procedure. Verify INR is <=1.5 (some guidelines require <=1.2) on the day of the procedure. If the patient has a mechanical heart valve or high thromboembolic risk, coordinate bridging therapy with the prescribing physician. Resume warfarin the evening of the procedure if no complications.",
+      "outcomeColor": "red",
+      "evidenceCitation": "All major guidelines require holding warfarin and normalizing INR before neuraxial procedures."
+    },
+    "neuraxial-doac": {
+      "question": "DOAC for Neuraxial Procedures — HOLD REQUIRED",
+      "type": "outcome",
+      "outcome": "Hold for 3-5 half-lives before the procedure: apixaban hold 3 days, rivaroxaban hold 3 days, dabigatran hold 3-5 days (longer with renal impairment), edoxaban hold 3 days. No coagulation test reliably confirms DOAC clearance (anti-Xa levels may help for factor Xa inhibitors). Resume 24 hours post-procedure. Bridging is NOT recommended.",
+      "outcomeColor": "red",
+      "evidenceCitation": "ASRA guidelines: DOACs must be held for sufficient time to allow near-complete clearance before neuraxial procedures."
+    },
+    "neuraxial-heparin": {
+      "question": "Heparin for Neuraxial Procedures — HOLD REQUIRED",
+      "type": "outcome",
+      "outcome": "IV heparin: hold 4-6 hours before, verify normalized aPTT. LMWH (therapeutic dose): hold 24 hours before. LMWH (prophylactic dose): hold 12 hours before. Resume heparin 1-2 hours post-procedure for IV, 24 hours for therapeutic LMWH. Monitor for signs of epidural hematoma for 24 hours post-procedure.",
+      "outcomeColor": "red",
+      "evidenceCitation": "ASRA guidelines for heparin management around neuraxial procedures."
+    }
+  }
+}

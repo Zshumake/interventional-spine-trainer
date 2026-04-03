@@ -1,0 +1,156 @@
+{
+  "id": "discogenic-pain-bvn-ablation",
+  "domain": 10,
+  "title": "Discogenic Pain & Basivertebral Nerve (BVN) Ablation",
+  "slug": "discogenic-pain-bvn-ablation",
+  "sections": [
+    {
+      "id": "technique",
+      "title": "Technique & Approach",
+      "content": "## Intracept (BVN Ablation) Procedure\n\nThe Intracept procedure (Relievant Medsystems / Boston Scientific) uses radiofrequency energy to ablate the basivertebral nerve within the vertebral body, interrupting pain signal transmission from inflamed endplates.\n\n### Basivertebral Nerve Anatomy\n\nUnderstanding the BVN is essential:\n\n- **Course**: The basivertebral nerve enters the vertebral body through the posterior cortex (basivertebral foramen) and branches anteriorly to innervate the vertebral endplates\n- **Function**: Sensory nerve carrying nociceptive signals from the endplates to the spinal cord\n- **Key concept**: The BVN is the **final common pathway** for endplate-mediated nociception — ablating it interrupts pain signal transmission from inflamed endplates\n- **Pain mechanism**: In degenerative disc disease with endplate changes, inflammatory mediators (TNF-alpha, IL-1, IL-6) sensitize endplate nociceptors, which transmit signals via the BVN\n\n### Step-by-Step Procedure\n\n1. **Pre-procedure MRI review**: Confirm Modic type 1 or type 2 changes at the target levels\n2. **Patient positioning**: Prone on fluoroscopy table\n3. **Transpedicular approach**: A curved introducer is advanced through the pedicle into the vertebral body under fluoroscopic guidance\n4. **RF probe deployment**: The probe is deployed to the **midline** of the vertebral body where the BVN is located\n5. **Ablation**: RF energy is applied to create a lesion that ablates the BVN\n6. **Bilateral treatment**: Typically both the superior and inferior vertebral bodies flanking the pathologic disc are treated (e.g., for L4-5 disc disease, L4 and L5 BVNs are ablated)\n7. **Multi-level**: Indicated for up to two levels (three vertebral bodies)\n\n### Understanding Modic Changes\n\nModic changes on MRI are the key imaging finding that identifies BVN ablation candidates:\n\n| Type | T1 Signal | T2 Signal | Pathology | Clinical Significance |\n|------|-----------|-----------|-----------|----------------------|\n| **Modic 1** | Hypointense | Hyperintense | Active inflammation/edema | **Best predictor of treatment response** |\n| **Modic 2** | Hyperintense | Hyperintense/iso | Fatty infiltration | More chronic/stable; may still respond |\n| **Modic 3** | Hypointense | Hypointense | Sclerosis | Least common; **not an indication** |\n\n- **Modic 1 changes** represent active inflammatory endplate disease and are the **strongest predictor** of response to BVN ablation\n- **Prevalence**: ~6% of general population; 35-40% of patients with chronic low back pain\n- **Natural history**: Modic 1 can progress to Modic 2 over 1-3 years, or may persist or fluctuate\n\n### IPSIS BVNRFN Procedural Details\n\nThe IPSIS Technical Manual provides detailed step-by-step guidance for basivertebral nerve radiofrequency neurotomy:\n\n**Target Zone:**\n- Posterior limit: 1 cm anterior to the posterior vertebral body wall (to allow heat dissipation and protect the epidural space)\n- Anterior limit: the anterior terminus of the basivertebral foramen\n- At L3-L5, the basivertebral foramen terminus is typically 30-50% of the distance from the posterior to anterior vertebral body wall\n- Target zone is midway between the superior and inferior endplates at lumbar levels\n- At S1, the target zone is closer to the superior endplate (approximately 40% from superior to inferior)\n\n**Transpedicular Approach:**\n- The introducer needle (typically 8G) enters at the superior-lateral aspect of the pedicle and advances toward the inferior-medial aspect\n- Frequent alternating between true AP and true lateral imaging is essential to avoid breaching the pedicle cortex\n- Goal: reach the posterior vertebral body in the lateral view before reaching the medial or inferior pedicle walls in the AP view\n- The L5 pedicle is undercut by the lateral recess — the inferomedial quadrant should be avoided\n- At L3, narrower pedicles may require a coaxial trajectory through the center rather than a superior-lateral to inferior-medial angle\n- The iliac crest may obstruct S1 pedicle access; additional cephalad tilt can help\n\n**Channeling Through Bone:**\n- A critical distinction from soft-tissue procedures: bone channeling is not forgiving — each advancement creates a permanent channel\n- The curved nitinol channeling stylet is advanced in approximately 2 mm increments with measured mallet taps\n- Direction is adjusted by rotating the cannula hub and curved channeling assembly as a single unit\n- If the curved stylet progresses too posteriorly (within 1 cm of the posterior wall), switch to the straight channeling stylet\n\n**Bipolar RF Lesion:**\n- The bipolar RF electrode is positioned so its midpoint is at the center of the target zone\n- Standard lesion protocol: 85 degrees C for 15 minutes, or targeted coagulation at 75 degrees C for 7 minutes\n- Venous bleeding through open instruments is common (cancellous bone is densely vascularized); minimize time that instrument lumens remain open\n- Access to the next vertebral body can begin on the contralateral side while the RF lesion is in process\n\n**Safety Considerations:**\n- Because of the convex posterior wall of L5, insufficient trochar advancement before placing the curved stylet risks breaching the central canal\n- Medial branch of the dorsal ramus may be unavoidably disrupted during transpedicular access (located at the junction of the transverse process and superior articular process)\n- Pre-medication with IV antibiotics is standard; monitored anesthesia care or general anesthesia is often used for patient comfort\n\n### IPSIS Provocation Discography Overview\n\nThe IPSIS manual covers cervical provocation discography in detail, which provides relevant context for understanding discogenic pain diagnosis:\n\n**Key Principles of Disc Provocation:**\n- The purpose is to determine whether a specific disc is the source of a patient's pain by reproducing concordant pain with controlled disc pressurization\n- Internal disc morphology (as shown by contrast medium spread) is not diagnostic — only whether concordant pain is reproduced matters\n- A negative control disc is required; without it, a disc cannot be deemed the pain source\n- The initial nonreproducible pain response during injection (startle response) must be distinguished from true concordant provocation\n\n**Diagnostic Criteria (IPSIS/SIS Standards):**\n- Correct technical performance\n- Facet joint pain excluded at studied segments (medial branch blocks should be performed first)\n- Concordant pain reproduced with disc stimulation\n- Pain intensity of 7/10 or greater on NRS\n- Stimulation of adjacent discs does not produce concordant pain\n\n**Infection Prevention:**\n- Full sterile preparation (surgical mask, cap, gown) is required\n- Intradiscal and/or IV antibiotic prophylaxis is indicated\n- Fresh needles for each disc accessed; no-touch technique for needle tip bends\n\n### CPT Coding\n\n- **CPT 64628**: Thermal destruction of intraosseous basivertebral nerve, first two vertebral bodies, including fluoroscopic guidance\n- **CPT 64629**: Each additional vertebral body",
+      "keyPoints": [
+        "The BVN is the final common pathway for endplate nociception — ablation interrupts pain signals from inflamed endplates",
+        "Transpedicular approach delivers the RF probe to the midline of the vertebral body where the BVN is located",
+        "Both vertebral bodies flanking each pathologic disc must be treated (e.g., L4 and L5 for L4-5 disc disease)",
+        "Modic type 1 changes (active inflammation) are the strongest predictor of treatment response",
+        "Modic type 3 (sclerotic) changes are NOT an indication for BVN ablation",
+        "Procedure is indicated for up to 2 disc levels (3 vertebral bodies) from L3 to S1",
+        "IPSIS: Target zone is 1 cm anterior to the posterior wall to the anterior terminus of the basivertebral foramen, midway between endplates",
+        "IPSIS: At S1, the target zone is closer to the superior endplate (about 40% from superior to inferior) compared to lumbar levels",
+        "Bone channeling is unforgiving — each advancement creates a permanent channel; advance the curved stylet in 2 mm increments with frequent imaging checks",
+        "L5 posterior wall is convex — insufficient trochar advancement before curved stylet placement risks breaching the central canal",
+        "Standard lesion protocol: 85 degrees C for 15 minutes (standard) or 75 degrees C for 7 minutes (targeted coagulation)",
+        "IPSIS discography criteria for discogenic pain: concordant pain at 7/10+, facet pain excluded, negative control disc(s), correct technique",
+        "CPT codes 64628 (first two vertebrae) and 64629 (each additional) cover the procedure"
+      ],
+      "references": [
+        {
+          "authors": "Fischgrund JS et al.",
+          "title": "Intraosseous basivertebral nerve ablation for the treatment of chronic low back pain (SMART Trial)",
+          "journal": "International Journal of Spine Surgery",
+          "year": 2018
+        },
+        {
+          "authors": "Antonacci MD et al.",
+          "title": "Innervation of the vertebral endplate in degenerative disc disease",
+          "journal": "Spine Journal",
+          "year": 2014
+        }
+      ]
+    },
+    {
+      "id": "clinical-decision-making",
+      "title": "Clinical Decision-Making",
+      "content": "## Patient Selection for BVN Ablation\n\n### Ideal Candidate\n\n- **Chronic axial low back pain** >6 months duration\n- **MRI findings**: Modic type 1 (preferred) or type 2 changes at 1-2 contiguous levels (L3-S1)\n- **Pain pattern**: Predominantly **midline/axial** — NOT radicular\n- **Failed conservative management**: Comprehensive program including PT, medications, activity modification for >6 months\n- **No significant spinal stenosis** or neural compression requiring decompression\n- **No prior fusion** at the target level\n- **Functional impairment**: ODI >30 points (moderate-severe disability), VAS >4/10\n\n### Contraindications\n\n- **Radiculopathy** as the primary complaint\n- Significant **spinal stenosis** requiring decompression\n- **Spondylolisthesis** >Grade 1 at the target level (relative)\n- Active spinal infection\n- Vertebral body **fracture or tumor** at target level\n- Prior posterior fixation/fusion at the treatment level\n- **Modic 3** (sclerotic) changes only — no inflammatory component\n- Spinal cord stimulator at the target level\n\n### IPSIS Absolute vs. Relative Contraindications for BVNRFN\n\n**Absolute:**\n- Infection at the target vertebral body or adjacent structures\n- Septicemia\n- Uncorrected coagulopathy\n\n**Relative:**\n- Well-controlled systemic infection without septicemia\n- Spinal instability at the target segment(s)\n- Coexisting pedicle fractures at intended access sites\n- Untreated osteoporosis or metabolic bone disease affecting bone quality (risk of new fracture during pedicle access)\n\n### IPSIS Clinical Trial Exclusion Criteria\n\nThe prospective trials demonstrating BVNRFN efficacy used these additional exclusion criteria, which should inform patient selection:\n- Radicular pain\n- Symptomatic spinal stenosis\n- Metabolic bone disease, spine fragility fracture history, or spinal cancer\n- Disc extrusion or protrusion greater than 5 mm\n- Spondylolisthesis greater than 2 mm at any lumbosacral level\n- Spondylolysis at any lumbosacral level\n- Facet arthrosis/effusion correlating with facet-mediated low back pain\n\nImportantly, the presence of other lumbar pathology does not automatically contraindicate BVNRFN, but more easily treated conditions (especially those likely responsible for most of the patient's complaints) should be addressed first.\n\n### Distinguishing Discogenic Pain from Other Sources\n\nDiscogenic/endplate pain must be differentiated from:\n- **Facet pain**: Axial but typically lateralized, provoked by extension/rotation\n- **SI joint pain**: Below lumbar spine, buttock/hip region, Fortin test positive\n- **Myofascial pain**: Trigger points, muscle tenderness, may be diffuse\n- **Radicular pain**: Dermatomal distribution, below the knee\n\n### The Modic Change Connection\n\nThe key insight is that many patients previously diagnosed with \"discogenic pain\" may actually have **endplate-mediated pain**:\n- Degenerative disc disease causes endplate erosion and inflammation\n- Inflammatory mediators sensitize endplate nociceptors\n- The BVN transmits these pain signals\n- This explains why some patients with positive discograms respond to BVN ablation\n\n### Insurance Coverage\n\nCoverage has been expanding but varies:\n- **Medicare**: Multiple MACs have established LCDs covering Intracept\n- **Commercial insurance**: Variable; prior authorization typically required\n- **Typical criteria**: Chronic LBP >6 months, Modic 1 or 2 at 1-2 levels (L3-S1), failed >6 months conservative care, primarily axial pain, no prior surgery at target level\n\n### Important Context\n\nThis is a **relatively new procedure** (FDA clearance ~2017) with a growing but still-developing evidence base. BVN ablation does NOT preclude future surgery if needed, and post-procedure recovery is typically rapid (days to weeks).",
+      "keyPoints": [
+        "Ideal candidate: chronic axial LBP >6 months with Modic 1/2 changes at 1-2 levels, failed conservative care",
+        "Pain must be predominantly axial/midline — radiculopathy is a contraindication",
+        "Distinguish from facet pain (lateralized, extension-provoked), SI joint pain (below lumbar), and myofascial pain",
+        "Many patients with 'discogenic pain' may actually have endplate-mediated pain transmitted via the BVN",
+        "Modic 1 changes are the strongest predictor — always confirm with recent MRI (within 6 months)",
+        "BVN ablation does not preclude future surgery if needed",
+        "Medicare coverage is expanding; commercial insurance varies and typically requires prior authorization",
+        "IPSIS absolute contraindications: infection at target vertebra, septicemia, uncorrected coagulopathy",
+        "Other lumbar pathology does not automatically contraindicate BVNRFN — but more easily treated conditions should be addressed first",
+        "IPSIS trial exclusion criteria included disc protrusion >5 mm, spondylolisthesis >2 mm, and facet arthrosis with effusion",
+        "IPSIS emphasizes that facet-mediated pain should be excluded via medial branch blocks before considering discogenic/endplate pain diagnosis"
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence & Guidelines",
+      "content": "## The SMART Trial — Fischgrund JS et al. (2018)\n\nThis is the pivotal study for BVN ablation, published in the International Journal of Spine Surgery:\n\n### Study Design\n- Randomized, **sham-controlled** trial\n- Patients with chronic low back pain and Modic changes at 1-2 levels\n\n### Key Findings\n- **Significant reduction in ODI** (Oswestry Disability Index) at 3 months sustained at 12 months\n- **Significant reduction in VAS** pain scores\n- The **sham group also improved** (placebo response), but the treatment group showed statistically superior outcomes\n- **5-year follow-up data** showed durable outcomes\n\n### SMART Extension Study (2020-2021)\n- Long-term follow-up showing **maintained benefit at 2 and 5 years**\n- After unblinding at 12 months, sham patients who crossed over to active treatment also showed improvement\n- Demonstrates durability of the treatment effect\n\n### INTRACEPT Trial — Khalil JG et al. (2019)\n\nAdditional prospective data supporting BVN ablation efficacy with similar outcomes.\n\n### Aggregate Outcomes Data\n\nMultiple prospective studies show consistent results:\n- **Mean ODI improvement**: 20-25 points (clinically meaningful threshold is 10-15 points)\n- **VAS improvement**: 3-4 points on a 10-point scale\n- **Low complication rates**: The procedure is well-tolerated\n- **Durable results**: Maintained at 2-5 year follow-up\n\n### UpToDate Analysis of SMART Trial Data\n\nUpToDate provides a detailed breakdown of the SMART trial and subsequent BVN ablation evidence that adds important nuance:\n\n**SMART Trial (225 patients):**\n- In the treatment arm, BVN ablation produced a 20.5-point mean decrease in ODI score at 3 months\n- The sham procedure group achieved a 15.2-point decrease in ODI\n- Critically, the difference between groups fell below the pre-specified threshold for statistical significance in the primary analysis\n- However, a subgroup responder analysis showed that 75.6% of patients in the ablation arm achieved the minimum clinically important difference (MCID) of greater than 10 points on ODI, compared with only 55.3% of sham patients\n- At 2-year post-study longitudinal follow-up, 76.4% of ablation patients maintained sustained ODI improvement\n\n**Second Randomized Trial (140 patients):**\n- Patients randomized to BVN ablation versus continued standard care\n- The study was terminated early because patients in the ablation arm showed uniformly improved primary and secondary outcomes compared to standard care\n- Early termination due to clear superiority provides supportive evidence, though it limits the data available for long-term analysis\n\n**UpToDate Recommendation:**\n- UpToDate suggests BVN ablation for patients with refractory vertebrogenic back pain and compatible Modic type 1 or 2 changes (Grade 2C recommendation)\n- The procedure was described as well-tolerated with some short- and long-term improvement in pain and function\n- UpToDate explicitly notes that non-industry-sponsored studies are needed to further guide patient selection and quantify effectiveness\n- Compression fractures have been reported as a rare adverse event with BVN ablation\n\n## Endplate Nociceptor Research\n\n### Antonacci MD et al. (2014)\n\nDemonstrated **increased nerve fiber density** in Modic-change endplates compared to normal endplates, providing the histological basis for why endplate inflammation causes pain and why BVN ablation can relieve it.\n\n### Pain Mechanism Science\n\nThe pathophysiological model:\n1. Degenerative disc disease causes endplate erosion\n2. Inflammatory mediators (TNF-alpha, IL-1, IL-6) are released\n3. Endplate nociceptors become sensitized\n4. Pain signals are transmitted via the basivertebral nerve\n5. **Ablation of the BVN interrupts this pathway**\n\n### Historical Context\n\nThe observation that vertebroplasty/kyphoplasty for compression fractures provided instant pain relief (because the hot cement destroyed the nerves inside the vertebral body) contributed to the understanding that intraosseous nerves are pain-mediators. BVN ablation targets this same mechanism in a controlled, minimally invasive way.\n\n### Kyphoplasty and Vertebroplasty (UpToDate Context)\n\nUpToDate classifies kyphoplasty and vertebroplasty as vertebral augmentation procedures used for compression fractures from osteoporosis, metastatic disease, lymphoma, or myeloma. Vertebroplasty involves injecting bone cement into the collapsed vertebra, while kyphoplasty adds the step of inflatable bone tamp insertion to create a cavity before cementing. Compression fractures have also been reported as a rare adverse event following BVN ablation procedures. These augmentation procedures are relevant to interventional spine trainees because they share the transpedicular access concept with BVN ablation and illustrate how intraosseous thermal effects (from hot cement) can ablate pain-transmitting nerves within the vertebral body.\n\n### IPSIS Provocation Discography Evidence\n\nThe IPSIS manual addresses the role and limitations of provocation discography in the broader context of discogenic pain:\n\n- **Schellhas et al. (1996)**: Prospective study correlating cervical MRI and discography in asymptomatic subjects and pain sufferers — established that imaging alone cannot predict a positive provocation response\n- **DeFrancesch et al. (2020)**: Studied the prevalence of the startle response during discography and found it is frequently discordant with true discogenic pain per SIS criteria — misinterpreting the startle response can lead to inappropriate treatment decisions\n- **McCormick et al. (2019)**: Low-pressure lumbar provocation discography performed per SIS/IASP standards does not accelerate disc degeneration — contradicting earlier concerns from Carragee (2009) who used higher-pressure techniques\n- The IPSIS position is that disc morphology on contrast imaging is not diagnostic for discogenic pain — only concordant pain reproduction with negative controls has diagnostic validity\n\n### IPSIS BVNRFN Systematic Reviews\n\n- **Conger et al. (2021)**: Systematic review of BVNRFN effectiveness in patients with Modic changes, supporting its use for carefully selected patients\n- **Conger et al. (2022)**: Updated systematic review with single-arm meta-analysis confirming effectiveness for vertebrogenic low back pain\n\n## Current Guidelines\n\n- FDA cleared ~2017\n- Medicare coverage established by multiple MACs\n- No major society guidelines yet provide strong recommendations — the evidence base is still maturing\n- Most experts consider it appropriate for carefully selected patients who meet the criteria above\n- IPSIS Technical Manual includes BVNRFN as a standard procedure with detailed technical guidance, reflecting its growing acceptance",
+      "keyPoints": [
+        "SMART Trial (Fischgrund 2018): Sham-controlled RCT showing significant improvement in ODI and VAS sustained at 5 years",
+        "Mean ODI improvement of 20-25 points exceeds the clinically meaningful threshold of 10-15 points",
+        "Sham group also improved, but treatment group was statistically superior — demonstrates true treatment effect beyond placebo",
+        "Antonacci (2014): Increased nerve fiber density in Modic-change endplates provides the histological basis",
+        "The vertebroplasty observation (hot cement destroys intraosseous nerves = instant pain relief) informed BVN ablation development",
+        "FDA cleared ~2017 — relatively new procedure with growing but still-developing evidence base",
+        "Long-term data (2-5 years) shows durable treatment effect",
+        "Conger (2021, 2022): Systematic reviews supporting BVNRFN effectiveness for vertebrogenic low back pain with Modic changes",
+        "IPSIS position: disc morphology on imaging is not diagnostic — only concordant pain reproduction with negative controls is valid",
+        "McCormick (2019): Low-pressure discography per SIS/IASP standards does not accelerate disc degeneration",
+        "DeFrancesch (2020): The startle response during discography is frequently discordant with true discogenic pain and should not be misinterpreted",
+        "UpToDate: SMART trial (225 patients) showed 20.5-point ODI decrease with BVN ablation vs 15.2-point decrease with sham — difference below pre-specified significance threshold",
+        "UpToDate: 75.6% of BVN ablation patients achieved MCID (>10-point ODI improvement) vs 55.3% sham — responder analysis favors treatment",
+        "UpToDate: Second trial (140 patients) terminated early due to uniformly improved outcomes in ablation arm vs standard care",
+        "UpToDate: At 2-year follow-up, 76.4% of BVN ablation patients showed sustained ODI improvement",
+        "UpToDate: Non-industry-sponsored studies are needed to further guide patient selection and quantify effectiveness",
+        "UpToDate: Compression fractures reported as rare adverse event following BVN ablation",
+        "UpToDate recommends BVN ablation for refractory vertebrogenic pain with Modic 1/2 changes (Grade 2C)",
+        "Kyphoplasty/vertebroplasty use vertebral augmentation for compression fractures — share transpedicular access concept with BVN ablation"
+      ],
+      "references": [
+        {
+          "authors": "Fischgrund JS et al.",
+          "title": "Intraosseous basivertebral nerve ablation for the treatment of chronic low back pain (SMART Trial)",
+          "journal": "International Journal of Spine Surgery",
+          "year": 2018
+        },
+        {
+          "authors": "Khalil JG et al.",
+          "title": "Prospective evaluation of basivertebral nerve ablation for chronic low back pain (INTRACEPT Trial)",
+          "journal": "Spine Journal",
+          "year": 2019
+        },
+        {
+          "authors": "Antonacci MD et al.",
+          "title": "Innervation of the vertebral endplate in degenerative disc disease",
+          "journal": "Spine Journal",
+          "year": 2014
+        },
+        {
+          "authors": "Modic MT et al.",
+          "title": "Degenerative disk disease: assessment of changes in vertebral body marrow with MR imaging",
+          "journal": "Radiology",
+          "year": 1988
+        },
+        {
+          "authors": "Conger A et al.",
+          "title": "The effectiveness of intraosseous basivertebral nerve radiofrequency neurotomy for the treatment of chronic low back pain in patients with Modic changes: a systematic review",
+          "journal": "Pain Medicine",
+          "year": 2021
+        },
+        {
+          "authors": "Conger A et al.",
+          "title": "The effectiveness of intraosseous basivertebral nerve radiofrequency ablation: an updated systematic review with single arm meta-analysis",
+          "journal": "Pain Medicine",
+          "year": 2022
+        },
+        {
+          "authors": "McCormick Z et al.",
+          "title": "Low-pressure lumbar provocation discography according to SIS/IASP standards does not cause acceleration of disc degeneration",
+          "journal": "Spine",
+          "year": 2019
+        },
+        {
+          "authors": "DeFrancesch F et al.",
+          "title": "Prevalence and discordance of the startle response with true discogenic pain according to SIS guidelines for provocation discography",
+          "journal": "Pain Medicine",
+          "year": 2020
+        },
+        {
+          "authors": "UpToDate",
+          "title": "Subacute and chronic low back pain: Nonsurgical interventional treatment — Vertebrogenic pain, BVN ablation evidence, kyphoplasty/vertebroplasty",
+          "journal": "UpToDate (Wolters Kluwer)",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "id": "clinical-pearls",
+      "title": "Clinical Pearls (Dr. O'Brien)",
+      "content": "## Dr. O'Brien on Discogenic Pain and BVN Ablation\n\n### The Frustration of Discogenic Pain\n\nDr. O'Brien acknowledges that discogenic pain can be a little more frustrating to treat compared to other spine pain generators. There are nociceptors in the disc annulus and the endplates, and some of these patients previously diagnosed with discogenic pain — even those with positive discograms — may actually have endplate-mediated pain.\n\n### The Modic Change Connection\n\nDr. O'Brien teaches that Modic changes are a sign of inflammation with increased nociceptors in the endplates. These changes on MRI are critical for identifying candidates for BVN ablation. The procedure has its own CPT code and is indicated for people with chronic back pain who have type 1 or type 2 Modic changes on MRI, up to two levels.\n\n### The Vertebroplasty Insight\n\nDr. O'Brien draws an interesting connection to compression fracture treatment: historically, when someone has a compression fracture and you put cement in the vertebral body, they get instant pain relief. The reason is that the cement is so hot it burns the nerves inside the vertebral body — they are all gone. The BVN ablation procedure applies this same principle in a controlled fashion, threading a probe into the vertebral body and ablating the basivertebral nerve.\n\n### Patient Education\n\nDr. O'Brien emphasizes the importance of educating patients about what this procedure treats. It treats the vertebral body and endplate nociception, NOT the disc itself. This is an important distinction for patient expectations — the degenerative disc disease remains, but the pain signals from the inflamed endplates are interrupted.\n\n### A Growing but New Field\n\nDr. O'Brien positions BVN ablation as a relatively new addition to the interventional spine toolkit. There are a lot of other procedures that he is not a big believer in, but BVN ablation has specific indications with supporting evidence from the SMART trial. He distinguishes it from procedures like MILD or intradiscal procedures that he views with more skepticism.\n\n### Practical Approach to Chronic Back Pain\n\nDr. O'Brien's approach to chronic axial back pain is systematic: first rule out facet pain (medial branch blocks), then rule out SI joint pain (Fortin test, provocative tests, diagnostic injection), then consider discogenic/endplate pain if Modic changes are present on MRI. Each pain generator has its own diagnostic and treatment pathway, and getting the diagnosis right is the key to successful treatment.",
+      "keyPoints": [
+        "Discogenic pain is more frustrating to treat — patients with positive discograms may actually have endplate-mediated pain",
+        "Modic changes are the key MRI finding — they indicate inflammation with increased endplate nociceptors",
+        "The vertebroplasty insight: hot cement in compression fractures burns intraosseous nerves, providing instant relief — BVN ablation applies this principle",
+        "BVN ablation treats the vertebral body endplate nociception, NOT the disc itself — important for patient expectations",
+        "Indicated for up to 2 levels with Modic type 1 or 2 changes — has its own dedicated CPT code",
+        "Systematic approach to chronic axial back pain: facet → SI joint → discogenic/endplate as the diagnostic sequence",
+        "BVN ablation has better supporting evidence than many other newer back pain procedures"
+      ]
+    }
+  ]
+}

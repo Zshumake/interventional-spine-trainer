@@ -1,0 +1,2020 @@
+{
+  "terms": [
+    {
+      "id": "safe-triangle",
+      "term": "Safe Triangle",
+      "aliases": ["safe triangle", "subpedicular triangle", "subpedicular approach"],
+      "definition": "The target zone for transforaminal needle placement, bounded superiorly by the pedicle, medially by the spinal canal, and inferiorly by the exiting nerve root. The needle enters the superior-anterior aspect of the foramen.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "pedicle",
+      "term": "Pedicle",
+      "aliases": ["pedicle", "pedicles", "vertebral pedicle"],
+      "definition": "The short, thick bony process connecting the vertebral body to the posterior elements. Serves as a key fluoroscopic landmark (the 'eye' of the Scotty dog) for transforaminal approaches and pedicle screw placement.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "superior-articular-process",
+      "term": "Superior Articular Process (SAP)",
+      "aliases": ["sap", "superior articular process", "articular process"],
+      "definition": "The upward-projecting bony process from the posterior vertebral arch that articulates with the inferior articular process of the vertebra above to form the facet joint. Key landmark for MBB and RFA needle targeting.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation", "transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "transverse-process",
+      "term": "Transverse Process (TP)",
+      "aliases": ["tp", "transverse process", "transverse processes"],
+      "definition": "The lateral bony projection from the vertebral arch. In the lumbar spine, the junction of the TP and SAP is the target for medial branch blocks at L1-L4.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "lamina",
+      "term": "Lamina",
+      "aliases": ["lamina", "laminae", "vertebral lamina"],
+      "definition": "The flat posterior portion of the vertebral arch connecting the spinous process to the pedicle. The interlaminar window between adjacent laminae is the entry point for interlaminar epidural injections.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ligamentum-flavum",
+      "term": "Ligamentum Flavum",
+      "aliases": ["ligamentum flavum", "yellow ligament"],
+      "definition": "The elastic ligament connecting adjacent laminae that forms the posterior boundary of the epidural space. Loss of resistance upon passing through this structure confirms epidural access during interlaminar and caudal approaches.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "epidural-space",
+      "term": "Epidural Space",
+      "aliases": ["epidural space", "epidural"],
+      "definition": "The potential space between the dura mater and the walls of the spinal canal containing fat, blood vessels, and nerve roots. The target space for epidural steroid injections and SCS lead placement.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "cervical-epidurals", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "dura-mater",
+      "term": "Dura Mater",
+      "aliases": ["dura", "dura mater", "dural sac", "thecal sac"],
+      "definition": "The outermost meningeal membrane enclosing the spinal cord and cauda equina. Inadvertent puncture during epidural procedures can cause post-dural puncture headache or intrathecal injection.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals", "transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "nerve-root",
+      "term": "Nerve Root",
+      "aliases": ["nerve root", "spinal nerve root", "nerve roots"],
+      "definition": "The paired structures emerging from the spinal cord that combine to form peripheral nerves. Compression or inflammation of a nerve root produces radiculopathy. Understanding exiting vs. traversing root anatomy is critical for TFESI level selection.",
+      "relatedTopics": ["transforaminal-epidurals", "diagnostic-nerve-blocks", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "dorsal-root-ganglion",
+      "term": "Dorsal Root Ganglion (DRG)",
+      "aliases": ["drg", "dorsal root ganglion", "dorsal root ganglia"],
+      "definition": "The sensory cell body cluster located within the intervertebral foramen. Target for DRG stimulation in CRPS and focal neuropathic pain. Also the site through which facet-mediated referred pain travels.",
+      "relatedTopics": ["neuromodulation-scs", "diagnostic-nerve-blocks", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "facet-joint",
+      "term": "Facet Joint (Zygapophysial Joint)",
+      "aliases": ["facet joint", "facet joints", "zygapophysial joint", "zygapophyseal joint", "z-joint", "facet"],
+      "definition": "The paired posterior synovial joints between adjacent vertebrae formed by the SAP and IAP. Bears approximately 25% of axial load when young, increasing to ~50% with disc degeneration. Each joint is innervated by two medial branch nerves.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation", "facet-cyst-rupture"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "medial-branch",
+      "term": "Medial Branch Nerve",
+      "aliases": ["medial branch", "medial branch nerve", "medial branches", "mb"],
+      "definition": "The small sensory nerve arising from the dorsal ramus that innervates the facet joint. Each lumbar facet joint receives dual innervation from the medial branch at the same level and one level above. The target for diagnostic MBBs and therapeutic RFA.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "dorsal-ramus",
+      "term": "Dorsal Ramus",
+      "aliases": ["dorsal ramus", "dorsal rami", "posterior ramus"],
+      "definition": "The posterior division of a spinal nerve that gives off the medial branch (to the facet joint), intermediate branch, and lateral branch. The L5 dorsal ramus (not a medial branch) has a unique course along the sacral ala and is targeted for L5-S1 facet pain.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "l5-dorsal-ramus",
+      "term": "L5 Dorsal Ramus",
+      "aliases": ["l5 dorsal ramus", "l5 dr"],
+      "definition": "Unlike L1-L4 levels where the medial branch is targeted, the L5-S1 facet is innervated by the L5 dorsal ramus, which courses along the groove between the S1 SAP and the sacral ala. It has a distinct anatomical course and target point from typical medial branches.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sacral-lateral-branch",
+      "term": "Sacral Lateral Branch",
+      "aliases": ["sacral lateral branch", "sacral lateral branches", "lateral sacral branch"],
+      "definition": "Small sensory nerves from the S1-S3 sacral dorsal rami that innervate the posterior sacroiliac joint ligaments. These are targeted for SI joint lateral branch RFA, typically at the L5 dorsal ramus and S1-S3 lateral branches.",
+      "relatedTopics": ["si-joint", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "basivertebral-nerve",
+      "term": "Basivertebral Nerve (BVN)",
+      "aliases": ["bvn", "basivertebral nerve", "basivertebral nerves"],
+      "definition": "The intraosseous nerve within the vertebral body that transmits pain signals in vertebrogenic discogenic pain, especially in the setting of Modic type 1 or 2 changes. The target for BVN ablation (Intracept procedure).",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "stellate-ganglion",
+      "term": "Stellate Ganglion",
+      "aliases": ["stellate ganglion", "cervicothoracic ganglion"],
+      "definition": "The sympathetic ganglion formed by fusion of the inferior cervical and first thoracic ganglia, located anterior to the C7 transverse process. Stellate ganglion block is indicated for upper extremity CRPS, phantom limb pain, and vascular insufficiency.",
+      "relatedTopics": ["sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "celiac-plexus",
+      "term": "Celiac Plexus",
+      "aliases": ["celiac plexus", "coeliac plexus", "celiac ganglia"],
+      "definition": "The largest autonomic nerve plexus in the abdomen, located anterior to the aorta at the T12-L1 level. Celiac plexus block and neurolysis are used for intractable upper abdominal pain, particularly from pancreatic cancer.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "superior-hypogastric-plexus",
+      "term": "Superior Hypogastric Plexus",
+      "aliases": ["superior hypogastric plexus", "shp", "hypogastric plexus"],
+      "definition": "The sympathetic plexus located anterior to the L5-S1 disc that mediates visceral pain from pelvic organs. Block or neurolysis is indicated for chronic pelvic pain from cancer or endometriosis.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ganglion-impar",
+      "term": "Ganglion Impar (Ganglion of Walther)",
+      "aliases": ["ganglion impar", "ganglion of walther", "unpaired ganglion"],
+      "definition": "The solitary retroperitoneal ganglion at the sacrococcygeal junction where the bilateral sympathetic chains converge. Block or neurolysis is used for perineal or coccygeal pain, particularly from rectal or gynecologic malignancies.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "lumbar-sympathetic-chain",
+      "term": "Lumbar Sympathetic Chain",
+      "aliases": ["lumbar sympathetic chain", "lumbar sympathetic ganglia", "lumbar sympathetic block"],
+      "definition": "The sympathetic ganglia along the anterolateral vertebral bodies at L2-L4. Lumbar sympathetic block is indicated for lower extremity CRPS, phantom limb pain, and peripheral vascular disease. Confirmed by an ipsilateral temperature increase of at least 1-2 degrees C.",
+      "relatedTopics": ["sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sacroiliac-joint",
+      "term": "Sacroiliac Joint (SIJ)",
+      "aliases": ["sij", "si joint", "sacroiliac joint", "sacroiliac"],
+      "definition": "The large diarthrodial joint between the sacrum and ilium that transmits upper body load to the lower extremities. SIJ dysfunction is a common cause of low back and buttock pain. Diagnosis requires positive provocation tests and a confirmatory diagnostic injection.",
+      "relatedTopics": ["si-joint"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "atlantoaxial-joint",
+      "term": "Atlantoaxial Joint (C1-C2)",
+      "aliases": ["atlantoaxial joint", "c1-c2 joint", "aa joint", "c1-c2"],
+      "definition": "The articulation between the atlas (C1) and axis (C2) that permits approximately 50% of cervical rotation. C1-C2 joint injection is indicated for occipital headache and upper cervical pain, performed under fluoroscopic guidance with a lateral approach.",
+      "relatedTopics": ["c1-c2-injections"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "third-occipital-nerve",
+      "term": "Third Occipital Nerve (TON)",
+      "aliases": ["ton", "third occipital nerve", "c3 superficial medial branch"],
+      "definition": "The superficial medial branch of the C3 dorsal ramus that uniquely innervates the C2-3 facet joint. Requires three target points along the lateral C2-3 joint due to its variable position. A common cause of headache after whiplash.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation", "c1-c2-injections"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "articular-pillar",
+      "term": "Articular Pillar",
+      "aliases": ["articular pillar", "articular pillars", "lateral mass"],
+      "definition": "The column of bone formed by the stacked SAPs and IAPs in the cervical spine. The cervical medial branch courses along the waist (concavity) of the articular pillar, and the pillar centroid is the target for cervical MBBs at C3-C6.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "mamillo-accessory-ligament",
+      "term": "Mamillo-Accessory Ligament (MAL)",
+      "aliases": ["mal", "mamillo-accessory ligament", "mamilloaccessory ligament"],
+      "definition": "A ligament covering the lumbar medial branches at L1-L4 as they cross the junction of the TP and SAP. If the needle sits atop the MAL rather than beneath it, anesthetic may not reach the nerve, causing a false-negative MBB.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sacral-hiatus",
+      "term": "Sacral Hiatus",
+      "aliases": ["sacral hiatus", "hiatus sacralis"],
+      "definition": "The opening at the inferior end of the sacral canal formed by the absent S5 (and sometimes S4) laminae. The entry point for caudal epidural injections, identified by palpating the sacral cornua.",
+      "relatedTopics": ["interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sacral-cornua",
+      "term": "Sacral Cornua",
+      "aliases": ["sacral cornua", "sacral cornu"],
+      "definition": "The paired bony prominences flanking the sacral hiatus that serve as palpable landmarks for caudal epidural needle insertion.",
+      "relatedTopics": ["interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "dorsal-column",
+      "term": "Dorsal Column",
+      "aliases": ["dorsal column", "dorsal columns", "posterior column"],
+      "definition": "The posterior white matter tracts of the spinal cord carrying touch and proprioception signals. The primary target for spinal cord stimulation, where electrical activation of A-beta fibers inhibits pain transmission per gate control theory.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "spinal-cord",
+      "term": "Spinal Cord",
+      "aliases": ["spinal cord"],
+      "definition": "The central nervous system structure within the spinal canal extending from the brainstem to the conus medullaris (typically L1-L2 in adults). Cervical and thoracic epidural procedures carry risk of spinal cord injury; the cord's blood supply via radiculomedullary arteries is critical for understanding TFESI complications.",
+      "relatedTopics": ["cervical-epidurals", "transforaminal-epidurals", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "conus-medullaris",
+      "term": "Conus Medullaris",
+      "aliases": ["conus medullaris", "conus"],
+      "definition": "The tapered terminal end of the spinal cord, typically at L1-L2 in adults. Interlaminar epidural injections should be performed below this level in the lumbar spine to avoid direct cord injury.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "cauda-equina",
+      "term": "Cauda Equina",
+      "aliases": ["cauda equina"],
+      "definition": "The bundle of lumbar and sacral nerve roots below the conus medullaris that resemble a horse's tail. Cauda equina syndrome from compression is a surgical emergency presenting with saddle anesthesia, bowel/bladder dysfunction, and bilateral leg weakness.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "intervertebral-disc",
+      "term": "Intervertebral Disc",
+      "aliases": ["disc", "intervertebral disc", "ivd", "disk"],
+      "definition": "The fibrocartilaginous structure between vertebral bodies consisting of the nucleus pulposus and annulus fibrosus. Disc herniation compressing nerve roots is the primary indication for TFESI. Disc degeneration may cause discogenic pain via the sinuvertebral nerve and BVN.",
+      "relatedTopics": ["transforaminal-epidurals", "discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "annulus-fibrosus",
+      "term": "Annulus Fibrosus",
+      "aliases": ["annulus fibrosus", "annulus", "annular fibers"],
+      "definition": "The tough outer ring of the intervertebral disc composed of concentric collagen lamellae. Annular tears (fissures) can be a source of discogenic pain, and the outer annulus is innervated by the sinuvertebral nerve.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "nucleus-pulposus",
+      "term": "Nucleus Pulposus",
+      "aliases": ["nucleus pulposus", "nucleus"],
+      "definition": "The gel-like center of the intervertebral disc. Herniation of nucleus pulposus material through a deficient annulus causes both mechanical compression and chemical inflammation of adjacent nerve roots.",
+      "relatedTopics": ["transforaminal-epidurals", "discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "sinuvertebral-nerve",
+      "term": "Sinuvertebral Nerve",
+      "aliases": ["sinuvertebral nerve", "recurrent meningeal nerve"],
+      "definition": "A mixed nerve re-entering the spinal canal through the foramen to innervate the posterior annulus, posterior longitudinal ligament, and ventral dura. Implicated in discogenic pain transmission.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "artery-of-adamkiewicz",
+      "term": "Artery of Adamkiewicz",
+      "aliases": ["artery of adamkiewicz", "arteria radicularis magna", "great radicular artery"],
+      "definition": "The largest segmental artery supplying the anterior spinal cord, typically arising from the left side between T9-T12. Located in the anterior-superior quadrant of the foramen, making the infraneural transforaminal approach safer because this artery is essentially never posterior to the nerve.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "vertebral-artery",
+      "term": "Vertebral Artery",
+      "aliases": ["vertebral artery", "va"],
+      "definition": "The artery ascending through the transverse foramina of C1-C6 to supply the brainstem and posterior brain. Aberrant loops near C2-3 must be screened on pre-procedure imaging before cervical MBBs or C1-C2 injections.",
+      "relatedTopics": ["cervical-epidurals", "c1-c2-injections", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "radiculomedullary-artery",
+      "term": "Radiculomedullary Artery",
+      "aliases": ["radiculomedullary artery", "radicular artery", "segmental artery"],
+      "definition": "Segmental arteries that supply the spinal cord via the anterior spinal artery. Inadvertent injection of particulate steroid into a radiculomedullary artery during TFESI can cause catastrophic spinal cord infarction.",
+      "relatedTopics": ["transforaminal-epidurals", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sacral-ala",
+      "term": "Sacral Ala",
+      "aliases": ["sacral ala", "ala of the sacrum"],
+      "definition": "The wing-like lateral mass of the upper sacrum. The groove between the S1 SAP and the sacral ala is the target for L5 dorsal ramus blocks and RFA.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "tfesi",
+      "term": "Transforaminal Epidural Steroid Injection (TFESI)",
+      "aliases": ["tfesi", "transforaminal epidural", "transforaminal esi", "transforaminal epidural steroid injection"],
+      "definition": "A fluoroscopically-guided injection delivering corticosteroid to the ventral epidural space via the neural foramen. The preferred approach for unilateral radiculopathy, achieving ventral epidural spread in >90% of cases. Dexamethasone is the recommended first-line steroid per IPSIS.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "interlaminar-esi",
+      "term": "Interlaminar Epidural Steroid Injection",
+      "aliases": ["interlaminar esi", "ilesi", "interlaminar epidural", "interlaminar approach"],
+      "definition": "An epidural injection performed via the posterior interlaminar window using loss-of-resistance technique. Provides broader bilateral medication coverage but achieves ventral epidural spread in only 30-40% of cases. Preferred for bilateral symptoms or central stenosis.",
+      "relatedTopics": ["interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "caudal-esi",
+      "term": "Caudal Epidural Steroid Injection",
+      "aliases": ["caudal esi", "caudal epidural", "caudal injection", "caudal approach"],
+      "definition": "An epidural injection performed through the sacral hiatus into the caudal epidural space. Useful for post-surgical anatomy with hardware, bilateral low lumbar or sacral radiculopathy, and when direct foraminal access is not feasible. Requires larger injectate volumes (10-20 mL) for adequate cephalad spread.",
+      "relatedTopics": ["interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "cervical-esi",
+      "term": "Cervical Epidural Steroid Injection",
+      "aliases": ["cervical esi", "cervical epidural", "cervical interlaminar epidural"],
+      "definition": "An interlaminar epidural injection in the cervical spine, typically performed at C7-T1 using a paramedian approach with loss of resistance. Carries higher risk than lumbar injections due to the presence of the spinal cord. Only non-particulate steroids (dexamethasone) should be used.",
+      "relatedTopics": ["cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "cervical-tfesi",
+      "term": "Cervical Transforaminal Epidural",
+      "aliases": ["cervical tfesi", "cervical transforaminal"],
+      "definition": "A transforaminal approach in the cervical spine, which carries significant risk of vertebral artery injury and spinal cord infarction. Only non-particulate steroid (dexamethasone) is acceptable. Some practitioners avoid cervical TFESI entirely due to risk.",
+      "relatedTopics": ["cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "medial-branch-block",
+      "term": "Medial Branch Block (MBB)",
+      "aliases": ["mbb", "medial branch block", "medial branch blocks", "mbbs"],
+      "definition": "The diagnostic reference standard for facet-mediated pain. Small-volume local anesthetic is injected at the target nerve under fluoroscopic guidance. Dual comparative blocks on separate days reduce the false-positive rate from 25-40% (single block) to 5-10%. A positive response (>=80% relief) predicts success with subsequent RFA.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "radiofrequency-ablation",
+      "term": "Radiofrequency Ablation (RFA)",
+      "aliases": ["rfa", "radiofrequency ablation", "rf ablation", "radiofrequency neurotomy", "rf neurotomy", "rhizotomy"],
+      "definition": "A thermal neurolytic procedure using radiofrequency energy to create a lesion along the medial branch nerve, disrupting pain transmission from the facet joint. Requires prior positive dual diagnostic MBBs. Pain relief typically lasts 6-18 months until nerve regeneration occurs.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "conventional-rfa",
+      "term": "Conventional (Thermal) RFA",
+      "aliases": ["conventional rfa", "thermal rfa", "continuous rfa", "crf"],
+      "definition": "Standard RFA using continuous radiofrequency energy to heat tissue to 80-90 degrees C for 60-90 seconds, creating a thermal lesion that ablates the target nerve. The lesion extends perpendicular to the needle shaft, making parallel needle placement along the nerve critical for success.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "pulsed-radiofrequency",
+      "term": "Pulsed Radiofrequency (PRF)",
+      "aliases": ["prf", "pulsed radiofrequency", "pulsed rf"],
+      "definition": "A non-destructive neuromodulatory technique delivering brief RF pulses with temperature limited to 42 degrees C. Used for DRG treatment in radiculopathy (especially when ESI fails or steroids are contraindicated) and other targets where thermal ablation is undesirable.",
+      "relatedTopics": ["radiofrequency-ablation", "transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "cooled-rfa",
+      "term": "Cooled Radiofrequency Ablation",
+      "aliases": ["cooled rfa", "cooled radiofrequency", "coolief"],
+      "definition": "An RFA variant using internally cooled electrodes that create a larger, spherical lesion compared to conventional RFA. Particularly useful for SI joint lateral branch RFA where the target nerves have variable anatomy and a larger lesion improves capture rate.",
+      "relatedTopics": ["radiofrequency-ablation", "si-joint"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sij-injection",
+      "term": "Sacroiliac Joint Injection",
+      "aliases": ["sij injection", "si joint injection", "sacroiliac injection"],
+      "definition": "A fluoroscopically-guided intra-articular injection of local anesthetic (diagnostic) and/or corticosteroid (therapeutic) into the SI joint. A positive diagnostic block (>=75% relief) is required before proceeding to SI joint lateral branch RFA.",
+      "relatedTopics": ["si-joint"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "si-joint-lateral-branch-rfa",
+      "term": "SI Joint Lateral Branch RFA",
+      "aliases": ["si joint rfa", "sij rfa", "lateral branch rfa", "sacral lateral branch rfa"],
+      "definition": "Radiofrequency ablation of the L5 dorsal ramus and S1-S3 sacral lateral branches to denervate the posterior SI joint. Often performed using cooled RFA to create larger lesions that account for variable nerve anatomy.",
+      "relatedTopics": ["si-joint", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "c1-c2-injection",
+      "term": "C1-C2 (Atlantoaxial) Joint Injection",
+      "aliases": ["c1-c2 injection", "atlantoaxial injection", "aa joint injection"],
+      "definition": "A fluoroscopically-guided lateral approach injection into the C1-C2 joint for occipital headache and upper cervical pain. The lateral approach avoids the vertebral artery and spinal cord. Requires careful pre-procedure imaging review for vascular anomalies.",
+      "relatedTopics": ["c1-c2-injections"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "bvn-ablation",
+      "term": "Basivertebral Nerve Ablation (Intracept)",
+      "aliases": ["bvn ablation", "intracept", "basivertebral nerve ablation", "intracept procedure"],
+      "definition": "A percutaneous radiofrequency ablation of the basivertebral nerve within the vertebral body for vertebrogenic discogenic pain. Requires Modic type 1 or 2 endplate changes on MRI. The SMART trial demonstrated superiority over sham at 12 months.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "spinal-cord-stimulation",
+      "term": "Spinal Cord Stimulation (SCS)",
+      "aliases": ["scs", "spinal cord stimulation", "spinal cord stimulator"],
+      "definition": "A neuromodulation therapy delivering electrical stimulation to the dorsal columns of the spinal cord via implanted epidural leads. FDA-approved for FBSS, CRPS, and painful diabetic neuropathy. Requires a successful trial (>=50% pain relief + functional improvement) before permanent implant.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "drg-stimulation",
+      "term": "DRG Stimulation",
+      "aliases": ["drg stimulation", "dorsal root ganglion stimulation", "drg stim"],
+      "definition": "A targeted neuromodulation approach placing electrodes directly at the dorsal root ganglion within the neural foramen. Provides highly focal dermatomal coverage and superior positional stability compared to dorsal column SCS. The ACCURATE trial showed 81.2% success for CRPS vs 55.7% for conventional SCS.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "peripheral-nerve-stimulation",
+      "term": "Peripheral Nerve Stimulation (PNS)",
+      "aliases": ["pns", "peripheral nerve stimulation", "peripheral nerve stimulator"],
+      "definition": "Neuromodulation delivered directly to a target peripheral nerve. Modern systems like Sprint PNS use temporary 60-day percutaneous leads placed under ultrasound or fluoroscopy. Therapeutic effects often persist years after lead removal, suggesting central neuroplastic changes.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "stellate-ganglion-block",
+      "term": "Stellate Ganglion Block",
+      "aliases": ["stellate ganglion block", "sgb", "cervicothoracic sympathetic block"],
+      "definition": "Injection of local anesthetic at the C7 anterior tubercle (Chassaignac tubercle at C6 historically) to block the cervicothoracic sympathetic chain. Indicated for upper extremity CRPS, phantom limb pain, and refractory angina. Confirmed by ipsilateral Horner syndrome.",
+      "relatedTopics": ["sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "celiac-plexus-block",
+      "term": "Celiac Plexus Block",
+      "aliases": ["celiac plexus block", "cpb", "celiac block"],
+      "definition": "Injection of local anesthetic at the celiac plexus (T12-L1 anterolateral to the aorta) for diagnostic or therapeutic purposes. Used for intractable upper abdominal visceral pain from pancreatitis or pancreatic cancer. A diagnostic block precedes neurolysis.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "celiac-plexus-neurolysis",
+      "term": "Celiac Plexus Neurolysis",
+      "aliases": ["celiac plexus neurolysis", "celiac neurolysis", "neurolytic celiac plexus block"],
+      "definition": "Destruction of the celiac plexus using phenol or absolute alcohol for intractable visceral pain, typically from pancreatic cancer. Provides sustained pain relief in the majority of patients and can reduce opioid requirements. Hypotension and diarrhea are common expected side effects.",
+      "relatedTopics": ["neurolytic-procedures", "sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "superior-hypogastric-block",
+      "term": "Superior Hypogastric Plexus Block",
+      "aliases": ["superior hypogastric plexus block", "shp block", "hypogastric block"],
+      "definition": "Injection of local anesthetic at the superior hypogastric plexus anterior to L5-S1 for chronic pelvic visceral pain. Can be performed with a transdiscal or posterolateral approach under fluoroscopy or CT guidance.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ganglion-impar-block",
+      "term": "Ganglion Impar Block",
+      "aliases": ["ganglion impar block", "ganglion of walther block"],
+      "definition": "Injection of local anesthetic at the ganglion impar at the sacrococcygeal junction for perineal, coccygeal, or rectal pain. Can be performed via a transcoccygeal or intercoccygeal approach. Used diagnostically before neurolysis in cancer-related perineal pain.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "lumbar-sympathetic-block",
+      "term": "Lumbar Sympathetic Block",
+      "aliases": ["lumbar sympathetic block", "lsb", "lumbar sympathetic chain block"],
+      "definition": "Injection of local anesthetic at the anterolateral L2-L4 vertebral body to block the lumbar sympathetic chain. Indicated for lower extremity CRPS, phantom limb pain, and peripheral vascular disease. Success is confirmed by an ipsilateral lower extremity temperature rise.",
+      "relatedTopics": ["sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "diagnostic-nerve-block",
+      "term": "Diagnostic Nerve Block",
+      "aliases": ["diagnostic nerve block", "diagnostic block", "selective nerve root block", "snrb"],
+      "definition": "An injection of local anesthetic to determine whether a specific nerve is the pain generator. Includes selective nerve root blocks (for radiculopathy) and medial branch blocks (for facet pain). The degree and duration of relief guide subsequent treatment decisions.",
+      "relatedTopics": ["diagnostic-nerve-blocks", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "selective-nerve-root-block",
+      "term": "Selective Nerve Root Block (SNRB)",
+      "aliases": ["snrb", "selective nerve root block", "diagnostic selective nerve root block"],
+      "definition": "A transforaminal injection of small-volume local anesthetic to isolate a specific nerve root as the pain generator. Particularly valuable in multilevel disease to identify the symptomatic level and guide surgical planning.",
+      "relatedTopics": ["diagnostic-nerve-blocks", "transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "facet-cyst-rupture",
+      "term": "Facet Cyst Rupture",
+      "aliases": ["facet cyst rupture", "synovial cyst rupture", "facet synovial cyst"],
+      "definition": "A procedure to decompress a symptomatic facet (synovial) cyst that is causing radiculopathy by compressing a nerve root. Performed under fluoroscopy by injecting into the parent facet joint to rupture the cyst, often combined with epidural steroid injection.",
+      "relatedTopics": ["facet-cyst-rupture"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "provocative-discography",
+      "term": "Provocative Discography",
+      "aliases": ["provocative discography", "discography", "discogram"],
+      "definition": "An invasive diagnostic test where contrast is injected into a suspected painful disc to reproduce concordant pain. Controversial due to concerns about accelerating disc degeneration and high false-positive rates. Largely supplanted by MRI Modic changes and clinical criteria for identifying discogenic pain.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "neurolysis",
+      "term": "Neurolysis",
+      "aliases": ["neurolysis", "neurolytic block", "neurolytic procedure", "chemical neurolysis"],
+      "definition": "The intentional destruction of nerve tissue using chemical agents (phenol, alcohol) or physical energy (radiofrequency, cryotherapy) to provide prolonged pain relief. Reserved primarily for cancer pain when life expectancy is limited and conservative measures have failed.",
+      "relatedTopics": ["neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "intrathecal-pump",
+      "term": "Intrathecal Drug Delivery System (IDDS)",
+      "aliases": ["idds", "intrathecal pump", "pain pump", "intrathecal drug delivery"],
+      "definition": "An implanted pump that delivers medications (morphine, ziconotide, baclofen) directly into the intrathecal space. Provides continuous drug delivery at a fraction of the systemic dose, reducing side effects. Requires a successful trial before permanent implant.",
+      "relatedTopics": ["neurolytic-procedures", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "radiculopathy",
+      "term": "Radiculopathy",
+      "aliases": ["radiculopathy", "radiculopathies", "nerve root dysfunction"],
+      "definition": "A clinical syndrome caused by nerve root compression or inflammation, presenting with dermatomal pain, sensory loss, motor weakness, and/or reflex changes. Differs from radicular pain (pain only) in that true radiculopathy includes neurologic deficit.",
+      "relatedTopics": ["transforaminal-epidurals", "cervical-epidurals", "diagnostic-nerve-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "radicular-pain",
+      "term": "Radicular Pain",
+      "aliases": ["radicular pain", "radiating pain", "sciatica"],
+      "definition": "Pain perceived in a dermatomal distribution caused by ectopic firing of an inflamed or compressed nerve root. Often described as sharp, shooting, or electrical. The primary indication for TFESI. Distinguished from referred pain, which is non-dermatomal.",
+      "relatedTopics": ["transforaminal-epidurals", "diagnostic-nerve-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "axial-pain",
+      "term": "Axial Pain",
+      "aliases": ["axial pain", "axial back pain", "mechanical back pain"],
+      "definition": "Pain localized to the spine itself (neck or back) without a significant radicular component. Common generators include facet joints, discs, SI joints, and paraspinal musculature. Axial pain without radicular features below the knee or shoulder is characteristic of facet-mediated pain.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "discogenic-pain-bvn-ablation", "si-joint"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "neurogenic-claudication",
+      "term": "Neurogenic Claudication",
+      "aliases": ["neurogenic claudication", "pseudoclaudication"],
+      "definition": "Leg pain, heaviness, or weakness with walking or standing that is relieved by sitting or lumbar flexion, caused by lumbar spinal stenosis. Distinguished from vascular claudication by position-dependence and relief with spinal flexion (e.g., the 'shopping cart sign').",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "crps",
+      "term": "Complex Regional Pain Syndrome (CRPS)",
+      "aliases": ["crps", "complex regional pain syndrome", "rsd", "reflex sympathetic dystrophy", "causalgia", "crps type 1", "crps type 2"],
+      "definition": "A chronic pain condition characterized by disproportionate pain, allodynia, vasomotor changes, edema, and trophic changes, typically affecting a limb. Type I (RSD) occurs without nerve injury; Type II (causalgia) follows a defined nerve injury. Treatment includes sympathetic blocks, SCS, and DRG stimulation.",
+      "relatedTopics": ["sympathetic-blocks", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "fbss",
+      "term": "Failed Back Surgery Syndrome (FBSS)",
+      "aliases": ["fbss", "failed back surgery syndrome", "post-laminectomy syndrome"],
+      "definition": "Persistent or recurrent pain following one or more lumbar spine surgeries. The most established indication for SCS. Causes include epidural fibrosis, recurrent disc herniation, foraminal stenosis, adjacent segment disease, and central sensitization.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "facet-mediated-pain",
+      "term": "Facet-Mediated Pain",
+      "aliases": ["facet pain", "facet-mediated pain", "facet syndrome", "facet arthropathy pain"],
+      "definition": "Pain originating from the facet (zygapophysial) joints, presenting as axial spine pain without radicular features below the knee (lumbar) or shoulder (cervical). Accounts for 27-41% of chronic LBP and 36-67% of chronic neck pain. Diagnosed definitively only by controlled MBBs, not by imaging or exam alone (Dreyfuss 1997).",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "vertebrogenic-pain",
+      "term": "Vertebrogenic Pain",
+      "aliases": ["vertebrogenic pain", "vertebrogenic discogenic pain"],
+      "definition": "A subtype of discogenic pain originating from inflammation within the vertebral body endplate, transmitted via the basivertebral nerve. Associated with Modic endplate changes on MRI. Treated with BVN ablation (Intracept).",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "discogenic-pain",
+      "term": "Discogenic Pain",
+      "aliases": ["discogenic pain", "internal disc disruption", "idd"],
+      "definition": "Axial pain originating from a degenerative or damaged intervertebral disc without significant nerve root compression. Characterized by midline, deep, aching pain worsened by sitting and flexion. Diagnosis is challenging; Modic changes on MRI and clinical criteria have largely replaced provocative discography.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "modic-changes",
+      "term": "Modic Changes",
+      "aliases": ["modic changes", "modic type 1", "modic type 2", "modic type 3", "endplate changes"],
+      "definition": "MRI signal changes in the vertebral endplates classified into three types: Type 1 (edema/inflammation, low T1/high T2), Type 2 (fatty replacement, high T1/high T2), Type 3 (sclerosis, low T1/low T2). Types 1 and 2 are associated with vertebrogenic pain and are the imaging criteria for BVN ablation candidacy.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "spinal-stenosis",
+      "term": "Spinal Stenosis",
+      "aliases": ["spinal stenosis", "central stenosis", "lumbar stenosis", "cervical stenosis"],
+      "definition": "Narrowing of the spinal canal causing compression of neural elements. Central stenosis causes neurogenic claudication; foraminal stenosis compresses the exiting nerve root. Interlaminar ESI may be preferred for bilateral symptoms from central stenosis; TFESI targets foraminal narrowing.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "transforaminal-epidurals", "cervical-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "foraminal-stenosis",
+      "term": "Foraminal Stenosis",
+      "aliases": ["foraminal stenosis", "neural foraminal stenosis", "neuroforaminal narrowing"],
+      "definition": "Narrowing of the neural foramen that compresses the exiting nerve root, causing radiculopathy. Can make TFESI technically difficult if severe. Common causes include disc bulging, facet hypertrophy, and osteophyte formation.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "referred-pain",
+      "term": "Referred Pain",
+      "aliases": ["referred pain", "somatic referred pain"],
+      "definition": "Pain perceived in an area distant from its true source, transmitted through shared segmental innervation. Facet joints can cause referred leg pain via the dorsal root ganglion (analogous to cardiac referred pain to the jaw). Distinguished from radicular pain by its non-dermatomal, deep, and diffuse character.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "diagnostic-nerve-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "central-sensitization",
+      "term": "Central Sensitization",
+      "aliases": ["central sensitization", "wind-up", "central pain amplification"],
+      "definition": "A maladaptive amplification of pain processing in the central nervous system resulting in hyperalgesia and allodynia. Occurs in chronic pain states including CRPS and FBSS. Important in neuromodulation patient selection because SCS and DRG stimulation may modulate central sensitization.",
+      "relatedTopics": ["neuromodulation-scs", "sympathetic-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "allodynia",
+      "term": "Allodynia",
+      "aliases": ["allodynia"],
+      "definition": "Pain from a stimulus that does not normally cause pain (e.g., light touch perceived as painful). A hallmark feature of CRPS and neuropathic pain. Can be mechanical (touch) or thermal (cold/warm).",
+      "relatedTopics": ["sympathetic-blocks", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "painful-diabetic-neuropathy",
+      "term": "Painful Diabetic Neuropathy (PDN)",
+      "aliases": ["pdn", "painful diabetic neuropathy", "diabetic neuropathy"],
+      "definition": "Chronic neuropathic pain in the feet and legs caused by diabetes-related nerve damage, refractory to pharmacotherapy. Recently added as an FDA-approved indication for high-frequency SCS based on RCT data demonstrating significant pain reduction.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "post-herpetic-neuralgia",
+      "term": "Post-Herpetic Neuralgia (PHN)",
+      "aliases": ["phn", "post-herpetic neuralgia", "postherpetic neuralgia"],
+      "definition": "Persistent neuropathic pain in a dermatomal distribution following a herpes zoster (shingles) outbreak, lasting more than 90 days after rash onset. May be treated with neuromodulation or targeted nerve blocks depending on the affected dermatome.",
+      "relatedTopics": ["neuromodulation-scs", "sympathetic-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "facet-arthropathy",
+      "term": "Facet Arthropathy",
+      "aliases": ["facet arthropathy", "facet arthrosis", "facet degeneration", "facet hypertrophy"],
+      "definition": "Degenerative changes of the facet joints visible on imaging, including joint space narrowing, osteophytes, sclerosis, and effusion. The correlation between imaging facet arthropathy and pain is weak -- many asymptomatic people have significant imaging findings. Diagnosis of painful facet arthropathy requires positive MBBs.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "spondylolysis",
+      "term": "Spondylolysis",
+      "aliases": ["spondylolysis", "pars defect", "pars interarticularis defect"],
+      "definition": "A stress fracture or defect in the pars interarticularis of the vertebral arch, most common at L5. Should be considered as a differential diagnosis for back pain in young athletes before pursuing facet-directed interventions.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "diagnostic-nerve-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "spondylolisthesis",
+      "term": "Spondylolisthesis",
+      "aliases": ["spondylolisthesis", "listhesis", "anterolisthesis"],
+      "definition": "Forward slippage of one vertebral body on the one below, often resulting from bilateral spondylolysis or degenerative facet changes. May cause foraminal stenosis, central stenosis, or facet-mediated pain depending on severity and type.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "degenerative-cascade",
+      "term": "Degenerative Cascade (Kirkaldy-Willis)",
+      "aliases": ["degenerative cascade", "kirkaldy-willis", "three-phase model"],
+      "definition": "The three-phase model of spinal degeneration: dysfunction (early changes), instability (progressive degeneration with abnormal motion), and stabilization (auto-fusion, severe stenosis). Explains why facet pain peaks in the 40-70 age range, correlating with progressive facet arthropathy.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "discogenic-pain-bvn-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "transitional-anatomy",
+      "term": "Transitional Lumbosacral Anatomy",
+      "aliases": ["transitional anatomy", "lumbosacral transitional vertebra", "lstv", "bertolotti syndrome"],
+      "definition": "A congenital variant where the lowest lumbar vertebra has characteristics of a sacral segment (sacralization) or the first sacral segment resembles a lumbar vertebra (lumbarization). Requires counting from T1 on complete spinal imaging to enumerate levels correctly before any procedure.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "dexamethasone",
+      "term": "Dexamethasone",
+      "aliases": ["dexamethasone", "decadron", "dex"],
+      "definition": "A non-particulate corticosteroid that is the recommended first-line agent for all TFESI per IPSIS guidelines and the only acceptable steroid for cervical/thoracic TFESI. Its particles are 5-10x smaller than RBCs, making it safe if inadvertently injected intra-arterially. Maximum dose: 10 mg per injection.",
+      "relatedTopics": ["transforaminal-epidurals", "cervical-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "triamcinolone",
+      "term": "Triamcinolone",
+      "aliases": ["triamcinolone", "kenalog", "triamcinolone acetonide"],
+      "definition": "A particulate corticosteroid used for epidural and intra-articular injections. Particles are larger than red blood cells and can aggregate, posing risk of embolic infarction if injected intra-arterially. May only be considered as second-line for lumbar TFESI per IPSIS if dexamethasone has been ineffective.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "methylprednisolone",
+      "term": "Methylprednisolone",
+      "aliases": ["methylprednisolone", "depo-medrol", "depomedrol"],
+      "definition": "A particulate corticosteroid commonly used for interlaminar and caudal epidural injections. Maximum single dose: 80 mg equivalent per IPSIS. Annual cumulative cap: 200 mg (150 mg in patients at risk for HPA suppression). Associated with the 2012 fungal meningitis outbreak from a contaminated compounding pharmacy.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "betamethasone",
+      "term": "Betamethasone",
+      "aliases": ["betamethasone", "celestone"],
+      "definition": "A corticosteroid with both particulate (acetate) and soluble (sodium phosphate) components. The particulate component carries the same embolic risk as triamcinolone if injected intra-arterially during transforaminal procedures.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "particulate-steroid",
+      "term": "Particulate Steroid",
+      "aliases": ["particulate steroid", "particulate steroids", "particulate corticosteroid"],
+      "definition": "Corticosteroids (triamcinolone, methylprednisolone, betamethasone) whose particles are larger than RBCs and can aggregate, causing embolic spinal cord infarction if inadvertently injected into a radiculomedullary artery. Contraindicated for cervical/thoracic TFESI; second-line only for lumbar TFESI per IPSIS.",
+      "relatedTopics": ["transforaminal-epidurals", "cervical-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "non-particulate-steroid",
+      "term": "Non-Particulate Steroid",
+      "aliases": ["non-particulate steroid", "non-particulate", "nonparticulate steroid"],
+      "definition": "Dexamethasone sodium phosphate, a true solution whose particles are 5-10x smaller than RBCs and will not cause embolic infarction. The only acceptable steroid for cervical and thoracic TFESI, and the recommended first-line steroid for all TFESI per IPSIS multi-society guidelines.",
+      "relatedTopics": ["transforaminal-epidurals", "cervical-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "lidocaine",
+      "term": "Lidocaine",
+      "aliases": ["lidocaine", "xylocaine", "lignocaine"],
+      "definition": "A short-acting amide local anesthetic (onset 1-2 min, duration 30-120 min). Used as the confirmatory agent in dual comparative MBBs -- pain relief should be shorter than with bupivacaine to demonstrate concordant response. Also used as a test dose before particulate steroid injection.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "diagnostic-nerve-blocks", "transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "bupivacaine",
+      "term": "Bupivacaine",
+      "aliases": ["bupivacaine", "marcaine", "sensorcaine"],
+      "definition": "A long-acting amide local anesthetic (onset 5-10 min, duration 2-8 hours). Commonly used for the first MBB in dual comparative blocks. Safely combined with dexamethasone. Typical concentration for MBBs is 0.5%.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "diagnostic-nerve-blocks", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ropivacaine",
+      "term": "Ropivacaine",
+      "aliases": ["ropivacaine", "naropin"],
+      "definition": "A long-acting amide local anesthetic similar to bupivacaine but with less cardiotoxicity. Must NOT be mixed with dexamethasone because the combination produces crystals large enough to occlude arterioles (IPSIS safety data).",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "phenol",
+      "term": "Phenol",
+      "aliases": ["phenol", "carbolic acid"],
+      "definition": "A chemical neurolytic agent (6-10% concentration) used for destruction of nerve tissue in cancer pain management. Initially acts as a local anesthetic before causing protein denaturation and nerve destruction. Used for celiac plexus, superior hypogastric plexus, and ganglion impar neurolysis.",
+      "relatedTopics": ["neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "absolute-alcohol",
+      "term": "Absolute Alcohol (Ethanol)",
+      "aliases": ["absolute alcohol", "ethanol", "dehydrated alcohol", "alcohol neurolysis"],
+      "definition": "A chemical neurolytic agent (50-100% concentration) that causes nerve destruction through protein extraction and dehydration. More painful on injection than phenol (requires pre-injection local anesthetic). Produces slightly longer duration of neurolysis. Used for celiac plexus neurolysis.",
+      "relatedTopics": ["neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "contrast-medium",
+      "term": "Contrast Medium (Iodinated)",
+      "aliases": ["contrast", "contrast medium", "contrast dye", "iodinated contrast", "iohexol", "omnipaque"],
+      "definition": "Non-ionic iodinated contrast injected under live fluoroscopy to confirm needle position and rule out vascular uptake before injecting therapeutic agents. Essential for all spine procedures -- 10-15% of the time, anesthetic would miss the target without contrast verification.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "gadolinium",
+      "term": "Gadolinium (MRI Contrast)",
+      "aliases": ["gadolinium", "gad", "mri contrast", "gadolinium contrast"],
+      "definition": "A paramagnetic contrast agent used in MRI to enhance visualization of inflammation, vascular structures, and tumors. Post-contrast MRI helps differentiate recurrent disc herniation from epidural fibrosis in post-surgical patients.",
+      "relatedTopics": ["transforaminal-epidurals", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "ziconotide",
+      "term": "Ziconotide",
+      "aliases": ["ziconotide", "prialt"],
+      "definition": "A synthetic peptide derived from cone snail venom that blocks N-type calcium channels. FDA-approved for intrathecal delivery via implanted pump for severe chronic pain. Non-opioid with no tolerance development but can cause psychiatric side effects and requires slow dose titration.",
+      "relatedTopics": ["neurolytic-procedures", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "gabapentin",
+      "term": "Gabapentin",
+      "aliases": ["gabapentin", "neurontin"],
+      "definition": "An anticonvulsant binding voltage-gated calcium channels, used as first-line treatment for neuropathic pain including radiculopathy, CRPS, and post-herpetic neuralgia. Part of the conservative management trial that should be documented before pursuing interventional procedures.",
+      "relatedTopics": ["neuromodulation-scs", "transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "duloxetine",
+      "term": "Duloxetine",
+      "aliases": ["duloxetine", "cymbalta"],
+      "definition": "A serotonin-norepinephrine reuptake inhibitor (SNRI) FDA-approved for chronic musculoskeletal pain, diabetic neuropathy, and fibromyalgia. Commonly used as a first-line neuropathic pain agent in the conservative management pathway before interventional referral.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "fluoroscopy",
+      "term": "Fluoroscopy",
+      "aliases": ["fluoroscopy", "fluoro", "fluoroscopic guidance", "c-arm"],
+      "definition": "Real-time X-ray imaging used for guidance during spine procedures. Mandatory per SIS and ASIPP guidelines for epidural injections, MBBs, and RFA. Allows needle trajectory visualization, contrast pattern confirmation, and detection of vascular uptake. The C-arm can be rotated to obtain AP, lateral, and oblique views.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks", "radiofrequency-ablation", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "scotty-dog-view",
+      "term": "Scotty Dog View",
+      "aliases": ["scotty dog", "scotty dog view", "oblique view"],
+      "definition": "The fluoroscopic appearance of lumbar vertebral anatomy on oblique view that resembles a terrier. The pedicle is the 'eye,' the transverse process is the 'nose,' the pars interarticularis is the 'neck,' the SAP is the 'ear,' and the IAP/lamina is the 'front leg.' The target for TFESI is just below the eye (pedicle).",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "contralateral-oblique-view",
+      "term": "Contralateral Oblique (CLO) View",
+      "aliases": ["clo view", "contralateral oblique", "clo", "contralateral oblique view"],
+      "definition": "A fluoroscopic view obtained by rotating the C-arm to the opposite side of the target, used to visualize the interlaminar window for epidural access. Particularly useful for interlaminar epidurals to assess the opening between adjacent laminae.",
+      "relatedTopics": ["interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "vill",
+      "term": "VILL (Ventral Interlaminar Line)",
+      "aliases": ["vill", "ventral interlaminar line"],
+      "definition": "A fluoroscopic landmark on lateral view representing the ventral aspect of the interlaminar space. Used during interlaminar epidurals to determine the appropriate depth for the loss-of-resistance technique and confirm that the needle has not advanced too far anteriorly.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "kambins-triangle",
+      "term": "Kambin's Triangle",
+      "aliases": ["kambin's triangle", "kambins triangle", "kambin triangle"],
+      "definition": "The safe working zone in the posterolateral foramen bounded by the exiting nerve root (hypotenuse), the SAP (base), and the endplate of the inferior vertebral body (height). Used as the access corridor for endoscopic discectomy and some transforaminal approaches.",
+      "relatedTopics": ["transforaminal-epidurals", "discogenic-pain-bvn-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "loss-of-resistance",
+      "term": "Loss of Resistance (LOR)",
+      "aliases": ["loss of resistance", "lor", "lor technique"],
+      "definition": "A tactile technique for identifying the epidural space during interlaminar and caudal approaches. A syringe containing saline or air is attached to the needle; resistance to injection drops suddenly as the needle passes through the ligamentum flavum into the epidural space.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "contrast-pattern",
+      "term": "Contrast Pattern (Epidural)",
+      "aliases": ["contrast pattern", "epidurogram", "epidural flow pattern"],
+      "definition": "The fluoroscopic appearance of contrast injected into the epidural space. A normal epidural pattern shows nerve root sleeve outlining with medial spread and vacuolization (filling around epidural fat). Must be distinguished from intravascular, intrathecal, intradural, and intradiscal patterns.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "vascular-uptake",
+      "term": "Vascular Uptake",
+      "aliases": ["vascular uptake", "intravascular uptake", "venous uptake", "arterial uptake"],
+      "definition": "Rapid clearing of contrast in a branching (arborizing) pattern during fluoroscopic observation, indicating the needle tip is within a blood vessel. Occurs in 11-13% of lumbar TFESI (L1-L5) and 21.3% at S1. If venous, reposition the needle; if arterial, abort the procedure. Negative aspiration does NOT reliably exclude intravascular placement.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "digital-subtraction-imaging",
+      "term": "Digital Subtraction Imaging (DSI)",
+      "aliases": ["dsi", "digital subtraction imaging", "digital subtraction angiography", "dsa"],
+      "definition": "A fluoroscopic technique that electronically subtracts the pre-contrast image from the post-contrast image, enhancing visualization of contrast flow and improving sensitivity for detecting vascular uptake. Recommended by IPSIS as an adjunct during TFESI.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "tunnel-vision-technique",
+      "term": "Tunnel Vision (Coaxial) Technique",
+      "aliases": ["tunnel vision", "coaxial technique", "gun barrel technique"],
+      "definition": "A fluoroscopic needle advancement technique where the needle is aligned with the X-ray beam so that only the hub is visible (the shaft appears as a dot). Allows precise trajectory control by advancing along the beam axis toward the target.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ap-view",
+      "term": "Anteroposterior (AP) View",
+      "aliases": ["ap view", "anteroposterior view", "ap fluoroscopy"],
+      "definition": "The standard front-to-back fluoroscopic view used for level identification, midline assessment, and confirming medial-lateral needle position. The starting view for most spine procedures before obliquing for target-specific approaches.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "lateral-view",
+      "term": "Lateral View",
+      "aliases": ["lateral view", "lateral fluoroscopy", "cross-table lateral"],
+      "definition": "A side-to-side fluoroscopic view essential for confirming needle depth (anterior-posterior position in the body). Used to verify that the needle is in the foramen for TFESI, in the epidural space for interlaminar injections, and to assess contrast flow patterns.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "microbore-tubing",
+      "term": "Microbore Extension Tubing",
+      "aliases": ["microbore tubing", "extension tubing", "microbore"],
+      "definition": "Low-volume connector tubing between the syringe and spinal needle used for all injections during spine procedures. Allows injection without directly manipulating the needle hub, reducing the risk of needle displacement during injection. Standard of care per IPSIS for all procedures.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "quincke-needle",
+      "term": "Quincke Needle",
+      "aliases": ["quincke needle", "quincke-type", "quincke tip"],
+      "definition": "A spinal needle with a beveled cutting tip, standard for TFESI and other spine procedures (typically 22-25 gauge). The bevel orientation affects needle steering -- the tip deflects away from the bevel face. A slight bend near the tip enhances directional control.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "tuohy-needle",
+      "term": "Tuohy Needle",
+      "aliases": ["tuohy needle", "tuohy", "epidural needle"],
+      "definition": "A curved-tip epidural needle designed to direct a catheter or lead into the epidural space. The standard needle for interlaminar epidural access, SCS lead placement, and intrathecal pump catheter insertion.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "rf-cannula",
+      "term": "RF Cannula",
+      "aliases": ["rf cannula", "radiofrequency cannula", "rf needle", "rf probe"],
+      "definition": "A specialized insulated needle with an exposed active tip (typically 10-18 mm) that delivers radiofrequency energy for thermal lesioning. The lesion extends perpendicular to and along the active tip, so the needle must be placed parallel to the target nerve for optimal ablation.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "arcuate-line-of-aprill",
+      "term": "Arcuate Line of Aprill",
+      "aliases": ["arcuate line", "aprill's line", "arcuate line of aprill"],
+      "definition": "The key fluoroscopic landmark for S1 transforaminal access, formed by the continuity of the medial cortical margin of the S1 pedicle and the lateral wall of the S1 root canal. Used with slight ipsilateral obliquity and cephalocaudal tilt to visualize the posterior S1 foramen.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "supraneural-approach",
+      "term": "Supraneural Approach",
+      "aliases": ["supraneural approach", "supraneural", "classical approach"],
+      "definition": "A TFESI approach positioning the needle above the nerve in the superior foramen just below the pedicle, using 10-15 degrees ipsilateral obliquity. The classical approach targeting the ventral-superior quadrant of the foramen. On lateral imaging, the needle tip lies immediately beneath the pedicle.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "infraneural-approach",
+      "term": "Infraneural Approach",
+      "aliases": ["infraneural approach", "infraneural"],
+      "definition": "A TFESI approach positioning the needle below the segmental nerve in the inferior foramen. Offers a safety advantage because the artery of Adamkiewicz is almost never found posterior to the nerve in the inferior foramen. Requires greater fluoroscopic obliquity.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "retroneural-approach",
+      "term": "Retroneural Approach",
+      "aliases": ["retroneural approach", "retroneural"],
+      "definition": "A TFESI approach placing the needle directly posterior to the nerve. Useful when the exiting nerve has been displaced superiorly by intraforaminal disc extrusion, and also used for diagnostic spinal nerve blocks.",
+      "relatedTopics": ["transforaminal-epidurals", "diagnostic-nerve-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "gate-control-theory",
+      "term": "Gate Control Theory",
+      "aliases": ["gate control theory", "gate theory", "melzack and wall"],
+      "definition": "The foundational neurophysiological theory (Melzack and Wall, 1965) proposing that stimulation of large-diameter A-beta fibers in the dorsal columns can inhibit pain signal transmission carried by smaller C-fibers and A-delta fibers. The theoretical basis for spinal cord stimulation.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "percutaneous-lead",
+      "term": "Percutaneous (Cylindrical) Lead",
+      "aliases": ["percutaneous lead", "cylindrical lead", "percutaneous electrode"],
+      "definition": "An SCS electrode array placed through a Tuohy needle into the epidural space under fluoroscopy. Standard for trial procedures. Typically has 8 or 16 contacts in a linear array. Higher migration rate than paddle leads but less invasive to place.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "paddle-lead",
+      "term": "Paddle (Surgical) Lead",
+      "aliases": ["paddle lead", "surgical lead", "paddle electrode"],
+      "definition": "A flat SCS electrode placed via laminotomy that sits directly against the dorsal dura. Offers broader electrode arrays (up to 32 contacts), more stable positioning, lower migration rates, and potentially lower energy requirements due to unidirectional current delivery.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ipg",
+      "term": "Implantable Pulse Generator (IPG)",
+      "aliases": ["ipg", "implantable pulse generator", "battery", "pulse generator", "neurostimulator"],
+      "definition": "The battery and processing unit of an SCS system, implanted subcutaneously (typically upper buttock or flank). Rechargeable units last 10-25 years; primary cell batteries last 3-5 years. Must be placed in MRI-safe mode before any MRI scan.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ecap",
+      "term": "Evoked Compound Action Potential (ECAP)",
+      "aliases": ["ecap", "evoked compound action potential"],
+      "definition": "The measurable neural response to each SCS stimulation pulse, used in closed-loop systems to automatically adjust stimulation amplitude in real time. Compensates for changes in electrode-to-cord distance caused by movement or positional changes, improving consistency of therapy.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "hf10-stimulation",
+      "term": "High-Frequency (HF10) Stimulation",
+      "aliases": ["hf10", "high-frequency stimulation", "10 khz", "hf10 therapy"],
+      "definition": "An SCS waveform delivering stimulation at 10,000 Hz with low amplitude, providing paresthesia-free pain relief. The SENZA-RCT demonstrated superiority over traditional tonic SCS for both back and leg pain (84.5% vs 43.8% back pain responder rate).",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "burst-stimulation",
+      "term": "Burst Stimulation",
+      "aliases": ["burst stimulation", "burst scs"],
+      "definition": "An SCS waveform delivering packets of 5 high-frequency pulses at 500 Hz with inter-burst frequency of 40 Hz. Provides paresthesia-free stimulation. Proposed to engage both lateral (sensory) and medial (affective-emotional) pain pathways. The SUNBURST trial showed 70.8% patient preference over tonic.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "tonic-stimulation",
+      "term": "Tonic (Traditional) Stimulation",
+      "aliases": ["tonic stimulation", "traditional scs", "low-frequency stimulation"],
+      "definition": "The original SCS waveform delivering low-frequency (40-80 Hz) pulses that produce paresthesias (tingling) overlapping the painful area. Requires precise lead placement for paresthesia mapping. Remains effective for patients who prefer paresthesia-based therapy.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "closed-loop-stimulation",
+      "term": "Closed-Loop Stimulation",
+      "aliases": ["closed-loop stimulation", "closed-loop scs", "ecap-controlled stimulation"],
+      "definition": "An SCS approach using real-time ECAP sensing to automatically adjust stimulation amplitude based on measured neural activation. The Evoke trial demonstrated superiority over open-loop programming at 12 and 36 months. Compensates for dynamic electrode-cord distance changes.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "dtm-stimulation",
+      "term": "Differential Target Multiplexed (DTM) Stimulation",
+      "aliases": ["dtm", "dtm stimulation", "differential target multiplexed"],
+      "definition": "An SCS waveform employing multiplexed signals that simultaneously deliver different electrical fields to various neural targets. Early data showed a 93.5% back pain responder rate vs 36.4% for conventional stimulation, notable for the historically difficult back pain target.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "sprint-pns",
+      "term": "Sprint PNS System",
+      "aliases": ["sprint pns", "sprint", "60-day pns"],
+      "definition": "A temporary 60-day percutaneous peripheral nerve stimulation system where fine-wire leads are placed at the target peripheral nerve under ultrasound or fluoroscopy. Effects persist up to 5 years after lead removal, suggesting neuroplastic central changes rather than requiring ongoing stimulation.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "scs-trial",
+      "term": "SCS Trial",
+      "aliases": ["scs trial", "stimulator trial", "neuromodulation trial"],
+      "definition": "A 3-7 day test period with externalized percutaneous leads connected to an external pulse generator, considered standard of care before permanent implant. Success requires at least 50% pain reduction AND meaningful functional improvement. The overall trial-to-permanent conversion rate is approximately 67%.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "dual-comparative-blocks",
+      "term": "Dual Comparative (Controlled) Blocks",
+      "aliases": ["dual blocks", "comparative blocks", "controlled blocks", "dual comparative blocks"],
+      "definition": "The diagnostic paradigm using two MBBs on separate days with different anesthetics (e.g., bupivacaine first, lidocaine second) to validate facet pain diagnosis. Concordant response (relief duration matches each anesthetic's pharmacology) reduces the false-positive rate from 25-40% to 5-10%.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "concordant-response",
+      "term": "Concordant Response",
+      "aliases": ["concordant response", "concordant relief"],
+      "definition": "In dual comparative blocks, a response where pain relief duration appropriately matches the expected pharmacology of each anesthetic used -- shorter with lidocaine, longer with bupivacaine. Required for a true positive diagnostic block result.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "false-positive-rate",
+      "term": "False Positive Rate (MBB)",
+      "aliases": ["false positive rate", "false positive", "fpr"],
+      "definition": "The rate at which a single diagnostic MBB incorrectly identifies facet-mediated pain -- approximately 25-40% for single blocks (Schwarzer 1994). Dual comparative blocks reduce this to 5-10%. A major reason why single blocks alone are insufficient for RFA candidacy.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "eighty-percent-relief",
+      "term": "80% Pain Relief Threshold",
+      "aliases": ["80% relief", "eighty percent relief", "80% threshold", "80% pain relief"],
+      "definition": "The widely accepted standard for determining a positive diagnostic MBB. Studies using a lower 50% threshold (like the MINT trial) produced worse RFA outcomes. IPSIS and UpToDate recommend 80-100% relief lasting for the minimum expected duration of the anesthetic used.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "provocation-tests-sij",
+      "term": "SI Joint Provocation Tests",
+      "aliases": ["provocation tests", "si provocation", "si joint tests", "fortin finger test"],
+      "definition": "A battery of clinical tests (distraction, compression, thigh thrust, sacral thrust, Gaenslen's, Fortin finger test) used to screen for SIJ pathology. Three or more positive provocation tests increase the likelihood of SIJ pain, but a diagnostic injection is required for definitive diagnosis.",
+      "relatedTopics": ["si-joint"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "epidural-hematoma",
+      "term": "Epidural Hematoma",
+      "aliases": ["epidural hematoma", "spinal epidural hematoma"],
+      "definition": "A rare but potentially devastating complication of neuraxial procedures where blood accumulates in the epidural space, compressing the spinal cord or cauda equina. Risk is elevated in anticoagulated patients. Presents with acute back pain, progressive neurologic deficit, and requires emergent surgical decompression.",
+      "relatedTopics": ["anticoagulation-management", "interlaminar-caudal-epidurals", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "dural-puncture",
+      "term": "Dural Puncture (Wet Tap)",
+      "aliases": ["dural puncture", "wet tap", "accidental dural puncture", "dural tear"],
+      "definition": "Inadvertent penetration of the dura mater during epidural procedures, allowing CSF leakage. Can cause post-dural puncture headache (positional, worsened by upright posture). Fluoroscopic recognition: central contrast accumulation with fluid-fluid level on lateral view.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "post-dural-puncture-headache",
+      "term": "Post-Dural Puncture Headache (PDPH)",
+      "aliases": ["pdph", "post-dural puncture headache", "spinal headache"],
+      "definition": "A postural headache caused by CSF leakage through a dural puncture site, worsened by upright position and relieved by lying flat. Typically develops 24-72 hours after the procedure. Treated conservatively (bed rest, caffeine, hydration) or with an epidural blood patch if persistent.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "spinal-cord-infarction",
+      "term": "Spinal Cord Infarction",
+      "aliases": ["spinal cord infarction", "cord infarction", "anterior spinal artery syndrome"],
+      "definition": "Catastrophic ischemic injury to the spinal cord caused by disruption of blood supply, most commonly from particulate steroid injection into a radiculomedullary artery during TFESI. Presents as acute paraplegia or quadriplegia. The primary reason dexamethasone is mandatory for cervical/thoracic TFESI.",
+      "relatedTopics": ["transforaminal-epidurals", "cervical-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "horner-syndrome",
+      "term": "Horner Syndrome",
+      "aliases": ["horner syndrome", "horner's syndrome", "horners"],
+      "definition": "A triad of miosis (constricted pupil), ptosis (drooping eyelid), and anhidrosis (decreased sweating) caused by disruption of the ipsilateral sympathetic chain. An expected (and confirmatory) side effect after stellate ganglion block. Can also occur as a complication of cervical epidural injections.",
+      "relatedTopics": ["sympathetic-blocks", "cervical-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "cauda-equina-syndrome",
+      "term": "Cauda Equina Syndrome",
+      "aliases": ["cauda equina syndrome", "ces"],
+      "definition": "A surgical emergency caused by compression of the cauda equina nerve roots, presenting with saddle anesthesia, bowel/bladder dysfunction, and bilateral lower extremity weakness. Can result from epidural hematoma, abscess, or massive disc herniation. Requires emergent decompression.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "lead-migration",
+      "term": "Lead Migration",
+      "aliases": ["lead migration", "electrode migration"],
+      "definition": "The most common hardware complication of SCS, occurring in 10-22.6% of patients. Causes loss of therapeutic coverage and usually requires surgical revision (96% of clinically significant cases). Prevention includes proper anchoring, strain-relief loops, and 2-4 weeks of post-implant activity restriction.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-pearls"
+    },
+    {
+      "id": "twiddler-syndrome",
+      "term": "Twiddler Syndrome",
+      "aliases": ["twiddler syndrome", "twiddlers"],
+      "definition": "A complication where the patient consciously or unconsciously rotates the IPG within its subcutaneous pocket, causing lead coiling, dislodgement, or fracture. Prevention includes proper pocket sizing and patient education.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-pearls"
+    },
+    {
+      "id": "infection-scs",
+      "term": "SCS Infection",
+      "aliases": ["scs infection", "implant infection", "hardware infection"],
+      "definition": "Infection complicating SCS implantation, with a pooled rate of approximately 4.3% in modern series. Superficial infections may respond to antibiotics alone, but deep infections involving the IPG pocket or lead tracks typically require complete hardware explant and IV antibiotics.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-pearls"
+    },
+    {
+      "id": "epidural-abscess",
+      "term": "Epidural Abscess",
+      "aliases": ["epidural abscess", "spinal epidural abscess"],
+      "definition": "A collection of pus in the epidural space, typically from hematogenous spread or direct inoculation during a procedure. Presents with fever, back pain, and progressive neurologic deficit. Risk factors include diabetes and immunosuppression. Requires IV antibiotics and often surgical drainage.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "neuromodulation-scs", "anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "pneumothorax",
+      "term": "Pneumothorax",
+      "aliases": ["pneumothorax"],
+      "definition": "Accidental lung puncture, a rare complication of cervical and thoracic spine procedures or stellate ganglion blocks. Presents with chest pain, dyspnea, and decreased breath sounds. Requires chest X-ray for diagnosis and may need chest tube placement.",
+      "relatedTopics": ["cervical-epidurals", "sympathetic-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "hypotension-neurolysis",
+      "term": "Orthostatic Hypotension (Post-Neurolysis)",
+      "aliases": ["hypotension", "orthostatic hypotension", "sympathectomy hypotension"],
+      "definition": "A common expected side effect following sympathetic neurolysis (especially celiac plexus), caused by loss of sympathetic vascular tone and resulting in splanchnic vasodilation. Managed with IV fluids and gradual mobilization. Patients should be pre-hydrated.",
+      "relatedTopics": ["neurolytic-procedures", "sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "hpa-axis-suppression",
+      "term": "HPA Axis Suppression",
+      "aliases": ["hpa suppression", "hpa axis suppression", "hypothalamic-pituitary-adrenal suppression", "adrenal suppression"],
+      "definition": "Suppression of the hypothalamic-pituitary-adrenal axis from exogenous corticosteroid administration. The reason for annual cumulative steroid dose limits (200 mg methylprednisolone equivalent per IPSIS, 150 mg in at-risk patients) and maximum 4 injections per site per 12 months per UpToDate.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "vertebral-compression-fracture",
+      "term": "Vertebral Compression Fracture Risk",
+      "aliases": ["compression fracture", "vertebral fracture", "steroid fracture risk"],
+      "definition": "Each successive epidural steroid injection increases 5-year vertebral body fracture risk by a factor of 1.21 per UpToDate data. Osteoporosis is a relative contraindication to ESI requiring shared decision-making. Antiosteoporotic medication during the treatment course may partially mitigate risk.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "fungal-meningitis-outbreak",
+      "term": "2012 Fungal Meningitis Outbreak",
+      "aliases": ["fungal meningitis", "2012 outbreak", "necc outbreak", "contaminated steroid"],
+      "definition": "Hundreds of patients developed fungal meningitis, many fatally, from epidural injections using contaminated methylprednisolone from a single compounding pharmacy (NECC). Led to increased regulatory oversight of compounding pharmacies and heightened awareness of steroid sourcing in interventional practice.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "ethics-billing-medicolegal"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "intrathecal-injection",
+      "term": "Intrathecal Injection (Inadvertent)",
+      "aliases": ["intrathecal injection", "subarachnoid injection", "total spinal"],
+      "definition": "Accidental injection of medication into the cerebrospinal fluid. During TFESI, recognized by central contrast accumulation with a fluid-fluid level on lateral fluoroscopy. Can cause total spinal block (respiratory arrest, cardiovascular collapse) with large volumes. Procedure must be stopped immediately.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "tram-track-sign",
+      "term": "Tram Track Sign",
+      "aliases": ["tram track sign", "tram track", "intradural injection"],
+      "definition": "A fluoroscopic pattern of parallel longitudinal bands seen when contrast is injected into the intradural (subdural) space, between the dura and arachnoid mater. Indicates the needle is intradural -- the procedure should be aborted immediately.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "riew-study",
+      "term": "Riew Study (2000, 2006)",
+      "aliases": ["riew study", "riew", "riew 2000", "riew et al"],
+      "definition": "The most-cited study in interventional spine: a prospective RCT showing 71% of patients receiving TFESI with steroid avoided surgery. The 2006 five-year follow-up confirmed sustained benefit. Established the strongest evidence for TFESI in reducing surgical rates for lumbar radiculopathy.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "dreyfuss-study",
+      "term": "Dreyfuss Study (1997)",
+      "aliases": ["dreyfuss", "dreyfuss 1997", "dreyfuss study", "dreyfuss et al"],
+      "definition": "Landmark study establishing that no single historical or physical examination finding reliably diagnoses facet joint pain. Challenged the notion that facet pain could be diagnosed clinically and established controlled diagnostic blocks as the reference standard.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "senza-rct",
+      "term": "SENZA-RCT",
+      "aliases": ["senza", "senza-rct", "senza trial", "kapural"],
+      "definition": "Pivotal multicenter RCT (Kapural 2015) comparing HF10 to traditional tonic SCS. HF10 showed superiority for both back (84.5% vs 43.8%) and leg pain (83.1% vs 55.5%) at 3 months, sustained through 24 months. The first trial demonstrating superiority of a paresthesia-free waveform.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "accurate-trial",
+      "term": "ACCURATE Trial",
+      "aliases": ["accurate", "accurate trial", "accurate study"],
+      "definition": "Pivotal multicenter RCT (Deer 2017) comparing DRG stimulation to conventional dorsal column SCS for CRPS and causalgia. DRG success rate was 81.2% vs 55.7% for conventional SCS at 3 months. Led to FDA approval of the Proclaim DRG system.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "sunburst-trial",
+      "term": "SUNBURST Trial",
+      "aliases": ["sunburst", "sunburst trial"],
+      "definition": "Multicenter randomized crossover trial (Deer 2018) evaluating burst vs tonic stimulation. Burst was noninferior to tonic with 70.8% patient preference for burst. Established burst as a viable paresthesia-free alternative and suggested engagement of affective pain pathways.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "evoke-trial",
+      "term": "Evoke Trial",
+      "aliases": ["evoke", "evoke trial"],
+      "definition": "First RCT of closed-loop (ECAP-controlled) vs open-loop SCS (Mekhail 2020). Closed-loop demonstrated statistically superior pain relief at 12 months, sustained at 36 months. Validated real-time neural dose control through ECAP measurement.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "smart-trial",
+      "term": "SMART Trial",
+      "aliases": ["smart trial", "smart study"],
+      "definition": "Pivotal sham-controlled RCT for basivertebral nerve ablation (Intracept) demonstrating superiority over sham at 12 months for vertebrogenic discogenic pain with Modic changes. Provided the evidence basis for BVN ablation as a treatment for vertebrogenic pain.",
+      "relatedTopics": ["discogenic-pain-bvn-ablation"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "mint-trials",
+      "term": "MINT Trials",
+      "aliases": ["mint trial", "mint trials", "mint study"],
+      "definition": "Controversial Dutch RCTs of radiofrequency denervation for facet pain that showed negative results, likely due to methodological issues including a lower 50% pain relief threshold for diagnostic blocks (instead of 80%), single rather than dual blocks, and suboptimal RFA technique.",
+      "relatedTopics": ["radiofrequency-ablation", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "process-trial",
+      "term": "PROCESS Trial",
+      "aliases": ["process trial", "process study"],
+      "definition": "Multicenter RCT (Kumar 2007) comparing SCS plus conventional medical management to conventional management alone for FBSS. SCS demonstrated superior pain relief, health-related quality of life, and treatment satisfaction, establishing Level I evidence for SCS in FBSS.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "benzon-study",
+      "term": "Benzon Study (2007)",
+      "aliases": ["benzon", "benzon 2007", "benzon study"],
+      "definition": "Study demonstrating that dexamethasone particles are smaller than red blood cells while triamcinolone and methylprednisolone particles are significantly larger and can aggregate. Foundational evidence for the safety advantage of non-particulate steroids in transforaminal injections.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "schwarzer-study",
+      "term": "Schwarzer Study (1994)",
+      "aliases": ["schwarzer", "schwarzer 1994", "schwarzer study"],
+      "definition": "Established that single medial branch blocks have a false positive rate of approximately 25-40%, demonstrating the need for controlled (dual) diagnostic blocks before proceeding to RFA.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "manchikanti-prevalence",
+      "term": "Manchikanti Prevalence Studies",
+      "aliases": ["manchikanti", "manchikanti 2004", "manchikanti prevalence"],
+      "definition": "Series of studies by Manchikanti et al. establishing facet pain prevalence of 27-41% in chronic lumbar pain and 36-67% in chronic cervical pain using controlled diagnostic blocks. Also published multiple ASIPP systematic reviews establishing Level I-II evidence for TFESI.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "barnsley-study",
+      "term": "Barnsley Study (1995)",
+      "aliases": ["barnsley", "barnsley 1995"],
+      "definition": "Established cervical facet pain prevalence of 54% in chronic neck pain populations, particularly following whiplash injury. Key evidence supporting the importance of facet-mediated pain in post-whiplash cervical conditions.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "pinto-meta-analysis",
+      "term": "Pinto Meta-Analysis (2012)",
+      "aliases": ["pinto", "pinto 2012", "pinto meta-analysis"],
+      "definition": "BMJ meta-analysis showing epidural steroid injections provide modest short-term improvement in leg pain (mean difference 7.6 on 0-100 scale at 2 weeks) and disability, but no significant long-term benefit over placebo. Important for understanding the limitations of ESI evidence.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "kennedy-study",
+      "term": "Kennedy Study (2014)",
+      "aliases": ["kennedy", "kennedy 2014"],
+      "definition": "Systematic review suggesting non-inferior outcomes for dexamethasone compared to particulate steroids in lumbar TFESI at short-term follow-up. Part of the evidence base supporting the shift to non-particulate steroids as first-line therapy.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "scanlon-study",
+      "term": "Scanlon Survey (2007)",
+      "aliases": ["scanlon", "scanlon 2007"],
+      "definition": "Survey identifying 78 cases of serious neurological complications from cervical epidural injections, with the majority associated with particulate steroid. Key evidence supporting the exclusive use of non-particulate steroid for cervical and thoracic transforaminal injections.",
+      "relatedTopics": ["cervical-epidurals", "transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "inr",
+      "term": "International Normalized Ratio (INR)",
+      "aliases": ["inr", "international normalized ratio"],
+      "definition": "A standardized measure of blood clotting time used to monitor warfarin therapy. Target INR must be checked and within safe range before neuraxial procedures. Most guidelines require INR less than or equal to 1.5 before epidural injections or SCS lead placement.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "doac",
+      "term": "Direct Oral Anticoagulant (DOAC)",
+      "aliases": ["doac", "doacs", "direct oral anticoagulant", "noac"],
+      "definition": "A class of anticoagulants including apixaban (Eliquis), rivaroxaban (Xarelto), edoxaban (Savaysa), and dabigatran (Pradaxa) that require specific hold times before neuraxial procedures per ASRA guidelines. Unlike warfarin, routine monitoring is not standard.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "warfarin",
+      "term": "Warfarin",
+      "aliases": ["warfarin", "coumadin"],
+      "definition": "A vitamin K antagonist anticoagulant requiring INR monitoring. Must be held for 5 days before neuraxial procedures with confirmation of INR less than or equal to 1.5. Bridging therapy with heparin may be needed for high-risk patients (mechanical valves, recent VTE).",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "apixaban",
+      "term": "Apixaban (Eliquis)",
+      "aliases": ["apixaban", "eliquis"],
+      "definition": "A factor Xa inhibitor DOAC. Per ASRA guidelines, hold for 3 days (72 hours) before neuraxial procedures. One of the most commonly encountered anticoagulants in interventional spine practice due to widespread use for atrial fibrillation and VTE prophylaxis.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "rivaroxaban",
+      "term": "Rivaroxaban (Xarelto)",
+      "aliases": ["rivaroxaban", "xarelto"],
+      "definition": "A factor Xa inhibitor DOAC. Per ASRA guidelines, hold for 3 days before neuraxial procedures. Longer half-life than apixaban, requiring careful attention to hold times.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "dabigatran",
+      "term": "Dabigatran (Pradaxa)",
+      "aliases": ["dabigatran", "pradaxa"],
+      "definition": "A direct thrombin inhibitor DOAC. Requires longer hold times (3-5 days) before neuraxial procedures. Unique among DOACs in having an FDA-approved reversal agent (idarucizumab/Praxbind) for emergency situations.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "heparin",
+      "term": "Heparin (Unfractionated)",
+      "aliases": ["heparin", "ufh", "unfractionated heparin", "iv heparin"],
+      "definition": "An anticoagulant that must be held for specific intervals before neuraxial procedures. IV heparin should be discontinued 4-6 hours prior and aPTT normalized. Used for bridging therapy in high-risk patients transitioning off warfarin.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "enoxaparin",
+      "term": "Enoxaparin (Lovenox)",
+      "aliases": ["enoxaparin", "lovenox", "lmwh", "low molecular weight heparin"],
+      "definition": "A low molecular weight heparin anticoagulant. Therapeutic doses must be held 24 hours before neuraxial procedures; prophylactic doses held 12 hours. Commonly encountered in bridging protocols and post-surgical VTE prophylaxis.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "bridging-therapy",
+      "term": "Bridging Therapy",
+      "aliases": ["bridging therapy", "bridging", "bridge anticoagulation"],
+      "definition": "The use of short-acting anticoagulants (typically LMWH or IV heparin) to maintain anticoagulation while a longer-acting agent (warfarin) is held for a procedure. Required for high-risk indications like mechanical heart valves or recent VTE. Decision involves balancing bleeding vs thrombotic risk.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "neuraxial-risk",
+      "term": "Neuraxial Risk Stratification",
+      "aliases": ["neuraxial risk", "asra guidelines", "bleeding risk stratification"],
+      "definition": "ASRA-based risk classification of spine procedures by bleeding potential. High-risk neuraxial procedures (interlaminar ESI, SCS placement) require full anticoagulant hold times. Lower-risk peripheral procedures (peripheral MBBs, peripheral joint injections) may have shorter hold requirements.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "antiplatelet-agents",
+      "term": "Antiplatelet Agents",
+      "aliases": ["antiplatelet", "antiplatelet agents", "antiplatelets"],
+      "definition": "Medications that inhibit platelet aggregation, including aspirin, clopidogrel (Plavix), prasugrel, and ticagrelor. Per ASRA, aspirin alone does not need to be held for most neuraxial procedures, but P2Y12 inhibitors (clopidogrel) require 5-7 day holds depending on the agent.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "clopidogrel",
+      "term": "Clopidogrel (Plavix)",
+      "aliases": ["clopidogrel", "plavix"],
+      "definition": "A P2Y12 receptor antagonist antiplatelet agent. Must be held for 5-7 days before neuraxial procedures per ASRA guidelines. Commonly prescribed after coronary stenting, requiring careful coordination with cardiology regarding safe hold windows.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "aspirin",
+      "term": "Aspirin",
+      "aliases": ["aspirin", "asa", "acetylsalicylic acid"],
+      "definition": "A cyclooxygenase inhibitor with irreversible antiplatelet effects. Per ASRA guidelines, aspirin alone generally does NOT need to be held for neuraxial procedures. However, aspirin combined with other antithrombotic agents may increase bleeding risk and warrant additional precautions.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "asra-guidelines",
+      "term": "ASRA Anticoagulation Guidelines",
+      "aliases": ["asra guidelines", "asra", "asra recommendations"],
+      "definition": "Evidence-based guidelines from the American Society of Regional Anesthesia and Pain Medicine for managing antithrombotic therapy around neuraxial and peripheral procedures. The primary reference for hold times, restart timing, and risk stratification in interventional spine practice.",
+      "relatedTopics": ["anticoagulation-management"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "spect-scanning",
+      "term": "SPECT Scanning",
+      "aliases": ["spect", "spect scan", "bone spect", "spect-ct"],
+      "definition": "Single-photon emission computed tomography, a nuclear medicine imaging technique that can detect metabolically active facet arthropathy. May increase pre-test probability for facet-mediated pain as a useful adjunct, but is not diagnostic alone -- positive MBBs remain the reference standard.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "mri-compatibility",
+      "term": "MRI Compatibility (SCS)",
+      "aliases": ["mri compatibility", "mri conditional", "mri safe"],
+      "definition": "The ability of an implanted SCS system to safely undergo MRI scanning. An estimated 82-84% of SCS patients will need MRI within 5 years. The entire system (IPG, leads, extensions) must be verified as compatible. Mixing components can void MRI-conditional labeling. Most modern systems are conditional at 1.5T.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "psychological-evaluation",
+      "term": "Psychological Evaluation (Pre-SCS)",
+      "aliases": ["psychological evaluation", "psych eval", "psychological screening"],
+      "definition": "A required pre-SCS assessment screening for untreated depression, catastrophizing, secondary gain issues (litigation, disability), unrealistic expectations, and cognitive capacity for device management. Patients who fail may still be candidates after appropriate treatment of identified issues.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "ipsis",
+      "term": "International Pain and Spine Intervention Society (IPSIS)",
+      "aliases": ["ipsis", "sis", "spine intervention society", "isis"],
+      "definition": "The professional society (formerly ISIS, then SIS) that publishes the IPSIS Technical Manual -- the definitive procedural reference for fluoroscopy-guided spine interventions. Sets practice standards for needle technique, contrast use, steroid selection, and safety protocols.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "asipp",
+      "term": "American Society of Interventional Pain Physicians (ASIPP)",
+      "aliases": ["asipp", "american society of interventional pain physicians"],
+      "definition": "A professional society that publishes systematic reviews and practice guidelines for interventional pain management. Has established Level I-II evidence for TFESI in lumbar radiculopathy and for medial branch blocks in diagnosing facet-mediated pain.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "aspn",
+      "term": "American Society of Pain and Neuroscience (ASPN)",
+      "aliases": ["aspn", "american society of pain and neuroscience"],
+      "definition": "A professional society publishing recommendations on neuromodulation, including DRG stimulation technique, patient selection, and MRI compatibility. Recommends awake or minimal sedation placement for DRG stimulation to optimize electrode positioning.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "nacc",
+      "term": "Neuromodulation Appropriateness Consensus Committee (NACC)",
+      "aliases": ["nacc", "neuromodulation appropriateness consensus committee"],
+      "definition": "An expert panel (Deer et al., 2014/2017) that published comprehensive best practices for neuromodulation covering patient selection, trialing, implantation technique, and complication management. A primary reference for SCS practice standards.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "medicare-lcd",
+      "term": "Medicare Local Coverage Determination (LCD)",
+      "aliases": ["lcd", "medicare lcd", "local coverage determination"],
+      "definition": "Medicare coverage policies that define documentation and procedural requirements for reimbursement. Key requirements include dual comparative blocks before RFA, documented conservative care failure (4-6 weeks for ESI), and specific relief thresholds. Coverage criteria vary by Medicare Administrative Contractor.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "transforaminal-epidurals", "ethics-billing-medicolegal"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "informed-consent",
+      "term": "Informed Consent",
+      "aliases": ["informed consent"],
+      "definition": "The ethical and legal requirement to discuss risks, benefits, alternatives, and expected outcomes before any procedure. For SCS, should include the likelihood of future revision (~63%), infection rates, and the reality that SCS is a tool requiring ongoing management, not a standalone cure.",
+      "relatedTopics": ["ethics-billing-medicolegal", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "ethics-appropriateness",
+      "term": "Procedural Appropriateness",
+      "aliases": ["appropriateness", "procedural appropriateness", "appropriate use criteria"],
+      "definition": "The ethical principle that the diagnosis must match the procedure and that interventions should only be performed when clinically indicated. Performing MBBs when the suspected diagnosis is SIJ pain, or pursuing RFA in patients under 35 with pristine imaging, are examples of questionable appropriateness.",
+      "relatedTopics": ["ethics-billing-medicolegal"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "fda-safety-communication",
+      "term": "2014 FDA Safety Communication (ESI)",
+      "aliases": ["fda safety communication", "fda warning", "fda 2014"],
+      "definition": "The 2014 FDA drug safety communication noting rare but serious risks of epidural steroid injections including stroke, paralysis, death, and vision loss. Highlighted that injectable corticosteroids are not FDA-approved for epidural use, though the practice remains standard of care with appropriate safeguards.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals", "ethics-billing-medicolegal"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "exiting-nerve-root",
+      "term": "Exiting Nerve Root",
+      "aliases": ["exiting nerve root", "exiting root"],
+      "definition": "The nerve root that exits the spinal canal through the neural foramen at a given level (e.g., the L4 nerve root exits through the L4-5 foramen). Distinguished from the traversing root, which passes through the level but exits below. Understanding this distinction is critical for TFESI level selection.",
+      "relatedTopics": ["transforaminal-epidurals", "diagnostic-nerve-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "traversing-nerve-root",
+      "term": "Traversing Nerve Root",
+      "aliases": ["traversing nerve root", "traversing root"],
+      "definition": "The nerve root that passes through a spinal level but exits at the next level below (e.g., the L5 root traverses the L4-5 level and is compressed by an L4-5 disc herniation, but exits at the L5-S1 foramen). Most disc herniations compress the traversing root, so TFESI should target the foramen where that root exits.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "dual-innervation",
+      "term": "Dual Innervation (Facet Joint)",
+      "aliases": ["dual innervation"],
+      "definition": "The principle that each facet joint receives sensory innervation from two medial branch nerves: one at the same level as the SAP and one from the level above. Both nerves must be blocked to completely anesthetize a single facet joint, and both must be ablated during RFA.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "paresthesia",
+      "term": "Paresthesia",
+      "aliases": ["paresthesia", "paresthesias", "tingling"],
+      "definition": "An abnormal sensation (tingling, buzzing, or vibrating) that can be intentionally produced by traditional tonic SCS to overlay the painful area. Newer waveforms (HF10, burst) provide paresthesia-free stimulation, which many patients prefer.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "nnt",
+      "term": "Number Needed to Treat (NNT)",
+      "aliases": ["nnt", "number needed to treat"],
+      "definition": "The number of patients who need to receive treatment for one patient to achieve a specific benefit. For TFESI, the NNT is approximately 3-7 for significant pain relief, indicating that roughly one-third to one-seventh of patients will achieve meaningful benefit beyond what would occur without treatment.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "ct-guidance",
+      "term": "CT Guidance",
+      "aliases": ["ct guidance", "ct-guided", "computed tomography guidance"],
+      "definition": "Cross-sectional imaging guidance used as an alternative to fluoroscopy for certain spine procedures, particularly sympathetic blocks (celiac plexus, superior hypogastric plexus) where precise visualization of the aorta and surrounding structures is critical. Provides superior soft tissue detail but lacks real-time visualization.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "ultrasound-guidance",
+      "term": "Ultrasound Guidance",
+      "aliases": ["ultrasound guidance", "us-guided", "sonographic guidance"],
+      "definition": "Real-time imaging guidance using sound waves, commonly used for peripheral nerve blocks and PNS lead placement. IPSIS has questioned the safety and efficacy of ultrasound guidance for cervical spine procedures. Fluoroscopy remains the preferred modality for most spine interventions.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "epidural-blood-patch",
+      "term": "Epidural Blood Patch",
+      "aliases": ["epidural blood patch", "blood patch", "ebp"],
+      "definition": "A treatment for persistent post-dural puncture headache where the patient's own autologous blood is injected into the epidural space at or near the dural puncture site. The blood clot seals the dural defect and restores normal CSF pressure.",
+      "relatedTopics": ["interlaminar-caudal-epidurals", "cervical-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "sensory-stimulation-test",
+      "term": "Sensory Stimulation Testing (Pre-RFA)",
+      "aliases": ["sensory testing", "sensory stimulation", "motor stimulation testing"],
+      "definition": "Testing performed before RF lesioning where low-voltage stimulation (typically 50 Hz) is applied through the RF cannula to reproduce concordant pain at less than 0.5V, confirming proximity to the target nerve. Motor stimulation (2 Hz) verifies the needle is not near a motor nerve root.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "active-tip",
+      "term": "Active Tip Length",
+      "aliases": ["active tip", "active tip length", "exposed tip"],
+      "definition": "The non-insulated distal portion of an RF cannula (typically 10-18 mm) through which radiofrequency energy is delivered. Longer active tips create larger lesions. The thermal lesion extends perpendicular to the active tip, so parallel needle-to-nerve alignment is critical.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "lesion-geometry",
+      "term": "Lesion Geometry (RFA)",
+      "aliases": ["lesion geometry", "rf lesion", "thermal lesion"],
+      "definition": "The shape and size of tissue destruction during conventional RFA. The lesion extends circumferentially around and along the active tip (perpendicular to the needle shaft), not from the needle tip. This is why the RF cannula must be placed parallel to the target nerve, not perpendicular to it.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "nerve-regeneration",
+      "term": "Nerve Regeneration (Post-RFA)",
+      "aliases": ["nerve regeneration", "nerve regrowth"],
+      "definition": "The process by which ablated medial branch nerves regrow after RFA, typically occurring over 6-18 months. When pain recurs after this interval, repeat RFA is indicated and generally produces similar relief. This natural timeline distinguishes treatment failure from expected nerve recovery.",
+      "relatedTopics": ["radiofrequency-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "pain-diary",
+      "term": "Pain Diary",
+      "aliases": ["pain diary", "pain log"],
+      "definition": "A patient self-report tool used after diagnostic blocks to track pain intensity, relief duration, and functional changes over the expected duration of anesthetic effect. Critical for assessing MBB and diagnostic injection outcomes. IPSIS recommends providing this after all diagnostic procedures.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "diagnostic-nerve-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "whiplash",
+      "term": "Whiplash-Associated Disorder",
+      "aliases": ["whiplash", "whiplash injury", "whiplash-associated disorder", "wad"],
+      "definition": "Neck injury from rapid acceleration-deceleration, commonly from motor vehicle collisions. Cervical facet joint injury (especially C2-3) is a frequent cause of post-whiplash headache and neck pain. Cervical facet pain prevalence is 36-67% in chronic post-whiplash populations.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "c1-c2-injections"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "visceral-pain",
+      "term": "Visceral Pain",
+      "aliases": ["visceral pain"],
+      "definition": "Deep, poorly localized pain arising from internal organs, transmitted primarily through sympathetic afferent nerve fibers. The target of sympathetic blocks and neurolytic procedures for abdominal and pelvic cancer pain. Distinguished from somatic pain by its diffuse, cramping, or colicky quality.",
+      "relatedTopics": ["sympathetic-blocks", "neurolytic-procedures"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "neuropathic-pain",
+      "term": "Neuropathic Pain",
+      "aliases": ["neuropathic pain"],
+      "definition": "Pain caused by a lesion or disease of the somatosensory nervous system. Characterized by burning, shooting, or electric-shock-like quality with possible allodynia and hyperalgesia. Key indication for neuromodulation (SCS, DRG stimulation, PNS) and target of neuropathic pain medications.",
+      "relatedTopics": ["neuromodulation-scs", "sympathetic-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "sympathetically-maintained-pain",
+      "term": "Sympathetically Maintained Pain (SMP)",
+      "aliases": ["smp", "sympathetically maintained pain"],
+      "definition": "A component of pain in some CRPS patients that is relieved by sympathetic blockade. Not all CRPS pain is sympathetically maintained -- patients with sympathetically independent pain (SIP) will not respond to sympathetic blocks. A diagnostic sympathetic block helps distinguish SMP from SIP.",
+      "relatedTopics": ["sympathetic-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "phantom-limb-pain",
+      "term": "Phantom Limb Pain",
+      "aliases": ["phantom limb pain", "phantom pain"],
+      "definition": "Pain perceived in a limb that has been amputated. Can be treated with sympathetic blocks (stellate ganglion for upper extremity, lumbar sympathetic for lower extremity), SCS, DRG stimulation, or PNS targeting the residual nerve stump.",
+      "relatedTopics": ["sympathetic-blocks", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "cryoneurolysis",
+      "term": "Cryoneurolysis",
+      "aliases": ["cryoneurolysis", "cryotherapy", "cryoablation", "cryo"],
+      "definition": "Nerve destruction using extreme cold (typically -70 to -80 degrees C) delivered through a cryoprobe. Produces a controlled Wallerian degeneration that preserves the nerve sheath (endoneurium), allowing predictable nerve regeneration. Used as an alternative to chemical neurolysis or thermal RFA.",
+      "relatedTopics": ["neurolytic-procedures"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "spect-ct",
+      "term": "SPECT-CT",
+      "aliases": ["spect-ct", "spect ct"],
+      "definition": "A hybrid imaging modality combining nuclear medicine SPECT with CT for precise anatomic localization of metabolically active pathology. In spine practice, can identify active facet or SI joint inflammation that may increase the pre-test probability of a successful diagnostic block.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "si-joint"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "epidural-fibrosis",
+      "term": "Epidural Fibrosis (Scarring)",
+      "aliases": ["epidural fibrosis", "epidural scarring", "post-surgical scarring"],
+      "definition": "Scar tissue formation in the epidural space following lumbar surgery. A common cause of persistent pain in FBSS. Gadolinium-enhanced MRI distinguishes epidural fibrosis (enhances with contrast) from recurrent disc herniation (peripheral enhancement only).",
+      "relatedTopics": ["neuromodulation-scs", "interlaminar-caudal-epidurals"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "adjacent-segment-disease",
+      "term": "Adjacent Segment Disease",
+      "aliases": ["adjacent segment disease", "asd", "adjacent segment degeneration"],
+      "definition": "Accelerated degeneration at spinal levels adjacent to a prior fusion, caused by altered biomechanics and increased stress on neighboring motion segments. A common cause of recurrent pain after spinal fusion and potential indication for facet interventions at the adjacent level.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "pillar-view",
+      "term": "Pillar View (Cervical)",
+      "aliases": ["pillar view", "articular pillar view"],
+      "definition": "A fluoroscopic view of the cervical spine obtained by caudal fluoroscopic declination in a prone patient, revealing the waists of the articular pillars. Used for the posterior approach to cervical MBBs and RFA to identify the medial branch target at the pillar centroid.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sacroiliac-provocation",
+      "term": "SI Joint Provocation Battery",
+      "aliases": ["si provocation battery", "si joint exam"],
+      "definition": "A cluster of clinical maneuvers (distraction, compression, thigh thrust, sacral thrust, Gaenslen's) used to screen for SIJ pathology. Three or more positive tests have high sensitivity and specificity for SIJ pain, but a confirmatory diagnostic injection remains necessary for definitive diagnosis.",
+      "relatedTopics": ["si-joint"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "dermatomal-distribution",
+      "term": "Dermatomal Distribution",
+      "aliases": ["dermatomal distribution", "dermatome", "dermatomes"],
+      "definition": "The area of skin innervated by a single spinal nerve root. Pain following a dermatomal pattern (e.g., L5 distribution to the lateral leg and dorsal foot) suggests radiculopathy. Correlating the patient's pain distribution with imaging findings is essential before selecting the TFESI level.",
+      "relatedTopics": ["transforaminal-epidurals", "diagnostic-nerve-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "a-beta-fiber",
+      "term": "A-Beta Fiber",
+      "aliases": ["a-beta fiber", "a-beta fibers", "a beta fiber"],
+      "definition": "Large-diameter myelinated sensory nerve fibers that carry touch and proprioception signals. Their activation in the dorsal columns by SCS inhibits pain transmission from smaller C-fibers and A-delta fibers, per gate control theory.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "c-fiber",
+      "term": "C-Fiber",
+      "aliases": ["c-fiber", "c-fibers", "c fiber"],
+      "definition": "Small-diameter unmyelinated nerve fibers that carry slow, dull, aching pain signals. Their transmission is inhibited when large-diameter A-beta fibers are activated by spinal cord stimulation (gate control theory).",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "a-delta-fiber",
+      "term": "A-Delta Fiber",
+      "aliases": ["a-delta fiber", "a-delta fibers", "a delta fiber"],
+      "definition": "Small-diameter thinly myelinated nerve fibers that carry fast, sharp, well-localized pain signals. Along with C-fibers, their transmission is the target of inhibition by dorsal column stimulation.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "hyperalgesia",
+      "term": "Hyperalgesia",
+      "aliases": ["hyperalgesia"],
+      "definition": "Increased pain sensitivity to a stimulus that normally causes pain. A feature of neuropathic pain and CRPS, reflecting peripheral or central sensitization. Distinguished from allodynia (pain from normally non-painful stimuli).",
+      "relatedTopics": ["neuromodulation-scs", "sympathetic-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "laminotomy",
+      "term": "Laminotomy",
+      "aliases": ["laminotomy", "laminectomy"],
+      "definition": "Surgical removal of a portion (laminotomy) or all (laminectomy) of the vertebral lamina. In neuromodulation, a small laminotomy is performed for paddle lead placement. In diagnostic context, post-laminectomy patients may develop FBSS.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "posterolateral-fusion",
+      "term": "Posterolateral Fusion",
+      "aliases": ["posterolateral fusion", "plf", "spinal fusion"],
+      "definition": "A surgical procedure fusing adjacent vertebrae using bone graft along the posterolateral spine. The surgical exposure, decortication, and pedicle screw placement inherently destroy the medial branch at each fused level. When evaluating a joint adjacent to a fusion, only the unfused medial branch needs targeting.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "red-cell-aggregation",
+      "term": "Red Cell Aggregation (Particulate Steroid Mechanism)",
+      "aliases": ["red cell aggregation", "rbc aggregation"],
+      "definition": "Recent in vivo evidence suggests particulate steroids cause catastrophic spinal cord injury by deforming red cell membranes and causing red cell aggregation and vascular occlusion, rather than direct particle embolization as previously theorized. This updated understanding of the mechanism reinforces the danger of particulate steroids in TFESI.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "intradiscal-flow",
+      "term": "Intradiscal Contrast Flow",
+      "aliases": ["intradiscal flow", "intradiscal injection"],
+      "definition": "A contrast pattern during TFESI where the injectate enters the intervertebral disc rather than the epidural space. When identified on fluoroscopy, the needle should be retracted and repositioned, and re-injection performed until an appropriate epidural spread pattern is confirmed.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "vacuolization",
+      "term": "Vacuolization (Epidural Contrast Pattern)",
+      "aliases": ["vacuolization", "vacuolated pattern"],
+      "definition": "The mottled or irregular appearance of contrast in the epidural space caused by contrast filling around epidural fat. A normal finding that confirms true epidural spread, distinguished from the smooth, dense appearance of intrathecal or intradural contrast.",
+      "relatedTopics": ["transforaminal-epidurals", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "saluda-inceptiv",
+      "term": "Saluda Inceptiv System",
+      "aliases": ["inceptiv", "saluda", "saluda inceptiv"],
+      "definition": "A closed-loop SCS platform that has received clearance for full-body 3T MRI, a significant advance since many diagnostic protocols rely on 3T imaging. Uses ECAP-based neural sensing to automatically adjust stimulation parameters.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "proclaim-drg",
+      "term": "Proclaim DRG System",
+      "aliases": ["proclaim drg", "proclaim"],
+      "definition": "The Abbott DRG stimulation system that received FDA approval based on the ACCURATE trial data. Used for focal neuropathic pain conditions, particularly CRPS and causalgia of the lower extremities.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "fascial-fixation",
+      "term": "Fascial Fixation Point",
+      "aliases": ["fascial fixation", "fascial fixation point"],
+      "definition": "An IPSIS needlecraft principle: once a needle has crossed the paraspinal fascia, its trajectory becomes relatively fixed at two points (skin and fascia). If the trajectory is incorrect at this point, the needle should be repositioned entirely rather than attempting futile manipulation.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "bevel-orientation",
+      "term": "Bevel Orientation",
+      "aliases": ["bevel orientation", "bevel awareness", "bevel direction"],
+      "definition": "An IPSIS needlecraft fundamental: for Quincke-type spinal needles, tissue pressure on the bevel face deflects the needle tip away from the bevel/hub notch. The physician must always know bevel orientation to predict and control needle trajectory during advancement.",
+      "relatedTopics": ["transforaminal-epidurals"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "strain-relief-anchor",
+      "term": "Strain-Relief Anchor",
+      "aliases": ["strain-relief anchor", "lead anchor", "anchor"],
+      "definition": "A device used to secure SCS leads to the supraspinous ligament or deep fascia during permanent implantation. Proper anchoring with strain-relief loops minimizes lead migration, the most common hardware complication.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "rechargeable-ipg",
+      "term": "Rechargeable IPG",
+      "aliases": ["rechargeable ipg", "rechargeable battery", "rechargeable neurostimulator"],
+      "definition": "An SCS pulse generator with a rechargeable battery lasting 10-25 years. Preferred for patients requiring high-energy stimulation programs. Requires regular charging (typically weekly), which may be challenging for elderly or dexterity-limited patients.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-pearls"
+    },
+    {
+      "id": "primary-cell-ipg",
+      "term": "Primary Cell (Non-Rechargeable) IPG",
+      "aliases": ["primary cell ipg", "non-rechargeable ipg", "non-rechargeable battery"],
+      "definition": "An SCS pulse generator with a non-rechargeable battery lasting 3-5 years depending on stimulation parameters. May be more practical for elderly patients or those with limited dexterity who struggle with regular charging, despite the shorter lifespan and need for surgical battery replacement.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "clinical-pearls"
+    },
+    {
+      "id": "nice-guidelines",
+      "term": "NICE Guidelines",
+      "aliases": ["nice", "nice guidelines", "nice technology appraisal"],
+      "definition": "UK National Institute for Health and Care Excellence guidelines. Supports SCS for FBSS and CRPS. Notably recommends against facet joint and medial branch glucocorticoid injections for chronic nonradicular LBP, while endorsing MBBs with local anesthetic for diagnostic purposes.",
+      "relatedTopics": ["neuromodulation-scs", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "chase-sign",
+      "term": "Chassaignac Tubercle",
+      "aliases": ["chassaignac tubercle", "carotid tubercle", "c6 anterior tubercle"],
+      "definition": "The prominent anterior tubercle of the C6 transverse process, historically used as a landmark for stellate ganglion block. Modern approaches often target the C7 level, but Chassaignac's tubercle remains an important anatomic reference for cervical sympathetic chain procedures.",
+      "relatedTopics": ["sympathetic-blocks"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "sedation-mbb",
+      "term": "Sedation During Diagnostic Blocks",
+      "aliases": ["sedation", "conscious sedation", "procedural sedation"],
+      "definition": "Sedation during diagnostic procedures such as MBBs is discouraged by both UpToDate and IPSIS because it increases the false-positive rate by impairing the patient's ability to accurately assess pain relief. Patients must remain conscious and conversant for valid diagnostic block results.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "diagnostic-nerve-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "intra-articular-facet-injection",
+      "term": "Intra-Articular Facet Injection",
+      "aliases": ["intra-articular injection", "facet injection", "ia facet injection"],
+      "definition": "Injection of steroid and/or anesthetic directly into the facet joint capsule. Primarily therapeutic (steroid delivery) rather than diagnostic. Less reliable diagnostically than MBBs because fenestrated joint capsules allow anesthetic leakage. May have a role therapeutically in younger patients or for facet cyst rupture.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks", "facet-cyst-rupture"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "fenestrated-capsule",
+      "term": "Fenestrated Facet Joint Capsule",
+      "aliases": ["fenestrated capsule", "capsular fenestration"],
+      "definition": "Facet joint capsules are often fenestrated (containing small openings), allowing intra-articular anesthetic to leak to the epidural space or adjacent structures. This reduces the diagnostic specificity of intra-articular facet injections compared to MBBs, which target the innervation pathway directly.",
+      "relatedTopics": ["facet-pain-medial-branch-blocks"],
+      "relatedSection": "clinical-decision-making"
+    },
+    {
+      "id": "perioperative-antibiotics",
+      "term": "Perioperative Antibiotic Prophylaxis",
+      "aliases": ["perioperative antibiotics", "prophylactic antibiotics", "preoperative antibiotics"],
+      "definition": "Standard infection prevention for SCS implantation and other surgical spine procedures. Most protocols use IV cefazolin within 60 minutes of incision. Diabetes, immunosuppression, and revision surgeries increase infection risk and may warrant additional precautions.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "technique"
+    },
+    {
+      "id": "level-i-evidence",
+      "term": "Level I Evidence",
+      "aliases": ["level i evidence", "level 1 evidence", "grade a evidence"],
+      "definition": "The highest quality of clinical evidence, derived from well-designed RCTs or systematic reviews of RCTs. ASIPP systematic reviews have established Level I-II evidence for TFESI in lumbar radiculopathy and for MBBs in diagnosing facet-mediated pain.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "neuroplasticity",
+      "term": "Neuroplasticity",
+      "aliases": ["neuroplasticity", "neuroplastic changes", "central neuroplastic changes"],
+      "definition": "The nervous system's ability to reorganize its structure and function in response to stimulation or injury. The proposed mechanism by which temporary 60-day Sprint PNS produces pain relief lasting up to 5 years after lead removal -- central pain processing is fundamentally altered during the stimulation window.",
+      "relatedTopics": ["neuromodulation-scs"],
+      "relatedSection": "evidence"
+    },
+    {
+      "id": "fluoroscopy-mandatory",
+      "term": "Mandatory Fluoroscopic Guidance",
+      "aliases": ["mandatory fluoroscopy", "image guidance requirement"],
+      "definition": "The SIS, ASIPP, and IPSIS standard requiring real-time fluoroscopic guidance with contrast confirmation for epidural injections and MBBs. Blind or palpation-guided techniques are considered below the standard of care for these procedures. Ultrasound guidance remains controversial for cervical procedures.",
+      "relatedTopics": ["transforaminal-epidurals", "facet-pain-medial-branch-blocks", "interlaminar-caudal-epidurals"],
+      "relatedSection": "technique"
+    }
+  ]
+}

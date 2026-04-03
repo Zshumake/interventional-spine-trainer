@@ -1,0 +1,63 @@
+{
+  "topicId": "radiofrequency-ablation",
+  "questions": [
+    {
+      "id": "rfa-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "What is the optimal electrode orientation relative to the target nerve during conventional lumbar medial branch radiofrequency ablation?",
+      "options": [
+        "Perpendicular to the nerve",
+        "Parallel to the nerve",
+        "45-degree angle to the nerve",
+        "Orientation does not matter for conventional RFA"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Perpendicular orientation creates a small, circular lesion that may miss the nerve. This is sometimes used for cooled RFA where the larger lesion compensates, but not for conventional RFA.",
+        "2": "A 45-degree angle provides partial coverage but is suboptimal compared to parallel alignment.",
+        "3": "Electrode orientation is critical for conventional RFA. The lesion extends laterally from the electrode shaft, so parallel alignment maximizes the length of nerve captured within the lesion zone."
+      },
+      "explanation": "The electrode must be placed parallel to the target nerve for conventional RFA. The thermal lesion extends laterally from the electrode shaft (not from the tip), creating an elongated lesion along its length. Parallel placement maximizes the contact between the lesion zone and the nerve, dramatically increasing the probability of complete denervation.",
+      "educationalObjective": "For conventional lumbar RFA, the electrode must be parallel to the medial branch nerve because the thermal lesion extends laterally from the electrode shaft."
+    },
+    {
+      "id": "rfa-002",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "The 2017 JAMA MINT trials definitively proved that radiofrequency ablation is no more effective than sham for facet-mediated pain.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "The MINT trials (Juch et al. 2017) had significant methodological concerns: they used a single diagnostic block (not the dual-block paradigm), accepted only 50% relief threshold instead of the standard 80%, and included patients who may not have had true facet-mediated pain. Multiple prior RCTs (Dreyfuss 2000, Van Kleef 1999, Nath 2008) with better patient selection showed significant benefit."
+      },
+      "explanation": "The MINT trials are controversial and widely criticized for poor patient selection. Using only a single diagnostic block at 50% threshold likely included many patients whose pain was not truly facet-mediated. Better-designed studies (Dreyfuss 2000, Van Kleef 1999) using proper dual-block paradigms with 80% relief thresholds demonstrated significant and durable benefit from RFA.",
+      "comparisonTable": {
+        "headers": ["Study", "Diagnostic Blocks", "Relief Threshold", "Outcome"],
+        "rows": [
+          ["Dreyfuss 2000", "Dual comparative", "80%", "60% achieved >90% relief at 12 months"],
+          ["Van Kleef 1999", "Single diagnostic", "50%", "Significant benefit over sham"],
+          ["MINT/Juch 2017", "Single diagnostic", "50%", "No significant benefit over sham"]
+        ]
+      },
+      "educationalObjective": "The MINT trials' negative results are attributed to poor patient selection (single block, 50% threshold); properly selected patients consistently benefit from RFA in well-designed RCTs."
+    },
+    {
+      "id": "rfa-003",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "At what temperature and duration is a standard conventional lumbar medial branch radiofrequency lesion typically created?",
+      "acceptedAnswers": [
+        "80 degrees 60 seconds",
+        "80 degrees for 60 seconds",
+        "80°C for 60 seconds",
+        "80 C 60 sec",
+        "80 degrees 90 seconds",
+        "80°C for 90 seconds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Standard conventional lumbar RFA parameters are 80°C for 60-90 seconds. This creates a predictable thermal lesion approximately 5-6mm in diameter around the electrode. Some practitioners use multiple lesions at slightly different positions to increase coverage. The IPSIS Technical Manual specifies 80°C as the standard target temperature.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Standard conventional RFA parameters are 80°C for 60-90 seconds, creating a lesion approximately 5-6mm in diameter."
+    }
+  ]
+}

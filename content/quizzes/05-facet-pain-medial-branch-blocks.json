@@ -1,0 +1,65 @@
+{
+  "topicId": "facet-pain-medial-branch-blocks",
+  "questions": [
+    {
+      "id": "mbb-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "To perform a diagnostic medial branch block at the L4-5 facet joint, which nerves must be blocked?",
+      "options": [
+        "L4 medial branch only",
+        "L3 and L4 medial branches",
+        "L4 and L5 medial branches",
+        "L4 medial branch and L5 dorsal ramus"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Each lumbar facet joint receives dual innervation from the medial branch at its own level and the level above. Blocking only one nerve is insufficient.",
+        "2": "The L4-5 facet joint is innervated by the L3 and L4 medial branches (from the level above and same level), not L4 and L5.",
+        "3": "The L5 dorsal ramus innervates the L5-S1 facet joint, not L4-5. The L5 dorsal ramus runs in a groove on the sacral ala."
+      },
+      "explanation": "The L4-5 facet joint receives dual innervation from the L3 medial branch (level above) and the L4 medial branch (same level). This dual innervation principle applies to all lumbar facet joints: the joint is named by its two vertebral levels, and the medial branches come from the upper vertebra's level and one level above that.",
+      "comparisonTable": {
+        "headers": ["Facet Joint", "Nerves to Block", "Target Location"],
+        "rows": [
+          ["L3-4", "L2 and L3 medial branches", "Junction of SAP and TP at L3, L4"],
+          ["L4-5", "L3 and L4 medial branches", "Junction of SAP and TP at L4, L5"],
+          ["L5-S1", "L4 medial branch + L5 dorsal ramus", "L5 SAP/TP junction + sacral ala groove"]
+        ]
+      },
+      "educationalObjective": "Each lumbar facet joint has dual innervation from the medial branch at the same level and one level above."
+    },
+    {
+      "id": "mbb-002",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "A single positive medial branch block with >50% pain relief is sufficient to proceed to radiofrequency ablation.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Controlled (dual) diagnostic blocks are the standard. A single block has an unacceptably high false-positive rate (25-40%). The concordant response paradigm requires two separate blocks with consistent relief to establish the diagnosis before proceeding to RFA."
+      },
+      "explanation": "Dual (controlled) diagnostic blocks are required before radiofrequency ablation. The threshold is typically 80% relief (not 50%) on each block. The dual block paradigm reduces false-positive rates and improves patient selection for RFA, which directly correlates with RFA outcomes.",
+      "educationalObjective": "Dual concordant medial branch blocks with 80% relief threshold are required before proceeding to radiofrequency ablation."
+    },
+    {
+      "id": "mbb-003",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 72-year-old patient presents with bilateral axial low back pain worse with extension, no radicular symptoms, and MRI showing multilevel facet arthropathy. What is the most appropriate initial diagnostic approach?",
+      "options": [
+        "Proceed directly to bilateral L3-S1 radiofrequency ablation",
+        "Order an MRI with contrast to evaluate for infection",
+        "Perform diagnostic medial branch blocks at the clinically suspected levels",
+        "Trial of lumbar epidural steroid injection"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "RFA should never be performed without prior confirmatory diagnostic blocks. Imaging alone cannot diagnose facet-mediated pain — Dreyfuss showed that clinical exam and imaging have poor sensitivity and specificity for facet pain.",
+        "1": "There is no clinical indication for infection workup in this presentation. The symptoms are consistent with mechanical facet-mediated pain.",
+        "3": "The symptoms are axial (not radicular) and worse with extension — this pattern is more consistent with facet pain than radiculopathy. Epidural steroid injections target radicular pain."
+      },
+      "explanation": "Diagnostic medial branch blocks are the appropriate first step. MRI findings of facet arthropathy do not confirm facet-mediated pain (Dreyfuss demonstrated poor correlation between imaging and symptoms). The patient's age, axial distribution, and extension-aggravated pattern raise clinical suspicion for facet pain, but diagnostic blocks are required to confirm the pain generator before any therapeutic intervention.",
+      "educationalObjective": "Facet-mediated pain cannot be diagnosed by imaging alone; diagnostic medial branch blocks are required to confirm the pain generator."
+    }
+  ]
+}

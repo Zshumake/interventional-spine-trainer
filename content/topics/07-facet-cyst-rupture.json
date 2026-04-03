@@ -1,0 +1,150 @@
+{
+  "id": "facet-cyst-rupture",
+  "domain": 7,
+  "title": "Facet (Synovial) Cyst Rupture",
+  "slug": "facet-cyst-rupture",
+  "sections": [
+    {
+      "id": "technique",
+      "title": "Technique & Approach",
+      "content": "## Facet Cyst Rupture Technique\n\nFacet (synovial) cysts are fluid-filled cysts arising from the facet joint capsule, most commonly at L4-5, that can cause spinal stenosis and radiculopathy. Percutaneous cyst rupture is a minimally invasive alternative to surgical decompression.\n\n### Step-by-Step Procedure\n\n1. **Pre-procedure MRI review**: Essential to assess cyst characteristics — T2 signal intensity, wall thickness, size, and location\n2. **Patient positioning**: Prone on fluoroscopy table\n3. **Target identification**: Identify the facet joint at the level of the cyst (typically the ipsilateral joint)\n4. **Joint entry**: Advance a 22-25 gauge spinal needle into the facet joint under fluoroscopic guidance using an oblique or lateral approach\n5. **Arthrogram**: Inject contrast to confirm intra-articular position and visualize the joint capsule and cyst communication\n6. **Pressurization**: Slowly inject additional volume (steroid + anesthetic + contrast, typically **2-4 mL total**) to pressurize the joint capsule and rupture the cyst\n7. **Indicators of successful cyst rupture**:\n   - Sudden loss of resistance during injection\n   - Contrast seen flowing from the joint into the epidural space\n   - Patient may report sudden change in symptoms\n8. **Post-rupture**: The cyst decompresses, relieving neural compression\n\n### Facet Joint Access Technique (IPSIS)\n\nBefore attempting cyst rupture, the facet joint itself must be accessed. IPSIS provides detailed guidance on lumbar facet joint intra-articular access:\n\n#### Fluoroscopic Setup\n- Begin with true AP segmental imaging\n- Progressively rotate the fluoroscope in **ipsilateral oblique** direction until the posterior (dorsal) joint line becomes visible as a lucency between cortical bone surfaces\n- The **first appearance of crisp cortical margins** bounding a lucent joint space identifies the most dorsal and accessible portion of the joint\n- Typical obliquity: approximately 15 degrees for upper lumbar, 30 degrees for L3-4, and 45 degrees for L4-5 and L5-S1\n- Avoid excessive obliquity, which may target the inaccessible ventromedial joint\n\n#### Needle Entry\n- Target the **superior or inferior recess** of the joint when the midportion is hypertrophic\n- For mid-joint access, the lateral edge of the IAP provides an ideal initial target\n- Use a **medial-to-lateral** needle advancement to avoid unseen osteophytes (which arc from lateral to medial)\n- Signs of successful joint entry: needle advances a few mm deeper than periosteum, tighter tissue grip on the needle, a cork/rubber tactile feel, or medial needle deflection\n- For cyst rupture, a **larger bore needle (20-22G)** may be used in addition to the standard 25-27G spinal needle\n\n#### L5-S1 Special Considerations\n- The iliac crest may overlap the joint when the fluoroscope is obliqued\n- Increasing the cephalad tilt of the image receptor usually resolves this\n- A direct posterior approach to the inferior recess may occasionally be required\n\n#### Arthrogram Confirmation\n- Inject 0.1-0.3 mL contrast through microbore tubing with real-time fluoroscopy to confirm intra-articular position\n- Contrast typically fills the superior and inferior recesses, creating a dumbbell appearance on AP/oblique views\n- Note that facet joint capsules are often fenestrated — injectate may spread to the epidural space, contralateral facet via the space of Okada, or to vertically adjacent joints via pars defects\n\n### Combined Approach: TFESI + Cyst Rupture\n\nMany practitioners perform both procedures in the same session:\n- **TFESI first**: Delivers epidural steroid to reduce inflammation at the nerve root and provides some anesthesia for the cyst rupture\n- **Cyst rupture second**: Mechanical decompression via pressurization\n- The combination may improve success rates compared to either approach alone\n- Alternatively, some reverse the order based on preference\n\n### MRI Features That Predict Success\n\n**Favorable features** (higher rupture success):\n- **T2 hyperintense (bright)**: Indicates fluid-filled cyst — more likely to rupture\n- **Thin wall**: Less resistance to pressurization\n- **Acute/subacute onset**: Weeks to a few months of symptoms\n\n**Unfavorable features** (lower rupture success):\n- **T2 hypointense or mixed signal**: Chronic, organized cyst material\n- **Thick wall**: Fibrotic capsule resists rupture\n- **Calcified walls**: Cannot be ruptured with pressure\n- **Gas-filled cysts**: Vacuum phenomenon within the cyst\n\n### IPSIS Cyst Rupture Step-by-Step\n\nIPSIS provides specific technical details for the rupture procedure:\n\n1. **Pre-procedure comfort**: A transforaminal epidural steroid/anesthetic injection at the compressed nerve level may reduce procedural discomfort by blocking the nerve before cyst rupture is attempted\n2. **Joint access**: Enter the facet joint at the level of the cyst using fluoroscopic guidance as described above\n3. **Aspiration attempt**: Aspirate through the needle — fluid may be obtained if the cyst communicates freely with the joint\n4. **Joint/cyst filling**: Inject 1-2 mL of contrast into the facet joint to distend the capsule and fill the cyst\n5. **Pressurization**: Inject up to **1-6 mL total** of contrast or saline — the volume must exceed the combined capacity of the joint and cyst\n6. **Signs of successful rupture**: Loss of tactile resistance to injection, extravasation of contrast from the cyst into the epidural space on fluoroscopy\n7. **Caution**: Rupture of the joint's inferior recess may cause loss of resistance WITHOUT actual cyst rupture or epidural contrast spread\n8. **Post-rupture injection**: After cyst rupture, inject a mixture of steroid (0.25-0.5 mL) and local anesthetic (0.5 mL) through the joint\n\n### MRI Criteria for Cyst Rupture Candidacy (IPSIS)\n\nIPSIS specifically describes favorable and unfavorable MRI features:\n\n**Favorable for rupture**:\n- T2-hyperintense signal (similar to CSF) indicating fluid content\n- Thin wall without obvious internal structure\n- No calcification or inspissated material\n\n**Unfavorable for rupture**:\n- Thick dark wall on T2-weighted images\n- T2 hypointensity or mixed signal within the cyst\n- T1 hyperintensity (suggesting blood products or proteinaceous material)\n- Calcification within the cyst wall (seen on CT)\n- Internal structure or debris apparent within the cyst\n\n### What Happens When Rupture Fails\n\nThe weakest point of the joint capsule tears during pressurization, but sometimes that tear is posterior rather than into the cyst itself. Even in these cases, some patients improve — possibly from lavaging the joint with steroid and allowing fluid to leak through the capsule. However, if symptoms persist after a failed rupture attempt, surgical decompression is indicated.",
+      "keyPoints": [
+        "Always review MRI before the procedure to assess T2 signal, wall thickness, and cyst communication",
+        "T2 bright (fluid-filled) cysts with thin walls are the best candidates for rupture",
+        "Typical pressurization volume is 2-4 mL of steroid, anesthetic, and contrast",
+        "Indicators of rupture: sudden loss of resistance, contrast flowing into epidural space",
+        "Combined TFESI + cyst rupture in the same session may improve overall outcomes",
+        "75-80% of cyst rupture attempts are technically successful",
+        "If cyst cannot be ruptured and symptoms persist, surgical decompression is indicated",
+        "IPSIS specifies 1-6 mL total contrast/saline for pressurization — volume must exceed the joint and cyst capacity combined",
+        "A 20-22G needle may be needed for cyst rupture in addition to the standard 25-27G joint access needle (IPSIS)",
+        "Facet joint access requires progressive ipsilateral obliquity: 15 degrees upper lumbar, 30 degrees L3-4, 45 degrees L4-5/L5-S1 (IPSIS)",
+        "Loss of resistance to injection WITHOUT epidural contrast spread may indicate inferior recess rupture rather than true cyst rupture (IPSIS)",
+        "Favorable MRI features (IPSIS): T2 hyperintense like CSF, thin wall, no internal structure; unfavorable: thick dark wall, T1 hyperintensity, calcification",
+        "A pre-rupture TFESI at the compressed nerve root level can improve patient comfort during the pressurization procedure (IPSIS)"
+      ],
+      "references": [
+        {
+          "authors": "Bureau NJ et al.",
+          "title": "Lumbar facet joint synovial cyst: percutaneous treatment with steroid injections and distention",
+          "journal": "Radiology",
+          "year": 2003
+        },
+        {
+          "authors": "Martha JF et al.",
+          "title": "Percutaneous aspiration and steroid injection for the treatment of synovial cysts",
+          "journal": "AJNR",
+          "year": 2009
+        },
+        {
+          "authors": "IPSIS Technical Manual, Volume 3",
+          "title": "Lumbosacral Facet Joint Access/Injection (Ch. 23) — includes facet synovial cyst rupture",
+          "journal": "International Pain and Spine Intervention Society",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "clinical-decision-making",
+      "title": "Clinical Decision-Making",
+      "content": "## Patient Selection for Facet Cyst Rupture\n\n### Understanding the Clinical Presentation\n\nFacet cysts are not uncommon, especially in patients over 50. They present with **acute radicular pain** — surprisingly, since they arise from a joint typically associated with axial pain. The mechanism is mechanical: the facet joint fluid distends the capsule, which balloons into the spinal canal and compresses the nerve root.\n\n### Ideal Candidates\n\n- MRI showing **T2 hyperintense (bright) facet cyst** with thin wall\n- **Acute to subacute onset** of symptoms (weeks to a few months)\n- Radicular symptoms correlating with the level of cyst-induced stenosis\n- Not yet appropriate for surgery or preferring a non-surgical option\n- Single level of pathology\n- All patients are **100% surgical candidates** — this is the alternative to surgery\n\n### Less Ideal Candidates\n\n- **Chronic, thick-walled cysts** (T2 hypointense or mixed signal)\n- **Calcified** cyst walls\n- Large cysts with significant underlying stenosis **independent** of the cyst\n- Patients with **progressive neurological deficit** (surgical candidate)\n- **Gas-filled cysts** (vacuum phenomenon)\n\n### Decision Framework\n\n1. **Identify the cyst on MRI** — confirm it correlates with symptoms\n2. **Assess cyst characteristics** — T2 signal, wall thickness, communication with joint\n3. **Discuss with patient**: Explain that cyst rupture avoids surgery in approximately 65-70% of cases\n4. **Counsel about recurrence**: ~15-25% of successfully ruptured cysts recur\n5. **Surgical backup plan**: If rupture fails or symptoms recur, surgery remains an option\n\n### Anticoagulation Considerations\n\nFacet cyst rupture requires special attention to anticoagulation because the cyst communicates with the epidural space. Rupturing the cyst near the spinal canal may create a bleeding risk similar to neuraxial procedures. Consider holding anticoagulation for this procedure even though standard facet injections are typically low-risk.\n\n### Synovial Cyst Anatomy and Location (IPSIS)\n\n- Most synovial cysts are **extraspinal**, arising from the inferior recess of the joint and projecting over the subjacent lamina\n- The most clinically significant cysts are **intraspinal**, typically located in the **lateral recess** where they compress the traversing nerve root\n- Less commonly, cysts may be **intraforaminal**, communicating with the joint via the superior recess over the cephalad aspect of the SAP\n- The superior recess of the facet joint capsule is in close proximity to the posterior aspect of the exiting nerve — cysts arising here may compress the exiting nerve\n- The ligamentum flavum is continuous with the medial facet joint capsule, which explains how capsular distension can balloon into the spinal canal\n\n### Diagnostic Specificity Concerns with Intra-Articular Injection (IPSIS)\n\n- Facet joint capsules are often fenestrated, which means intra-articular anesthetic can spread to the epidural space, reducing diagnostic specificity\n- Injectate may also spread to the contralateral facet via the space of Okada or to vertically adjacent joints via pars defects\n- For this reason, intra-articular facet injections are considered less diagnostically specific than medial branch blocks\n- However, for cyst rupture the purpose is therapeutic mechanical decompression, not diagnosis\n\n### Injectate Volume Limits (IPSIS)\n\n- For standard facet joint injections (without cyst rupture), total injectate volume should **not exceed 1 mL** (the approximate maximum joint capacity)\n- Restricting total volume to less than 0.75 mL reduces the risk of capsule rupture in non-cyst cases\n- For cyst rupture, larger volumes (1-6 mL) are intentionally used to exceed joint/cyst capacity\n\n### Post-Procedure Management\n\n- Monitor for symptom improvement over 1-2 weeks\n- Post-procedure MRI can confirm cyst resolution if needed\n- If symptoms recur, repeat rupture can be attempted\n- Surgical decompression for refractory cases",
+      "keyPoints": [
+        "Facet cysts present with acute RADICULAR pain despite being a joint pathology — the capsule compresses the nerve root",
+        "All facet cyst patients are surgical candidates — cyst rupture is the non-surgical alternative",
+        "T2 bright cysts with thin walls have the highest success rate for rupture",
+        "Approximately 65-70% of patients avoid surgery after successful cyst rupture",
+        "Cyst recurrence rate is 15-25% — repeat rupture can be attempted",
+        "Consider holding anticoagulation because the cyst communicates with the epidural space",
+        "Progressive neurological deficit warrants surgical rather than percutaneous intervention",
+        "Most synovial cysts are extraspinal (inferior recess); clinically significant ones are intraspinal in the lateral recess compressing the nerve (IPSIS)",
+        "Facet capsules are fenestrated — intra-articular injectate can spread to the epidural space or contralateral facet via the space of Okada (IPSIS)",
+        "Standard facet injection volume should not exceed 1 mL; for cyst rupture, 1-6 mL is intentionally used to exceed capacity (IPSIS)",
+        "The ligamentum flavum is continuous with the medial facet capsule — this is how capsular distension reaches the spinal canal (IPSIS)"
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence & Guidelines",
+      "content": "## Published Evidence\n\n### Bureau NJ et al. (2003) — Radiology\n\nLandmark study on percutaneous facet cyst treatment:\n- Demonstrated **54-64% success** in avoiding surgery with percutaneous facet cyst injection/rupture\n- Established the technique as a viable non-surgical option\n- Identified imaging predictors of success\n\n### Martha JF et al. (2009) — AJNR\n\nReported outcomes with direct cyst aspiration and rupture:\n- Approximately **50% of patients** had successful long-term outcomes\n- Confirmed the feasibility and safety of the technique\n- Identified that cyst characteristics on MRI predict success\n\n### Parlier-Cuau C et al. (1999)\n\nEarly description of the percutaneous cyst rupture technique with favorable outcomes, establishing the foundation for the procedure.\n\n### Aggregate Data\n\n| Outcome Measure | Rate |\n|----------------|------|\n| Technical cyst rupture success | 75-80% |\n| Surgery avoidance (after successful rupture) | 65-70% |\n| Overall surgery avoidance rate | ~50-65% |\n| Cyst recurrence rate | 15-25% |\n\n### Why These Numbers Are Impressive\n\nContext matters: **100% of facet cyst patients with radiculopathy are surgical candidates**. Even avoiding surgery in 50-65% of these patients represents a major benefit — these patients would otherwise require laminectomy or decompression with all the associated risks, recovery time, and cost.\n\n### Combined Approach Evidence\n\nPerforming TFESI combined with facet cyst rupture in the same session provides:\n- **Epidural steroid delivery** to reduce inflammation at the nerve root\n- **Mechanical decompression** via cyst rupture\n- The combination provides both anti-inflammatory and mechanical benefits\n- Some retrospective series suggest improved outcomes compared to either approach alone\n\n## IPSIS Technical Manual References (2024)\n\n### Additional Studies Referenced by IPSIS\n\n- **Lutz GE et al. (2018) — PM&R**: Prospective assessment of nonsurgical management of percutaneous zygapophyseal joint synovial cyst rupture\n- **Bell J et al. (2021) — Clin Spine Surg**: Analyzed fluoroscopically guided facet cyst rupture with focus on rate of conversion to surgery and risk factors for failure\n- **Huang AJ et al. (2017) — Skeletal Radiol**: Evaluated long-term outcomes of percutaneous lumbar facet synovial cyst rupture\n- **Nguyen M et al. (2023) — Interv Pain Med**: IPSIS FactFinders for patient safety specifically addressing complications of facet cyst rupture including potential epidural hematoma\n\n### IPSIS Safety Considerations\n\n- The IPSIS manual acknowledges that technical and safety considerations for facet synovial cyst rupture have been described in detail in their FactFinders publication\n- Pre-procedure imaging review should specifically confirm the absence of significant central canal compromise independent of the cyst\n- True lateral segmental imaging is important to confirm needle depth and avoid advancement into the neural foramen during joint access\n\n## Limitations of the Evidence\n\n- No large randomized controlled trials comparing cyst rupture to surgical decompression\n- Most evidence comes from case series and prospective observational studies\n- Patient selection criteria vary between studies\n- Long-term recurrence data is limited\n\n## UpToDate: Intra-Articular Facet Injection Safety Profile\n\nUpToDate provides important context on intra-articular facet (IAF) injection safety relevant to cyst rupture procedures, since joint access is the first step:\n\n### Dual Role of IAF Injection\n\nIAF injections serve both diagnostic and therapeutic purposes. Diagnostically, local anesthetic confirms facet-mediated pain (at least 50% relief for the duration of the anesthetic). Therapeutically, glucocorticoid is added for longer-lasting benefit. For cyst rupture specifically, the IAF injection serves as the access point for pressurization.\n\n### Complication Rates from Large Retrospective Data\n\n- In a single-institution retrospective review of approximately **12,000 IAF injections**, major adverse events requiring hospitalization or emergency department visits occurred in only **0.07%** of cases\n- All major complications in that series were infections\n- A separate observational study of **43,000 facet blocks** at a single institution reported **zero major complications**\n- These low complication rates support the overall safety of facet joint access, which is reassuring given that cyst rupture requires the same initial joint entry technique\n\n### Region-Specific Risks: Cervical and Thoracic IAF\n\n- IAF injections carry **higher risks in the cervical and thoracic regions** compared with lumbar injections, and are performed much less frequently at those levels\n- Complications specific to **cervical IAF** include **vertebral artery damage or inadvertent injection** and **phrenic nerve palsy**\n- These cervical-specific risks are relevant context for understanding why C1-2 and other upper cervical procedures demand meticulous technique and pre-procedure imaging\n\n### Clinical Significance for Cyst Rupture\n\nThe extremely low major complication rate (0.07%) from IAF injections provides a baseline safety profile for the joint access portion of cyst rupture. However, cyst rupture involves additional risks beyond standard IAF injection — specifically, pressurization creates communication with the epidural space, introducing neuraxial bleeding concerns not present with routine IAF injections.",
+      "keyPoints": [
+        "Bureau (2003): 54-64% surgery avoidance with percutaneous facet cyst treatment",
+        "Martha (2009): ~50% long-term success with direct cyst aspiration/rupture",
+        "Technical rupture success rate is 75-80% of attempts",
+        "100% of these patients are surgical candidates — even 50% surgery avoidance is clinically significant",
+        "Cyst recurrence rate of 15-25% — repeat rupture is an option",
+        "Combined TFESI + cyst rupture provides both anti-inflammatory and mechanical decompression",
+        "No large RCTs exist — evidence is primarily from case series and prospective observational studies",
+        "IPSIS references additional studies: Lutz (2018), Bell (2021), Huang (2017) supporting percutaneous cyst rupture outcomes",
+        "IPSIS FactFinders (Nguyen 2023) specifically addresses safety considerations and complications of facet cyst rupture",
+        "True lateral imaging is essential to verify needle depth during joint access and prevent foraminal penetration (IPSIS)",
+        "UpToDate: In ~12,000 IAF injections, major adverse events (hospitalization/ED visit) occurred in only 0.07% — all were infections",
+        "UpToDate: A separate series of 43,000 facet blocks reported zero major complications",
+        "UpToDate: Cervical IAF carries higher risk than lumbar — specific complications include vertebral artery damage and phrenic nerve palsy",
+        "UpToDate: IAF injections serve both diagnostic (confirming facet pain with anesthetic) and therapeutic (glucocorticoid) roles — for cyst rupture, the IAF is the access point for pressurization",
+        "UpToDate: Cyst rupture introduces neuraxial bleeding risk beyond standard IAF injection because pressurization opens communication with the epidural space"
+      ],
+      "references": [
+        {
+          "authors": "Bureau NJ et al.",
+          "title": "Lumbar facet joint synovial cyst: percutaneous treatment with steroid injections and distention",
+          "journal": "Radiology",
+          "year": 2003
+        },
+        {
+          "authors": "Martha JF et al.",
+          "title": "Percutaneous aspiration and steroid injection for the treatment of synovial cysts",
+          "journal": "AJNR",
+          "year": 2009
+        },
+        {
+          "authors": "Parlier-Cuau C et al.",
+          "title": "Symptomatic lumbar facet joint synovial cysts: clinical assessment of facet joint steroid injection after 1 and 6 months",
+          "journal": "Radiology",
+          "year": 1999
+        },
+        {
+          "authors": "IPSIS Technical Manual, Volume 3",
+          "title": "Lumbosacral Facet Joint Access/Injection including Facet Synovial Cyst Rupture (Ch. 23)",
+          "journal": "International Pain and Spine Intervention Society",
+          "year": 2024
+        },
+        {
+          "authors": "Lutz GE, Nicoletti MR, Cyril GE, et al.",
+          "title": "Percutaneous rupture of zygapophyseal joint synovial cysts: a prospective assessment of nonsurgical management",
+          "journal": "PM R",
+          "year": 2018
+        },
+        {
+          "authors": "Nguyen M, Saffarian M, Smith CC, et al.",
+          "title": "FactFinders for patient safety: understanding potential procedure-related complications: RFN/multifidus atrophy, intradiscal biologics, and facet cyst rupture",
+          "journal": "Interv Pain Med",
+          "year": 2023
+        },
+        {
+          "authors": "UpToDate",
+          "title": "Subacute and chronic low back pain: Interventional treatment — Intra-articular facet joint injection safety and complication rates",
+          "journal": "UpToDate (Wolters Kluwer)",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "id": "clinical-pearls",
+      "title": "Clinical Pearls (Dr. O'Brien)",
+      "content": "## Dr. O'Brien on Facet Cyst Rupture\n\n### His Clinical Experience and Results\n\nDr. O'Brien probably sees more facet cysts than many practitioners because he actively looks for them and is known for treating them. He estimates that about 65% overall he can help avoid surgery. He acknowledges he does not always have exact numbers at hand but notes that some studies show rates as high as 90% and others closer to 46%, which he considers still impressive because every one of these patients is a surgical candidate.\n\n### The Balloon Analogy\n\nDr. O'Brien explains facet cysts to patients and trainees using a simple model: the facet joint develops fluid, and the capsule expands like a balloon. The capsule of the facet joint blends into the ligamentum flavum, and when it inflates, it pushes into the spinal canal compressing the nerve root. This is why these patients present with acute radicular pain even though the underlying pathology is a joint problem.\n\n### What He Looks for on MRI\n\nDr. O'Brien has specific MRI criteria he evaluates before deciding to attempt cyst rupture:\n- **T2 bright signal** means the cyst is fluid-filled — these are the ones he wants to try to rupture\n- **Thin wall** means the capsule is more likely to tear with pressurization\n- If the capsule is real thick, it is less likely to pop. He can still lavage the joint, which may help, but the rupture probability is lower.\n\n### The Mechanics of Rupture\n\nDr. O'Brien describes the practical reality of cyst rupture: you get the needle into the joint and start putting pressure on it to blow up the cyst. The weakest point of the capsule is going to tear. Sometimes that is into the cyst (the desired outcome), but sometimes the tear is posterior into the paraspinal muscles. Even in those cases where the cyst itself stays intact, he has seen some patients get better — possibly from lavaging steroid into the joint and allowing some fluid redistribution.\n\n### Combined Procedure Approach\n\nFacet cyst rupture is one of the few situations where Dr. O'Brien performs both an epidural and a facet procedure in the same session. He typically does a transforaminal epidural first, which provides some anesthesia for the cyst rupture and delivers steroid to the epidural space, then attempts the cyst rupture. He reports 75-80% of the time they can pop the cyst, and of those, about 70% avoid surgery.\n\n### Surgical Candidacy Context\n\nDr. O'Brien frames the results in proper context: 100% of his facet cyst patients are surgical candidates. So even if his overall surgery avoidance rate is around 65%, that means nearly two-thirds of patients who would otherwise need surgery are able to avoid it. The study that showed only 46% long-term relief is still meaningful because almost half of surgical candidates avoided the operating room.\n\n### Anticoagulation Concern\n\nDr. O'Brien specifically notes that facet cyst rupture is one procedure where he worries about patients on anticoagulation. Because the cyst communicates with the epidural space, rupturing it could cause bleeding into the spinal canal — similar to the concerns with neuraxial procedures.",
+      "keyPoints": [
+        "About 65% of facet cyst patients overall can avoid surgery with percutaneous rupture",
+        "Think of the cyst as a balloon — fluid in the facet joint inflates the capsule into the spinal canal",
+        "T2 bright signal with thin wall on MRI = best candidate for attempted rupture",
+        "Even if the cyst does not rupture, lavaging the joint may provide some benefit",
+        "75-80% of the time the cyst can be popped; of those, about 70% avoid surgery",
+        "This is one of the few times Dr. O'Brien combines an epidural and facet procedure in the same session",
+        "Worry about anticoagulation with this procedure — cyst communicates with the epidural space",
+        "IPSIS supplies for cyst rupture: standard 25-27G spinal needle for joint access PLUS larger 20-22G needle if needed for pressurization",
+        "Joint access technique: use the least obliquity that shows the dorsal joint line — excessive obliquity targets the inaccessible ventromedial joint (IPSIS)",
+        "For L4-5 cysts, advance needle medial-to-lateral to avoid being deflected by unseen SAP osteophytes (IPSIS)",
+        "Confirm intra-articular position with 0.1-0.3 mL contrast before attempting pressurization — real-time fluoroscopy and microbore tubing advised (IPSIS)"
+      ]
+    }
+  ]
+}

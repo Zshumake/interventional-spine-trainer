@@ -1,0 +1,150 @@
+{
+  "id": "nonradicular-pain-workup",
+  "title": "Nonradicular Low Back Pain Workup",
+  "description": "Guide for evaluating chronic nonradicular low back pain and selecting the appropriate interventional diagnostic and therapeutic approach.",
+  "relatedTopics": ["facet-pain-medial-branch-blocks", "radiofrequency-ablation", "si-joint", "discogenic-pain-bvn-ablation"],
+  "startNode": "confirm-chronic",
+  "nodes": {
+    "confirm-chronic": {
+      "question": "Has the patient had nonradicular low back pain for more than 12 weeks?",
+      "type": "decision",
+      "body": "Interventional treatments for nonradicular pain are reserved for chronic symptoms (>12 weeks) that have failed conservative management.",
+      "options": [
+        { "label": "Yes — chronic, failed conservative tx", "next": "mri-findings", "rationale": "Meets criteria for interventional workup" },
+        { "label": "4-12 weeks (subacute)", "next": "subacute-management", "rationale": "Prioritize noninterventional treatments in the subacute phase" },
+        { "label": "Less than 4 weeks (acute)", "next": "acute-management", "rationale": "Conservative management — too early for interventional" }
+      ],
+      "evidenceCitation": "UpToDate: For subacute low back pain (4-12 weeks duration), noninterventional treatments are prioritized."
+    },
+    "subacute-management": {
+      "question": "Subacute Phase — Continue Conservative Management",
+      "type": "outcome",
+      "outcome": "Continue exercise therapy, nonopioid analgesics, and consider psychological approaches (CBT, MBSR). Reassess at 12 weeks. If pain persists and specific etiology is identified on clinical evaluation or imaging, consider interventional workup.",
+      "outcomeColor": "yellow"
+    },
+    "acute-management": {
+      "question": "Acute Phase — Conservative Treatment",
+      "type": "outcome",
+      "outcome": "Conservative management: self-care advice, NSAIDs, activity modification, exercise. Most acute LBP resolves spontaneously. Reassess if not improving at 4-6 weeks.",
+      "outcomeColor": "yellow"
+    },
+    "mri-findings": {
+      "question": "What does the MRI suggest as the most likely pain generator?",
+      "type": "decision",
+      "body": "MRI helps identify conditions that may respond to specific interventional treatments. Note: imaging-clinical correlation is imperfect for all nonradicular etiologies.",
+      "options": [
+        { "label": "Modic type 1 or 2 endplate changes (vertebrogenic)", "next": "vertebrogenic-workup", "rationale": "May respond to basivertebral nerve ablation" },
+        { "label": "Facet joint arthropathy", "next": "facet-workup", "rationale": "Candidate for medial branch block diagnostic paradigm" },
+        { "label": "Sacroiliac joint edema or arthropathy", "next": "si-workup", "rationale": "Candidate for SI joint injection or lateral branch workup" },
+        { "label": "Multilevel degenerative changes / nonspecific", "next": "clinical-correlation", "rationale": "Need clinical correlation — imaging alone is insufficient" }
+      ],
+      "evidenceCitation": "UpToDate: The correlation between imaging findings (facet arthropathy, Modic changes) and response to interventional treatment is weak. Clinical evaluation, imaging, AND diagnostic procedures together guide treatment."
+    },
+    "vertebrogenic-workup": {
+      "question": "Vertebrogenic Pain — BVN Ablation Candidacy",
+      "type": "decision",
+      "body": "Vertebrogenic pain from Modic changes may respond to basivertebral nerve (BVN) radiofrequency ablation (Intracept procedure).",
+      "options": [
+        { "label": "Modic 1 or 2 at L3-S1, chronic axial pain, failed conservative tx", "next": "bvn-recommendation", "rationale": "Meets selection criteria from clinical trials" },
+        { "label": "Modic changes present but not primary pain generator suspected", "next": "clinical-correlation", "rationale": "Consider other etiologies" }
+      ],
+      "evidenceCitation": "SMART trial: BVN ablation produced a 20.5-point ODI decrease vs 15.2 in sham at 3 months. 75.6% of responders achieved MCID. Sustained at 2 years (76.4%). Non-industry studies needed."
+    },
+    "bvn-recommendation": {
+      "question": "Recommended: Basivertebral Nerve Ablation (Intracept)",
+      "type": "outcome",
+      "outcome": "Patient meets criteria for BVN ablation. Selection: Modic type 1 or 2 changes at target levels (L3-S1), chronic axial LBP for 6+ months, failed conservative therapy, no radiculopathy, no prior surgery at target level. Transpedicular approach under fluoroscopy. Note: non-industry-sponsored studies are still needed to confirm efficacy.",
+      "outcomeColor": "green",
+      "evidenceCitation": "UpToDate: Two RCTs support BVN ablation for vertebrogenic pain. Second trial terminated early due to uniformly improved outcomes in the ablation arm."
+    },
+    "facet-workup": {
+      "question": "Facet Pain — Diagnostic Block Approach",
+      "type": "decision",
+      "body": "Facet arthropathy on imaging does NOT confirm facet-mediated pain. Diagnostic medial branch blocks are required to confirm the pain generator before therapeutic intervention.",
+      "options": [
+        { "label": "Proceed with dual diagnostic MBBs", "next": "mbb-result", "rationale": "Standard diagnostic paradigm — two concordant blocks with 80% relief" },
+        { "label": "Consider intra-articular facet injection instead", "next": "iaf-alternative", "rationale": "Alternative for younger patients (<50) or those unable to undergo RFA" }
+      ],
+      "evidenceCitation": "UpToDate: Imaging findings of facet arthropathy correlate poorly with clinical response to facet blocks. Diagnostic blocks are needed despite imaging findings."
+    },
+    "mbb-result": {
+      "question": "What was the result of dual diagnostic MBBs?",
+      "type": "decision",
+      "body": "Controlled (dual) blocks reduce false-positive rates. Requires concordant response (80%+ relief) on two separate occasions.",
+      "options": [
+        { "label": "Concordant positive (80%+ relief on both blocks)", "next": "rfa-recommendation", "rationale": "Confirmed facet-mediated pain — proceed to RFA" },
+        { "label": "Discordant or negative", "next": "reconsider-diagnosis", "rationale": "Pain is likely not facet-mediated — reconsider other sources" }
+      ],
+      "evidenceCitation": "Dual blocks reduce false-positive rates but may increase false-negative rates. The double-block paradigm is supported by IPSIS and SIS guidelines."
+    },
+    "rfa-recommendation": {
+      "question": "Recommended: Radiofrequency Ablation of Medial Branches",
+      "type": "outcome",
+      "outcome": "Proceed with radiofrequency ablation (neurotomy) of the medial branch nerves identified as pain generators. Electrode placement parallel to the nerve. Standard parameters: 80°C for 60-90 seconds. Max 2 RFA procedures per year. Repeat RFA is successful in 60-90% of patients who responded to the initial procedure. Nerves regenerate over 6-12 months.",
+      "outcomeColor": "green",
+      "evidenceCitation": "UpToDate: 2015 meta-analysis of 23 RCTs showed modest short-term pain improvement (MD -1.47 on 10-point scale) for facet joint RFA. Patient selection is the key determinant of outcomes."
+    },
+    "iaf-alternative": {
+      "question": "Intra-Articular Facet Injection",
+      "type": "outcome",
+      "outcome": "IAF injection may be diagnostic (LA only) or therapeutic (LA + glucocorticoid). Consider for younger patients (<50) without advanced facet arthritis, or those unable/unwilling to undergo RFA. Complication rate is low (0.07% major adverse events). Note: RFA of medial branches destroys nerves that regenerate; IAF injection avoids denervation of the multifidus muscle.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "UpToDate: IAF injection is an alternative for patients unable to undergo RFA. In ~12,000 IAFs, major adverse events (all infections) occurred in 0.07%."
+    },
+    "si-workup": {
+      "question": "SI Joint Pain — Diagnostic Approach",
+      "type": "decision",
+      "body": "SI joint pain diagnosis requires a combination of clinical evaluation (provocation tests) and diagnostic injection.",
+      "options": [
+        { "label": "Positive provocation tests + diagnostic SIJ injection planned", "next": "sij-result", "rationale": "Composite of 3+ provocation tests plus image-guided intra-articular injection" },
+        { "label": "Uncertain — pain may be SI but provocation tests equivocal", "next": "clinical-correlation", "rationale": "Consider other pain generators" }
+      ]
+    },
+    "sij-result": {
+      "question": "What was the SIJ diagnostic injection result?",
+      "type": "decision",
+      "options": [
+        { "label": "Positive (significant pain relief during anesthetic window)", "next": "sij-treatment", "rationale": "Confirmed SI joint as pain generator" },
+        { "label": "Negative or equivocal", "next": "reconsider-diagnosis", "rationale": "SI joint may not be the primary pain source" }
+      ]
+    },
+    "sij-treatment": {
+      "question": "SI Joint — Treatment Options",
+      "type": "decision",
+      "body": "Treatment options after confirmed SI joint pain include steroid injection and radiofrequency ablation of sacral lateral branches.",
+      "options": [
+        { "label": "Therapeutic SIJ glucocorticoid injection", "next": "sij-steroid-outcome", "rationale": "Short-term relief, limited evidence, may not reach MCID" },
+        { "label": "Sacral lateral branch RFA (cooled RF)", "next": "sij-rfa-outcome", "rationale": "Longer-term relief, some RCT support" }
+      ],
+      "evidenceCitation": "UpToDate: Both SIJ injection and RFA have Grade 2C recommendations (weak recommendation, low-quality evidence)."
+    },
+    "sij-steroid-outcome": {
+      "question": "SIJ Glucocorticoid Injection",
+      "type": "outcome",
+      "outcome": "Intra-articular steroid injection provides short-term relief. Evidence: 3 small RCTs (54 total patients) showed short-term benefit, but a multicenter study failed to achieve minimum clinically important difference. Consider as bridge therapy or when RFA is not available.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "UpToDate: Evidence supports only short-term benefit from SIJ steroid injection. Effects may not reach clinically meaningful thresholds."
+    },
+    "sij-rfa-outcome": {
+      "question": "Sacral Lateral Branch Radiofrequency Ablation",
+      "type": "outcome",
+      "outcome": "Cooled RFA of sacral lateral branches (L5 dorsal ramus + S1-S3 lateral branches) has shown 50% improvement at 6 months vs placebo in an RCT. A 210-patient multicenter trial showed modest benefit through 12 months. Consider cooled RF technique given the anatomy of sacral lateral branches.",
+      "outcomeColor": "green",
+      "evidenceCitation": "UpToDate: RFA for SI joint pain is Grade 2C. Parallel RCTs showed RFA did not beat exercise alone, though SI subgroup showed modest benefit."
+    },
+    "clinical-correlation": {
+      "question": "Clinical Correlation Required",
+      "type": "outcome",
+      "outcome": "Multilevel degenerative changes require careful clinical correlation. Consider: (1) Which pain pattern predominates — axial loading, extension, or sitting? (2) Provocation tests for SI joint and facet. (3) Sequential diagnostic blocks to isolate the pain generator. (4) Multidisciplinary pain rehabilitation if no single generator is identified.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "UpToDate: Interventional treatments do not have a role for nonspecific, nonradicular pain without features of facet, SI, discogenic, or vertebrogenic pathology."
+    },
+    "reconsider-diagnosis": {
+      "question": "Reconsider Diagnosis",
+      "type": "outcome",
+      "outcome": "Negative diagnostic blocks suggest the tested structure is not the primary pain generator. Consider: (1) Other pain generators (facet if SI was negative, or vice versa), (2) Central sensitization or nociplastic pain, (3) Psychological contributors, (4) Comprehensive pain rehabilitation program. Do not repeat interventional procedures without diagnostic justification.",
+      "outcomeColor": "yellow",
+      "evidenceCitation": "UpToDate: Patients with nonradicular, nonspecific pain without features of any identifiable etiology are not candidates for interventional treatments."
+    }
+  }
+}
