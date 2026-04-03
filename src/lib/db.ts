@@ -1,26 +1,58 @@
-import { drizzle } from "drizzle-orm/better-sqlite3";
 import * as schema from "./schema";
-import path from "path";
 
-let db: ReturnType<typeof drizzle>;
+// Type for the database instance
+type DbInstance = any;
 
-try {
-  // better-sqlite3 is an optional dependency — may not be available on serverless
-  const Database = require("better-sqlite3");
-  const dbPath = path.join(process.cwd(), "data", "spine-trainer.db");
-  const sqlite = new Database(dbPath);
-  sqlite.pragma("journal_mode = WAL");
-  db = drizzle(sqlite, { schema });
-} catch {
-  // Create a no-op proxy that returns empty results
-  // This allows the app to build and serve content pages without SQLite
-  db = new Proxy({} as any, {
-    get: () => ({
-      select: () => ({ from: () => ({ where: () => ({ get: () => null, all: () => [] }), get: () => null, all: () => [] }) }),
-      insert: () => ({ values: () => ({ run: () => {} }) }),
-      update: () => ({ set: () => ({ where: () => ({ run: () => {} }) }) }),
-    }),
-  });
+let _db: DbInstance | null = null;
+
+function getDb(): DbInstance {
+  if (_db) return _db;
+
+  // On Vercel (serverless), better-sqlite3 native module isn't available
+  // Return a no-op proxy that returns empty results for all queries
+  if (process.env.VERCEL) {
+    _db = createNoOpDb();
+    return _db;
+  }
+
+  try {
+    const { drizzle } = require("drizzle-orm/better-sqlite3");
+    const Database = require("better-sqlite3");
+    const path = require("path");
+    const dbPath = path.join(process.cwd(), "data", "spine-trainer.db");
+    const sqlite = new Database(dbPath);
+    sqlite.pragma("journal_mode = WAL");
+    _db = drizzle(sqlite, { schema });
+  } catch {
+    _db = createNoOpDb();
+  }
+
+  return _db;
 }
 
-export { db };
+function createNoOpDb(): any {
+  const noOpChain: any = new Proxy(
+    {},
+    {
+      get: () =>
+        new Proxy(() => noOpChain, {
+          apply: () => noOpChain,
+          get: (_, prop) => {
+            if (prop === "get") return () => null;
+            if (prop === "all") return () => [];
+            if (prop === "run") return () => ({});
+            return () => noOpChain;
+          },
+        }),
+    }
+  );
+  return noOpChain;
+}
+
+// Export as a getter so it initializes lazily
+export const db = new Proxy({} as DbInstance, {
+  get: (_, prop) => {
+    const instance = getDb();
+    return instance[prop];
+  },
+});
