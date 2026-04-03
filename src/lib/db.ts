@@ -1,19 +1,9 @@
 import * as schema from "./schema";
 
-// Type for the database instance
-type DbInstance = any;
+let _db: any = null;
 
-let _db: DbInstance | null = null;
-
-function getDb(): DbInstance {
+function getDb(): any {
   if (_db) return _db;
-
-  // On Vercel (serverless), better-sqlite3 native module isn't available
-  // Return a no-op proxy that returns empty results for all queries
-  if (process.env.VERCEL) {
-    _db = createNoOpDb();
-    return _db;
-  }
 
   try {
     const { drizzle } = require("drizzle-orm/better-sqlite3");
@@ -24,35 +14,53 @@ function getDb(): DbInstance {
     sqlite.pragma("journal_mode = WAL");
     _db = drizzle(sqlite, { schema });
   } catch {
-    _db = createNoOpDb();
+    // When better-sqlite3 is not available (Vercel serverless),
+    // provide a stub that returns empty results for all queries.
+    _db = createStubDb();
   }
 
   return _db;
 }
 
-function createNoOpDb(): any {
-  const noOpChain: any = new Proxy(
-    {},
-    {
-      get: () =>
-        new Proxy(() => noOpChain, {
-          apply: () => noOpChain,
-          get: (_, prop) => {
-            if (prop === "get") return () => null;
-            if (prop === "all") return () => [];
-            if (prop === "run") return () => ({});
-            return () => noOpChain;
-          },
-        }),
-    }
-  );
-  return noOpChain;
+function createStubDb(): any {
+  // Build a chainable stub where every method returns another stub,
+  // except terminal methods which return concrete empty values.
+  const terminals: Record<string, () => any> = {
+    get: () => null,
+    all: () => [],
+    run: () => ({}),
+    execute: () => ({}),
+    values: () => stub,
+    set: () => stub,
+  };
+
+  const stub: any = new Proxy(() => stub, {
+    get(_target, prop) {
+      if (prop === Symbol.toPrimitive || prop === "valueOf" || prop === "toString") {
+        return () => "";
+      }
+      if (prop === "length") return 0;
+      if (prop === Symbol.iterator) return [][Symbol.iterator];
+      if (typeof prop === "string" && terminals[prop]) {
+        return terminals[prop];
+      }
+      // Any other property returns the stub itself for chaining
+      return stub;
+    },
+    apply() {
+      return stub;
+    },
+  });
+
+  return stub;
 }
 
-// Export as a getter so it initializes lazily
-export const db = new Proxy({} as DbInstance, {
-  get: (_, prop) => {
-    const instance = getDb();
-    return instance[prop];
-  },
-});
+// Export as a lazy getter
+export const db: any = new Proxy(
+  {},
+  {
+    get(_, prop) {
+      return getDb()[prop];
+    },
+  }
+);
