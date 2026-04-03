@@ -19,7 +19,7 @@ export default async function QuizSessionPage({ searchParams }: QuizSessionPageP
     const dueCards = getDueCards();
     const allBanks = getAllQuizBanks();
 
-    const dueQuestionIds = new Set(dueCards.map((c) => c.questionId));
+    const dueQuestionIds = new Set(dueCards.map((c: any) => c.questionId));
     for (const bank of allBanks) {
       for (const q of bank.questions) {
         if (dueQuestionIds.has(q.id)) {

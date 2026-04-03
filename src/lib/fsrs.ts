@@ -99,7 +99,7 @@ export function getDueCards(topicId?: string) {
     ? db.select().from(quizCards).where(eq(quizCards.topicId, topicId)).all()
     : db.select().from(quizCards).all();
 
-  return allCards.filter((card) => {
+  return allCards.filter((card: any) => {
     const dueDate = card.due instanceof Date ? card.due : new Date(card.due);
     return dueDate <= now;
   });
@@ -114,17 +114,17 @@ export function getCardStats(topicId?: string) {
     : db.select().from(quizCards).all();
 
   const now = new Date();
-  const dueCount = allCards.filter((c) => {
+  const dueCount = allCards.filter((c: any) => {
     const dueDate = c.due instanceof Date ? c.due : new Date(c.due);
     return dueDate <= now;
   }).length;
 
   return {
     total: allCards.length,
-    new: allCards.filter((c) => c.state === State.New).length,
-    learning: allCards.filter((c) => c.state === State.Learning).length,
-    review: allCards.filter((c) => c.state === State.Review).length,
-    relearning: allCards.filter((c) => c.state === State.Relearning).length,
+    new: allCards.filter((c: any) => c.state === State.New).length,
+    learning: allCards.filter((c: any) => c.state === State.Learning).length,
+    review: allCards.filter((c: any) => c.state === State.Review).length,
+    relearning: allCards.filter((c: any) => c.state === State.Relearning).length,
     due: dueCount,
   };
 }
@@ -161,7 +161,7 @@ export function getWrongAnswers(topicId: string) {
     .from(quizHistory)
     .where(eq(quizHistory.topicId, topicId))
     .all()
-    .filter((h) => !h.correct);
+    .filter((h: any) => !h.correct);
 }
 
 // Helpers
