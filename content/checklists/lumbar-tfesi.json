@@ -1,0 +1,91 @@
+{
+  "id": "lumbar-tfesi",
+  "title": "Lumbar Transforaminal Epidural Steroid Injection",
+  "relatedTopic": "transforaminal-epidurals",
+  "steps": [
+    {
+      "id": "s1",
+      "phase": "Pre-Procedure",
+      "action": "Perform time-out: verify patient identity, procedure, level, laterality, allergies, and anticoagulation status.",
+      "safety": "Confirm no contrast allergy. If allergic, pre-medicate or use gadolinium-based contrast alternative.",
+      "teaching": "ASIPP and SIS guidelines mandate a standardized time-out for all interventional spine procedures. Verify coagulation labs if on anticoagulants per ASRA guidelines."
+    },
+    {
+      "id": "s2",
+      "phase": "Pre-Procedure",
+      "action": "Review imaging (MRI/CT) and confirm target level correlates with clinical presentation.",
+      "safety": "Misidentification of the target level is a leading cause of wrong-level procedures.",
+      "teaching": "Compare axial MRI cuts at the disc level with the patient's radicular symptoms. The exiting nerve root at a given foramen corresponds to the level above the disc (e.g., L4 nerve exits above the L4-5 disc)."
+    },
+    {
+      "id": "s3",
+      "phase": "Setup",
+      "action": "Position patient prone on the fluoroscopy table with a pillow under the abdomen to reduce lumbar lordosis.",
+      "safety": "Ensure patient can communicate throughout the procedure. Monitor oxygen saturation.",
+      "teaching": "Flattening the lordosis opens the neuroforamina and improves fluoroscopic visualization of the subpedicular space."
+    },
+    {
+      "id": "s4",
+      "phase": "Setup",
+      "action": "Set up C-arm in AP view. Adjust cranial-caudal tilt until the target endplates are squared and the spinous process is midline.",
+      "safety": "Minimize radiation exposure: collimate the beam and use intermittent fluoroscopy.",
+      "teaching": "Squaring the endplates eliminates parallax error. The 'scotty dog' view is achieved with ~15-25 degrees of ipsilateral oblique rotation."
+    },
+    {
+      "id": "s5",
+      "phase": "Setup",
+      "action": "Select a 22-gauge or 25-gauge, 3.5-inch spinal needle. Prepare extension tubing with contrast syringe.",
+      "safety": "Use non-particulate steroid (dexamethasone) for all transforaminal approaches due to particulate embolization risk.",
+      "teaching": "Particulate steroids (triamcinolone, methylprednisolone) carry risk of arterial embolization causing paraplegia or cerebellar infarct via the radiculomedullary artery."
+    },
+    {
+      "id": "s6",
+      "phase": "Procedure",
+      "action": "Obtain ipsilateral oblique view (~15-25 degrees) to visualize the 'scotty dog.' Target the 6 o'clock position of the pedicle (subpedicular safe triangle).",
+      "safety": "Stay inferior and lateral to the pedicle. Never advance medial to the 6 o'clock position of the pedicle in oblique view.",
+      "teaching": "The safe triangle is bordered superiorly by the pedicle, laterally by the exiting nerve root, and medially by the vertebral body. The target is the inferolateral aspect of the pedicle."
+    },
+    {
+      "id": "s7",
+      "phase": "Procedure",
+      "action": "Advance the needle under intermittent fluoroscopy using a coaxial (gun-barrel) technique toward the subpedicular target.",
+      "safety": "If the patient reports radicular pain or paresthesias, stop and redirect the needle laterally.",
+      "teaching": "Coaxial technique aligns the needle trajectory with the fluoroscopic beam so the needle appears as a dot. This ensures accurate trajectory to the target."
+    },
+    {
+      "id": "s8",
+      "phase": "Procedure",
+      "action": "Confirm needle depth in lateral view: the needle tip should be in the posterior foramen, not past the mid-pedicular line.",
+      "safety": "Do not advance past the posterior vertebral body line to avoid dural puncture or cord injury.",
+      "teaching": "In the lateral view, the posterior foramen corresponds to the space between the posterior vertebral body line and the anterior foramen. The ventral epidural space is the ultimate target."
+    },
+    {
+      "id": "s9",
+      "phase": "Procedure",
+      "action": "Inject 0.5-1 mL of contrast under live fluoroscopy. Confirm epidural spread pattern with nerve root outline.",
+      "safety": "Use real-time (live) fluoroscopy during contrast injection to detect intravascular uptake immediately. If vascular flow is seen, reposition needle.",
+      "teaching": "Proper epidural spread shows contrast outlining the nerve root sleeve and spreading into the ventral epidural space. Vascular uptake appears as rapid washout without epidural pattern."
+    },
+    {
+      "id": "s10",
+      "phase": "Procedure",
+      "action": "Inject injectate: typically 1 mL dexamethasone (10 mg/mL) plus 0.5-1 mL preservative-free normal saline or local anesthetic.",
+      "safety": "Inject slowly. Stop if resistance is high (may indicate intraneural placement) or patient reports severe pain.",
+      "teaching": "Total injectate volume is typically 1.5-2 mL for transforaminal approach to maintain selectivity. Higher volumes reduce diagnostic specificity."
+    },
+    {
+      "id": "s11",
+      "phase": "Post-Procedure",
+      "action": "Remove needle and apply bandage. Transfer patient to recovery and monitor for 20-30 minutes.",
+      "safety": "Assess for new neurological deficits, hypotension, or allergic reaction before discharge.",
+      "teaching": "Post-procedure monitoring allows detection of rare complications: epidural hematoma (progressive weakness), dural puncture headache, or vasovagal syncope."
+    },
+    {
+      "id": "s12",
+      "phase": "Post-Procedure",
+      "action": "Document procedure details: levels treated, needle gauge, contrast pattern, injectate composition and volume, and any complications.",
+      "safety": "Document fluoroscopy time and any intravascular uptake or needle repositioning events.",
+      "teaching": "Thorough documentation supports medical-legal protection and enables outcome tracking for future treatment decisions."
+    }
+  ]
+}

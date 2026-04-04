@@ -1,0 +1,77 @@
+{
+  "id": "lumbar-mbb",
+  "title": "Lumbar Medial Branch Block",
+  "relatedTopic": "facet-pain-medial-branch-blocks",
+  "steps": [
+    {
+      "id": "s1",
+      "phase": "Pre-Procedure",
+      "action": "Perform time-out: verify patient identity, procedure, levels, laterality, allergies, and anticoagulation status.",
+      "safety": "Confirm this is a diagnostic block (no steroid) to maintain validity for RFA candidacy. Document pre-procedure pain score.",
+      "teaching": "Medial branch blocks are diagnostic procedures to confirm facet-mediated pain. The SIS/ASIPP guidelines require at least 80% pain relief for a positive diagnostic block before proceeding to RFA."
+    },
+    {
+      "id": "s2",
+      "phase": "Pre-Procedure",
+      "action": "Confirm target levels based on clinical presentation. Each facet joint is innervated by the medial branches from the level above and the same level.",
+      "safety": "To block the L4-5 facet joint, you must block the L3 and L4 medial branches. Missing a level invalidates the diagnostic block.",
+      "teaching": "The lumbar medial branch crosses the junction of the superior articular process and the transverse process at each level. The L5 dorsal ramus (not medial branch) is targeted at the sacral ala."
+    },
+    {
+      "id": "s3",
+      "phase": "Setup",
+      "action": "Position patient prone with pillow under the abdomen. Prep and drape the target region.",
+      "safety": "Ensure patient can report pain and paresthesias during the procedure.",
+      "teaching": "Prone positioning provides optimal access to the posterior lumbar spine and the junction of the transverse process and superior articular process."
+    },
+    {
+      "id": "s4",
+      "phase": "Setup",
+      "action": "Set up C-arm in AP view with squared endplates. Identify target levels by counting from the sacrum.",
+      "safety": "Level identification errors are common in the lumbar spine. Always count from a known landmark (sacrum or L5 transverse process).",
+      "teaching": "The L5 transverse process is typically the largest and most caudal. The sacral ala is identified as the 'ear' of the sacrum in AP view."
+    },
+    {
+      "id": "s5",
+      "phase": "Procedure",
+      "action": "For L1-L4 medial branches: target the junction of the superior articular process (SAP) and the transverse process (TP). Advance a 22- or 25-gauge needle to this target.",
+      "safety": "The needle should contact bone at the junction of the SAP and TP. If no bony contact is made, the needle may be in the foramen -- withdraw and redirect.",
+      "teaching": "The medial branch nerve runs in a groove at the junction of the SAP and TP, covered by the mamillo-accessory ligament. This consistent anatomical landmark makes the target reproducible."
+    },
+    {
+      "id": "s6",
+      "phase": "Procedure",
+      "action": "For the L5 dorsal ramus: target the junction of the sacral ala and the SAP of S1. Advance needle to bony contact.",
+      "safety": "The L5 dorsal ramus is larger and located in a groove between the sacral ala and the S1 SAP. Ensure the needle does not slip into the L5-S1 foramen.",
+      "teaching": "The L5 level is unique because the dorsal ramus (not the medial branch) is targeted. It is larger and more variable in position than the L1-L4 medial branches."
+    },
+    {
+      "id": "s7",
+      "phase": "Procedure",
+      "action": "Confirm needle position in lateral view: the tip should be at the base of the transverse process, posterior to the neuroforamen.",
+      "safety": "On lateral view, the needle must not be ventral to the intervertebral foramen. Ventral placement risks nerve root injection.",
+      "teaching": "The lateral view confirms that the needle is at the correct depth, sitting on the periosteum of the TP-SAP junction and not inadvertently in the epidural space or foramen."
+    },
+    {
+      "id": "s8",
+      "phase": "Procedure",
+      "action": "Inject 0.3-0.5 mL of local anesthetic (bupivacaine 0.5% or lidocaine 2%) at each target level. Do NOT add steroid.",
+      "safety": "Small volumes are essential to maintain diagnostic specificity. Volumes greater than 0.5 mL may spread to adjacent structures and produce false-positive results.",
+      "teaching": "Using small volumes limits the spread of anesthetic to the medial branch only, avoiding spillover to the epidural space, adjacent nerve roots, or the facet joint itself."
+    },
+    {
+      "id": "s9",
+      "phase": "Post-Procedure",
+      "action": "Have patient perform provocative maneuvers that reproduced their pain. Document pain relief percentage using a standardized pain diary.",
+      "safety": "Pain assessment should occur during the expected duration of the local anesthetic used (lidocaine: 1-2 hours, bupivacaine: 4-6 hours).",
+      "teaching": "A positive block is defined as at least 80% concordant pain relief during the anesthetic window. The patient should track pain scores at regular intervals using a pain diary."
+    },
+    {
+      "id": "s10",
+      "phase": "Post-Procedure",
+      "action": "Document all levels blocked, anesthetic used, volume per level, and plan for confirmatory block or RFA based on response.",
+      "safety": "Most guidelines recommend dual comparative blocks (with different local anesthetics) before proceeding to RFA to reduce false-positive rate.",
+      "teaching": "Single blocks have a false-positive rate of 27-63%. Dual comparative blocks (e.g., lidocaine first, then bupivacaine at a separate visit) reduce this to approximately 10%."
+    }
+  ]
+}

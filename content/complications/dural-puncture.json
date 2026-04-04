@@ -1,0 +1,89 @@
+{
+  "id": "dural-puncture",
+  "title": "Dural Puncture (Wet Tap) During Interlaminar Epidural",
+  "procedure": "Interlaminar Epidural Steroid Injection",
+  "difficulty": "intermediate",
+  "setup": "You are performing a lumbar interlaminar epidural steroid injection at L4-5 on a 42-year-old female with bilateral lower extremity radiculopathy from L4-5 central disc herniation. The patient is prone with a paramedian approach. You are using a 20-gauge Tuohy needle and loss-of-resistance to saline technique.",
+  "trigger": "As you advance the Tuohy needle with the loss-of-resistance syringe, you feel sudden loss of resistance. Upon removing the stylet, you observe a steady stream of clear fluid dripping from the needle hub. It is warm and appears consistent with cerebrospinal fluid (CSF).",
+  "timeLimit": 30,
+  "decisions": [
+    {
+      "id": "d1-confirm-csf",
+      "prompt": "You see clear fluid dripping from the needle hub. What is your immediate next step?",
+      "options": [
+        {
+          "label": "Confirm it is CSF (check temperature, glucose if available) and do not inject steroid through this needle",
+          "correct": true,
+          "feedback": "Correct. First confirm the fluid is CSF rather than saline from your loss-of-resistance syringe. CSF is warm, flows steadily, and tests positive for glucose. Once confirmed as a dural puncture, do not inject steroid intrathecally through a Tuohy needle, as the volume would be far greater than intended for intrathecal delivery."
+        },
+        {
+          "label": "Inject the steroid anyway since you are already at the correct level",
+          "correct": false,
+          "feedback": "Incorrect. Injecting the full epidural steroid dose intrathecally is dangerous. Intrathecal injection of particulate steroids or large volumes can cause arachnoiditis, chemical meningitis, or cauda equina syndrome. The epidural dose is not appropriate for intrathecal delivery."
+        },
+        {
+          "label": "Quickly inject contrast to see if you are truly intrathecal",
+          "correct": false,
+          "feedback": "Incorrect. While contrast can confirm intrathecal placement, the steady flow of clear warm fluid from a Tuohy needle is highly suggestive of dural puncture. Injecting contrast intrathecally is not necessary when CSF is freely flowing and adds unnecessary intrathecal volume."
+        },
+        {
+          "label": "Ignore the fluid and assume it is saline from loss-of-resistance technique",
+          "correct": false,
+          "feedback": "Incorrect. A steady stream of clear warm fluid should always be investigated. While saline can drip back from the LOR syringe, it typically does not flow steadily from the hub. Ignoring potential CSF return risks intrathecal injection of the full epidural steroid dose."
+        }
+      ]
+    },
+    {
+      "id": "d2-next-action",
+      "prompt": "You have confirmed CSF return consistent with dural puncture. How do you proceed with the procedure?",
+      "options": [
+        {
+          "label": "Remove the needle, attempt the procedure at a different interspace (e.g., L3-4) with careful technique",
+          "correct": true,
+          "feedback": "Correct. The standard approach after a recognized wet tap is to remove the needle and attempt at an adjacent level. Use careful technique and be aware that the epidural space may be narrower or the anatomy slightly different at the new level. Some practitioners may choose to abort entirely depending on clinical judgment."
+        },
+        {
+          "label": "Pull the needle back slightly and attempt to inject in the epidural space",
+          "correct": false,
+          "feedback": "Incorrect. Once the dura has been punctured with a large-bore Tuohy needle, pulling back slightly makes it very difficult to confirm you are in the epidural space (rather than still intrathecal). The dural hole makes loss-of-resistance unreliable at this site."
+        },
+        {
+          "label": "Convert to a deliberate intrathecal injection with reduced steroid dose",
+          "correct": false,
+          "feedback": "Incorrect. While deliberate intrathecal steroid injection is a described technique, it requires specific consent, appropriate dosing, and is not the standard of care when you intended an epidural. Converting without prior planning and consent is inappropriate."
+        },
+        {
+          "label": "Abort the procedure entirely and never reattempt",
+          "correct": false,
+          "feedback": "Incorrect. While aborting is reasonable, it is overly conservative to never reattempt. Most practitioners will attempt at an adjacent level during the same session or schedule a reattempt. The patient still needs treatment for their radiculopathy."
+        }
+      ]
+    },
+    {
+      "id": "d3-headache-management",
+      "prompt": "The patient calls you the next day reporting a severe positional headache, worse when upright and relieved when supine. The headache started 18 hours after the procedure. What is your initial management recommendation?",
+      "options": [
+        {
+          "label": "Conservative management first: bed rest, hydration, caffeine, and analgesics for 24-48 hours",
+          "correct": true,
+          "feedback": "Correct. Post-dural puncture headache (PDPH) from a Tuohy needle (large bore) is common, but initial conservative management is appropriate. Oral caffeine (300-500 mg), IV caffeine, hydration, analgesics, and bed rest resolve many cases. If symptoms persist beyond 24-48 hours or are severe, escalate to epidural blood patch."
+        },
+        {
+          "label": "Perform an epidural blood patch immediately",
+          "correct": false,
+          "feedback": "Incorrect. While epidural blood patch is the definitive treatment, it is generally reserved for headaches that do not respond to conservative management within 24-48 hours, or for severe/debilitating symptoms. Performing a blood patch too early (within 24 hours) has a higher failure rate."
+        },
+        {
+          "label": "Prescribe opioid pain medication and tell the patient to follow up in one week",
+          "correct": false,
+          "feedback": "Incorrect. PDPH from a large-bore needle can be debilitating and should be actively managed. Simply prescribing opioids without a clear escalation plan (conservative measures followed by blood patch if needed) is inadequate management."
+        },
+        {
+          "label": "Tell the patient this is normal post-procedure soreness and no treatment is needed",
+          "correct": false,
+          "feedback": "Incorrect. A severe positional headache (worse upright, better supine) starting within 48 hours of a known dural puncture is classic PDPH. This is not routine soreness and requires active management with a clear treatment plan."
+        }
+      ]
+    }
+  ]
+}

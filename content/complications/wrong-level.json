@@ -1,0 +1,89 @@
+{
+  "id": "wrong-level",
+  "title": "Wrong Level Identification During TFESI",
+  "procedure": "Transforaminal Epidural Steroid Injection",
+  "difficulty": "beginner",
+  "setup": "You are performing a left L4 transforaminal epidural steroid injection for a patient with an L3-4 disc herniation causing left L4 radiculopathy. You have positioned the C-arm in an oblique view and advanced your needle to what you believe is the left L4 pedicle. You inject contrast and obtain a satisfactory epidural spread pattern.",
+  "trigger": "Before injecting steroid, you take a final AP view to confirm needle position. Upon careful counting of the vertebral levels from the sacrum, you realize your needle is actually at L3, not L4. The contrast has spread along the L3 nerve root, one level above your intended target.",
+  "timeLimit": 30,
+  "decisions": [
+    {
+      "id": "d1-immediate-decision",
+      "prompt": "You have confirmed your needle is at L3 instead of the intended L4 level. The contrast pattern shows good epidural spread at L3. What do you do?",
+      "options": [
+        {
+          "label": "Remove the needle, re-identify the correct L4 level using reliable landmarks, and reposition at the correct level",
+          "correct": true,
+          "feedback": "Correct. The therapeutic goal is to deliver steroid to the L4 nerve root as that is the pathologic level. While epidural spread at L3 may provide some benefit, the correct approach is to target the symptomatic level. Remove the needle, carefully re-identify L4 using sacral counting or other reliable landmarks, and perform the injection at the correct level."
+        },
+        {
+          "label": "Inject the steroid at L3 since the epidural spread looks good and it is close to the target",
+          "correct": false,
+          "feedback": "Incorrect. Injecting at the wrong level is a procedural error. While there may be some epidural spread to adjacent levels, the targeted perineural delivery of steroid to the L4 nerve root is the goal. Knowingly injecting at the wrong level is not acceptable practice and should be documented as such if it occurs."
+        },
+        {
+          "label": "Inject half the steroid at L3 and half at L4 after repositioning",
+          "correct": false,
+          "feedback": "Incorrect. There is no indication to inject steroid at L3 since it is not the pathologic level. Splitting the dose reduces the therapeutic amount delivered to the target level. Redirect entirely to the correct level."
+        },
+        {
+          "label": "Advance the needle from L3 inferiorly toward L4 without removing it",
+          "correct": false,
+          "feedback": "Incorrect. You cannot redirect a spinal needle from one foramen to another without removing it and re-entering. Attempting to slide the needle inferiorly risks tissue trauma and nerve injury. The proper technique is to remove the needle and start fresh at the correct level."
+        }
+      ]
+    },
+    {
+      "id": "d2-level-verification",
+      "prompt": "You are preparing to reposition at the correct level. What is the most reliable method to verify the correct vertebral level?",
+      "options": [
+        {
+          "label": "Count up from the sacrum on AP view, identifying L5 as the lowest lumbar vertebra above the sacrum",
+          "correct": true,
+          "feedback": "Correct. Counting from the sacrum is the most reliable method for level identification. On AP fluoroscopy, identify the sacrum and count upward. L5 is the last mobile segment above S1. This method is more reliable than counting down from T12 or using the iliac crest as a landmark (which can be unreliable, corresponding to anywhere from L3-L5 depending on the patient)."
+        },
+        {
+          "label": "Use the iliac crest line as the L4-5 landmark",
+          "correct": false,
+          "feedback": "Incorrect. The iliac crest is an unreliable landmark for level identification. The intercristal line (Tuffier's line) is commonly taught as corresponding to L4-5, but studies show significant variability. It may correspond to L3-4 or L5-S1 in many patients. This is likely how the original wrong-level error occurred."
+        },
+        {
+          "label": "Count down from the last rib-bearing vertebra (T12)",
+          "correct": false,
+          "feedback": "Incorrect. While this method can work, it requires visualizing the thoracolumbar junction on fluoroscopy (which may be difficult) and can be confounded by lumbar ribs or floating ribs. Counting up from the sacrum is more reliable in the lumbar region."
+        },
+        {
+          "label": "Use the shape of the transverse processes to identify the level",
+          "correct": false,
+          "feedback": "Incorrect. While transverse process morphology can provide clues (L3 tend to be longer), there is significant anatomic variability between patients. This is not a reliable primary method for level identification."
+        }
+      ]
+    },
+    {
+      "id": "d3-prevention",
+      "prompt": "You have successfully completed the injection at the correct L4 level. What systemic approach helps prevent wrong-level errors in the future?",
+      "options": [
+        {
+          "label": "Use a pre-procedure verification checklist, count from the sacrum as standard practice, and take a final confirming image before injecting medication",
+          "correct": true,
+          "feedback": "Correct. A systematic approach to level verification includes: (1) pre-procedure planning with review of imaging, (2) consistent use of reliable counting methods (sacrum counting), (3) a verification pause before injecting medication, and (4) documentation of the verification method. Many practices use a time-out similar to surgical safety checklists. Some practitioners also use prior imaging (CT or MRI) for correlation."
+        },
+        {
+          "label": "Always use intraoperative CT navigation for every spinal injection",
+          "correct": false,
+          "feedback": "Incorrect. While CT navigation improves accuracy, it is not practical or necessary for routine fluoroscopically-guided injections. It adds significant cost, radiation exposure, and time. Reliable fluoroscopic level counting (from the sacrum) is the standard approach."
+        },
+        {
+          "label": "Mark the skin at the target level based on palpation before the procedure",
+          "correct": false,
+          "feedback": "Incorrect. Palpation-based skin marking is unreliable for determining exact vertebral levels. Studies show poor correlation between palpated landmarks and actual vertebral levels. Fluoroscopic verification is the standard of care."
+        },
+        {
+          "label": "Have the patient remind you which level to inject",
+          "correct": false,
+          "feedback": "Incorrect. While patient verification is part of the pre-procedure time-out, patients cannot reliably identify their own vertebral levels. The responsibility for correct level identification falls on the proceduralist using reliable imaging-based methods."
+        }
+      ]
+    }
+  ]
+}

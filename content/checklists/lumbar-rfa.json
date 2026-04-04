@@ -1,0 +1,91 @@
+{
+  "id": "lumbar-rfa",
+  "title": "Lumbar Radiofrequency Ablation (Neurotomy)",
+  "relatedTopic": "radiofrequency-ablation",
+  "steps": [
+    {
+      "id": "s1",
+      "phase": "Pre-Procedure",
+      "action": "Perform time-out: verify patient identity, procedure, levels, laterality, allergies, and anticoagulation status.",
+      "safety": "Confirm patient had at least 80% relief from dual comparative medial branch blocks before proceeding to RFA.",
+      "teaching": "RFA is indicated only after positive dual comparative diagnostic medial branch blocks. Proceeding without adequate diagnostic confirmation leads to poor outcomes and unnecessary procedures."
+    },
+    {
+      "id": "s2",
+      "phase": "Pre-Procedure",
+      "action": "Review prior MBB procedure notes to confirm exact levels and response. Plan corresponding RFA levels.",
+      "safety": "RFA levels must match the diagnostic MBB levels exactly. Do not add or subtract levels without additional diagnostic blocks.",
+      "teaching": "The RFA target is the same anatomical location as the MBB: the junction of the SAP and TP for L1-L4, and the sacral ala-S1 SAP junction for L5."
+    },
+    {
+      "id": "s3",
+      "phase": "Setup",
+      "action": "Position patient prone. Select appropriate RF cannulae: typically 18- or 20-gauge, 10 cm length with 10 mm active tip.",
+      "safety": "Larger active tips create larger lesions. Match the active tip length to the anatomy (10 mm for standard lumbar RFA).",
+      "teaching": "The RF lesion extends laterally from the active tip, not beyond it. Proper needle placement parallel to the nerve maximizes the lesion length along the nerve course."
+    },
+    {
+      "id": "s4",
+      "phase": "Setup",
+      "action": "Set up C-arm in AP view with squared endplates. Identify target levels and plan needle trajectories.",
+      "safety": "RFA cannulae are larger than MBB needles. Use local anesthesia (lidocaine) at each skin entry point.",
+      "teaching": "The RF cannula should be placed parallel to the medial branch nerve as it courses along the TP-SAP junction. This requires a slightly caudal-to-cephalad trajectory in most cases."
+    },
+    {
+      "id": "s5",
+      "phase": "Procedure",
+      "action": "Advance RF cannula to the TP-SAP junction (L1-L4) or sacral ala (L5) using the same fluoroscopic technique as MBB.",
+      "safety": "Ensure bony contact before testing. The cannula should rest on the periosteum at the nerve target.",
+      "teaching": "The goal is to place the active tip parallel to the medial branch nerve along the groove of the TP-SAP junction. A slightly oblique trajectory (ipsilateral oblique view) can help achieve parallel placement."
+    },
+    {
+      "id": "s6",
+      "phase": "Procedure",
+      "action": "Perform sensory stimulation at 50 Hz, up to 0.5 V. The patient should report concordant pain or pressure at or below threshold.",
+      "safety": "If stimulation reproduces pain at less than 0.5 V, the cannula is near the target nerve. If no response at 0.5 V, reposition.",
+      "teaching": "Sensory stimulation confirms proximity to the medial branch nerve. The patient should feel a deep, aching, or pressure sensation in the usual area of pain, confirming the correct nerve."
+    },
+    {
+      "id": "s7",
+      "phase": "Procedure",
+      "action": "Perform motor stimulation at 2 Hz, up to 1.0 V. Observe for multifidus fasciculation (acceptable) and rule out lower extremity motor response.",
+      "safety": "If lower extremity motor response occurs at less than 2x the sensory threshold, the cannula may be near a ventral ramus. Reposition to avoid motor nerve injury.",
+      "teaching": "Motor stimulation at 2 Hz should produce local multifidus twitching (visible or palpable paraspinal muscle contraction) but NOT limb movement. Limb movement indicates proximity to the ventral ramus or nerve root."
+    },
+    {
+      "id": "s8",
+      "phase": "Procedure",
+      "action": "Anesthetize the target with 0.5-1 mL of 2% lidocaine through the cannula prior to lesioning.",
+      "safety": "Local anesthesia reduces procedural pain during the thermal lesion but may temporarily affect subsequent sensory testing at adjacent levels.",
+      "teaching": "Pre-lesion local anesthesia is standard practice. Some practitioners complete all sensory and motor testing at all levels before anesthetizing any level to avoid cross-contamination."
+    },
+    {
+      "id": "s9",
+      "phase": "Procedure",
+      "action": "Perform conventional thermal RF lesion at 80 degrees C for 90 seconds at each level. Monitor patient throughout.",
+      "safety": "The patient should not experience severe radiating limb pain during lesioning. If this occurs, abort and reposition.",
+      "teaching": "Standard thermal RF creates an oblate spheroid lesion extending laterally from the active tip. At 80 degrees C for 90 seconds with a 10 mm active tip, the lesion is approximately 5-6 mm in diameter."
+    },
+    {
+      "id": "s10",
+      "phase": "Procedure",
+      "action": "Consider creating a second lesion at each level by slightly repositioning the cannula (bipedicular technique or rotating the cannula) to increase lesion coverage.",
+      "safety": "Multiple lesions per level improve success rates but increase tissue disruption. Limit to 2-3 lesions per target.",
+      "teaching": "Studies show that multi-lesion techniques improve denervation success rates from approximately 60% to 80%. The parallel placement technique and slight repositioning help capture anatomic variation in nerve position."
+    },
+    {
+      "id": "s11",
+      "phase": "Post-Procedure",
+      "action": "Remove cannulae and apply bandages. Monitor patient for 20-30 minutes. Prescribe post-procedure analgesics for neuritis pain.",
+      "safety": "Warn patient about expected post-procedure soreness lasting 1-3 weeks (post-denervation neuritis). New radicular symptoms are NOT expected.",
+      "teaching": "Post-RFA neuritis (localized back soreness and stiffness) is common and expected. It typically resolves within 2-3 weeks. Therapeutic benefit from RFA may take 3-6 weeks to fully manifest."
+    },
+    {
+      "id": "s12",
+      "phase": "Post-Procedure",
+      "action": "Schedule follow-up at 4-6 weeks. Document all levels treated, RF parameters, stimulation thresholds, and number of lesions per level.",
+      "safety": "Assess pain relief at follow-up. Successful RFA typically provides 6-12 months of relief before nerve regeneration.",
+      "teaching": "Medial branch nerves regenerate over 6-18 months. When pain returns to pre-RFA levels, repeat diagnostic blocks may be performed, and RFA can be repeated with similar success rates."
+    }
+  ]
+}

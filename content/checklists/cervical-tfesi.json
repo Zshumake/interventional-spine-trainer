@@ -1,0 +1,91 @@
+{
+  "id": "cervical-tfesi",
+  "title": "Cervical Transforaminal Epidural Steroid Injection",
+  "relatedTopic": "cervical-epidurals",
+  "steps": [
+    {
+      "id": "s1",
+      "phase": "Pre-Procedure",
+      "action": "Perform time-out: verify patient identity, procedure, level, laterality, allergies, and anticoagulation status.",
+      "safety": "Cervical TFESI carries higher risk than lumbar due to proximity to the vertebral artery and spinal cord. Ensure informed consent specifically addresses stroke and spinal cord injury risk.",
+      "teaching": "The vertebral artery enters the transverse foramen at C6 and ascends through C2. Radiculomedullary arteries supplying the anterior spinal artery may traverse the cervical foramen."
+    },
+    {
+      "id": "s2",
+      "phase": "Pre-Procedure",
+      "action": "Review MRI/CT to confirm target level. Evaluate foraminal anatomy and vertebral artery position.",
+      "safety": "Identify any anomalous vertebral artery course or foraminal stenosis that may preclude safe needle placement.",
+      "teaching": "Pre-procedure CT angiography may be considered in high-risk cases. An anteriorly positioned vertebral artery increases procedural risk at that level."
+    },
+    {
+      "id": "s3",
+      "phase": "Setup",
+      "action": "Position patient supine with slight neck extension, or lateral decubitus. Place shoulder roll if needed for access.",
+      "safety": "Supine positioning allows patient to communicate and reduces risk of vasovagal events. Ensure IV access for emergency medication.",
+      "teaching": "Many practitioners prefer the oblique/lateral approach with the patient supine for cervical TFESI. This provides an anterior-to-posterior trajectory toward the posterior foramen."
+    },
+    {
+      "id": "s4",
+      "phase": "Setup",
+      "action": "Position C-arm for AP view. Identify target level by counting from C2 (axis). Rotate to ipsilateral oblique to open the foramen.",
+      "safety": "Accurate level identification is critical. Count from the occiput or C2 dens as a landmark.",
+      "teaching": "An oblique angle of 45-60 degrees typically opens the cervical foramen. The target is the posterior aspect of the foramen to avoid the vertebral artery anteriorly."
+    },
+    {
+      "id": "s5",
+      "phase": "Setup",
+      "action": "Select a 25-gauge, 2.5- or 3.5-inch spinal needle. Prepare contrast and non-particulate steroid (dexamethasone only).",
+      "safety": "ONLY non-particulate steroid (dexamethasone) should be used for cervical transforaminal injections. Particulate steroids are absolutely contraindicated.",
+      "teaching": "Multiple case reports document catastrophic outcomes (cerebellar and spinal cord infarction) from particulate steroids in cervical TFESI via radiculomedullary artery embolization."
+    },
+    {
+      "id": "s6",
+      "phase": "Procedure",
+      "action": "In the oblique view, advance the needle toward the posterior-superior aspect of the target foramen using an anterolateral approach.",
+      "safety": "The target is the posterior foramen only. Never advance into the anterior foramen where the vertebral artery lies.",
+      "teaching": "The posterior approach targets the space between the superior articular process posteriorly and the uncinate process anteriorly, staying posterior to the exiting nerve root."
+    },
+    {
+      "id": "s7",
+      "phase": "Procedure",
+      "action": "Check AP and lateral views to confirm needle position: tip should be at the lateral aspect of the foramen, not past the midline of the articular pillars.",
+      "safety": "On AP view, the needle tip should not cross the midpoint of the articular pillar. On lateral, it should remain in the posterior foramen.",
+      "teaching": "Multi-planar confirmation is essential for safe cervical TFESI. The lateral view distinguishes posterior from anterior foraminal position."
+    },
+    {
+      "id": "s8",
+      "phase": "Procedure",
+      "action": "Perform digital subtraction angiography (DSA) or real-time fluoroscopy during 0.3-0.5 mL contrast injection.",
+      "safety": "DSA is strongly recommended for cervical TFESI to detect vascular uptake. If vascular pattern is seen, reposition before injecting steroid.",
+      "teaching": "DSA subtracts the bony background and highlights vascular patterns that may be missed on standard fluoroscopy. A positive DSA showing arterial uptake mandates needle repositioning."
+    },
+    {
+      "id": "s9",
+      "phase": "Procedure",
+      "action": "Confirm epidural contrast pattern: nerve root sleeve outline with medial epidural spread.",
+      "safety": "Abort the procedure if adequate epidural spread cannot be confirmed or if the patient develops new neurological symptoms.",
+      "teaching": "Proper cervical epidural spread shows contrast along the nerve root and into the ventral epidural space. A periosteal pattern suggests subperiosteal placement requiring repositioning."
+    },
+    {
+      "id": "s10",
+      "phase": "Procedure",
+      "action": "Inject 0.5-1 mL dexamethasone (10 mg/mL). Total injectate volume should not exceed 1-1.5 mL.",
+      "safety": "Inject slowly with continuous patient communication. Stop immediately if the patient reports any new symptoms (dizziness, visual changes, weakness).",
+      "teaching": "Small volumes are critical in cervical TFESI to avoid compressive effects on the spinal cord. Dexamethasone 10 mg/mL provides therapeutic effect with lower risk."
+    },
+    {
+      "id": "s11",
+      "phase": "Post-Procedure",
+      "action": "Remove needle and monitor patient for at least 30 minutes. Perform focused neurological exam before discharge.",
+      "safety": "Assess grip strength, upper extremity sensation, and gait before discharge. Any new deficit requires immediate evaluation.",
+      "teaching": "Delayed onset of neurological deficits (minutes to hours) may indicate epidural hematoma or vascular injury requiring emergent MRI and possible surgical decompression."
+    },
+    {
+      "id": "s12",
+      "phase": "Post-Procedure",
+      "action": "Document procedure details including DSA findings, contrast pattern, injectate, fluoroscopy time, and neurological exam.",
+      "safety": "Document the use of non-particulate steroid and DSA to demonstrate adherence to safety standards.",
+      "teaching": "Documentation of safety measures (DSA, non-particulate steroid, multi-view confirmation) is essential for medicolegal protection in cervical TFESI."
+    }
+  ]
+}

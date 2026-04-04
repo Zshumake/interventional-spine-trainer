@@ -101,6 +101,46 @@ export interface DecisionOption {
   rationale: string;
 }
 
+// Complication simulator types (R8)
+export interface ComplicationScenario {
+  id: string;
+  title: string;
+  procedure: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  setup: string;
+  trigger: string;
+  timeLimit: number; // seconds per decision
+  decisions: ComplicationDecision[];
+}
+
+export interface ComplicationDecision {
+  id: string;
+  prompt: string;
+  options: ComplicationOption[];
+}
+
+export interface ComplicationOption {
+  label: string;
+  correct: boolean;
+  feedback: string;
+}
+
+// Procedure checklist types (R9)
+export interface ChecklistStep {
+  id: string;
+  phase: "Pre-Procedure" | "Setup" | "Procedure" | "Post-Procedure";
+  action: string;
+  safety: string;
+  teaching: string;
+}
+
+export interface ProcedureChecklist {
+  id: string;
+  title: string;
+  relatedTopic: string;
+  steps: ChecklistStep[];
+}
+
 // User progress types
 export interface StudyProgressRecord {
   topicId: string;

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { Topic, QuizBank, CaseSimulation, DecisionPathway } from "@/types";
+import type { Topic, QuizBank, CaseSimulation, DecisionPathway, ProcedureChecklist, ComplicationScenario } from "@/types";
 
 const contentDir = path.join(process.cwd(), "content");
 
@@ -68,6 +68,38 @@ export function getAllPathways(): DecisionPathway[] {
 export function getPathwayById(id: string): DecisionPathway | null {
   const pathways = getAllPathways();
   return pathways.find((p) => p.id === id) ?? null;
+}
+
+export function getAllChecklists(): ProcedureChecklist[] {
+  const checklistsDir = path.join(contentDir, "checklists");
+  if (!fs.existsSync(checklistsDir)) return [];
+
+  const files = fs.readdirSync(checklistsDir).filter((f) => f.endsWith(".json"));
+  return files.map((file) => {
+    const raw = fs.readFileSync(path.join(checklistsDir, file), "utf-8");
+    return JSON.parse(raw) as ProcedureChecklist;
+  });
+}
+
+export function getChecklistById(id: string): ProcedureChecklist | null {
+  const checklists = getAllChecklists();
+  return checklists.find((c) => c.id === id) ?? null;
+}
+
+export function getAllComplications(): ComplicationScenario[] {
+  const complicationsDir = path.join(contentDir, "complications");
+  if (!fs.existsSync(complicationsDir)) return [];
+
+  const files = fs.readdirSync(complicationsDir).filter((f) => f.endsWith(".json"));
+  return files.map((file) => {
+    const raw = fs.readFileSync(path.join(complicationsDir, file), "utf-8");
+    return JSON.parse(raw) as ComplicationScenario;
+  });
+}
+
+export function getComplicationById(id: string): ComplicationScenario | null {
+  const complications = getAllComplications();
+  return complications.find((c) => c.id === id) ?? null;
 }
 
 export function searchContent(query: string): Array<{

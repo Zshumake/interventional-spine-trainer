@@ -1,0 +1,77 @@
+{
+  "id": "caudal-epidural",
+  "title": "Caudal Epidural Steroid Injection",
+  "relatedTopic": "interlaminar-caudal-epidurals",
+  "steps": [
+    {
+      "id": "s1",
+      "phase": "Pre-Procedure",
+      "action": "Perform time-out: verify patient identity, procedure, allergies, and anticoagulation status.",
+      "safety": "Caudal approach avoids direct needle contact with thecal sac but has higher infection risk due to proximity to the sacral hiatus.",
+      "teaching": "The caudal approach enters the epidural space through the sacral hiatus. It is useful for bilateral lower lumbar and sacral pathology, and in patients with prior lumbar surgery."
+    },
+    {
+      "id": "s2",
+      "phase": "Pre-Procedure",
+      "action": "Review imaging. Palpate the sacral hiatus to assess anatomy. Note any pilonidal cyst or skin abnormalities.",
+      "safety": "Avoid the procedure if there is active skin infection near the sacral hiatus or pilonidal disease.",
+      "teaching": "The sacral hiatus is formed by the unfused S5 (and sometimes S4) laminae. The sacral cornua are palpable landmarks flanking the hiatus."
+    },
+    {
+      "id": "s3",
+      "phase": "Setup",
+      "action": "Position patient prone with pillow under the pelvis to flex the hips and expose the sacral hiatus.",
+      "safety": "Ensure sterile prep extends widely around the gluteal cleft. This area has higher bacterial colonization.",
+      "teaching": "Hip flexion tilts the pelvis and makes the sacral hiatus more prominent. The hiatus is located approximately at the level of the posterior superior iliac spines."
+    },
+    {
+      "id": "s4",
+      "phase": "Setup",
+      "action": "Obtain lateral fluoroscopic view to visualize the sacral canal and hiatus. Identify the sacral cornua.",
+      "safety": "Lateral view is the primary working view for caudal epidurals. Confirm the needle trajectory is within the sacral canal.",
+      "teaching": "On lateral fluoroscopy, the sacral canal appears as a lucent line between the dorsal and ventral sacral plates. The sacrococcygeal membrane covers the hiatus."
+    },
+    {
+      "id": "s5",
+      "phase": "Procedure",
+      "action": "Select a 22-gauge spinal needle or 20-gauge short-bevel needle. Insert through the sacrococcygeal membrane at ~45-degree angle, then flatten to advance into the sacral canal.",
+      "safety": "Initial steep angle penetrates the membrane, then flatten to avoid penetrating the ventral sacral plate. Advance only 1-2 cm past the membrane.",
+      "teaching": "The sacrococcygeal membrane gives a characteristic 'pop' or 'give' upon puncture. Over-advancement risks anterior dural puncture or penetration into the presacral space."
+    },
+    {
+      "id": "s6",
+      "phase": "Procedure",
+      "action": "Confirm needle position on AP view (midline within the sacral canal) and lateral view (within the sacral canal, below the S3 level).",
+      "safety": "The thecal sac typically ends at S2. Do not advance the needle above the S3 level to avoid dural puncture.",
+      "teaching": "In adults, the thecal sac ends at approximately the S2 level. In some individuals, it may extend to S3. Keeping the needle below S3 provides a safety margin."
+    },
+    {
+      "id": "s7",
+      "phase": "Procedure",
+      "action": "Inject 2-3 mL of contrast under live fluoroscopy. Confirm epidural spread pattern ascending the sacral canal.",
+      "safety": "Absence of epidural spread suggests subcutaneous or presacral placement. If contrast outlines individual nerve roots (myelogram pattern), needle is intrathecal.",
+      "teaching": "Caudal epidural contrast typically shows a linear, smooth pattern ascending the sacral canal, often with a 'railroad track' appearance on AP view."
+    },
+    {
+      "id": "s8",
+      "phase": "Procedure",
+      "action": "Inject injectate: 6-10 mL total volume including steroid (triamcinolone 80 mg or dexamethasone 10 mg) and preservative-free normal saline.",
+      "safety": "Larger volumes are needed for caudal to reach the lower lumbar epidural space. Inject slowly to avoid excessive pressure.",
+      "teaching": "The caudal approach requires larger volumes (6-10 mL) compared to interlaminar (2-3 mL) or transforaminal (1.5-2 mL) because the injectate must traverse the sacral canal to reach the target level."
+    },
+    {
+      "id": "s9",
+      "phase": "Post-Procedure",
+      "action": "Remove needle and apply sterile bandage. Monitor for 20-30 minutes.",
+      "safety": "Assess lower extremity strength and sensation. Larger injectate volumes may cause temporary motor block.",
+      "teaching": "Transient lower extremity weakness or numbness is more common after caudal injections due to the larger volumes bathing the sacral nerve roots."
+    },
+    {
+      "id": "s10",
+      "phase": "Post-Procedure",
+      "action": "Document procedure details: needle type, fluoroscopic confirmation, contrast pattern, injectate volume and composition.",
+      "safety": "Document the level of contrast spread (which vertebral levels were covered) to guide future treatment decisions.",
+      "teaching": "If contrast does not reach the target level, the procedure may have reduced efficacy. Documentation helps guide repeat procedure planning."
+    }
+  ]
+}

@@ -12,6 +12,9 @@ import {
   GitBranch,
   Activity,
   ClipboardList,
+  Eye,
+  ListChecks,
+  AlertTriangle,
 } from "lucide-react";
 import {
   Sidebar,
@@ -51,6 +54,9 @@ const NAV_ITEMS = [
   { href: "/pathways", label: "Pathways", icon: GitBranch },
   { href: "/cases", label: "Cases", icon: Stethoscope },
   { href: "/progress", label: "Progress", icon: BarChart3 },
+  { href: "/complications", label: "Complications", icon: AlertTriangle },
+  { href: "/checklists", label: "Checklists", icon: ListChecks },
+  { href: "/patterns", label: "Patterns", icon: Eye },
   { href: "/reference", label: "Reference", icon: ClipboardList },
 ];
 

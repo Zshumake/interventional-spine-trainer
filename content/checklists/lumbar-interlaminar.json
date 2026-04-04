@@ -1,0 +1,77 @@
+{
+  "id": "lumbar-interlaminar",
+  "title": "Lumbar Interlaminar Epidural Steroid Injection",
+  "relatedTopic": "interlaminar-caudal-epidurals",
+  "steps": [
+    {
+      "id": "s1",
+      "phase": "Pre-Procedure",
+      "action": "Perform time-out: verify patient identity, procedure, level, allergies, and anticoagulation status.",
+      "safety": "Review coagulation status per ASRA guidelines. Interlaminar approach has higher risk of epidural hematoma than transforaminal.",
+      "teaching": "The interlaminar approach accesses the dorsal epidural space. It is less selective than transforaminal but may provide bilateral coverage for central pathology."
+    },
+    {
+      "id": "s2",
+      "phase": "Pre-Procedure",
+      "action": "Review imaging to identify target interlaminar level and assess for ligamentum flavum hypertrophy or epidural lipomatosis.",
+      "safety": "Avoid levels with prior laminectomy where the ligamentum flavum may be absent, increasing dural puncture risk.",
+      "teaching": "At post-laminectomy levels, the protective ligamentum flavum barrier is disrupted. Consider an adjacent intact level or contralateral paramedian approach."
+    },
+    {
+      "id": "s3",
+      "phase": "Setup",
+      "action": "Position patient prone with pillow under the abdomen. Prep and drape the lumbar region.",
+      "safety": "Ensure adequate monitoring and IV access. Have resuscitation equipment available.",
+      "teaching": "The prone position with abdominal support reduces epidural venous engorgement by decreasing intra-abdominal pressure, reducing bleeding risk."
+    },
+    {
+      "id": "s4",
+      "phase": "Setup",
+      "action": "Set up C-arm in AP view with squared endplates. Identify the target interlaminar space and mark skin entry point.",
+      "safety": "Use a paramedian or midline approach based on the interlaminar window size. Narrow windows may require contralateral oblique.",
+      "teaching": "The contralateral oblique view can open a narrow interlaminar window by rotating the beam away from the target side, effectively widening the apparent gap between laminae."
+    },
+    {
+      "id": "s5",
+      "phase": "Procedure",
+      "action": "Select a 17- or 18-gauge Tuohy needle (or 20-gauge for thinner patients). Advance to the ligamentum flavum using intermittent fluoroscopy.",
+      "safety": "The Tuohy needle has a curved tip designed to tent the dura rather than puncture it. Advance with bevel facing cephalad.",
+      "teaching": "The ligamentum flavum is typically 3-5 mm thick in the lumbar spine and provides a distinct change in resistance (loss of resistance technique)."
+    },
+    {
+      "id": "s6",
+      "phase": "Procedure",
+      "action": "Perform loss-of-resistance (LOR) technique with saline or air to identify the epidural space.",
+      "safety": "Use gentle, controlled pressure. A sudden loss of resistance confirms epidural entry. Aspirate to check for CSF or blood.",
+      "teaching": "LOR to saline is preferred by many practitioners as air can cause pneumocephalus or patchy block. The hanging-drop technique is an alternative."
+    },
+    {
+      "id": "s7",
+      "phase": "Procedure",
+      "action": "Confirm needle depth on lateral fluoroscopy: the tip should be at the dorsal epidural space, posterior to the posterior vertebral body line.",
+      "safety": "If CSF is aspirated, the needle has penetrated the dura. Remove and either abort or reattempt at a different level.",
+      "teaching": "On lateral view, the ventral epidural space lies between the posterior vertebral body line and the thecal sac. The dorsal space is between the thecal sac and the ligamentum flavum."
+    },
+    {
+      "id": "s8",
+      "phase": "Procedure",
+      "action": "Inject 1-2 mL of contrast to confirm epidural spread and exclude intrathecal or intravascular placement.",
+      "safety": "Intrathecal contrast will show a myelogram pattern (outlining nerve roots within the thecal sac). Epidural contrast hugs the dorsal sac.",
+      "teaching": "Epidural contrast spreads in a characteristic 'Christmas tree' pattern on AP view, with streaks along nerve root sleeves bilaterally."
+    },
+    {
+      "id": "s9",
+      "phase": "Procedure",
+      "action": "Inject injectate: typically 80 mg triamcinolone or 80 mg methylprednisolone in 2-3 mL total volume with preservative-free saline.",
+      "safety": "Particulate steroids may be used for interlaminar approach as the needle is posterior to the epidural vasculature.",
+      "teaching": "Unlike transforaminal, the interlaminar needle tip is in the dorsal epidural space, distant from the radiculomedullary arteries, making particulate steroids acceptable."
+    },
+    {
+      "id": "s10",
+      "phase": "Post-Procedure",
+      "action": "Remove needle and monitor patient for 20-30 minutes. Assess for headache (dural puncture), new weakness, or hypotension.",
+      "safety": "Post-dural puncture headache (PDPH) presents as positional headache worse when upright. If suspected, consider epidural blood patch.",
+      "teaching": "PDPH risk is higher with larger gauge needles and multiple attempts. Onset is typically within 24-48 hours of the procedure."
+    }
+  ]
+}

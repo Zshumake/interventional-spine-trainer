@@ -1,0 +1,89 @@
+{
+  "id": "vascular-uptake",
+  "title": "Vascular Uptake During TFESI",
+  "procedure": "Transforaminal Epidural Steroid Injection",
+  "difficulty": "intermediate",
+  "setup": "You are performing a right L5 transforaminal epidural steroid injection on a 55-year-old male with L5-S1 disc herniation and right L5 radiculopathy. The patient is prone on the fluoroscopy table. You have obtained a satisfactory oblique view and advanced a 22-gauge spinal needle to the 6 o'clock position of the right L5 pedicle. You are now injecting contrast under live fluoroscopy.",
+  "trigger": "On live fluoroscopy, the contrast flows rapidly away from the needle tip in a vascular pattern, outlining blood vessels rather than spreading along the nerve root or into the epidural space. You observe real-time vascular uptake.",
+  "timeLimit": 30,
+  "decisions": [
+    {
+      "id": "d1-immediate-action",
+      "prompt": "You have confirmed intravascular needle placement with real-time vascular uptake on live fluoroscopy. What is your immediate next step?",
+      "options": [
+        {
+          "label": "Stop injecting and reposition the needle",
+          "correct": true,
+          "feedback": "Correct. When vascular uptake is identified, you must stop injecting contrast immediately and reposition the needle. Continuing to inject could result in intravascular delivery of steroid (particularly dangerous with particulate steroids), risking embolization and potentially catastrophic neurologic injury including spinal cord infarction."
+        },
+        {
+          "label": "Continue injecting more contrast to confirm the pattern",
+          "correct": false,
+          "feedback": "Incorrect. You should never continue injecting once vascular uptake is identified. Additional contrast injection into the vasculature is unnecessary and wastes contrast volume. The vascular pattern is already confirmed."
+        },
+        {
+          "label": "Proceed with steroid injection since the needle is near the target",
+          "correct": false,
+          "feedback": "Incorrect. This is dangerous. Injecting particulate steroid into an artery (such as the radicular artery) can cause embolization leading to spinal cord infarction, paraplegia, or even death. You must confirm epidural spread before injecting steroid."
+        },
+        {
+          "label": "Remove the needle entirely and abandon the procedure",
+          "correct": false,
+          "feedback": "Incorrect. Vascular uptake is common (reported in up to 20-25% of TFESIs) and does not require aborting the procedure. Repositioning the needle slightly (often just a few millimeters) and re-confirming with contrast is the standard approach."
+        }
+      ]
+    },
+    {
+      "id": "d2-repositioning",
+      "prompt": "You have stopped injecting. How should you reposition the needle?",
+      "options": [
+        {
+          "label": "Withdraw the needle 1-2 mm, rotate slightly, and re-inject contrast under live fluoroscopy",
+          "correct": true,
+          "feedback": "Correct. Small adjustments (withdrawing 1-2 mm, slight rotation) are usually sufficient to move the needle tip away from the vessel. Always re-confirm with contrast injection under live fluoroscopy (not static spot images) to verify epidural spread before injecting any medication."
+        },
+        {
+          "label": "Advance the needle deeper toward the foramen",
+          "correct": false,
+          "feedback": "Incorrect. Advancing deeper increases the risk of entering the spinal canal, puncturing the dural sleeve, or contacting the nerve root. The typical repositioning is to withdraw slightly and redirect."
+        },
+        {
+          "label": "Switch to the opposite side approach",
+          "correct": false,
+          "feedback": "Incorrect. Switching sides is unnecessary. The vascular uptake is a local needle position issue. Simple repositioning at the same level is usually effective."
+        },
+        {
+          "label": "Inject saline to flush the vessel and then inject steroid",
+          "correct": false,
+          "feedback": "Incorrect. Flushing with saline does not ensure the needle has moved out of the vessel. You must physically reposition the needle and re-confirm proper epidural spread with contrast."
+        }
+      ]
+    },
+    {
+      "id": "d3-steroid-choice",
+      "prompt": "After successful repositioning, you see appropriate epidural spread along the L5 nerve root. Given that this patient initially had vascular uptake, which steroid formulation is safest?",
+      "options": [
+        {
+          "label": "Dexamethasone (non-particulate steroid)",
+          "correct": true,
+          "feedback": "Correct. Non-particulate steroids like dexamethasone are recommended for transforaminal epidurals, especially when vascular uptake has been encountered. The FDA issued a warning in 2014 about particulate steroids in transforaminal injections. If a particulate steroid embolizes, it can occlude small arteries supplying the spinal cord, causing catastrophic injury."
+        },
+        {
+          "label": "Triamcinolone (particulate steroid)",
+          "correct": false,
+          "feedback": "Incorrect. Triamcinolone is a particulate steroid. While some practitioners use particulate steroids for lumbar transforaminal injections, the safest choice (particularly after documented vascular uptake) is a non-particulate steroid like dexamethasone."
+        },
+        {
+          "label": "Methylprednisolone (particulate steroid)",
+          "correct": false,
+          "feedback": "Incorrect. Methylprednisolone (Depo-Medrol) is a particulate steroid with large particle sizes. It carries significant risk of vascular occlusion if inadvertently injected intravascularly and should generally be avoided for transforaminal approaches."
+        },
+        {
+          "label": "Betamethasone (particulate steroid)",
+          "correct": false,
+          "feedback": "Incorrect. While betamethasone has smaller particles than some other particulate steroids, dexamethasone remains the safest choice for transforaminal epidurals, particularly when vascular uptake has been documented."
+        }
+      ]
+    }
+  ]
+}

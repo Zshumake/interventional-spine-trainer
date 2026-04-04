@@ -6,8 +6,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getAllTopics, getTopicBySlug } from "@/lib/content";
 import { getTermsForTopic, getAllTerms } from "@/lib/glossary";
 import { getImagesForTopic } from "@/lib/procedure-images";
+import { getVideosForTopic } from "@/data/procedure-videos";
 import { TopicContent } from "@/components/study/topic-content";
 import { ProcedureImages } from "@/components/study/procedure-images";
+import { ProcedureVideos } from "@/components/study/procedure-videos";
 
 export async function generateStaticParams() {
   const topics = getAllTopics();
@@ -38,6 +40,7 @@ export default async function TopicPage({
   ].slice(0, 100); // Cap at 100 terms for performance
 
   const procedureImages = getImagesForTopic(topic.id);
+  const procedureVideos = getVideosForTopic(topic.id);
 
   const sectionIcons: Record<string, React.ReactNode> = {
     technique: <FlaskConical className="h-4 w-4" />,
@@ -57,6 +60,10 @@ export default async function TopicPage({
 
       {procedureImages.length > 0 && (
         <ProcedureImages images={procedureImages} />
+      )}
+
+      {procedureVideos.length > 0 && (
+        <ProcedureVideos videos={procedureVideos} />
       )}
 
       <Tabs defaultValue={topic.sections[0]?.id} className="w-full">

@@ -1,0 +1,89 @@
+{
+  "id": "vasovagal",
+  "title": "Vasovagal Episode During Prone Procedure",
+  "procedure": "Lumbar Medial Branch Block",
+  "difficulty": "beginner",
+  "setup": "You are performing bilateral lumbar medial branch blocks at L3-5 on a 28-year-old anxious male who reports a history of needle phobia. The patient is positioned prone. You have completed the right-sided injections and are beginning the left side. The patient has been cooperative but mentions feeling 'warm and a little dizzy.'",
+  "trigger": "The patient suddenly becomes diaphoretic, pale, and states he 'doesn't feel right.' The pulse oximeter shows heart rate dropping from 78 to 52 bpm. Blood pressure reads 82/50 mmHg (baseline was 128/76). The patient appears on the verge of losing consciousness.",
+  "timeLimit": 20,
+  "decisions": [
+    {
+      "id": "d1-immediate-response",
+      "prompt": "The patient is bradycardic (HR 52) and hypotensive (82/50) while prone on the fluoroscopy table. What is your immediate action?",
+      "options": [
+        {
+          "label": "Stop the procedure, remove any needles, and turn the patient supine with legs elevated (Trendelenburg)",
+          "correct": true,
+          "feedback": "Correct. The immediate priority is to stop the procedure, ensure the airway is accessible, and optimize venous return. Turning the patient supine allows proper airway management and assessment. Elevating the legs (Trendelenburg or passive leg raise) increases venous return and helps restore blood pressure in vasovagal syncope."
+        },
+        {
+          "label": "Keep the patient prone and administer smelling salts",
+          "correct": false,
+          "feedback": "Incorrect. While ammonia inhalants can help with mild vasovagal episodes, the patient has significant hemodynamic compromise (HR 52, BP 82/50). Keeping the patient prone limits your ability to manage the airway and perform resuscitative measures if needed."
+        },
+        {
+          "label": "Administer atropine immediately without repositioning",
+          "correct": false,
+          "feedback": "Incorrect. While atropine may be indicated for symptomatic bradycardia, the first step should be positioning (supine, legs elevated) and basic supportive care. Most vasovagal episodes resolve with positioning alone. Atropine should be considered if bradycardia persists despite conservative measures."
+        },
+        {
+          "label": "Continue the procedure quickly to finish before the patient deteriorates further",
+          "correct": false,
+          "feedback": "Incorrect. Never continue a procedure on a hemodynamically unstable patient. Patient safety takes priority over completing the procedure. The remaining injections can be performed at a later date."
+        }
+      ]
+    },
+    {
+      "id": "d2-persistent-symptoms",
+      "prompt": "You have turned the patient supine with legs elevated. After 2 minutes, HR is 48 bpm and BP is 78/46. The patient is conscious but feels faint. IV access is established. What is your next step?",
+      "options": [
+        {
+          "label": "Administer IV atropine 0.5 mg and IV fluid bolus",
+          "correct": true,
+          "feedback": "Correct. Persistent symptomatic bradycardia and hypotension despite positioning warrants pharmacologic intervention. IV atropine 0.5 mg is first-line for symptomatic bradycardia. A rapid IV fluid bolus (250-500 mL normal saline) helps restore intravascular volume and blood pressure."
+        },
+        {
+          "label": "Administer epinephrine 1 mg IV push",
+          "correct": false,
+          "feedback": "Incorrect. Epinephrine 1 mg IV push is the dose for cardiac arrest (pulseless rhythms). The patient has a pulse and is conscious. This dose would cause severe tachycardia, hypertension, and potentially dangerous arrhythmias. If vasopressors are needed, low-dose epinephrine or phenylephrine would be more appropriate."
+        },
+        {
+          "label": "Continue to observe with legs elevated for another 10 minutes",
+          "correct": false,
+          "feedback": "Incorrect. While many vasovagal episodes resolve with positioning, this patient has persistent symptomatic bradycardia and worsening hypotension after 2 minutes of positioning. Active intervention is warranted to prevent progression to syncope or cardiac arrest."
+        },
+        {
+          "label": "Call a code blue immediately",
+          "correct": false,
+          "feedback": "Incorrect. The patient is conscious with a pulse. While you should be prepared to escalate, a code blue is premature. However, you should have emergency equipment nearby and be ready to activate emergency response if the patient deteriorates to unresponsiveness or pulselessness."
+        }
+      ]
+    },
+    {
+      "id": "d3-disposition",
+      "prompt": "After atropine and IV fluids, the patient's HR is 72 and BP is 118/70. He feels much better. How do you manage the remainder of the visit?",
+      "options": [
+        {
+          "label": "Monitor for at least 30 minutes, complete documentation, counsel the patient, and arrange follow-up to complete remaining injections",
+          "correct": true,
+          "feedback": "Correct. After resolution of a significant vasovagal episode, extended monitoring (at least 30 minutes) ensures the patient is hemodynamically stable before discharge. Document the event thoroughly. Counsel the patient about the vasovagal response and discuss strategies for future procedures (premedication with anxiolytic, IV hydration, avoiding fasting). The remaining left-sided blocks can be completed at a separate visit."
+        },
+        {
+          "label": "Resume the procedure immediately to complete the left-sided blocks",
+          "correct": false,
+          "feedback": "Incorrect. After a significant vasovagal episode requiring pharmacologic intervention, resuming the procedure is not appropriate. The patient's autonomic system is still recovering, and additional needle sticks could trigger another vasovagal episode."
+        },
+        {
+          "label": "Discharge the patient immediately since vitals have normalized",
+          "correct": false,
+          "feedback": "Incorrect. The patient received atropine and IV fluids for a hemodynamically significant vasovagal episode. A monitoring period is required to ensure sustained recovery and watch for recurrence. Early discharge is premature."
+        },
+        {
+          "label": "Transfer to the emergency department for cardiac monitoring",
+          "correct": false,
+          "feedback": "Incorrect. A vasovagal episode that resolves with standard treatment does not typically require ED transfer or cardiac monitoring. The mechanism (vagal response to pain/anxiety) is benign. However, if there were concerns about a cardiac etiology or persistent symptoms, further evaluation would be warranted."
+        }
+      ]
+    }
+  ]
+}

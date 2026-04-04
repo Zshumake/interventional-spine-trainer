@@ -1,0 +1,89 @@
+{
+  "id": "epidural-hematoma",
+  "title": "Post-Procedure Epidural Hematoma",
+  "procedure": "Interlaminar Epidural Steroid Injection",
+  "difficulty": "advanced",
+  "setup": "You performed a lumbar interlaminar epidural steroid injection at L3-4 on a 68-year-old male with spinal stenosis. The patient is on apixaban 5 mg BID for atrial fibrillation. Per your facility protocol and ASRA guidelines, apixaban was held for 3 days prior to the procedure. The procedure itself was unremarkable with good epidural contrast spread and no complications noted.",
+  "trigger": "Two hours after the procedure, the recovery nurse calls you urgently. The patient, who initially had normal post-procedure neurologic exam, is now reporting rapidly progressive bilateral leg weakness and numbness. He is unable to lift his legs off the stretcher. He also reports difficulty with urination. The symptoms developed over the past 30 minutes and are worsening.",
+  "timeLimit": 20,
+  "decisions": [
+    {
+      "id": "d1-recognition",
+      "prompt": "The patient has rapidly progressive bilateral lower extremity weakness, numbness, and urinary retention developing 2 hours after an interlaminar epidural. What is the most likely diagnosis and immediate priority?",
+      "options": [
+        {
+          "label": "Spinal epidural hematoma with cauda equina compression; this is a neurosurgical emergency requiring immediate imaging",
+          "correct": true,
+          "feedback": "Correct. Rapidly progressive bilateral weakness with bowel/bladder dysfunction after a neuraxial procedure is a spinal epidural hematoma until proven otherwise. This is a true neurosurgical emergency. Time to decompression directly correlates with neurologic outcome. Studies show that decompressive laminectomy within 12 hours (ideally within 8 hours) of symptom onset gives the best chance of neurologic recovery."
+        },
+        {
+          "label": "Local anesthetic effect from the epidural injection; observe for resolution",
+          "correct": false,
+          "feedback": "Incorrect. While local anesthetic motor block can occur after epidural injection, this patient's symptoms are worsening 2 hours post-procedure, not improving. Progressive bilateral weakness with bladder involvement is an emergency finding that cannot be attributed to local anesthetic effect without emergent imaging to rule out hematoma."
+        },
+        {
+          "label": "Worsening spinal stenosis symptoms; schedule an outpatient MRI",
+          "correct": false,
+          "feedback": "Incorrect. Acute-onset progressive bilateral weakness with bladder involvement is not consistent with chronic spinal stenosis progression. This pattern of rapidly evolving neurologic deficit after a neuraxial procedure demands emergent evaluation, not outpatient workup."
+        },
+        {
+          "label": "Anxiety and psychogenic weakness; reassure the patient",
+          "correct": false,
+          "feedback": "Incorrect. Dismissing rapidly progressive bilateral weakness after a neuraxial procedure as psychogenic is dangerous. This presentation must be treated as a spinal epidural hematoma until proven otherwise. Delay in diagnosis can lead to permanent paralysis."
+        }
+      ]
+    },
+    {
+      "id": "d2-imaging-and-action",
+      "prompt": "You suspect spinal epidural hematoma. What imaging and consultations should you order immediately?",
+      "options": [
+        {
+          "label": "STAT MRI of the lumbar spine and immediate neurosurgery consultation",
+          "correct": true,
+          "feedback": "Correct. MRI is the gold standard for diagnosing spinal epidural hematoma. Order a STAT MRI (not routine) and contact neurosurgery simultaneously -- do not wait for imaging results before calling. If MRI is unavailable or will be delayed, CT myelography is an alternative. Communicate the urgency: this patient may need emergent decompressive laminectomy."
+        },
+        {
+          "label": "CT scan of the lumbar spine without contrast",
+          "correct": false,
+          "feedback": "Incorrect. While CT can sometimes identify an epidural hematoma, MRI is far more sensitive and is the imaging modality of choice. A non-contrast CT may miss the hematoma. If MRI is absolutely unavailable, CT myelography (not plain CT) would be the alternative."
+        },
+        {
+          "label": "X-rays of the lumbar spine and neurology consultation",
+          "correct": false,
+          "feedback": "Incorrect. Plain X-rays cannot visualize an epidural hematoma. While neurology may be helpful, the primary consultation needed is neurosurgery for potential emergent decompression. Do not delay appropriate imaging and surgical consultation."
+        },
+        {
+          "label": "Repeat the epidural injection to provide additional steroid and analgesia",
+          "correct": false,
+          "feedback": "Incorrect. Performing another neuraxial procedure on a patient with suspected epidural hematoma is contraindicated and dangerous. This could worsen bleeding and compress the neural elements further."
+        }
+      ]
+    },
+    {
+      "id": "d3-anticoag-management",
+      "prompt": "MRI confirms a large epidural hematoma at L3-4 with cauda equina compression. The neurosurgeon is preparing for emergent decompressive laminectomy. The patient's apixaban has been held for 3 days. What anticoagulation-related considerations are important?",
+      "options": [
+        {
+          "label": "Check coagulation studies (PT/INR, anti-Xa level), hold anticoagulation perioperatively, and coordinate with cardiology regarding bridging after surgery",
+          "correct": true,
+          "feedback": "Correct. Even though apixaban was held per guidelines, checking coagulation status (anti-factor Xa level for apixaban) confirms adequate clearance. Anticoagulation must remain held through surgery and immediate postoperative period. Coordinate with cardiology regarding when to safely restart anticoagulation, balancing the stroke risk (atrial fibrillation) against rebleeding risk. This is also an important event to report and document for quality improvement."
+        },
+        {
+          "label": "Restart apixaban immediately to prevent stroke from atrial fibrillation",
+          "correct": false,
+          "feedback": "Incorrect. Restarting anticoagulation in a patient with an active epidural hematoma who is going to surgery would worsen bleeding and is contraindicated in the acute setting. Stroke risk must be balanced against surgical bleeding risk, and anticoagulation restart timing should be coordinated with the surgical team."
+        },
+        {
+          "label": "Administer reversal agent (andexanet alfa) before surgery",
+          "correct": false,
+          "feedback": "Incorrect. If apixaban has been appropriately held for 3 days (5 half-lives), reversal is not necessary as the drug should be cleared. Andexanet alfa is indicated when the patient has active drug on board and needs urgent reversal. Checking an anti-Xa level can confirm adequate clearance."
+        },
+        {
+          "label": "No anticoagulation considerations are needed since the drug was held per guidelines",
+          "correct": false,
+          "feedback": "Incorrect. Even when anticoagulation is held per guidelines, complications can still occur (as this case demonstrates). Coagulation studies should be checked, and careful coordination regarding postoperative anticoagulation management is essential. The fact that a hematoma occurred despite holding the drug also warrants investigation (renal function, drug interactions, etc.)."
+        }
+      ]
+    }
+  ]
+}

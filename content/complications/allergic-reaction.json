@@ -1,0 +1,89 @@
+{
+  "id": "allergic-reaction",
+  "title": "Contrast Allergic Reaction During Injection",
+  "procedure": "Transforaminal Epidural Steroid Injection",
+  "difficulty": "advanced",
+  "setup": "You are performing a right L5 transforaminal epidural steroid injection on a 50-year-old female. The patient denied any prior allergies during the pre-procedure screening. You have positioned the needle at the target and begun injecting contrast (iohexol) under live fluoroscopy to confirm epidural spread.",
+  "trigger": "Within 60 seconds of contrast injection, the patient reports generalized itching and a 'lump in her throat.' You notice diffuse urticaria (hives) spreading across her back and arms. Her voice sounds hoarse. Pulse oximetry drops from 98% to 93%. Heart rate increases from 72 to 110 bpm. Blood pressure drops from 130/80 to 90/58 mmHg.",
+  "timeLimit": 20,
+  "decisions": [
+    {
+      "id": "d1-severity",
+      "prompt": "The patient has urticaria, throat tightness with hoarseness, hypotension (90/58), and desaturation (93%) after contrast injection. What is the severity classification and immediate priority?",
+      "options": [
+        {
+          "label": "Severe anaphylaxis; administer intramuscular epinephrine immediately",
+          "correct": true,
+          "feedback": "Correct. This is a severe anaphylactic reaction. The patient has involvement of multiple organ systems: skin (urticaria), respiratory (throat tightness, hoarseness suggesting laryngeal edema, desaturation), and cardiovascular (hypotension, tachycardia). Epinephrine IM (0.3-0.5 mg of 1:1000 concentration in the anterolateral thigh) is the first-line treatment for anaphylaxis and should be given immediately. Delay in epinephrine administration is the most common cause of fatal anaphylaxis."
+        },
+        {
+          "label": "Mild allergic reaction; administer IV diphenhydramine and observe",
+          "correct": false,
+          "feedback": "Incorrect. This is not a mild reaction. The combination of urticaria with airway compromise (hoarseness, throat tightness) and hemodynamic instability (hypotension, tachycardia) indicates severe anaphylaxis. Antihistamines alone are insufficient and will not prevent airway obstruction or cardiovascular collapse. Epinephrine is the life-saving intervention."
+        },
+        {
+          "label": "Moderate allergic reaction; give IV steroids and monitor",
+          "correct": false,
+          "feedback": "Incorrect. IV steroids (like methylprednisolone) are second-line adjuncts but take hours to work. They do not address the immediate life-threatening airway and cardiovascular compromise. Epinephrine is the only first-line treatment for anaphylaxis."
+        },
+        {
+          "label": "Vasovagal reaction; place the patient supine and elevate legs",
+          "correct": false,
+          "feedback": "Incorrect. While positioning is important, this presentation (urticaria, throat tightness, hoarseness) clearly indicates an allergic reaction, not vasovagal syncope. Vasovagal reactions cause bradycardia, not tachycardia, and do not cause urticaria or airway symptoms."
+        }
+      ]
+    },
+    {
+      "id": "d2-treatment-protocol",
+      "prompt": "You have administered IM epinephrine 0.3 mg. What additional interventions should you initiate simultaneously?",
+      "options": [
+        {
+          "label": "Call 911/activate emergency response, place patient supine, establish IV access, administer IV fluids, supplemental oxygen, and prepare for possible repeat epinephrine",
+          "correct": true,
+          "feedback": "Correct. Anaphylaxis management requires a multi-faceted approach: (1) Call 911/activate your facility's emergency response, (2) Position patient supine with legs elevated (if tolerated -- if respiratory distress predominates, semi-upright may be better), (3) High-flow supplemental oxygen, (4) Aggressive IV fluid resuscitation with normal saline for hypotension, (5) Prepare to repeat epinephrine every 5-15 minutes if symptoms persist. Adjuncts include IV diphenhydramine 50 mg, IV famotidine 20 mg, and IV methylprednisolone 125 mg."
+        },
+        {
+          "label": "Wait 15 minutes to see if the epinephrine works before calling for help",
+          "correct": false,
+          "feedback": "Incorrect. Anaphylaxis can progress rapidly to fatal airway obstruction or cardiovascular collapse within minutes. Emergency services should be activated immediately, concurrent with treatment. Do not wait to see if initial treatment is sufficient before calling for help."
+        },
+        {
+          "label": "Administer albuterol nebulizer only and observe",
+          "correct": false,
+          "feedback": "Incorrect. While albuterol can help with bronchospasm (a component of anaphylaxis), it does not address the hypotension, laryngeal edema, or systemic inflammatory response. It is an adjunct, not a primary treatment. The patient needs comprehensive anaphylaxis management."
+        },
+        {
+          "label": "Give IV epinephrine 1 mg push since IM was not strong enough",
+          "correct": false,
+          "feedback": "Incorrect. IV epinephrine 1 mg push (1:1,000) is the cardiac arrest dose and would be extremely dangerous in a patient with a pulse. If IV epinephrine is needed (the patient is not responding to IM), it should be given as a dilute infusion (1:100,000 or 1:10,000) at much lower doses (10-20 mcg IV boluses). IM epinephrine may be repeated at the 0.3-0.5 mg dose every 5-15 minutes."
+        }
+      ]
+    },
+    {
+      "id": "d3-when-to-call-911",
+      "prompt": "If this same patient had presented with only localized urticaria (hives on the back) without any throat symptoms, breathing difficulty, or hemodynamic changes after contrast injection, what would be the appropriate response?",
+      "options": [
+        {
+          "label": "Administer oral or IV diphenhydramine, stop the procedure, monitor closely for 30-60 minutes for any progression to systemic symptoms",
+          "correct": true,
+          "feedback": "Correct. Isolated urticaria without airway or hemodynamic compromise is a mild allergic reaction. Treatment is antihistamines (diphenhydramine 25-50 mg IV or PO) and close observation. Stop the contrast injection and the procedure. Monitor for at least 30-60 minutes because mild reactions can progress to anaphylaxis. Document the reaction and ensure the patient is flagged for contrast allergy for future procedures."
+        },
+        {
+          "label": "Give IM epinephrine immediately since any allergic reaction can become fatal",
+          "correct": false,
+          "feedback": "Incorrect. Epinephrine is reserved for moderate-to-severe anaphylaxis (respiratory or cardiovascular compromise). Isolated urticaria without systemic symptoms should be treated with antihistamines and observation. Giving epinephrine for mild urticaria exposes the patient to unnecessary risk (tachycardia, hypertension, anxiety)."
+        },
+        {
+          "label": "Continue the procedure since hives are a minor side effect of contrast",
+          "correct": false,
+          "feedback": "Incorrect. Any allergic reaction to contrast, even mild urticaria, should prompt stopping the procedure. The reaction may progress, and continuing contrast injection could worsen it. The patient should be monitored and the reaction documented."
+        },
+        {
+          "label": "Call 911 immediately for any allergic reaction",
+          "correct": false,
+          "feedback": "Incorrect. For isolated mild urticaria that is stable and responding to antihistamines, activating emergency services is not necessary. However, if the reaction progresses to involve airway, breathing, or circulation, then emergency activation is appropriate."
+        }
+      ]
+    }
+  ]
+}
