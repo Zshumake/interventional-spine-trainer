@@ -1,0 +1,232 @@
+{
+  "topicId": "interlaminar-caudal-epidurals",
+  "questions": [
+    {
+      "id": "ilce-001",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 62-year-old with bilateral L4-5 central stenosis and bilateral lower extremity radiculopathy has failed 6 weeks of conservative therapy. Which epidural approach is most appropriate?",
+      "options": [
+        "Right L5-S1 transforaminal",
+        "L4-5 interlaminar",
+        "L4-5 caudal",
+        "Bilateral L5-S1 transforaminal injections"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Unilateral TFESI is optimal for unilateral radiculopathy. Bilateral symptoms with central stenosis are a primary indication for interlaminar epidural, which provides bilateral epidural spread from a single injection.",
+        "2": "Caudal approach at L4-5 would require high volumes (10+ mL) to reach the target, with less predictable spread to the pathology. Interlaminar at the level of stenosis is more direct.",
+        "3": "Bilateral TFESIs require two separate needle placements and still primarily deliver medication to the ventral epidural space. Interlaminar provides bilateral dorsal-to-ventral coverage from a single injection for central stenosis."
+      },
+      "explanation": "Bilateral symptoms with central spinal stenosis are a primary indication for interlaminar epidural. This approach provides bilateral epidural spread from a single injection point. TFESI is preferred for unilateral radiculopathy, but when pathology affects both sides with central canal narrowing, interlaminar delivers medication more broadly across the epidural space.",
+      "comparisonTable": {
+        "headers": ["Clinical Scenario", "Preferred Approach", "Rationale"],
+        "rows": [
+          ["Unilateral radiculopathy", "TFESI", ">90% ventral spread, target specificity"],
+          ["Bilateral symptoms / central stenosis", "Interlaminar", "Bilateral coverage from single injection"],
+          ["Post-laminectomy", "Caudal", "Avoids scarred epidural space"],
+          ["S1 radiculopathy with hardware", "Caudal", "Safe access below surgical anatomy"]
+        ]
+      },
+      "educationalObjective": "Interlaminar epidural is preferred for bilateral radicular symptoms and central stenosis because it provides bilateral epidural coverage from a single injection."
+    },
+    {
+      "id": "ilce-002",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Per IPSIS, what does the ventral interlaminar line (VILL) represent on contralateral oblique (CLO) imaging during an interlaminar epidural?",
+      "options": [
+        "The posterior border of the spinal canal",
+        "The earliest expected location of loss of resistance",
+        "The termination of the ligamentum flavum at midline",
+        "The depth at which the dura is contacted"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The VILL is not the posterior border of the spinal canal. It connects the anterior margins of consecutive laminae.",
+        "2": "The VILL is a line connecting anterior laminar margins on CLO imaging, not a marker of midline ligamentum flavum anatomy.",
+        "3": "The VILL marks expected epidural entry via loss of resistance, not dural contact. The dura lies deeper (more ventral) than the VILL."
+      },
+      "explanation": "The VILL (ventral interlaminar line) connects the anterior margins of consecutive laminae as seen on contralateral oblique imaging. Per IPSIS, this line represents the earliest expected location of loss of resistance during an interlaminar epidural approach. If the needle advances 1-2 mm past the VILL without LOR, the clinician should check additional views and inject contrast to confirm position.",
+      "educationalObjective": "The VILL on CLO imaging represents the earliest expected location of loss of resistance and serves as a critical depth reference during interlaminar epidural access."
+    },
+    {
+      "id": "ilce-003",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Loss-of-resistance technique alone, without fluoroscopic guidance, is sufficient for safe interlaminar epidural access.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "LOR without imaging leads to incorrect placement in 25-40% of cases per published data. False LOR can occur in the space of Okada or through midline ligamentum flavum gaps. IPSIS and SIS both require fluoroscopic guidance with contrast confirmation for all epidural procedures."
+      },
+      "explanation": "Loss-of-resistance technique without imaging leads to incorrect needle placement in 25-40% of cases. False LOR can occur in the space of Okada (a posterior paramedian space between split layers of the ligamentum flavum) or through midline ligamentum flavum gaps. Per IPSIS, LOR is complementary to imaging and must never be used alone. Contrast injection is mandatory to confirm epidural placement.",
+      "educationalObjective": "LOR technique without fluoroscopy has a 25-40% incorrect placement rate; contrast injection under fluoroscopy is mandatory to confirm epidural access."
+    },
+    {
+      "id": "ilce-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "When performing a caudal epidural, what is the maximum cephalad extent to which the needle should be advanced before injecting contrast?",
+      "options": [
+        "S4-S5 level",
+        "S3 level",
+        "S2-S3 level",
+        "L5-S1 level"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "S4-S5 is the approximate level of the sacral hiatus entry point, not the maximum advancement depth.",
+        "1": "S3 is the deepest safe level only if the thecal sac termination is unknown. The thecal sac typically terminates at S2, so S2-S3 is the critical depth limit per IPSIS.",
+        "3": "Advancing a caudal needle to L5-S1 would risk dural puncture and intrathecal injection. The needle must stay well below the dural sac termination."
+      },
+      "explanation": "Per IPSIS, the caudal needle should not advance beyond the S2-S3 level because the thecal sac typically terminates at S2. In patients with transitional lumbosacral anatomy, the thecal sac may terminate as low as S3. If thecal sac termination is unknown, do not advance beyond S3 before injecting contrast to verify epidural distribution.",
+      "educationalObjective": "The caudal epidural needle must not advance beyond S2-S3 because the thecal sac typically terminates at S2, with potential extension to S3 in transitional anatomy."
+    },
+    {
+      "id": "ilce-005",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient on therapeutic anticoagulation with warfarin (INR 2.5) has severe S1 radiculopathy from a large L5-S1 disc herniation. Which epidural approach is most appropriate?",
+      "options": [
+        "Interlaminar at L5-S1 after holding warfarin for 5 days",
+        "Transforaminal at L5-S1 after holding warfarin for 5 days",
+        "Caudal epidural without discontinuing anticoagulation",
+        "No epidural should be offered until anticoagulation is permanently discontinued"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "While holding anticoagulation would make interlaminar safer, the caudal approach is advantageous specifically because discontinuation of anticoagulation is not routinely required per UpToDate.",
+        "1": "Holding warfarin may not be medically safe depending on the indication for anticoagulation. The caudal approach avoids this dilemma.",
+        "3": "Patients on chronic anticoagulation should not be denied pain management. The caudal approach provides safe epidural access in anticoagulated patients."
+      },
+      "explanation": "Per UpToDate, the caudal approach may be particularly useful in patients on anticoagulation because discontinuation of anticoagulation is not routinely required. The sacral hiatus is well below the dural sac, there is no risk of epidural hematoma compressing the cord, and the entry point is in subcutaneous tissue without proximity to major neuraxial vascular structures. Interlaminar epidurals carry higher neuraxial bleeding risk.",
+      "educationalObjective": "The caudal epidural is the preferred approach for anticoagulated patients because discontinuation of anticoagulation is not routinely required."
+    },
+    {
+      "id": "ilce-006",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What is the typical total injectate volume range for a caudal epidural per IPSIS guidelines?",
+      "acceptedAnswers": [
+        "5-15 mL",
+        "5-15",
+        "5 to 15 mL",
+        "5 to 15 ml"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Per IPSIS, the typical total injectate volume for caudal epidural is 5-15 mL. Approximately 10 mL generally reaches the lower lumbar levels. This is substantially higher than TFESI (2-4 mL) or interlaminar (2-4 mL) volumes because the medication must travel cephalad through the sacral canal to reach the lumbar epidural space. When a catheter is used, volumes can be reduced to maintain concentration at the target.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Caudal epidural requires 5-15 mL total injectate (per IPSIS) to reach lumbar targets, substantially more than TFESI or interlaminar approaches."
+    },
+    {
+      "id": "ilce-007",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "Particulate steroids (e.g., triamcinolone) are acceptable for interlaminar and caudal epidural approaches.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "Particulate steroids ARE acceptable for interlaminar and caudal approaches. Per IPSIS, there is no arterial communication between the dorsal epidural space and the spinal cord. The risk of particulate embolization applies specifically to transforaminal approaches (especially cervical) where the needle is in proximity to radiculomedullary or vertebral arteries."
+      },
+      "explanation": "Particulate steroids such as triamcinolone and methylprednisolone are acceptable for both interlaminar and caudal epidural approaches. Per IPSIS, there is no arterial communication between the dorsal epidural space and the spinal cord, eliminating the risk of embolic infarction that exists with transforaminal approaches. Maximum dose is 40 mg methylprednisolone or equivalent per injection.",
+      "educationalObjective": "Particulate steroids are safe for interlaminar and caudal epidurals because the dorsal epidural space has no arterial communication with the spinal cord."
+    },
+    {
+      "id": "ilce-008",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During an interlaminar epidural, your contrast injection shows central accumulation with indistinct (fuzzy) dorsal margins and CSF mixing. What does this pattern indicate?",
+      "options": [
+        "Correct epidural placement — proceed with steroid injection",
+        "Intrathecal spread — stop the procedure immediately",
+        "Subdural injection — reposition and re-inject contrast",
+        "Vascular uptake — reposition the needle"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Epidural contrast appears heterogeneous with vacuolization from epidural fat and poorly defined margins, not central accumulation with CSF mixing.",
+        "2": "Intradural (subdural) spread shows the 'tram track' sign or globular accumulation with sharp margins, not fuzzy margins with CSF mixing.",
+        "3": "Vascular uptake shows rapid branching clearance, not central accumulation."
+      },
+      "explanation": "Per IPSIS contrast pattern recognition guidelines, intrathecal spread shows central accumulation with indistinct (fuzzy) dorsal margins from CSF mixing. This indicates the needle has penetrated the dura and is in the subarachnoid space. The procedure must be stopped immediately. By contrast, epidural contrast appears heterogeneous with vacuolization, and intradural spread shows the 'tram track' sign with sharp margins.",
+      "comparisonTable": {
+        "headers": ["Pattern", "Appearance", "Clinical Significance"],
+        "rows": [
+          ["Epidural", "Heterogeneous, vacuolized, poorly defined margins", "Desired pattern — proceed"],
+          ["Intrathecal", "Central, fuzzy dorsal margins, CSF mixing", "STOP — dural puncture"],
+          ["Intradural", "Tram track sign, globular, sharp margins", "ABORT procedure"],
+          ["Vascular", "Rapid branching clearance", "Reposition (venous) or ABORT (arterial)"]
+        ]
+      },
+      "educationalObjective": "Intrathecal contrast spread shows central accumulation with fuzzy dorsal margins from CSF mixing and requires immediate procedure cessation."
+    },
+    {
+      "id": "ilce-009",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 45-year-old had an L4-5 laminectomy 2 years ago and now presents with recurrent bilateral L5 radiculopathy. MRI shows epidural scarring at L4-5 with a recurrent disc herniation. Which approach is safest?",
+      "options": [
+        "L4-5 interlaminar epidural",
+        "L5-S1 bilateral transforaminal",
+        "Caudal epidural",
+        "L3-4 interlaminar epidural"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Prior laminectomy at L4-5 is a specific IPSIS contraindication to interlaminar access at that level. Epidural scarring eliminates the posterior epidural space and increases the risk of dural puncture.",
+        "1": "While bilateral TFESI is possible, the caudal approach provides safe bilateral coverage without requiring two needle insertions and avoids the scarred foramen.",
+        "3": "Accessing above the laminectomy may be an option in some cases, but catheter placement would need to traverse the scarred epidural space. The caudal approach bypasses the surgical site entirely."
+      },
+      "explanation": "Post-laminectomy patients are a primary indication for caudal epidural access. Per IPSIS, prior laminectomy at the level of access is a contraindication to interlaminar approach because epidural scarring obliterates the posterior epidural space and increases dural puncture risk. The caudal approach enters well below the surgical site and can reach the lower lumbar levels. Dr. O'Brien notes that when patients have extensive hardware and distorted anatomy, the caudal approach provides safe epidural access.",
+      "educationalObjective": "Caudal epidural is the preferred approach in post-laminectomy patients because it bypasses the scarred epidural space that contraindicated interlaminar access."
+    },
+    {
+      "id": "ilce-010",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "The MINT Trial (Friedly 2014) demonstrated that lidocaine alone provided no improvement in patients with lumbar spinal stenosis, confirming its role as a true placebo.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "The MINT Trial actually showed the opposite — the lidocaine control group also showed significant improvement. This generated controversy precisely because local anesthetics have therapeutic effects and are NOT true placebos. The study showed statistically significant but clinically modest benefit of adding steroid to lidocaine."
+      },
+      "explanation": "The MINT Trial (Friedly 2014, NEJM) was a large multicenter RCT of interlaminar epidurals for lumbar stenosis. The control group receiving lidocaine alone also showed significant improvement, generating significant controversy about study design. The key takeaway is that local anesthetics have therapeutic effects and cannot serve as true placebos in epidural injection trials.",
+      "educationalObjective": "The MINT Trial showed that lidocaine alone produces therapeutic benefit in epidural studies, challenging its use as a placebo control and affecting interpretation of ESI trial outcomes."
+    },
+    {
+      "id": "ilce-011",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "Before performing a caudal epidural, what intragluteal skin conditions must be evaluated per IPSIS due to unique infection risk?",
+      "acceptedAnswers": [
+        "intertrigo or pilonidal cyst",
+        "intertrigo",
+        "pilonidal cyst",
+        "intertrigo and pilonidal cyst",
+        "pilonidal cyst or intertrigo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Per IPSIS, the intragluteal area is a potential nidus for infection during caudal epidural procedures. Clinicians must evaluate for intertrigo (inflammatory skin fold dermatitis) and pilonidal cyst before proceeding. This infection risk is unique to the caudal approach due to the proximity of the sacral hiatus to the gluteal cleft. Meticulous aseptic skin preparation is paramount.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "The intragluteal area must be evaluated for intertrigo and pilonidal cyst before caudal epidurals due to the unique infection risk at this anatomic site (per IPSIS)."
+    },
+    {
+      "id": "ilce-012",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "According to UpToDate systematic review data, what is the relative risk of proceeding to surgery for patients who receive epidural corticosteroid injection for disc herniation with radiculopathy?",
+      "options": [
+        "RR 0.92 (no significant difference from placebo)",
+        "RR 0.62 (significant reduction in surgery at up to 3 months)",
+        "RR 0.30 (surgery avoided in 70% of patients)",
+        "RR 1.15 (slightly increased rate of surgery)"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The systematic review found a statistically significant reduction in surgery, not equivalence to placebo.",
+        "2": "While Riew's individual study showed ~71% surgery avoidance (which might correspond to approximately RR 0.30), the systematic review across all trials found a more modest pooled effect of RR 0.62.",
+        "3": "The data consistently shows ESI reduces, not increases, the likelihood of surgery."
+      },
+      "explanation": "Per UpToDate systematic review of randomized trials, epidural corticosteroid injection for disc herniation with radiculopathy was associated with a relative risk of 0.62 (95% CI 0.41-0.92) for proceeding to surgery at up to three months post-injection. This represents a statistically significant 38% relative reduction in surgical intervention, one of the strongest evidence points supporting ESI.",
+      "educationalObjective": "ESI for disc herniation reduces surgery risk with RR 0.62 at 3 months — a 38% relative reduction and one of the strongest evidence-based arguments for the procedure."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "topicId": "neurolytic-procedures",
+  "questions": [
+    {
+      "id": "neuro-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "All neurolytic procedures produce Wallerian degeneration. If the axolemma remains structurally intact, over what time period does nerve regeneration typically occur?",
+      "options": [
+        "1-2 weeks",
+        "3-6 months",
+        "1-2 years",
+        "Regeneration does not occur if Wallerian degeneration is complete"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "One to two weeks is too short for nerve regeneration following Wallerian degeneration. This timeframe corresponds to post-neurotomy neuritis resolution, not nerve regeneration.",
+        "2": "One to two years overestimates the typical regeneration time when the axolemma is intact. Regeneration occurs over approximately 3-6 months, which is why neurolytic effects are not permanent.",
+        "3": "Regeneration does occur if the axolemma remains structurally intact. The clinical duration of effect depends on the extent to which the neurolytic technique disrupts axolemmal integrity."
+      },
+      "explanation": "All neurolytic techniques produce Wallerian degeneration -- the progressive breakdown of the nerve axon distal to the destructive lesion. If the axolemma (the nerve's outer membrane) remains structurally intact, regeneration of the nerve fiber occurs over approximately 3-6 months, leading to return of sensation. This is why neurolytic effects are not permanent and patients must be counseled to expect repeat procedures.",
+      "educationalObjective": "Wallerian degeneration with intact axolemma allows nerve regeneration in approximately 3-6 months, which is why neurolytic procedures are not permanent."
+    },
+    {
+      "id": "neuro-002",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Which mechanism best describes how phenol produces neurolysis?",
+      "options": [
+        "Lipid extraction from neural membranes and protein precipitation",
+        "Protein coagulation and denaturation of neural tissue",
+        "Thermal denaturation via radiofrequency energy",
+        "Selective demyelination without axonal injury"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "This describes the mechanism of absolute alcohol, not phenol. Alcohol extracts lipids from neural membranes and precipitates proteins, producing more extensive tissue destruction and more pain on injection.",
+        "2": "Thermal denaturation via radiofrequency describes RFN, not chemical neurolysis with phenol. RFN uses heat (80-85 degrees C) to create focused lesions.",
+        "3": "Phenol does not produce selective demyelination without axonal injury. It causes protein coagulation, necrosis, and demyelination -- affecting both the myelin sheath and the axon itself."
+      },
+      "explanation": "Phenol (used at 6-10% concentration) causes neurolysis through protein coagulation and denaturation of neural tissue. It produces necrosis and demyelination in addition to Wallerian degeneration, resulting in longer-lasting effects than thermal ablation alone. Phenol is often prepared in a viscous formulation (such as glycerin base) to limit spread to surrounding structures, and it is less painful on injection compared with alcohol.",
+      "comparisonTable": {
+        "headers": ["Agent", "Mechanism", "Pain on Injection", "Spread Control"],
+        "rows": [
+          ["Phenol (6-10%)", "Protein coagulation/denaturation", "Less painful", "Viscous formulation limits spread"],
+          ["Absolute alcohol", "Lipid extraction/protein precipitation", "More painful (irritant)", "Less controllable spread"],
+          ["RFN (80-85 C)", "Thermal denaturation", "Minimal (local anesthesia used)", "Precise, predictable lesion size"]
+        ]
+      },
+      "educationalObjective": "Phenol causes neurolysis through protein coagulation and denaturation; alcohol works via lipid extraction and protein precipitation. Both produce more extensive destruction than thermal RFN."
+    },
+    {
+      "id": "neuro-003",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Thermal radiofrequency neurotomy generally produces longer-lasting pain relief than chemical neurolysis with phenol or alcohol.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "This is false. Chemical neurolysis produces necrosis and demyelination beyond simple Wallerian degeneration, resulting in longer-lasting effects (months to years) compared with thermal RFN (months to about a year). However, thermal RFN has a lower complication profile because it better preserves axolemmal architecture."
+      },
+      "explanation": "Chemical neurolysis (phenol or alcohol) produces more extensive neural destruction -- including necrosis and demyelination beyond Wallerian degeneration -- resulting in longer duration of effect compared with thermal RFN. RFN better preserves axolemmal architecture, which means nerve regeneration occurs sooner, but this also means lower risk of deafferentation pain. The tradeoff is duration versus safety: chemical agents last longer but carry higher complication risk.",
+      "comparisonTable": {
+        "headers": ["Factor", "Thermal (RFN)", "Chemical (Phenol/Alcohol)"],
+        "rows": [
+          ["Duration of effect", "Shorter (months)", "Longer (months to years)"],
+          ["Complication risk", "Lower", "Higher"],
+          ["Lesion control", "Precise, predictable", "Less controllable spread"],
+          ["Deafferentation risk", "Lower", "Higher"],
+          ["Best suited for", "Non-cancer, repeat procedures", "End-of-life cancer pain"]
+        ]
+      },
+      "educationalObjective": "Chemical neurolysis lasts longer than thermal RFN but carries higher complication risk. RFN is preferred for non-cancer pain; chemical agents are reserved for end-of-life care."
+    },
+    {
+      "id": "neuro-004",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 62-year-old man with unresectable pancreatic cancer and severe abdominal pain refractory to high-dose opioids is referred for pain management. Which neurolytic procedure is most appropriate?",
+      "options": [
+        "Superior hypogastric plexus neurolysis",
+        "Celiac plexus neurolysis",
+        "Ganglion impar neurolysis",
+        "Lumbar sympathetic chain neurolysis"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The superior hypogastric plexus innervates pelvic visceral structures. Pancreatic cancer pain is mediated by the celiac plexus, which innervates upper abdominal viscera.",
+        "2": "The ganglion impar is indicated for perineal pain and coccydynia. It has no role in upper abdominal visceral pain from pancreatic cancer.",
+        "3": "The lumbar sympathetic chain innervates the lower extremities. Pancreatic cancer pain requires targeting the celiac plexus at the T12-L1 level."
+      },
+      "explanation": "Celiac plexus neurolysis is the best-supported neurolytic indication in the literature, with the strongest evidence for pancreatic cancer pain. The procedure targets the celiac plexus at the T12-L1 level via bilateral posterior paravertebral approach under fluoroscopy or CT, or alternatively via endoscopic ultrasound. For a patient with unresectable pancreatic cancer and limited life expectancy, chemical neurolysis with alcohol or phenol is appropriate because the finite duration of effect aligns with the patient's remaining life.",
+      "educationalObjective": "Celiac plexus neurolysis is the standard intervention for intractable pancreatic cancer pain and has the strongest evidence base among all neurolytic procedures."
+    },
+    {
+      "id": "neuro-005",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "A diagnostic block with local anesthetic should always be performed before committing to a neurolytic procedure.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "This is true and represents the single most important principle in neurolytic practice. The diagnostic block confirms the pain source, previews expected side effects (e.g., hypotension, altered bowel function after celiac plexus block), and provides the patient with an informed basis for consent. Committing to permanent nerve destruction without first confirming the mechanism with a reversible block is indefensible."
+      },
+      "explanation": "A diagnostic block with local anesthetic should always precede neurolysis. This serves two critical purposes: (1) confirming the pain source -- if blocking the target nerve with local anesthetic produces significant relief, the pain is likely mediated by that pathway; and (2) previewing side effects -- the patient experiences expected post-neurolysis effects on a temporary basis, enabling truly informed consent. The degree of relief within the expected duration of the local anesthetic determines whether to proceed.",
+      "educationalObjective": "A diagnostic block must always precede neurolysis to confirm the pain source and preview side effects -- this is the most important principle in neurolytic practice."
+    },
+    {
+      "id": "neuro-006",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "When selecting between thermal (RFN) and chemical neurolysis, which factor most strongly favors chemical neurolysis with phenol or alcohol over thermal ablation?",
+      "options": [
+        "The patient has a 20-year life expectancy and chronic non-cancer pain",
+        "The clinician wants the most precise and controllable lesion size",
+        "The patient has intractable cancer pain with a life expectancy of weeks to months",
+        "The patient may need repeat procedures in the future"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A long life expectancy strongly favors thermal methods. Patients with decades of remaining life must live with any complications, and RFN allows nerve regeneration and repeat treatment without cumulative tissue damage.",
+        "1": "Precise lesion control favors thermal RFN, not chemical agents. RFN creates predictable lesions roughly 1 cm long, while injected chemical agents have less controllable spread.",
+        "3": "The need for repeat procedures favors thermal RFN because it preserves axolemmal architecture, allowing nerve regeneration and repeat ablation without cumulative tissue damage."
+      },
+      "explanation": "Chemical neurolysis is reserved primarily for patients with limited life expectancy (weeks to months) and intractable cancer pain. In this context, the longer duration of chemical agents is an advantage (may outlast the patient's remaining life), and long-term complications like deafferentation pain become less relevant. The severity of cancer pain may warrant more aggressive neural destruction. For patients with longer life expectancy, thermal methods are preferred because they allow regeneration and repeat treatment.",
+      "educationalObjective": "Chemical neurolysis is reserved for end-of-life cancer pain where limited prognosis justifies the higher complication risk and longer duration of effect."
+    },
+    {
+      "id": "neuro-007",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Following celiac plexus neurolysis, a patient develops significant orthostatic hypotension. What is the pathophysiologic mechanism?",
+      "options": [
+        "Direct toxic effect of neurolytic agent on cardiac myocytes",
+        "Unopposed parasympathetic tone causing splanchnic vasodilation after sympathectomy",
+        "Allergic reaction to the neurolytic agent",
+        "Epidural spread of neurolytic agent causing spinal cord injury"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Neurolytic agents injected at the celiac plexus do not exert direct cardiac toxicity. The hypotension results from loss of sympathetic vasoconstrictor tone in the splanchnic vascular bed.",
+        "2": "Allergic reactions to phenol or alcohol are extremely rare and would present with systemic allergic symptoms (urticaria, bronchospasm, anaphylaxis), not isolated orthostatic hypotension.",
+        "3": "Epidural spread causing spinal cord injury would present with neurologic deficits (weakness, sensory loss), not isolated orthostatic hypotension. Proper technique and imaging guidance minimize this risk."
+      },
+      "explanation": "Orthostatic hypotension after celiac plexus neurolysis results from removal of sympathetic vasoconstrictor tone in the splanchnic vascular bed, leading to unopposed parasympathetic activity and vasodilation. The splanchnic vasculature normally holds a large proportion of circulating blood volume under sympathetic control. After sympathectomy, this blood pools in the splanchnic bed, reducing venous return and cardiac output. Patients should be monitored for at least one hour with IV hydration available.",
+      "educationalObjective": "Post-celiac plexus neurolysis hypotension results from splanchnic vasodilation due to unopposed parasympathetic tone after sympathectomy -- ensure IV hydration and monitoring."
+    },
+    {
+      "id": "neuro-008",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Inadvertent arterial injection during stellate ganglion or lumbar sympathetic chain procedures can cause spinal cord injury or infarction.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "This is true. The proximity of major vascular structures to sympathetic targets means that inadvertent arterial injection of neurolytic agents can cause catastrophic spinal cord injury or infarction. This is a rare but devastating complication that demands meticulous needle placement, aspiration before injection, and imaging guidance for all neurolytic procedures."
+      },
+      "explanation": "Inadvertent arterial injection during stellate ganglion or lumbar sympathetic chain procedures can cause spinal cord injury or infarction. These are rare but devastating complications that demand meticulous needle placement and aspiration before injection. The proximity of major vascular structures (vertebral artery at the stellate ganglion, segmental arteries at the lumbar sympathetic chain) to sympathetic targets makes imaging guidance essential for all neurolytic procedures.",
+      "educationalObjective": "Inadvertent arterial injection during sympathetic neurolysis can cause catastrophic spinal cord injury -- meticulous needle placement, aspiration, and imaging guidance are essential."
+    },
+    {
+      "id": "neuro-009",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient with chronic non-cancer facet joint pain has responded well to two medial branch block series. The clinician is considering a longer-lasting intervention. Which neurolytic approach is most appropriate?",
+      "options": [
+        "Chemical neurolysis with absolute alcohol at the medial branches",
+        "Chemical neurolysis with phenol at the medial branches",
+        "Radiofrequency neurotomy of the medial branches",
+        "No neurolytic procedure is appropriate for non-cancer pain"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Chemical neurolysis with alcohol is reserved for end-of-life cancer pain due to its high complication risk, extensive tissue destruction, and pain on injection. It is not appropriate for chronic non-cancer pain where the patient must live with complications for years.",
+        "1": "Chemical neurolysis with phenol carries higher complication risk and deafferentation potential than thermal methods. For non-cancer chronic pain with a long life expectancy, thermal RFN is preferred because it allows regeneration and repeat treatment.",
+        "3": "Radiofrequency neurotomy of medial branches is by far the most common non-cancer neurolytic application and is well-supported. Repeat RFA is successful in 65-90% of patients after an initially effective ablation."
+      },
+      "explanation": "For chronic non-cancer pain, radiofrequency neurotomy is the preferred neurolytic approach because it has a lower complication profile, creates precise and predictable lesions, preserves axolemmal architecture (allowing nerve regeneration), and can be safely repeated. Medial branch RFN for facet joint pain is the most common non-cancer neurolytic application. Chemical neurolysis is reserved for end-of-life care where longer duration justifies higher complication risk.",
+      "educationalObjective": "RFN is the preferred neurolytic method for chronic non-cancer pain (especially medial branch RFA for facet joints) because it allows safe repeat procedures and has lower complication risk than chemical agents."
+    },
+    {
+      "id": "neuro-010",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "Post-neurotomy neuritis is a common self-limited complication after neurolytic procedures. What is its typical duration?",
+      "acceptedAnswers": [
+        "two weeks",
+        "2 weeks",
+        "about two weeks",
+        "approximately 2 weeks",
+        "~2 weeks",
+        "14 days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Post-neurotomy neuritis occurs in an estimated 0.5-7% of cases and typically lasts about two weeks. Patients should be counseled that temporary worsening of pain in the immediate post-procedure period does not indicate treatment failure. This is particularly relevant for RFN, where the full analgesic effect may not manifest for 2-6 weeks due to the time required for complete Wallerian degeneration.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Post-neurotomy neuritis occurs in 0.5-7% of cases, lasts approximately two weeks, and should not be mistaken for treatment failure. Full RFN analgesic effect may take 2-6 weeks."
+    }
+  ]
+}

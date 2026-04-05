@@ -60,6 +60,170 @@
       },
       "explanation": "Diagnostic medial branch blocks are the appropriate first step. MRI findings of facet arthropathy do not confirm facet-mediated pain (Dreyfuss demonstrated poor correlation between imaging and symptoms). The patient's age, axial distribution, and extension-aggravated pattern raise clinical suspicion for facet pain, but diagnostic blocks are required to confirm the pain generator before any therapeutic intervention.",
       "educationalObjective": "Facet-mediated pain cannot be diagnosed by imaging alone; diagnostic medial branch blocks are required to confirm the pain generator."
+    },
+    {
+      "id": "mbb-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "To perform a diagnostic medial branch block for the L5-S1 facet joint, which nerves must be targeted, and where is the L5 dorsal ramus found?",
+      "options": [
+        "L4 and L5 medial branches, both at the TP-SAP junction",
+        "L4 medial branch at the L5 TP-SAP junction, and the L5 dorsal ramus in the groove between the S1 SAP and sacral ala",
+        "L5 medial branch and S1 medial branch, both at the sacral ala",
+        "L4 and L5 dorsal rami, both at the sacral ala groove"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "There is no L5 medial branch in the typical sense. The L5 dorsal ramus has a unique anatomical course — it does not cross a transverse process like the L1-4 medial branches but instead runs in a groove on the sacral ala.",
+        "2": "The S1 medial branch is not a standard target for L5-S1 facet denervation. The joint is innervated by the L4 medial branch and the L5 dorsal ramus.",
+        "3": "The L4 nerve contributes via its medial branch (not dorsal ramus directly), which is targeted at the L5 TP-SAP junction, not at the sacral ala."
+      },
+      "explanation": "The L5-S1 facet joint is a special case. It is innervated by the L4 medial branch (targeted at the junction of the L5 transverse process and SAP) and the L5 dorsal ramus, which has a unique course in the groove (sulcus) between the S1 SAP base and the sacral ala. There is no mamillo-accessory ligament at S1. This anatomical distinction is critical because the L5 dorsal ramus target and the fluoroscopic approach differ from the standard L1-4 medial branch technique.",
+      "educationalObjective": "L5-S1 is uniquely innervated by the L4 medial branch and the L5 dorsal ramus, which is targeted in the groove between the S1 SAP and sacral ala."
+    },
+    {
+      "id": "mbb-005",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "In the cervical spine, how many target points are required for a third occipital nerve (TON) block at the C2-3 facet joint, and why?",
+      "options": [
+        "One target point at the centroid of the C2 articular pillar",
+        "Two target points at the superior and inferior aspects of the C2-3 joint",
+        "Three target points along the longitudinal bisector of the C2-3 joint (apex, equator, and base of C3 SAP)",
+        "Four target points surrounding the C2-3 joint capsule"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A single centroid target is appropriate for typical cervical levels (C3-6) where the medial branch has a more predictable course along the articular pillar waist. The TON has a variable position along the C2-3 joint, requiring multiple targets.",
+        "1": "Two points would not adequately cover the zone of likely nerve location. The TON varies from superior to inferior along the lateral C2-3 joint.",
+        "3": "Four points would be excessive. IPSIS specifies three target points with 0.2 mL at each (total 0.6 mL) to adequately cover the TON's variable position."
+      },
+      "explanation": "The C2-3 joint is uniquely innervated by the third occipital nerve (TON), which is the superficial medial branch of the C3 dorsal ramus. Unlike the typical cervical medial branches (C3-6) that have a predictable position at the articular pillar waist, the TON varies in position from superior to inferior along the lateral C2-3 joint. IPSIS therefore specifies three target points along the longitudinal bisector of the joint (at the C3 SAP apex, base, and equator), with 0.2 mL of anesthetic at each target for a total of 0.6 mL.",
+      "educationalObjective": "The TON block requires three target points along the C2-3 joint due to the nerve's variable position — 0.2 mL at each point (IPSIS)."
+    },
+    {
+      "id": "mbb-006",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "At a typical cervical level (C3-6), what is the target for a medial branch block and the recommended anesthetic volume per IPSIS?",
+      "options": [
+        "The tip of the transverse process; 0.5 mL per level",
+        "The centroid of the articular pillar; 0.25 mL per level",
+        "The lamina-facet junction; 0.5 mL per level",
+        "The posterior aspect of the lateral mass; 1.0 mL per level"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The transverse process is the target in the lumbar spine (TP-SAP junction). In the cervical spine, the medial branches course along the waist of the articular pillar, not the transverse process.",
+        "2": "The lamina-facet junction is not the correct cervical target. The medial branch courses along the concavity (waist) of the articular pillar.",
+        "3": "1.0 mL is excessive volume for a diagnostic cervical MBB. IPSIS reduced the recommended volume from older 0.5 mL protocols to 0.25 mL to improve diagnostic specificity."
+      },
+      "explanation": "At typical cervical levels (C3-6), the medial branches course along the waist (concavity) of their respective articular pillars. The IPSIS target is the centroid of the articular pillar — the intersection of two diagonals of the diamond-shaped pillar. A single block point at the centroid is sufficient at each typical level, using 0.25 mL of anesthetic. This lower volume (reduced from older 0.5 mL protocols) improves diagnostic specificity. True lateral segmental imaging with superimposed bilateral articular pillars is essential for accurate targeting.",
+      "educationalObjective": "Cervical MBBs at C3-6 target the articular pillar centroid with 0.25 mL of anesthetic — lower volumes improve specificity (IPSIS)."
+    },
+    {
+      "id": "mbb-007",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "MRI findings of facet arthropathy are highly sensitive and specific for diagnosing facet-mediated pain.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Dreyfuss (1997) demonstrated that no single clinical or imaging finding reliably diagnoses facet joint pain. Imaging is neither sensitive nor specific for facet pain — there is no reliable correlation between the imaging appearance of a facet joint and facet-mediated pain. Many elderly patients have severe facet arthropathy on MRI with no facet pain, while others with minimal imaging findings have confirmed facet-mediated pain on controlled blocks."
+      },
+      "explanation": "Dreyfuss (1997) established the foundational principle that no single historical, physical examination, or imaging finding reliably diagnoses facet-mediated pain. IPSIS confirms that imaging is neither sensitive nor specific for facet pain. Common imaging studies in the cervical spine often fail to detect facet joint injury after whiplash. The diagnosis depends on the patient's response to properly performed medial branch blocks, not imaging. Imaging is valuable for excluding systemic pathology (infection, malignancy, fracture) and planning safe needle trajectories, but not for confirming facet pain.",
+      "educationalObjective": "Imaging is neither sensitive nor specific for facet-mediated pain (Dreyfuss 1997, IPSIS) — controlled medial branch blocks are the diagnostic reference standard."
+    },
+    {
+      "id": "mbb-008",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "What is the minimum pain relief threshold on controlled medial branch blocks required before proceeding to radiofrequency ablation?",
+      "options": [
+        "30% pain relief",
+        "50% pain relief",
+        "80% pain relief",
+        "100% pain relief"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "30% relief is insufficient and does not meet any established guideline threshold for proceeding to RFA.",
+        "1": "The 50% threshold was used in the controversial MINT trial (Juch 2017), which was heavily criticized for poor patient selection. Studies using the 50% threshold show significantly worse RFA outcomes compared to those using the 80% threshold. Cohen (2010) demonstrated that outcomes are directly related to the rigor of diagnostic criteria.",
+        "3": "While 100% relief provides the highest diagnostic confidence, requiring it would exclude many patients with true facet pain who have partial concomitant pain from other structures. 80% is the established standard."
+      },
+      "explanation": "The standard threshold is 80% or greater pain relief on dual controlled medial branch blocks before proceeding to RFA. Studies using the 80% threshold show significantly better RFA outcomes than those using 50%. The MINT trial's negative findings were attributed in part to their use of only a 50% threshold with single blocks, which likely included many patients without true facet-mediated pain. IPSIS specifies 80-100% relief lasting for the minimum expected duration of the anesthetic used.",
+      "educationalObjective": "The 80% relief threshold on dual controlled blocks is the standard for RFA candidacy — the 50% threshold yields inferior outcomes."
+    },
+    {
+      "id": "mbb-009",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 28-year-old recreational athlete presents with chronic axial low back pain and bilateral facet arthropathy on MRI. Which statement best reflects the appropriate clinical approach?",
+      "options": [
+        "Proceed with bilateral medial branch blocks given the MRI findings",
+        "Facet pain is uncommon under age 35; consider alternative diagnoses such as disc pathology, spondylolysis, or inflammatory spondyloarthropathy before pursuing MBBs",
+        "Order a SPECT scan to confirm active facet inflammation before performing MBBs",
+        "Proceed directly to intra-articular facet joint steroid injections"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "MRI findings of facet arthropathy do not confirm facet-mediated pain and cannot drive the decision to perform MBBs. More importantly, facet joint degeneration is uncommon under age 35, making the clinical pre-test probability low.",
+        "2": "While SPECT scanning can increase pre-test probability by showing active facet arthropathy, the primary concern here is that the patient's age makes facet pain unlikely. Alternative diagnoses should be excluded first.",
+        "3": "Intra-articular facet injections are primarily therapeutic and are less reliable diagnostically than MBBs. Furthermore, the patient's age makes facet-mediated pain an unlikely diagnosis."
+      },
+      "explanation": "Facet joint degeneration follows the degenerative cascade (Kirkaldy-Willis), which typically begins in the 4th-5th decades. Facet pain in patients under 35 is uncommon and should raise suspicion for alternative diagnoses including disc pathology, spondylolysis, and inflammatory spondyloarthropathy. Dr. O'Brien emphasizes not putting young patients with pristine or minimal imaging findings through MBBs and RFA for nonspecific back pain — the question to ask is whether you plan to ablate every 6 months for the next 30 years.",
+      "educationalObjective": "Facet pain is uncommon under age 35; alternative diagnoses should be considered before pursuing the MBB/RFA pathway in young patients."
+    },
+    {
+      "id": "mbb-010",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "What is the approximate prevalence of cervical facet joint pain in chronic neck pain populations, and in which clinical context is it especially common?",
+      "options": [
+        "5-10%, most common in degenerative cervical myelopathy",
+        "15-25%, most common in cervical radiculopathy",
+        "36-67%, especially high in post-whiplash injuries",
+        "80-90%, present in virtually all chronic neck pain"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "5-10% significantly underestimates cervical facet pain prevalence. Cervical facet pain is actually more common than lumbar facet pain in controlled studies.",
+        "1": "Facet pain is an axial pain generator and does not cause radiculopathy. While it can coexist with radiculopathy, it is not most prevalent in that context.",
+        "3": "While cervical facet pain is common, it does not account for 80-90% of chronic neck pain. Other generators include discogenic pain, myofascial pain, and radiculopathy."
+      },
+      "explanation": "Cervical facet pain accounts for 36-67% of chronic neck pain, with prevalence notably elevated in post-whiplash populations. Barnsley et al. (1995) demonstrated a 54% prevalence in chronic neck pain after whiplash, and Lord et al. (1996) confirmed that cervical facet joints are a common cause of post-whiplash headache. This is significantly higher than lumbar facet pain prevalence (27-41%), making cervical facet pain one of the most common diagnoses in chronic neck pain workup.",
+      "educationalObjective": "Cervical facet pain prevalence is 36-67% of chronic neck pain, especially high post-whiplash (Barnsley 1995, Lord 1996)."
+    },
+    {
+      "id": "mbb-011",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "Intra-articular facet joint injections are as diagnostically reliable as medial branch blocks for confirming facet-mediated pain.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Intra-articular facet injections are primarily therapeutic (steroid delivery) and less reliable diagnostically than MBBs. IPSIS notes that facet joint capsules are often fenestrated, allowing intra-articular anesthetic to leak into the epidural space or adjacent structures, reducing diagnostic specificity. MBBs are the diagnostic reference standard because they specifically test the innervation pathway that would be ablated with RFA — a positive MBB is directly prognostic for RFA response."
+      },
+      "explanation": "Medial branch blocks are the diagnostic reference standard for facet pain, not intra-articular injections. MBBs are superior diagnostically because they specifically test the nerve pathway that would be interrupted by RFA, making them directly prognostic for ablation outcomes. Intra-articular injections have reduced diagnostic specificity because facet joint capsules are often fenestrated, allowing anesthetic to leak to the epidural space and other structures. Intra-articular injections are better considered a therapeutic modality.",
+      "educationalObjective": "MBBs are diagnostically superior to intra-articular facet injections because capsule fenestrations allow anesthetic leakage, reducing specificity (IPSIS)."
+    },
+    {
+      "id": "mbb-012",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "A physician performing a lumbar medial branch block encounters a mushroom-shaped (bulbous) superior articular process due to osteoarthritic changes. What fluoroscopic adjustment is most appropriate?",
+      "options": [
+        "Switch to an AP-only approach and advance the needle more medially",
+        "Increase ipsilateral fluoroscopic obliquity beyond the standard 30-40 degrees to access the nerve beneath the overhanging SAP",
+        "Abort the procedure and consider intra-articular injection instead",
+        "Use a contralateral oblique approach"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "An AP-only approach does not adequately visualize the SAP-TP junction and would risk needle deflection off the bulbous SAP without reaching the medial branch target beneath it.",
+        "2": "Osteoarthritic SAP changes are common and do not contraindicate the procedure. The solution is a technical adjustment (additional obliquity), not abandoning the diagnostic approach.",
+        "3": "A contralateral oblique approach would not improve access to the medial branch beneath an ipsilateral overhanging SAP. Greater ipsilateral obliquity is the correct adjustment."
+      },
+      "explanation": "Per IPSIS, the lumbar SAP is often angled from medial to lateral in the axial plane, requiring ipsilateral fluoroscopic obliquity (typically 30-40 degrees) to access the medial branch without the needle being deflected laterally. Bulbous (mushroom-shaped) SAPs from osteoarthritic changes may demand additional obliquity beyond the standard range. The mamillo-accessory ligament covers the nerve at L1-4 levels, so if the needle sits atop the MAL rather than beneath it, anesthetic may not reach the target, causing a false-negative block.",
+      "educationalObjective": "Bulbous osteoarthritic SAPs require increased ipsilateral fluoroscopic obliquity to access the medial branch beneath the overhanging SAP (IPSIS)."
     }
   ]
 }

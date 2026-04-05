@@ -1,0 +1,204 @@
+{
+  "topicId": "anticoagulation-management",
+  "questions": [
+    {
+      "id": "anticoag-001",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 72-year-old man on warfarin for atrial fibrillation (CHA2DS2-VASc 5) is referred for bilateral medial branch blocks at L4-5 and L5-S1. His INR is 2.4 (therapeutic range). What is the most appropriate anticoagulation management?",
+      "options": [
+        "Hold warfarin for 5 days and confirm INR less than 1.5 before the procedure",
+        "Continue warfarin and proceed with the procedure",
+        "Hold warfarin for 3 days and bridge with enoxaparin",
+        "Cancel the procedure until the patient can safely stop warfarin"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Holding warfarin 5 days with INR confirmation is appropriate for neuraxial (high-risk) procedures, not for medial branch blocks. MBBs are low-risk peripheral procedures where the thromboembolic risk of holding (stroke risk 1-3:100 per interruption in a patient with CHA2DS2-VASc of 5) far exceeds the bleeding risk.",
+        "2": "Bridging with enoxaparin is reserved for high-thromboembolic-risk patients undergoing neuraxial procedures. It is not indicated for peripheral procedures, where warfarin should simply be continued.",
+        "3": "Canceling the procedure is unnecessary. Medial branch blocks are peripheral procedures using 25-gauge needles in soft tissue. The risk of clinically significant bleeding is negligible, while withholding anticoagulation in this high-risk AF patient could cause a devastating stroke."
+      },
+      "explanation": "Medial branch blocks are classified as low-risk (peripheral) procedures. Anticoagulation should NOT be held for peripheral procedures. The thromboembolic risk of interrupting warfarin in a patient with CHA2DS2-VASc of 5 (estimated stroke risk 1-3% per interruption) vastly exceeds the essentially negligible bleeding risk from MBBs performed with 25-gauge needles. The IPSIS review found zero bleeding complications in over 1,100 patients continuing anticoagulants during lumbar MBBs.",
+      "comparisonTable": {
+        "headers": ["Procedure Category", "Examples", "Warfarin Management", "Rationale"],
+        "rows": [
+          ["Low-risk (Peripheral)", "MBBs, SI joint, peripheral blocks", "Continue", "Thromboembolic risk exceeds bleeding risk"],
+          ["Intermediate", "TFESI, facet injections", "Greatest practice variability", "Risk-benefit depends on individual factors"],
+          ["High-risk (Neuraxial)", "Interlaminar epidurals, SCS, intrathecal", "Hold 5 days, INR <1.5", "Epidural hematoma risk justifies holding"]
+        ]
+      },
+      "educationalObjective": "Never hold anticoagulation for peripheral procedures like MBBs -- the thromboembolic risk of holding far exceeds the bleeding risk."
+    },
+    {
+      "id": "anticoag-002",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "Low-dose aspirin (81 mg) should be held for 7 days before all interventional spine procedures, including peripheral nerve blocks and medial branch blocks.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Aspirin should be CONTINUED for all tiers of spine procedures. For low-risk peripheral procedures, aspirin is continued without question. For intermediate procedures, aspirin is continued. Even for high-risk neuraxial procedures, low-dose aspirin (81 mg) is generally continued per ASRA guidelines. There is no tier of spine procedure that requires routine aspirin discontinuation."
+      },
+      "explanation": "Low-dose aspirin (81 mg) is continued across all three risk tiers of interventional spine procedures: peripheral, intermediate, and neuraxial. This reflects the evidence that aspirin's antiplatelet effect does not meaningfully increase the risk of clinically significant hemorrhagic complications for spine procedures, while holding it exposes patients to unnecessary cardiovascular risk. Only therapeutic-dose aspirin merits consideration for holding before neuraxial procedures.",
+      "educationalObjective": "Low-dose aspirin (81 mg) is continued for ALL tiers of interventional spine procedures, including neuraxial procedures."
+    },
+    {
+      "id": "anticoag-003",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 65-year-old woman on apixaban for DVT prophylaxis after knee replacement is scheduled for a cervical interlaminar epidural steroid injection. What is the recommended hold time for apixaban before this neuraxial procedure?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours (approximately 3-5 half-lives)",
+        "No hold required -- continue apixaban for all spine procedures"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A 24-hour hold is insufficient for neuraxial procedures. DOACs should be held for 2-5 half-lives depending on the agent and renal function. For a cervical interlaminar epidural (high-risk neuraxial procedure), a longer hold is required.",
+        "1": "While 48 hours may be acceptable for some intermediate-risk procedures, cervical interlaminar epidurals are classified as high-risk neuraxial procedures requiring the full recommended hold of approximately 72 hours (3-5 half-lives for apixaban).",
+        "3": "Cervical interlaminar epidurals are high-risk neuraxial procedures. The small cervical epidural space, proximity to epidural veins, and catastrophic consequences of cord compression from hematoma mandate holding DOACs. Continuing apixaban without holding is appropriate only for peripheral procedures."
+      },
+      "explanation": "Cervical interlaminar epidural injections are classified as high-risk neuraxial procedures. DOACs like apixaban should be held for 2-5 half-lives before neuraxial procedures. Apixaban has a half-life of approximately 12 hours, so a 72-hour hold (approximately 6 half-lives) provides a conservative safety margin. The cervical epidural space is particularly small, and an epidural hematoma at this level can cause incomplete quadriparesis -- making this the highest-consequence location for hemorrhagic complications.",
+      "educationalObjective": "Apixaban requires approximately 72-hour hold for neuraxial procedures. Cervical epidurals carry the highest consequence of epidural hematoma."
+    },
+    {
+      "id": "anticoag-004",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "A colleague argues that anticoagulants should routinely be held for all spine procedures to minimize bleeding risk. Which of the following data points most directly challenges this practice?",
+      "options": [
+        "The incidence of minor adverse events from epidural injections is less than 1%",
+        "The risk of stroke from holding warfarin (1-3:100) vastly exceeds the risk of epidural hematoma from lumbar TFESI (<1:100,000)",
+        "The SMART trial showed significant ODI improvement in the treatment group",
+        "Medicare LCDs limit epidural injections to 3-4 per region per year"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "While the low adverse event rate is relevant, it does not directly compare the risk of holding versus continuing anticoagulation. The key argument against routine holding is the risk comparison between thromboembolic events and procedural bleeding.",
+        "2": "The SMART trial addresses BVN ablation efficacy, not anticoagulation management. This data point is irrelevant to the question of whether to hold anticoagulants.",
+        "3": "Medicare frequency limitations address billing compliance, not anticoagulation management. The question is about balancing procedural bleeding risk against thromboembolic risk."
+      },
+      "explanation": "The most compelling argument against routine anticoagulation holding is the direct risk comparison: stroke risk from holding warfarin in AF patients is estimated at 1-3 per 100 interruptions, while the risk of epidural hematoma from lumbar TFESI on anticoagulation is estimated at less than 1 in 100,000. This 100-1,000 fold difference in risk makes routine holding more dangerous than continuing for peripheral and most intermediate-risk procedures. The IPSIS task force systematic review confirmed that thromboembolic risk from stopping warfarin (0.2-0.9%) statistically exceeds bleeding risk from continuing it (0.0-0.3%) for transforaminal and facet procedures.",
+      "educationalObjective": "The risk of thromboembolic events from holding anticoagulation (1-3:100) vastly exceeds the risk of procedural bleeding (<1:100,000 for lumbar TFESI)."
+    },
+    {
+      "id": "anticoag-005",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 58-year-old man with a drug-eluting coronary stent placed 4 months ago is on dual antiplatelet therapy (aspirin 81 mg and clopidogrel 75 mg). He has severe lumbar radiculopathy and is referred for L5-S1 TFESI. What is the most appropriate management of his antiplatelet therapy?",
+      "options": [
+        "Hold both aspirin and clopidogrel for 7 days before the procedure",
+        "Continue aspirin, hold clopidogrel for 5-7 days per ASRA guidelines",
+        "Continue both aspirin and clopidogrel and proceed with the TFESI",
+        "Cancel the procedure -- no spine injections are safe on dual antiplatelet therapy"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Holding both agents in a patient with a recent drug-eluting stent (within 12 months) creates an unacceptably high risk of stent thrombosis, estimated at 5-30% in the first month. This is a potentially fatal complication far worse than any bleeding risk from TFESI.",
+        "1": "While holding clopidogrel 5-7 days is the standard recommendation for neuraxial procedures, TFESI is an intermediate-risk procedure, and this patient's stent thrombosis risk is extremely high within 12 months of placement. For intermediate procedures, many experts continue dual antiplatelet therapy, especially when the thromboembolic risk is this high.",
+        "3": "TFESI on dual antiplatelet therapy is not contraindicated. The bleeding risk from TFESI using a 25-gauge needle is very low, while the stent thrombosis risk from holding dual antiplatelet therapy within 12 months of a drug-eluting stent can be catastrophic."
+      },
+      "explanation": "This patient is within 12 months of drug-eluting stent placement, creating very high stent thrombosis risk (up to 5-30% in the first month) if dual antiplatelet therapy is interrupted. TFESI is an intermediate-risk procedure where practice varies, but in this clinical scenario, the thromboembolic risk of holding clearly exceeds the procedural bleeding risk. Using a 25-gauge needle and careful technique minimizes bleeding risk. Every anticoagulation decision must be individualized, and communication with the prescribing cardiologist is essential.",
+      "educationalObjective": "For patients with recent drug-eluting stents, the stent thrombosis risk from holding dual antiplatelet therapy far exceeds the bleeding risk from TFESI."
+    },
+    {
+      "id": "anticoag-006",
+      "type": "short-answer",
+      "domain": "clinical-decision-making",
+      "question": "For a patient on warfarin scheduled for an interlaminar lumbar epidural, what INR threshold must be confirmed before proceeding with the procedure?",
+      "acceptedAnswers": [
+        "1.5",
+        "less than 1.5",
+        "INR less than 1.5",
+        "<=1.5",
+        "INR 1.5 or less"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Warfarin must be held for 5 days before neuraxial procedures, and the INR must be confirmed at 1.5 or below before proceeding. Interlaminar epidurals are high-risk neuraxial procedures where bleeding into the confined epidural space can compress the spinal cord or cauda equina, causing paralysis. The INR should be checked on the day of the procedure regardless of whether the medication has been held for the recommended duration, as individual metabolism varies.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Warfarin hold for neuraxial procedures: 5 days with confirmed INR of 1.5 or below before proceeding."
+    },
+    {
+      "id": "anticoag-007",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "Bridging therapy with enoxaparin is routinely recommended for all patients on DOACs (direct oral anticoagulants) who require holding for neuraxial spine procedures.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Bridging is NOT recommended for DOACs. DOACs (apixaban, rivaroxaban, dabigatran) have predictable pharmacokinetics with relatively short half-lives, so their anticoagulant effect resolves predictably after cessation. Bridging with enoxaparin is primarily considered for patients on warfarin who have very high thromboembolic risk (e.g., mechanical heart valves), because warfarin has a long, variable offset. Bridging itself carries risk and is not universally recommended even for warfarin."
+      },
+      "explanation": "Bridging therapy is NOT recommended for DOACs because their short, predictable half-lives mean anticoagulant effect resolves within a known timeframe after cessation. Bridging is considered primarily for warfarin in patients with very high thromboembolic risk (mechanical heart valves, recent DVT/PE within 3 months, high CHA2DS2-VASc scores) because warfarin's long and variable offset creates a more prolonged unprotected window. Even for warfarin, bridging itself carries bleeding risk and is not universally recommended.",
+      "educationalObjective": "Bridging is NOT recommended for DOACs due to their predictable pharmacokinetics. It may be considered for warfarin in high-thromboembolic-risk patients."
+    },
+    {
+      "id": "anticoag-008",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Following an interlaminar cervical epidural steroid injection, a patient develops increasing neck pain 2 hours later, followed by progressive bilateral upper and lower extremity weakness. What is the most likely diagnosis and the critical management timeline?",
+      "options": [
+        "Transient local anesthetic effect; observe for 4-6 hours and reassess",
+        "Cervical epidural hematoma; emergent MRI and surgical decompression within 6-12 hours of symptom onset",
+        "Post-dural puncture headache; administer IV caffeine and place the patient supine",
+        "Allergic reaction to steroid; administer epinephrine and IV diphenhydramine"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Progressive bilateral weakness after a cervical epidural injection is NOT a benign finding. Local anesthetic motor block is typically symmetric, non-progressive, and resolves within 1-2 hours. Progressive weakness suggests an expanding epidural hematoma compressing the spinal cord, which is a neurosurgical emergency.",
+        "2": "Post-dural puncture headache presents with positional headache (worse upright, better supine), not progressive extremity weakness. The described presentation -- neck pain followed by quadriparesis -- is classic for cervical epidural hematoma.",
+        "3": "Allergic reactions present with urticaria, bronchospasm, or cardiovascular collapse, not progressive neurologic deficits. The sequential onset of axial pain followed by bilateral weakness is the classic epidural hematoma presentation."
+      },
+      "explanation": "This is the classic presentation of cervical epidural hematoma: increased axial pain (the most common initial symptom) followed by progressive neurologic deficits. At the cervical level, this manifests as incomplete quadriparesis. The average time from initial pain to full clinical manifestation is approximately 3 hours. The critical management principle is emergent MRI and surgical decompression within 6-12 hours of symptom onset -- delays beyond this window significantly worsen neurologic recovery.",
+      "educationalObjective": "Epidural hematoma presents as increasing axial pain followed by progressive weakness. Decompression within 6-12 hours is critical for neurologic recovery."
+    },
+    {
+      "id": "anticoag-009",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Which of the following procedures is classified as intermediate bleeding risk, representing the zone of greatest practice variability in anticoagulation management?",
+      "options": [
+        "Medial branch blocks",
+        "Transforaminal epidural steroid injections",
+        "Interlaminar epidural steroid injections",
+        "SI joint injections"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Medial branch blocks are classified as low-risk (peripheral) procedures. Anticoagulation is continued for MBBs -- there is no significant practice variability for this procedure category.",
+        "2": "Interlaminar epidural injections are classified as high-risk (neuraxial) procedures. While they carry significant bleeding risk, the management is relatively clear: hold anticoagulation per ASRA guidelines. There is less practice variability for this category.",
+        "3": "SI joint injections are classified as low-risk (peripheral) procedures. Like MBBs, anticoagulation is continued for these, and there is minimal practice variability."
+      },
+      "explanation": "Transforaminal epidural steroid injections (along with facet joint injections) occupy the intermediate risk tier in the SIS three-tier classification. This is the zone of greatest practice variability because the needle trajectory is near but not within the neuraxial space. For TFESIs, some practitioners continue all anticoagulants, others hold DOACs for 24-48 hours, and opinions on clopidogrel management vary. The IPSIS systematic review found zero hemorrhagic complications in 955 patients continuing anticoagulants during lumbar TFESI, supporting a more liberal approach.",
+      "educationalObjective": "TFESIs and facet injections are intermediate-risk procedures with the greatest anticoagulation management variability. Evidence increasingly supports continuing."
+    },
+    {
+      "id": "anticoag-010",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient on dabigatran with normal renal function requires a spinal cord stimulator trial. According to ASRA guidelines, what is the recommended hold time for dabigatran before this neuraxial procedure?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "3-5 days",
+        "No hold required"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A 24-hour hold is inadequate for neuraxial procedures with dabigatran. Spinal cord stimulator placement involves epidural instrumentation and carries high risk of epidural hematoma. Dabigatran requires a longer hold due to its renal clearance profile.",
+        "1": "A 48-hour hold may be considered for some intermediate procedures, but SCS placement is a high-risk neuraxial procedure requiring the full recommended hold of 3-5 days for dabigatran. The hold time depends partly on renal function, with longer holds for impaired function.",
+        "3": "Spinal cord stimulator placement is one of the highest-risk neuraxial procedures. Holding dabigatran is mandatory. The procedure involves threading leads through the epidural space with significant risk of vascular injury."
+      },
+      "explanation": "Spinal cord stimulator placement/revision is classified as a high-risk neuraxial procedure. Dabigatran requires a hold of 3-5 days before neuraxial procedures, with longer hold times for patients with impaired renal function (as dabigatran is primarily renally cleared). This is in contrast to apixaban (72 hours) and clopidogrel (5-7 days). The hold times reflect each medication's pharmacokinetic profile and the catastrophic consequences of epidural hematoma from neuraxial procedures.",
+      "comparisonTable": {
+        "headers": ["Medication", "Hold Time (Neuraxial)", "Key Pharmacokinetic Factor"],
+        "rows": [
+          ["Warfarin", "5 days, confirm INR <1.5", "Long half-life, variable metabolism"],
+          ["Apixaban", "~72 hours", "12-hour half-life"],
+          ["Dabigatran", "3-5 days", "Renal clearance dependent"],
+          ["Clopidogrel", "5-7 days", "Irreversible platelet inhibition"],
+          ["Aspirin (81 mg)", "Generally continue", "Low-dose does not significantly increase risk"]
+        ]
+      },
+      "educationalObjective": "Dabigatran requires 3-5 days hold for neuraxial procedures, with longer holds for impaired renal function."
+    }
+  ]
+}

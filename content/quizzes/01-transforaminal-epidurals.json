@@ -57,6 +57,176 @@
       "explanation": "Dexamethasone (a non-particulate steroid) is mandatory for cervical TFESI. Particulate steroids can cause catastrophic embolic spinal cord or brain infarction if inadvertently injected into a vertebral or radicular artery.",
       "wrongAnswerExplanations": {},
       "educationalObjective": "Dexamethasone is mandatory for all cervical transforaminal epidurals due to the catastrophic risk of particulate steroid embolization."
+    },
+    {
+      "id": "tfesi-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "You are performing an S1 TFESI. Which fluoroscopic landmark defines the medial boundary of the posterior S1 foramen and guides needle placement?",
+      "options": [
+        "The sacral cornu",
+        "The arcuate line of Aprill",
+        "The iliac crest line",
+        "The sacrococcygeal junction"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The sacral cornua are landmarks for the sacral hiatus used in caudal epidurals, not for S1 transforaminal access.",
+        "2": "The iliac crest is used for general spinal level estimation but does not define the S1 foramen boundary.",
+        "3": "The sacrococcygeal junction is relevant to caudal epidural access, not to S1 transforaminal technique."
+      },
+      "explanation": "The arcuate line of Aprill represents the continuity of the medial cortical margin of the S1 pedicle and the lateral wall of the S1 root canal. It is the key fluoroscopic landmark for identifying the posterior S1 foramen during S1 TFESI. Slight ipsilateral oblique rotation (10-15 degrees) and cephalocaudal tilt help visualize this landmark.",
+      "educationalObjective": "The arcuate line of Aprill is the essential fluoroscopic landmark for S1 transforaminal epidural access through the posterior sacral foramen."
+    },
+    {
+      "id": "tfesi-005",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During a lumbar TFESI, you inject contrast and observe rapid clearing in a branching pattern that fades quickly on live fluoroscopy. What is the appropriate next step?",
+      "options": [
+        "Proceed with steroid injection since the needle is in the epidural space",
+        "Inject more contrast to better define the pattern",
+        "Stop, reposition the needle, and re-inject contrast to confirm epidural spread",
+        "Abort the procedure entirely and reschedule"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A rapidly clearing branching pattern indicates vascular uptake, not epidural placement. Injecting steroid into a vessel risks embolization or systemic absorption with no therapeutic benefit.",
+        "1": "Injecting more contrast into a vessel increases the risk and provides no additional safety information.",
+        "3": "Vascular uptake is common (11-13% at L1-L5) and usually represents venous penetration. Repositioning and re-confirming epidural spread is the standard approach. Aborting is only required if arterial flow is suspected."
+      },
+      "explanation": "Rapid clearing of contrast in a branching (arborizing) pattern represents vascular uptake. This occurs in 11-13% of lumbar L1-L5 TFESIs. The appropriate response is to stop, reposition the needle, and re-inject contrast to confirm an epidural spread pattern before proceeding. If venous, reposition. If arterial flow is suspected, abort the procedure.",
+      "comparisonTable": {
+        "headers": ["Contrast Pattern", "Appearance", "Action"],
+        "rows": [
+          ["Epidural", "Nerve root outlining, vacuolization, medial flow", "Proceed with injection"],
+          ["Vascular (venous)", "Rapid branching clearance", "Reposition needle"],
+          ["Vascular (arterial)", "Rapid branching clearance, high-flow", "ABORT procedure"],
+          ["Intrathecal", "Central accumulation, fluid level", "STOP immediately"],
+          ["Intradural", "Tram track sign, sharp margins", "ABORT procedure"]
+        ]
+      },
+      "educationalObjective": "Vascular uptake during TFESI presents as rapid branching contrast clearance; reposition for venous uptake, abort for arterial flow."
+    },
+    {
+      "id": "tfesi-006",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 55-year-old with L3-4 foraminal stenosis has left L3 radiculopathy (anterior thigh pain). Which TFESI level and approach is most appropriate?",
+      "options": [
+        "Left L4-5 transforaminal (below the disc, targeting the traversing root)",
+        "Left L3-4 transforaminal (at the level of pathology, targeting the exiting root)",
+        "Left L2-3 transforaminal (above the disc)",
+        "Bilateral L3-4 interlaminar"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "L4-5 transforaminal would target the L4 root as it exits. Foraminal stenosis at L3-4 compresses the exiting L3 root at that level, not below.",
+        "2": "There is no rationale for injecting above the level of foraminal stenosis; the exiting root is compressed at the level of stenosis itself.",
+        "3": "Interlaminar provides less targeted delivery with only 30-40% ventral spread. Unilateral foraminal stenosis is a primary indication for TFESI."
+      },
+      "explanation": "Foraminal stenosis compresses the exiting nerve root at the level of pathology, unlike disc herniations which typically compress the traversing root. For L3-4 foraminal stenosis causing L3 radiculopathy, the TFESI is performed at L3-4 to target the exiting L3 root directly within the stenotic foramen.",
+      "educationalObjective": "For foraminal stenosis, perform TFESI at the level of pathology to target the exiting nerve root; for disc herniations, go below the disc to target the traversing root."
+    },
+    {
+      "id": "tfesi-007",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "The intravascular penetration rate during S1 TFESI is approximately the same as at L3-L5 levels (11-13%).",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "The intravascular penetration rate at S1 is significantly higher at 21.3%, compared to 11-13% at L1-L5 levels per IPSIS data. This is attributed to the rich venous plexus within the sacral foramen and requires heightened vigilance during S1 procedures."
+      },
+      "explanation": "Per IPSIS data, the intravascular penetration rate is 21.3% at S1, nearly double the 11-13% rate at L1-L5 levels. This higher rate reflects the robust venous plexus within the sacral foramen. Clinicians must maintain heightened vigilance for vascular uptake during S1 TFESI with careful real-time fluoroscopic monitoring of contrast injection.",
+      "educationalObjective": "S1 TFESI has a significantly higher intravascular penetration rate (21.3%) compared to L1-L5 (11-13%), requiring heightened vigilance during contrast injection."
+    },
+    {
+      "id": "tfesi-008",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Which IPSIS-described TFESI approach offers the greatest safety advantage with respect to the artery of Adamkiewicz?",
+      "options": [
+        "Supraneural approach",
+        "Infraneural approach",
+        "Retroneural approach",
+        "Midline interlaminar approach"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The supraneural approach places the needle in the superior foramen just below the pedicle, which is the classical approach but targets the same quadrant where the artery of Adamkiewicz is most commonly found (anterior-superior).",
+        "2": "The retroneural approach places the needle posterior to the nerve and is primarily used for diagnostic nerve blocks or when the nerve is displaced superiorly. It does not specifically address the artery of Adamkiewicz location.",
+        "3": "The midline interlaminar approach is not one of the three IPSIS-described TFESI approaches and enters the dorsal epidural space, not the foramen."
+      },
+      "explanation": "The infraneural approach positions the needle below the segmental nerve in the inferior foramen. The artery of Adamkiewicz is located almost universally in the anterior-superior quadrant of the foramen and is essentially never found posterior to the nerve in the inferior foramen. This anatomical relationship gives the infraneural approach a distinct safety advantage for avoiding this critical artery.",
+      "educationalObjective": "The infraneural TFESI approach offers a safety advantage because the artery of Adamkiewicz resides in the anterior-superior foramen and is essentially never found in the inferior foramen."
+    },
+    {
+      "id": "tfesi-009",
+      "type": "short-answer",
+      "domain": "evidence",
+      "question": "According to UpToDate guidelines, what is the maximum number of epidural steroid injections allowed at the same site within 12 months?",
+      "acceptedAnswers": [
+        "4",
+        "four",
+        "3-4",
+        "three to four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UpToDate recommends no more than 4 injections at the same site within 12 months. This limit is driven by concerns about HPA axis suppression and cumulative steroid effects including increased vertebral fracture risk (factor of 1.21 per injection). Medicare LCD similarly limits epidurals to 3-4 per region per year. Repeat injections should be spaced no more frequently than every 3 months.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Maximum 4 epidural steroid injections per site per 12 months due to HPA axis suppression risk and cumulative steroid effects including vertebral fracture."
+    },
+    {
+      "id": "tfesi-010",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient received a lumbar TFESI with dexamethasone 3 weeks ago with minimal improvement (<20% pain relief). The next most appropriate step is:",
+      "options": [
+        "Repeat the same injection at the same level with the same approach",
+        "Modify the approach, steroid preparation, or target level before repeating",
+        "Schedule two more injections to complete a standard series of three",
+        "Proceed directly to surgical consultation without any further injections"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Repeating the exact same injection after a suboptimal response is unlikely to produce a different result. Per UpToDate, the approach, steroid, or level should be modified before repeating.",
+        "2": "There is no evidence supporting a routine series. Each injection must be individually justified by documented clinical response.",
+        "3": "While surgical consultation may eventually be warranted, a single suboptimal injection does not mandate immediate surgery. Modifying the approach first is the evidence-based next step."
+      },
+      "explanation": "Per UpToDate evidence-based guidance, when an initial injection provides inadequate relief, the clinician should consider modifying the approach (e.g., switching from interlaminar to transforaminal or vice versa), changing the steroid preparation, or targeting a different spinal level. If a modified approach also fails, then discontinue repeat injections and pursue alternatives such as pulsed radiofrequency or surgical consultation.",
+      "educationalObjective": "After suboptimal response to an initial ESI, modify the approach, steroid, or target level before repeating; if the modified approach also fails, stop injections and pursue alternatives."
+    },
+    {
+      "id": "tfesi-011",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Ropivacaine can be safely mixed with dexamethasone for lumbar TFESI.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Ropivacaine must NOT be mixed with dexamethasone. Per IPSIS safety data, this combination produces large crystals capable of occluding arterioles. Dexamethasone is safely combined with lidocaine or bupivacaine only."
+      },
+      "explanation": "Ropivacaine should never be mixed with dexamethasone because this combination produces crystals large enough to occlude arterioles, negating the safety advantage of using a non-particulate steroid. Dexamethasone can be safely combined with lidocaine or bupivacaine.",
+      "educationalObjective": "Never mix ropivacaine with dexamethasone — the combination produces large crystals capable of arteriolar occlusion, eliminating the safety benefit of non-particulate steroid."
+    },
+    {
+      "id": "tfesi-012",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "In the landmark Riew et al. (2000, 2006) study, what percentage of patients receiving TFESI with corticosteroid avoided surgery, and was this sustained at 5-year follow-up?",
+      "options": [
+        "50% avoided surgery initially; most eventually required surgery by 5 years",
+        "71% avoided surgery initially; the majority continued to avoid surgery at 5+ years",
+        "90% avoided surgery initially; but only 30% sustained this at 5 years",
+        "71% avoided surgery initially; but no long-term follow-up data exists"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The study showed a higher initial surgery avoidance rate of 71%, not 50%, and the long-term follow-up confirmed sustained benefit.",
+        "2": "The initial avoidance rate was 71%, not 90%, and long-term follow-up showed most patients maintained their non-surgical status.",
+        "3": "Riew published a 2006 follow-up (minimum 5 years) confirming the majority of patients who initially avoided surgery continued to do so."
+      },
+      "explanation": "The Riew et al. study is the most-cited study in interventional spine medicine. The 2000 RCT showed 71% of patients in the steroid group canceled surgery. The 2006 long-term follow-up (minimum 5 years) confirmed that the majority of patients who avoided surgery initially continued to do so, establishing durable benefit for TFESI.",
+      "educationalObjective": "Riew et al. demonstrated 71% surgery avoidance with TFESI, sustained at 5+ year follow-up — the most-cited evidence supporting TFESI efficacy."
     }
   ]
 }

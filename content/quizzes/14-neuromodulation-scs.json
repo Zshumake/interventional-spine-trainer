@@ -1,0 +1,204 @@
+{
+  "topicId": "neuromodulation-scs",
+  "questions": [
+    {
+      "id": "scs-001",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "In the SENZA-RCT, what was the back pain responder rate (>=50% VAS reduction) for HF10 therapy compared to traditional low-frequency SCS at 3 months?",
+      "options": [
+        "HF10 67.2% vs traditional 38.1%",
+        "HF10 84.5% vs traditional 43.8%",
+        "HF10 73.0% vs traditional 55.5%",
+        "HF10 93.5% vs traditional 36.4%"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "These figures do not match the SENZA-RCT results. The actual back pain responder rate was 84.5% for HF10 vs 43.8% for traditional SCS.",
+        "2": "These figures do not match. The 55.5% value corresponds to the traditional SCS leg pain responder rate, not back pain. The back pain responder rates were 84.5% vs 43.8%.",
+        "3": "The 93.5% figure comes from DTM (differential target multiplexed) stimulation studies, not the SENZA-RCT. The SENZA trial showed 84.5% vs 43.8% for back pain."
+      },
+      "explanation": "The SENZA-RCT (Kapural et al., 2015) was a pivotal multicenter RCT comparing HF10 (10 kHz) stimulation to traditional low-frequency tonic SCS in 198 subjects with chronic back and leg pain. At 3 months, the back pain responder rate was 84.5% for HF10 vs 43.8% for traditional SCS. Leg pain responders were 83.1% vs 55.5%. Superiority was maintained through 24-month follow-up.",
+      "comparisonTable": {
+        "headers": ["Outcome", "HF10", "Traditional SCS"],
+        "rows": [
+          ["Back pain responders (3 mo)", "84.5%", "43.8%"],
+          ["Leg pain responders (3 mo)", "83.1%", "55.5%"],
+          ["Durability", "Sustained at 24 months", "Sustained at 24 months"],
+          ["Paresthesia", "Paresthesia-free", "Paresthesia-based"]
+        ]
+      },
+      "educationalObjective": "The SENZA-RCT demonstrated HF10 superiority over traditional SCS with back pain responder rates of 84.5% vs 43.8% at 3 months, sustained through 24 months."
+    },
+    {
+      "id": "scs-002",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "The ACCURATE trial established dorsal root ganglion (DRG) stimulation as superior to conventional SCS for which condition?",
+      "options": [
+        "Failed back surgery syndrome with axial back pain",
+        "CRPS and causalgia of the lower extremities",
+        "Painful diabetic neuropathy of bilateral feet",
+        "Chronic angina refractory to medical therapy"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The ACCURATE trial specifically enrolled patients with CRPS and causalgia, not FBSS with axial back pain. DRG stimulation excels for focal, well-localized pain distributions rather than diffuse axial pain.",
+        "2": "Painful diabetic neuropathy was studied in a separate trial using HF10 stimulation (JAMA Neurology 2021), not DRG stimulation in the ACCURATE trial.",
+        "3": "Chronic angina was not the indication studied in the ACCURATE trial. Angina has been studied with traditional SCS in separate literature."
+      },
+      "explanation": "The ACCURATE study (Deer et al., 2017) was the pivotal RCT comparing DRG stimulation to traditional dorsal column SCS in patients with CRPS and causalgia of the lower extremities. DRG treatment success rate was 81.2% vs 55.7% for conventional SCS at 3 months. DRG demonstrated superior outcomes for focal, well-localized pain distributions and greater positional stability. This led to FDA approval of the Proclaim DRG system.",
+      "educationalObjective": "The ACCURATE trial demonstrated DRG stimulation superiority (81.2% vs 55.7%) over conventional SCS for CRPS and causalgia of the lower extremities."
+    },
+    {
+      "id": "scs-003",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "An SCS trial is being evaluated for success criteria. Which combination of outcomes is required to consider the trial successful and proceed to permanent implantation?",
+      "options": [
+        "Any degree of pain reduction reported by the patient",
+        "At least 50% pain reduction regardless of functional status",
+        "At least 50% pain reduction AND meaningful functional improvement",
+        "Complete pain elimination for at least 48 hours"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Any degree of pain reduction is an insufficient threshold. The standard criterion requires at least 50% reduction, and pain relief alone without functional improvement may not justify permanent implantation.",
+        "1": "While 50% pain reduction is part of the criteria, pain relief alone without functional gain may not justify permanent implantation. Both components -- pain reduction and functional improvement -- are required.",
+        "3": "Complete pain elimination is an unrealistic expectation for SCS trials. The established threshold is at least 50% reduction, combined with functional improvement."
+      },
+      "explanation": "A successful SCS trial requires BOTH at least 50% pain reduction AND meaningful functional improvement (increased activity, decreased medication use, improved sleep). Both components matter -- pain relief alone without functional gain may not justify permanent implantation. The trial period typically lasts 3-7 days, during which patients perform their usual daily activities to assess real-world benefit.",
+      "educationalObjective": "SCS trial success requires both >=50% pain reduction AND functional improvement -- pain relief alone without functional gain is insufficient to proceed to permanent implant."
+    },
+    {
+      "id": "scs-004",
+      "type": "short-answer",
+      "domain": "evidence",
+      "question": "What is the approximate overall trial-to-permanent SCS implant conversion rate?",
+      "acceptedAnswers": [
+        "67%",
+        "67 percent",
+        "approximately 67%",
+        "~67%",
+        "two thirds",
+        "two-thirds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The overall trial-to-permanent implant conversion rate is approximately 67%, though this figure has been trending upward over time -- from roughly 63% in 2010 to approximately 73% in 2021. This improvement likely reflects better patient selection, improved trial protocols, and advances in waveform technology that expand the population of responders.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "The SCS trial-to-permanent conversion rate averages approximately 67%, trending upward from 63% (2010) to 73% (2021) due to improved selection and technology."
+    },
+    {
+      "id": "scs-005",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Lead migration is the most common hardware complication of SCS. What is the reported incidence range, and what percentage of clinically significant migrations require surgical revision?",
+      "options": [
+        "1-5% incidence; 50% require revision",
+        "10-22.6% incidence; 96% require revision",
+        "25-40% incidence; 100% require revision",
+        "5-10% incidence; 75% require revision"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "This significantly underestimates the incidence. Lead migration occurs in 10-22.6% of patients, and 96% of clinically significant migrations require revision.",
+        "2": "This overestimates the incidence. While lead migration is the most common hardware complication, it occurs in 10-22.6% of patients, not 25-40%.",
+        "3": "These figures do not match published data. The incidence is 10-22.6% and approximately 96% of clinically significant migrations require surgical revision."
+      },
+      "explanation": "Lead migration remains the single most common hardware complication of SCS, reported in approximately 10-22.6% of patients depending on the series and follow-up duration. Roughly 96% of patients who experience clinically significant lead migration require surgical revision to restore therapeutic coverage. Prevention strategies include proper anchoring technique, strain-relief loops, and the standard 2-4 week post-implant activity restriction to allow fibrous encapsulation.",
+      "educationalObjective": "Lead migration occurs in 10-22.6% of SCS patients, with 96% of clinically significant cases requiring surgical revision. Proper anchoring and post-implant activity restriction are key prevention strategies."
+    },
+    {
+      "id": "scs-006",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "MRI compatibility of an SCS system requires verification of only the IPG model; the specific lead and extension types do not affect MRI conditional labeling.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "This is false and a critical safety point. MRI compatibility must be verified for the ENTIRE system -- the IPG, the specific lead model, AND the extensions must all be compatible. Mixing components from different generations or manufacturers can void MRI conditional labeling, potentially exposing the patient to serious harm during MRI scanning."
+      },
+      "explanation": "MRI compatibility requires verification of the ENTIRE SCS system -- the IPG model, the specific lead model, AND the extension type must all carry MRI-conditional labeling. A single incompatible component renders the entire system MRI-unsafe. This is particularly important because 82-84% of SCS patients are projected to need an MRI within 5 years of implantation. Before any MRI, the device must be placed in MRI-safe mode and scanning parameters must meet the system's conditional requirements.",
+      "educationalObjective": "MRI compatibility requires verification of all SCS system components (IPG + leads + extensions) -- a single incompatible component renders the entire system MRI-unsafe."
+    },
+    {
+      "id": "scs-007",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Which of the following is NOT a well-established FDA-approved indication for spinal cord stimulation?",
+      "options": [
+        "Failed back surgery syndrome",
+        "Complex regional pain syndrome Types I and II",
+        "Painful diabetic neuropathy",
+        "Acute postoperative lumbar spine pain"
+      ],
+      "correctAnswer": 3,
+      "wrongAnswerExplanations": {
+        "0": "FBSS is the original and most studied indication for SCS. It is well-established as an FDA-approved indication for patients with persistent radiculopathy and/or axial pain following lumbar surgery who have failed conservative management.",
+        "1": "Both CRPS Type I (reflex sympathetic dystrophy) and Type II (causalgia) are well-supported FDA-approved indications. DRG stimulation has shown particular promise for CRPS.",
+        "2": "Painful diabetic neuropathy is a more recently approved SCS indication, based on high-frequency stimulation trial data demonstrating significant pain reduction in patients refractory to medical management."
+      },
+      "explanation": "The three primary FDA-approved SCS indications are failed back surgery syndrome (the original and most studied), CRPS Types I and II, and painful diabetic neuropathy (more recently approved based on HF10 data). Acute postoperative pain is not an indication for SCS -- patients must have chronic, refractory pain that has failed conservative management (typically 3-6 months of documented conservative care required by payers).",
+      "educationalObjective": "The three primary FDA-approved SCS indications are FBSS, CRPS Types I and II, and painful diabetic neuropathy. SCS requires chronic pain that has failed conservative therapy."
+    },
+    {
+      "id": "scs-008",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "A psychological evaluation prior to SCS implantation is considered standard practice and is required by most insurers.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "This statement is true. Psychological assessment is required by most insurers and considered standard practice before SCS. It screens for untreated major depression or anxiety, catastrophizing, secondary gain issues, unrealistic expectations, and cognitive capacity to manage device programming. Patients who fail screening may still be candidates after treatment of identified issues."
+      },
+      "explanation": "A psychological evaluation is standard of care before SCS implantation. It screens for untreated major depression or anxiety disorders, catastrophizing and poor coping strategies, secondary gain issues (active litigation, disability incentives), unrealistic expectations, and cognitive capacity to manage device care. Patients who fail psychological screening may still be candidates after appropriate treatment of identified issues.",
+      "educationalObjective": "Psychological evaluation is standard of care before SCS, screening for depression, catastrophizing, secondary gain, unrealistic expectations, and device management capacity."
+    },
+    {
+      "id": "scs-009",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "Which SCS waveform paradigm uses real-time evoked compound action potential (ECAP) sensing to automatically adjust stimulation amplitude based on measured neural activation?",
+      "options": [
+        "HF10 (high-frequency 10 kHz) stimulation",
+        "Burst stimulation",
+        "Closed-loop stimulation",
+        "Differential target multiplexed (DTM) stimulation"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "HF10 delivers stimulation at 10,000 Hz with low amplitude and provides paresthesia-free pain relief. It does not use ECAP sensing for real-time dose adjustment.",
+        "1": "Burst stimulation delivers packets of five pulses at 500 Hz with inter-burst frequency of 40 Hz. It is paresthesia-free but uses fixed-output programming, not ECAP-based adjustment.",
+        "3": "DTM employs multiplexed signals targeting various neural elements simultaneously. While innovative, it does not use ECAP-based real-time neural dose control."
+      },
+      "explanation": "Closed-loop stimulation utilizes evoked compound action potential (ECAP) sensing to measure the neural response to each stimulation pulse, then automatically adjusts stimulation amplitude in real time based on the measured neural activation. This compensates for changes in electrode-to-cord distance caused by movement or positional changes. The Evoke trial demonstrated superiority of closed-loop over conventional open-loop programming at both 12 and 36 months.",
+      "comparisonTable": {
+        "headers": ["Waveform", "Frequency", "Paresthesia", "Key Feature"],
+        "rows": [
+          ["Traditional tonic", "40-80 Hz", "Yes", "Dorsal column paresthesia mapping"],
+          ["HF10", "10,000 Hz", "No", "Paresthesia-free, simplified placement"],
+          ["Burst", "500 Hz bursts at 40 Hz", "No", "Engages affective pain pathways"],
+          ["Closed-loop", "Variable", "Variable", "Real-time ECAP-based dose adjustment"],
+          ["DTM", "Multiplexed", "Variable", "Simultaneous multi-target stimulation"]
+        ]
+      },
+      "educationalObjective": "Closed-loop SCS uses ECAP sensing for real-time amplitude adjustment, compensating for positional changes in electrode-cord distance -- proven superior to open-loop in the Evoke trial."
+    },
+    {
+      "id": "scs-010",
+      "type": "short-answer",
+      "domain": "clinical-decision-making",
+      "question": "What estimated percentage of SCS patients will require an MRI within 5 years of implantation, making MRI compatibility a critical device selection factor?",
+      "acceptedAnswers": [
+        "82-84%",
+        "82%",
+        "83%",
+        "84%",
+        "82 to 84 percent",
+        "approximately 82-84%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An estimated 82-84% of SCS patients will require an MRI within 5 years of implantation, making MRI compatibility a front-line consideration in device selection. Most modern SCS systems are MRI-conditional at 1.5 Tesla. The Saluda Inceptiv system (closed-loop platform) has received clearance for full-body 3T MRI, which is significant since many diagnostic protocols and academic centers rely on 3T imaging.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "82-84% of SCS patients will need MRI within 5 years of implantation, making MRI compatibility one of the most important device selection considerations."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "topicId": "ethics-billing-medicolegal",
+  "questions": [
+    {
+      "id": "ethics-001",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "You are a new interventional spine fellow and find that a practice you are rotating through has pre-scheduled a series of three lumbar epidural steroid injections at two-week intervals for every new radiculopathy patient at their first visit. According to Medicare LCD policy, what is the problem with this practice?",
+      "options": [
+        "Three injections exceed the annual frequency limit for epidurals",
+        "Medicare LCD explicitly prohibits scheduling a routine series without individual assessment between each procedure",
+        "Two-week intervals are too short; the minimum interval is 6 weeks",
+        "Only two epidurals are ever justified for any single episode of radiculopathy"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Most LCDs limit epidurals to 3-4 per region per year, so three injections alone does not exceed the frequency limit. The problem is the pre-scheduling of a routine series without individual assessment of response between each procedure.",
+        "2": "While minimum intervals between steroid injections exist (2-3 weeks for HPA axis recovery per IPSIS), the core issue is not the interval but the pre-scheduling of a series without documented assessment of each prior injection's effectiveness.",
+        "3": "There is no absolute cap of two injections. The requirement is that each injection must be individually justified based on documented response to the prior procedure. If two injections provide no benefit, a third should not be performed -- but this is based on response assessment, not a fixed number."
+      },
+      "explanation": "Medicare LCD explicitly prohibits scheduling a routine series of injections. Each procedure must be individually justified with: (1) assessment of response to the prior injection, (2) updated history and physical examination, (3) clinical rationale for why a repeat injection is indicated, (4) confirmation that conservative measures continue, and (5) new informed consent. Pre-scheduling violates these requirements and is a specific False Claims Act risk area.",
+      "educationalObjective": "Pre-scheduling routine injection series is explicitly prohibited by Medicare LCD. Each injection requires individual justification with documented interval assessment."
+    },
+    {
+      "id": "ethics-002",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "Performing epidural steroid injections without fluoroscopic guidance and contrast confirmation meets the current standard of care.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Fluoroscopic guidance with contrast confirmation is the established standard of care for epidural steroid injections. It confirms correct needle placement, identifies vascular uptake (critical for TFESI safety), identifies intrathecal injection, documents epidural spread, and reduces complication rates. Performing epidurals without fluoroscopy may constitute a deviation from the standard of care and expose the practitioner to malpractice liability."
+      },
+      "explanation": "Fluoroscopic guidance with contrast confirmation is the standard of care for ESIs and most interventional spine procedures. Contrast confirms correct needle placement, identifies potentially dangerous vascular uptake or intrathecal injection, documents the epidural spread pattern, and reduces complication rates. The contrast spread pattern should be documented in every procedure note. The 2014 FDA safety communication further reinforced procedural safety standards for epidural injections.",
+      "educationalObjective": "Fluoroscopy with contrast confirmation is the standard of care for ESIs. Performing without it may constitute malpractice exposure."
+    },
+    {
+      "id": "ethics-003",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A practitioner routinely uses moderate IV sedation for all patients undergoing lumbar medial branch blocks and transforaminal epidural injections, billing Medicare for the sedation services. According to Medicare policy, what is the problem with this practice?",
+      "options": [
+        "Sedation requires a separate anesthesiologist, increasing cost unnecessarily",
+        "Medicare policy states sedation is usually unnecessary and rarely indicated for these procedures, requiring specific medical necessity documentation when used",
+        "Sedation is prohibited for all interventional spine procedures",
+        "Sedation is only problematic if the patient does not sign a separate consent"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "While cost is a concern, the primary issue is that Medicare considers sedation not medically reasonable for routine interventional spine procedures. The problem is the routine use without individual medical necessity justification.",
+        "2": "Sedation is not categorically prohibited. It may be appropriate with specific documentation for patients with severe anxiety disorder, documented inability to tolerate prior procedures, certain more painful procedures (RFA, disc procedures), cognitive impairment, or movement disorders.",
+        "3": "The issue goes far beyond consent documentation. Routine sedation billing without medical necessity documentation is a specific fraud pattern identified as an enforcement target. It is also a safety concern because sedation impairs the patient's ability to report critical symptoms during the procedure."
+      },
+      "explanation": "Medicare policy is clear: sedation is usually unnecessary and rarely indicated for interventional spine procedures, and is considered not medically reasonable for routine cases. Routine sedation billing without specific medical necessity documentation is an identified enforcement target. Dr. O'Brien estimates that in over 30 years of practice, perhaps five patients truly needed IV sedation. Beyond the billing issue, sedation impairs the patient's ability to report paresthesia, sudden pain, or early cord injury signs -- creating a safety concern as well.",
+      "educationalObjective": "Routine sedation for spine injections is not medically reasonable per Medicare. Specific medical necessity documentation is required when sedation is used."
+    },
+    {
+      "id": "ethics-004",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "A practitioner bills Medicare for a series of medically unnecessary spine procedures over two years. Under the False Claims Act, what penalties does this practitioner face?",
+      "options": [
+        "Return of the overbilled amount only",
+        "Double damages plus a $5,000 per-claim penalty",
+        "Treble damages (3x the amount defrauded) plus per-claim penalties of $11,000-$23,000, with possible criminal prosecution",
+        "A warning letter from CMS with mandatory retraining"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "The False Claims Act imposes far more than simple repayment. The statute is designed as both a compensatory and punitive mechanism to deter fraud against federal healthcare programs.",
+        "1": "The FCA imposes treble (3x) damages, not double, and per-claim penalties are $11,000-$23,000 or more, not $5,000. Additionally, criminal prosecution is possible for knowing violations.",
+        "3": "The FCA is a federal statute with severe financial and criminal penalties. It is not a regulatory warning system. Qui tam provisions also allow whistleblowers (often current or former employees) to file lawsuits on behalf of the government and receive a portion of recovered funds."
+      },
+      "explanation": "The False Claims Act imposes treble damages (3x the amount defrauded) plus per-claim penalties of $11,000-$23,000 or more. Criminal prosecution is also possible. Importantly, the FCA includes qui tam (whistleblower) provisions allowing employees to file lawsuits on behalf of the government -- meaning former fellows, staff, or billing employees can initiate investigations. Common FCA risk areas in interventional spine include medically unnecessary procedures, routine series, upcoding, unbundling, and sedation billing abuse.",
+      "educationalObjective": "The False Claims Act imposes treble damages plus $11,000-$23,000 per false claim, with possible criminal prosecution and whistleblower-initiated lawsuits."
+    },
+    {
+      "id": "ethics-005",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "In 2012, a catastrophic public health event involving epidural steroid injections led to major regulatory changes in compounding pharmacy oversight. What was this event?",
+      "options": [
+        "A nationwide recall of particulate steroids due to contamination with heavy metals",
+        "Hundreds of patients developed fungal meningitis from contaminated glucocorticoid produced by the New England Compounding Center (NECC)",
+        "A cluster of epidural abscesses linked to reuse of single-dose steroid vials across multiple patients",
+        "An FDA recall of all non-particulate steroids due to manufacturing defects"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The 2012 event was not related to heavy metal contamination. It was a fungal contamination of methylprednisolone acetate from a single compounding pharmacy that affected patients across multiple states.",
+        "2": "While vial reuse is a serious safety concern, the 2012 outbreak was specifically caused by fungal contamination at the compounding pharmacy level, not at the point of care. The contaminated medication was distributed to numerous facilities.",
+        "3": "There was no recall of non-particulate steroids. The contamination involved methylprednisolone acetate (a particulate steroid) produced by the New England Compounding Center under unsanitary conditions."
+      },
+      "explanation": "In 2012, the New England Compounding Center (NECC) distributed contaminated methylprednisolone acetate that caused hundreds of cases of fungal meningitis, many of them fatal, in patients who received epidural steroid injections. This catastrophic event led to major regulatory reforms in compounding pharmacy oversight and heightened awareness about medication sourcing and chain of custody for injectable medications used in spine procedures.",
+      "educationalObjective": "The 2012 NECC fungal meningitis outbreak from contaminated epidural steroids led to major regulatory reforms in compounding pharmacy oversight."
+    },
+    {
+      "id": "ethics-006",
+      "type": "short-answer",
+      "domain": "clinical-decision-making",
+      "question": "According to IPSIS guidelines, how many required elements must be addressed during the informed consent process for an interventional spine procedure?",
+      "acceptedAnswers": [
+        "6",
+        "six",
+        "Six"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IPSIS guidelines require six elements of informed consent: (1) the diagnosis for which the procedure is being performed, (2) confirmation that the patient has capacity to make the decision, (3) disclosure of expected benefits, risks, and their likelihood, (4) presentation of treatment alternatives including risks of alternatives and of declining, (5) confirmation that the patient comprehends the information, and (6) confirmation that consent is voluntary and free of coercion. Additionally, financial conflicts of interest must be disclosed, and simply stating that risks were discussed is legally insufficient -- specifics must be documented.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "IPSIS requires six elements of informed consent: diagnosis, capacity, risk/benefit disclosure, alternatives, comprehension, and voluntariness."
+    },
+    {
+      "id": "ethics-007",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "The 2014 FDA drug safety communication warned of rare but serious adverse effects of epidural glucocorticoid injections, including stroke, paralysis, death, and vision loss.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "The FDA did issue a 2014 drug safety communication specifically warning about these rare but serious adverse effects. Vision loss was attributed to rapid retinal venous pressure elevation from large-volume injections. Paralysis following lumbar transforaminal injections was attributed to spinal cord infarction from injury, spasm, or embolization of particulate steroids into a radiculomedullary artery. This communication reinforced the importance of using non-particulate steroids for cervical TFESIs and proper procedural technique."
+      },
+      "explanation": "In 2014, the FDA issued a drug safety communication warning about rare but serious adverse effects of epidural glucocorticoid injections, including stroke, paralysis, death, and vision loss from rapid retinal venous pressure elevation when large volumes are injected rapidly. This communication reinforced existing safety practices including the use of non-particulate steroids for cervical transforaminal injections and the importance of fluoroscopic guidance with contrast confirmation to identify vascular uptake before delivering therapeutic medications.",
+      "educationalObjective": "The 2014 FDA safety communication warned of rare stroke, paralysis, death, and vision loss from epidural steroid injections."
+    },
+    {
+      "id": "ethics-008",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A nurse practitioner diagnoses a patient with sacroiliac joint pain but orders medial branch blocks because the patient's insurance will not cover SI joint procedures. The diagnosis listed on the order is lumbar facet arthropathy. What ethical and legal issue does this represent?",
+      "options": [
+        "A scope-of-practice violation because NPs cannot order spine procedures",
+        "Fraud -- the diagnosis must match the treatment, and billing for one diagnosis while performing the procedure for another is a False Claims Act violation",
+        "A minor documentation error that can be corrected retroactively",
+        "An acceptable practice because the patient needs treatment regardless of the diagnosis code"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "While scope-of-practice rules vary by state, the primary issue here is not who ordered the procedure but the intentional mismatch between diagnosis and treatment for insurance purposes.",
+        "2": "This is not a minor documentation error. It is an intentional misrepresentation of the diagnosis to obtain insurance coverage for a different procedure. This disconnect between diagnosis and treatment constitutes fraud under the False Claims Act.",
+        "3": "The patient's need for treatment does not justify billing fraud. The appropriate response is to advocate for proper coverage, seek prior authorization for SI joint procedures, or appeal the denial -- not to fabricate a different diagnosis to obtain payment."
+      },
+      "explanation": "The diagnosis must match the treatment. Billing for medial branch blocks under a lumbar facet arthropathy diagnosis when the actual clinical diagnosis is SI joint pain is fraud. This type of diagnosis-procedure mismatch is more common than many practitioners realize and constitutes a False Claims Act violation when federal healthcare programs are billed. Dr. O'Brien specifically highlights this example as a common unethical practice.",
+      "educationalObjective": "The diagnosis must match the procedure. Billing for one diagnosis while performing a procedure for another is fraud under the False Claims Act."
+    },
+    {
+      "id": "ethics-009",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "A postmenopausal woman with osteopenia has received multiple lumbar epidural steroid injections over the past year. According to IPSIS data on cumulative steroid exposure, at what cumulative epidural methylprednisolone dose does the risk of vertebral compression fracture significantly increase over one year?",
+      "options": [
+        "50 mg",
+        "100 mg",
+        "200 mg",
+        "500 mg"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A cumulative dose of 50 mg is within standard practice for a single or two injections and has not been identified as a threshold for increased fracture risk in the literature.",
+        "1": "100 mg has not been identified as the specific threshold. The meta-analysis data indicate the risk increase becomes significant above 200 mg of methylprednisolone per year or 400 mg over 3 years in postmenopausal women.",
+        "3": "500 mg is well above the identified threshold. The risk increase is significant above 200 mg per year, meaning many fewer injections than would be needed to reach 500 mg."
+      },
+      "explanation": "A meta-analysis found increased vertebral compression fracture risk with cumulative epidural methylprednisolone doses exceeding 200 mg over 1 year or 400 mg over 3 years in postmenopausal women. Each successive epidural steroid injection increases the 5-year vertebral fracture risk by a factor of 1.21 (95% CI 1.08-1.30). This reinforces the importance of tracking total steroid exposure, using the lowest effective dose, and applying frequency limits -- especially in patients with osteoporosis or osteopenia.",
+      "educationalObjective": "Cumulative epidural methylprednisolone above 200 mg/year increases vertebral fracture risk in postmenopausal women. Track total steroid exposure."
+    },
+    {
+      "id": "ethics-010",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "You perform an E/M visit on the same day as a lumbar transforaminal epidural steroid injection and bill Medicare using modifier -25 to indicate the E/M was a separately identifiable service. Which of the following practices regarding modifier -25 is most defensible?",
+      "options": [
+        "Modifier -25 should be appended to every injection day E/M visit as a standard billing practice",
+        "Modifier -25 is appropriate only when the E/M documentation reflects a genuinely separate evaluation beyond pre-procedure assessment, such as a new complaint or updated clinical decision-making",
+        "Modifier -25 is only allowed when the E/M and procedure are performed by different providers",
+        "Modifier -25 is never appropriate on the same day as an injection procedure"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Routinely appending modifier -25 to all injection-day E/M visits without genuine separate evaluation constitutes upcoding. The E/M must reflect a separately identifiable service with documentation of clinical assessment beyond the pre-procedure check.",
+        "2": "Modifier -25 is not restricted to different providers. It indicates that a significant, separately identifiable E/M service was performed by the same physician on the same day as a procedure. The key requirement is that the documentation supports a genuinely separate evaluation.",
+        "3": "Modifier -25 is appropriate when a separately identifiable E/M service is performed on the same day as a procedure. For example, performing an interval assessment of response to a prior injection and updating the treatment plan constitutes a separately identifiable service beyond the pre-procedure assessment."
+      },
+      "explanation": "Modifier -25 indicates a significant, separately identifiable E/M service performed on the same day as a procedure. It is defensible when the documentation reflects genuine clinical assessment beyond the pre-procedure check -- for example, interval assessment of response to a prior injection, evaluation of a new complaint, or updated clinical decision-making that drives the treatment plan. Routinely appending modifier -25 without supporting documentation is an auditor red flag and a form of upcoding.",
+      "educationalObjective": "Modifier -25 requires documentation of a genuinely separate E/M service beyond pre-procedure assessment. Routine use without supporting documentation is upcoding."
+    }
+  ]
+}

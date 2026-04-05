@@ -1,0 +1,198 @@
+{
+  "topicId": "discogenic-pain-bvn-ablation",
+  "questions": [
+    {
+      "id": "bvn-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "A 52-year-old woman with chronic axial low back pain and Modic type 1 changes at L4-5 is scheduled for BVN ablation. During the transpedicular approach, you are advancing the curved nitinol channeling stylet toward the target zone. On lateral fluoroscopy, at what depth within the vertebral body should the target zone be located?",
+      "options": [
+        "10-20% of the distance from the posterior to anterior vertebral body wall",
+        "30-50% of the distance from the posterior to anterior vertebral body wall",
+        "60-75% of the distance from the posterior to anterior vertebral body wall",
+        "At the anterior cortex of the vertebral body"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "A target at 10-20% depth would be too posterior and dangerously close to the posterior vertebral wall. The IPSIS manual specifies a posterior safety limit of 1 cm anterior to the posterior wall to allow heat dissipation and protect the epidural space.",
+        "2": "At 60-75% depth, the probe would be anterior to the basivertebral foramen terminus. The BVN is located in the posterior half of the vertebral body, and advancing too far anteriorly would miss the nerve.",
+        "3": "The anterior cortex is far beyond the BVN location. The basivertebral nerve enters through the posterior cortex and branches anteriorly, with the terminus of the basivertebral foramen typically at 30-50% depth at L3-L5."
+      },
+      "explanation": "At L3-L5, the basivertebral foramen terminus is typically located 30-50% of the distance from the posterior to anterior vertebral body wall. The target zone extends from 1 cm anterior to the posterior wall (to allow heat dissipation and protect the epidural space) to the anterior terminus of the foramen. The RF probe midpoint should be centered within this zone, midway between the superior and inferior endplates.",
+      "comparisonTable": {
+        "headers": ["Level", "AP Target Depth", "Craniocaudal Target", "Special Consideration"],
+        "rows": [
+          ["L3", "30-50%", "Midway between endplates", "Narrower pedicles may require coaxial trajectory"],
+          ["L4", "30-50%", "Midway between endplates", "Standard approach"],
+          ["L5", "30-50%", "Midway between endplates", "Convex posterior wall — risk of canal breach if trochar insufficiently advanced"],
+          ["S1", "30-50%", "40% from superior endplate", "Iliac crest may obstruct; additional cephalad tilt may be needed"]
+        ]
+      },
+      "educationalObjective": "The BVN ablation target zone at L3-L5 is 30-50% of the posterior-to-anterior vertebral body depth, centered between the endplates, with a 1 cm safety margin from the posterior wall."
+    },
+    {
+      "id": "bvn-002",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 48-year-old man presents with 8 months of axial low back pain. MRI shows Modic changes at L4-5. You are reviewing the MRI to determine candidacy for BVN ablation. Which Modic type demonstrates T1 hypointensity and T2 hyperintensity, representing active endplate inflammation?",
+      "options": [
+        "Modic type 1",
+        "Modic type 2",
+        "Modic type 3",
+        "Modic type 0"
+      ],
+      "correctAnswer": 0,
+      "wrongAnswerExplanations": {
+        "1": "Modic type 2 shows T1 hyperintensity and T2 hyperintensity/isointensity, representing fatty infiltration of the endplates. This is a more chronic/stable pattern that may still respond to BVN ablation, but is not the pattern described.",
+        "2": "Modic type 3 shows both T1 hypointensity and T2 hypointensity, representing subchondral sclerosis. This is the least common type and is NOT an indication for BVN ablation.",
+        "3": "There is no recognized Modic type 0 classification. Modic changes are categorized as types 1, 2, and 3."
+      },
+      "explanation": "Modic type 1 changes show T1 hypointensity and T2 hyperintensity, reflecting active inflammatory edema in the vertebral endplates. This pattern is the strongest predictor of response to BVN ablation because it indicates ongoing inflammatory nociceptor sensitization transmitted via the basivertebral nerve. Modic 1 changes are present in approximately 6% of the general population but 35-40% of patients with chronic low back pain.",
+      "comparisonTable": {
+        "headers": ["Modic Type", "T1 Signal", "T2 Signal", "Pathology", "BVN Ablation Candidacy"],
+        "rows": [
+          ["Type 1", "Hypointense", "Hyperintense", "Active inflammation/edema", "Best predictor of response"],
+          ["Type 2", "Hyperintense", "Hyperintense/iso", "Fatty infiltration", "May still respond"],
+          ["Type 3", "Hypointense", "Hypointense", "Sclerosis", "NOT an indication"]
+        ]
+      },
+      "educationalObjective": "Modic type 1 changes (T1 dark, T2 bright) represent active endplate inflammation and are the strongest predictor of response to BVN ablation."
+    },
+    {
+      "id": "bvn-003",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "In the SMART trial (225 patients), the difference in ODI improvement between BVN ablation (20.5 points) and sham procedure (15.2 points) met the pre-specified threshold for statistical significance in the primary analysis.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "The SMART trial showed a 20.5-point ODI decrease with BVN ablation versus 15.2 points with sham, but this difference fell below the pre-specified threshold for statistical significance in the primary analysis. However, a responder analysis showed 75.6% of ablation patients achieved MCID (>10-point ODI improvement) versus 55.3% in the sham group, and at 2-year follow-up, 76.4% maintained sustained improvement."
+      },
+      "explanation": "While the SMART trial demonstrated clinically meaningful improvement (20.5 vs 15.2 points ODI), the between-group difference did not meet the pre-specified significance threshold in the primary analysis. Importantly, the responder analysis showed a statistically significant difference: 75.6% of ablation patients achieved the minimum clinically important difference versus only 55.3% of sham patients. A second trial of 140 patients was terminated early due to uniformly improved outcomes in the ablation arm versus standard care.",
+      "educationalObjective": "The SMART trial primary analysis did not reach the pre-specified significance threshold, but responder analysis and a second terminated-early trial support BVN ablation efficacy."
+    },
+    {
+      "id": "bvn-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During a BVN ablation at L4-5, you are preparing to create the radiofrequency lesion. Which of the following represents the standard bipolar RF lesion protocol parameters?",
+      "options": [
+        "60 degrees C for 90 seconds",
+        "80 degrees C for 60 seconds",
+        "85 degrees C for 15 minutes or 75 degrees C for 7 minutes",
+        "90 degrees C for 3 minutes"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "60 degrees C for 90 seconds is a common parameter for conventional medial branch RFA, not for intraosseous BVN ablation. BVN ablation requires significantly longer lesion times because the target is within cancellous bone.",
+        "1": "80 degrees C for 60 seconds is the typical standard for conventional peripheral RFA (e.g., medial branch neurotomy). BVN ablation uses different parameters optimized for creating an adequate lesion within the vertebral body.",
+        "3": "90 degrees C for 3 minutes is not a recognized protocol for BVN ablation. The standard protocols are 85 degrees C for 15 minutes (standard) or 75 degrees C for 7 minutes (targeted coagulation)."
+      },
+      "explanation": "BVN ablation uses a bipolar RF electrode with either a standard protocol of 85 degrees C for 15 minutes or a targeted coagulation protocol of 75 degrees C for 7 minutes. These are substantially longer than conventional peripheral RFA parameters because the lesion must be created within the dense cancellous bone of the vertebral body to adequately ablate the basivertebral nerve at the midline.",
+      "educationalObjective": "BVN ablation RF parameters are 85 degrees C/15 minutes (standard) or 75 degrees C/7 minutes (targeted coagulation) -- much longer than conventional RFA."
+    },
+    {
+      "id": "bvn-005",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 55-year-old woman with chronic axial LBP and Modic type 1 changes at L4-5 is being evaluated for BVN ablation. She also reports right L5 radiculopathy with a positive straight leg raise and MRI showing an L4-5 disc herniation contacting the traversing L5 nerve root. What is the most appropriate next step?",
+      "options": [
+        "Proceed with BVN ablation at L4 and L5 vertebral bodies",
+        "Address the radiculopathy first with transforaminal epidural steroid injection",
+        "Perform provocative discography at L4-5 to confirm discogenic pain",
+        "Schedule BVN ablation and L5-S1 TFESI on the same day"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Radiculopathy is a contraindication for BVN ablation as the primary complaint. The patient's radicular symptoms must be addressed first, and if they resolve, the residual axial pain can then be evaluated for BVN ablation candidacy.",
+        "2": "Provocative discography is not the appropriate next step when radiculopathy is present. The IPSIS manual emphasizes that more easily treated conditions, especially those likely responsible for most of the patient's complaints, should be addressed first.",
+        "3": "Combining BVN ablation with TFESI on the same day is not appropriate. The radiculopathy should be treated first, and response assessed, before considering BVN ablation for any residual axial component."
+      },
+      "explanation": "The IPSIS manual emphasizes that the presence of other lumbar pathology does not automatically contraindicate BVN ablation, but more easily treated conditions -- especially those likely responsible for most of the patient's complaints -- should be addressed first. Radiculopathy as the primary complaint is a contraindication for BVN ablation. The appropriate approach is to treat the radiculopathy first, assess response, and then evaluate any residual axial pain for BVN ablation candidacy.",
+      "educationalObjective": "Address radiculopathy and other more easily treated conditions before considering BVN ablation for residual axial pain with Modic changes."
+    },
+    {
+      "id": "bvn-006",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What nerve serves as the final common pathway for endplate-mediated nociception and is the target of the Intracept ablation procedure?",
+      "acceptedAnswers": [
+        "basivertebral nerve",
+        "BVN",
+        "sinuvertebral nerve",
+        "basivertebral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The basivertebral nerve (BVN) is the final common pathway for endplate-mediated nociception. It enters the vertebral body through the posterior cortex via the basivertebral foramen and branches anteriorly to innervate the vertebral endplates. In degenerative disc disease with Modic changes, inflammatory mediators (TNF-alpha, IL-1, IL-6) sensitize endplate nociceptors, which transmit pain signals via the BVN to the spinal cord. The Intracept procedure ablates this nerve using a transpedicular approach to deliver RF energy to the midline of the vertebral body.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "The basivertebral nerve is the final common pathway for endplate nociception and the specific target of BVN ablation (Intracept procedure)."
+    },
+    {
+      "id": "bvn-007",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "Modic type 3 (sclerotic) endplate changes are an appropriate indication for BVN ablation.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Modic type 3 changes represent subchondral sclerosis (T1 hypointense, T2 hypointense) and are NOT an indication for BVN ablation. BVN ablation targets the inflammatory pain pathway, and Modic 3 changes lack the active inflammatory component that sensitizes endplate nociceptors. Only Modic type 1 (preferred) and type 2 changes are indications for the procedure."
+      },
+      "explanation": "Modic type 3 changes represent sclerosis (both T1 and T2 hypointense) without an active inflammatory component. BVN ablation is indicated only for Modic type 1 (active inflammation, best predictor of response) or type 2 (fatty infiltration, may still respond) changes. The procedure works by interrupting inflammatory pain signals transmitted via the BVN, so an active or recent inflammatory process must be present.",
+      "educationalObjective": "Modic type 3 (sclerotic) changes are NOT an indication for BVN ablation -- only Modic types 1 and 2 qualify."
+    },
+    {
+      "id": "bvn-008",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "According to IPSIS/SIS provocation discography standards, which of the following criteria must be met to confirm a disc as the source of pain?",
+      "options": [
+        "Any pain response during disc pressurization with abnormal disc morphology on contrast imaging",
+        "Concordant pain of 7/10 or greater with negative control disc(s) and facet pain excluded",
+        "Reproduction of any low back pain during pressurization with MRI-confirmed disc degeneration",
+        "Concordant pain of 5/10 or greater with positive contrast spread into the epidural space"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Disc morphology on contrast imaging is NOT diagnostic for discogenic pain per IPSIS. Only concordant pain reproduction with negative controls has diagnostic validity. Additionally, a nonreproducible startle response must be distinguished from true concordant pain.",
+        "2": "MRI findings alone cannot predict a positive provocation response (Schellhas 1996). The criterion requires concordant pain of 7/10 or greater, not just any pain, and a negative control disc is mandatory.",
+        "3": "The threshold is 7/10, not 5/10. Contrast spread into the epidural space is not a diagnostic criterion -- it may actually represent an annular tear but does not confirm the disc as the pain source."
+      },
+      "explanation": "IPSIS/SIS provocation discography standards require: (1) correct technical performance, (2) facet joint pain excluded at the studied segments via medial branch blocks, (3) concordant pain reproduced at 7/10 or greater intensity, and (4) stimulation of adjacent control discs does not reproduce concordant pain. Internal disc morphology on contrast imaging is explicitly stated as not diagnostic. The startle response during injection must be distinguished from true concordant provocation.",
+      "educationalObjective": "Provocation discography requires concordant pain at 7/10+, negative control disc(s), facet pain excluded, and correct technique -- disc morphology alone is NOT diagnostic."
+    },
+    {
+      "id": "bvn-009",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "A patient is undergoing BVN ablation at L4-5 and L5-S1. How many vertebral bodies must be treated, and what CPT codes apply?",
+      "options": [
+        "Two vertebral bodies (L4, L5); CPT 64628 only",
+        "Three vertebral bodies (L4, L5, S1); CPT 64628 + 64629",
+        "Two vertebral bodies (L4, L5); CPT 64628 + 64629",
+        "Four vertebral bodies (L4, L5, S1, S2); CPT 64628 + 64629 x2"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "For two-level disease (L4-5 and L5-S1), all three flanking vertebral bodies must be treated. Both vertebral bodies flanking each pathologic disc require ablation, and L5 is shared between the two levels.",
+        "2": "Only two vertebral bodies would be insufficient. For L4-5 disc disease, both L4 and L5 BVNs must be ablated. For L5-S1, both L5 and S1 must be treated. Since L5 is shared, three total vertebral bodies (L4, L5, S1) require treatment.",
+        "3": "S2 is not a target for BVN ablation. The procedure is indicated from L3 to S1. For two-level disease at L4-5 and L5-S1, only three vertebral bodies are needed."
+      },
+      "explanation": "For BVN ablation, both the superior and inferior vertebral bodies flanking each pathologic disc must be treated. For two-level disease at L4-5 and L5-S1, this means L4, L5, and S1 (three vertebral bodies total, with L5 shared between both levels). CPT 64628 covers the first two vertebral bodies including fluoroscopic guidance, and CPT 64629 covers each additional vertebral body. The procedure is indicated for up to two disc levels (three vertebral bodies) from L3 to S1.",
+      "educationalObjective": "BVN ablation requires treating both vertebral bodies flanking each pathologic disc. CPT 64628 covers the first two vertebrae; 64629 covers each additional."
+    },
+    {
+      "id": "bvn-010",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "During BVN ablation at L5, what specific anatomical feature of the L5 vertebral body creates a risk of breaching the central canal if the trochar is not sufficiently advanced before deploying the curved channeling stylet?",
+      "acceptedAnswers": [
+        "convex posterior wall",
+        "convexity of the posterior wall",
+        "the convex posterior wall of L5",
+        "posterior wall convexity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The posterior wall of L5 is convex, meaning it curves posteriorly into the spinal canal. If the trochar (introducer) is not advanced far enough into the vertebral body before the curved channeling stylet is deployed, the stylet may follow the convexity and breach the central canal. This is a critical safety consideration unique to L5. At this level, the L5 pedicle is also undercut by the lateral recess, requiring avoidance of the inferomedial quadrant during the transpedicular approach.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "The convex posterior wall of L5 creates unique risk of canal breach during BVN ablation -- ensure sufficient trochar advancement before deploying the curved stylet."
+    }
+  ]
+}

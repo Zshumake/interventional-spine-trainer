@@ -1,0 +1,186 @@
+{
+  "topicId": "facet-cyst-rupture",
+  "questions": [
+    {
+      "id": "fcr-001",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 62-year-old woman presents with acute right L5 radiculopathy. MRI shows a T2-hyperintense, thin-walled cyst arising from the right L4-5 facet joint compressing the traversing L5 nerve root in the lateral recess. What is the most appropriate next step?",
+      "options": [
+        "Surgical laminectomy with cyst excision",
+        "Percutaneous facet cyst rupture via intra-articular pressurization",
+        "Medial branch block at L3 and L4 dorsal rami",
+        "Interlaminar epidural steroid injection at L4-5"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "All facet cyst patients are surgical candidates, but percutaneous cyst rupture should be attempted first as it avoids surgery in approximately 65% of cases. Surgery is reserved for failed rupture or progressive neurological deficit.",
+        "2": "Medial branch blocks diagnose facet-mediated axial pain. This patient has radiculopathy from mechanical nerve root compression by the cyst, not facet joint pain itself. The cyst must be mechanically decompressed.",
+        "3": "An interlaminar ESI may provide temporary anti-inflammatory benefit but does not address the mechanical compression from the cyst. Cyst rupture provides both mechanical decompression and allows steroid delivery."
+      },
+      "explanation": "This patient has a T2-bright, thin-walled facet cyst — the ideal candidate for percutaneous cyst rupture. These MRI features indicate a fluid-filled cyst that is likely to rupture with pressurization. All facet cyst patients with radiculopathy are surgical candidates, but percutaneous rupture avoids surgery in approximately 65% of cases and should be attempted first.",
+      "comparisonTable": {
+        "headers": ["MRI Feature", "Favorable for Rupture", "Unfavorable for Rupture"],
+        "rows": [
+          ["T2 Signal", "Hyperintense (bright, fluid-filled)", "Hypointense or mixed signal"],
+          ["Wall Thickness", "Thin wall", "Thick, fibrotic wall"],
+          ["Calcification", "Absent", "Present (cannot rupture)"],
+          ["Content", "Fluid (like CSF)", "Gas-filled (vacuum phenomenon)"]
+        ]
+      },
+      "educationalObjective": "T2-hyperintense facet cysts with thin walls are ideal candidates for percutaneous rupture, which should be attempted before surgery since it avoids surgical decompression in approximately 65% of cases."
+    },
+    {
+      "id": "fcr-002",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During a facet cyst rupture procedure at L4-5, after confirming intra-articular needle position with an arthrogram, which finding most reliably indicates successful cyst rupture?",
+      "options": [
+        "Patient reports a sudden change in radicular symptoms",
+        "Sudden loss of resistance to injection with contrast flowing into the epidural space",
+        "Sudden loss of resistance to injection without epidural contrast spread",
+        "Aspiration of clear fluid through the needle"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "A symptom change may accompany rupture but is subjective and unreliable as the sole indicator. Fluoroscopic confirmation of epidural contrast spread is required.",
+        "2": "Loss of resistance WITHOUT epidural contrast spread may indicate rupture of the inferior recess of the joint capsule rather than true cyst rupture. This is a key distinction emphasized by IPSIS — always confirm epidural contrast extravasation.",
+        "3": "Fluid aspiration indicates the cyst communicates with the joint but does not confirm the cyst has been ruptured and decompressed."
+      },
+      "explanation": "The most reliable indicator of successful cyst rupture is the combination of sudden loss of resistance to injection AND visualization of contrast flowing from the joint into the epidural space on fluoroscopy. IPSIS specifically warns that loss of resistance alone (without epidural contrast spread) may represent rupture of the inferior recess rather than the cyst itself.",
+      "educationalObjective": "Successful cyst rupture requires fluoroscopic confirmation of contrast extravasation into the epidural space — loss of resistance alone may indicate inferior recess rupture rather than true cyst rupture."
+    },
+    {
+      "id": "fcr-003",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "The technical success rate for percutaneous facet cyst rupture is approximately 75-80%, and among those with successful rupture, approximately 65% avoid surgical decompression.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "These figures are well-supported by the aggregate literature. Bureau (2003) and Martha (2009) established that technical rupture succeeds in 75-80% of attempts. Among successful ruptures, 65-70% of patients avoid surgery — impressive given that 100% of these patients are surgical candidates."
+      },
+      "explanation": "The aggregate data shows a 75-80% technical rupture success rate, with 65-70% of successfully treated patients avoiding surgery. The overall surgery avoidance rate is approximately 50-65%. These numbers are clinically significant because every facet cyst patient with radiculopathy is a surgical candidate — even 50% surgery avoidance represents a major benefit.",
+      "educationalObjective": "Facet cyst rupture has a 75-80% technical success rate and avoids surgery in 65-70% of patients with successful rupture — meaningful outcomes since all these patients are surgical candidates."
+    },
+    {
+      "id": "fcr-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "When performing fluoroscopy-guided facet joint access for cyst rupture at L4-5, what is the typical degree of ipsilateral obliquity needed to visualize the posterior joint line?",
+      "options": [
+        "5 degrees",
+        "15 degrees",
+        "30 degrees",
+        "45 degrees"
+      ],
+      "correctAnswer": 3,
+      "wrongAnswerExplanations": {
+        "0": "5 degrees of obliquity is insufficient at any lumbar level to visualize the posterior (dorsal) joint line.",
+        "1": "15 degrees of obliquity is appropriate for upper lumbar levels (L1-2, L2-3), not for L4-5.",
+        "2": "30 degrees is the typical obliquity for L3-4. The obliquity increases progressively as you move caudally in the lumbar spine."
+      },
+      "explanation": "IPSIS specifies progressive ipsilateral obliquity for lumbar facet joint access: approximately 15 degrees for upper lumbar levels, 30 degrees for L3-4, and 45 degrees for L4-5 and L5-S1. The goal is to identify the first appearance of crisp cortical margins bounding a lucent joint space, which represents the most dorsal and accessible portion of the joint.",
+      "educationalObjective": "Lumbar facet joint access requires progressive ipsilateral obliquity: 15 degrees upper lumbar, 30 degrees L3-4, and 45 degrees L4-5/L5-S1."
+    },
+    {
+      "id": "fcr-005",
+      "type": "short-answer",
+      "domain": "evidence",
+      "question": "In a large retrospective review of approximately 12,000 intra-articular facet injections, what was the major adverse event rate requiring hospitalization or ED visits?",
+      "acceptedAnswers": [
+        "0.07%",
+        "0.07",
+        "1 in 1400",
+        "1 in 1,400"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UpToDate reports that in a single-institution retrospective review of approximately 12,000 IAF injections, major adverse events requiring hospitalization or ED visits occurred in only 0.07% of cases. Notably, all major complications in that series were infections. A separate series of 43,000 facet blocks reported zero major complications. This low complication rate provides a safety baseline for the joint access portion of cyst rupture, though cyst rupture adds neuraxial bleeding risk from epidural communication.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "The major adverse event rate from intra-articular facet injections is extremely low at 0.07% (~12,000 procedures), with infections being the primary complication — though cyst rupture adds additional neuraxial risks beyond standard IAF injection."
+    },
+    {
+      "id": "fcr-006",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 70-year-old man on warfarin for atrial fibrillation presents with a symptomatic L4-5 facet cyst causing radiculopathy. Regarding anticoagulation management before cyst rupture, which statement is most accurate?",
+      "options": [
+        "Anticoagulation does not need to be held because facet injections are low-risk peripheral procedures",
+        "Anticoagulation should be held because cyst rupture creates communication with the epidural space, introducing neuraxial bleeding risk",
+        "Anticoagulation should be held only if an interlaminar approach is planned",
+        "Proceed with the injection on therapeutic anticoagulation with close post-procedure monitoring"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "While standard facet injections are typically classified as low-risk, cyst rupture is different. The procedure intentionally ruptures the cyst capsule into the epidural space, making the bleeding risk profile similar to neuraxial procedures.",
+        "2": "The concern is not about the approach — it is about the fact that cyst rupture creates communication between the joint and the epidural space regardless of approach, introducing the same bleeding risk as a neuraxial procedure.",
+        "3": "Proceeding on therapeutic anticoagulation is contraindicated for procedures with neuraxial bleeding risk, which includes cyst rupture due to epidural communication."
+      },
+      "explanation": "Facet cyst rupture requires special attention to anticoagulation because the procedure intentionally creates communication between the joint and the epidural space. This introduces a bleeding risk similar to neuraxial procedures (epidural hematoma), which is fundamentally different from a standard intra-articular facet injection. Anticoagulation should be managed according to neuraxial procedure guidelines.",
+      "educationalObjective": "Unlike standard facet injections, cyst rupture requires holding anticoagulation because pressurization creates epidural communication, introducing neuraxial bleeding risk."
+    },
+    {
+      "id": "fcr-007",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Performing a transforaminal epidural steroid injection at the compressed nerve root level before attempting facet cyst rupture in the same session is a recommended combined approach that may improve patient comfort and overall outcomes.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "The combined TFESI + cyst rupture approach is well-described in the literature and by IPSIS. TFESI first delivers epidural steroid to reduce inflammation at the nerve root and provides anesthesia before the potentially uncomfortable pressurization. The combination provides both anti-inflammatory and mechanical decompression benefits, and some retrospective series suggest improved outcomes compared to either approach alone."
+      },
+      "explanation": "IPSIS specifically recommends that a pre-rupture TFESI at the compressed nerve root level can improve patient comfort during the pressurization procedure by blocking the nerve before cyst rupture is attempted. The combined approach provides both anti-inflammatory benefit (epidural steroid) and mechanical decompression (cyst rupture). Some retrospective series suggest improved outcomes compared to either approach alone.",
+      "educationalObjective": "Combined TFESI + cyst rupture in the same session provides both anti-inflammatory and mechanical decompression benefits and may improve patient comfort and overall outcomes."
+    },
+    {
+      "id": "fcr-008",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Which MRI finding in a facet cyst would be considered a contraindication to percutaneous cyst rupture?",
+      "options": [
+        "T2-hyperintense signal within the cyst",
+        "Thin cyst wall without internal structure",
+        "Calcification within the cyst wall",
+        "Communication between the cyst and the facet joint"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "T2-hyperintense (bright) signal indicates a fluid-filled cyst, which is the most favorable feature for successful rupture.",
+        "1": "A thin wall without internal structure is a favorable feature — it offers less resistance to pressurization.",
+        "3": "Joint-cyst communication is actually necessary for the procedure to work, as the pressurization is performed through the joint."
+      },
+      "explanation": "Calcification within the cyst wall is an unfavorable feature that effectively prevents rupture. Calcified walls cannot be ruptured with hydraulic pressure. Other unfavorable features include thick fibrotic walls, T2 hypointensity or mixed signal (chronic, organized material), T1 hyperintensity (blood products or proteinaceous material), and gas-filled cysts (vacuum phenomenon). Favorable features include T2 hyperintensity, thin walls, and absence of internal structure.",
+      "educationalObjective": "Calcified cyst walls cannot be ruptured by pressurization and represent a contraindication to the percutaneous approach."
+    },
+    {
+      "id": "fcr-009",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During facet joint access for cyst rupture, which needle advancement strategy does IPSIS recommend to avoid unseen osteophytes?",
+      "options": [
+        "Lateral-to-medial trajectory targeting the midportion of the joint",
+        "Medial-to-lateral trajectory, as osteophytes typically arc from lateral to medial",
+        "Direct posterior approach perpendicular to the joint surface",
+        "Superior-to-inferior trajectory along the superior articular process"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "A lateral-to-medial approach risks encountering osteophytes that are invisible on fluoroscopy. Osteophytes typically arc from the lateral to medial direction, so approaching from medial avoids them.",
+        "2": "A direct posterior approach does not account for the three-dimensional anatomy of the joint and the typical osteophyte distribution.",
+        "3": "A superior-to-inferior trajectory is not the standard approach for initial facet joint access."
+      },
+      "explanation": "IPSIS recommends a medial-to-lateral needle advancement to avoid unseen osteophytes, which typically arc from lateral to medial. Osteophytes along the joint margins may not be visible on oblique fluoroscopic views, making them a hidden obstacle. By advancing from medial to lateral, the needle can pass underneath or around these unseen bony projections. For cyst rupture, a 20-22G needle may be needed in addition to the standard 25-27G joint access needle.",
+      "educationalObjective": "IPSIS recommends medial-to-lateral needle advancement for facet joint access because osteophytes arc lateral to medial and are invisible on fluoroscopy."
+    },
+    {
+      "id": "fcr-010",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "Intra-articular facet injections have high diagnostic specificity for facet-mediated pain because the joint capsule reliably contains the injectate within the joint space.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "IPSIS emphasizes that facet joint capsules are often fenestrated. Injectate can spread to the epidural space, the contralateral facet via the space of Okada, or to vertically adjacent joints via pars defects. This extra-articular spread reduces diagnostic specificity, which is why medial branch blocks are considered more diagnostically specific for facet-mediated pain. For cyst rupture, however, the purpose is therapeutic mechanical decompression, not diagnosis."
+      },
+      "explanation": "Facet joint capsules are often fenestrated, meaning intra-articular injectate can spread beyond the joint to the epidural space, the contralateral facet via the space of Okada, or to vertically adjacent joints through pars defects. This compromises diagnostic specificity. IPSIS considers medial branch blocks more diagnostically specific for facet-mediated pain. Standard diagnostic facet injection volume should not exceed 1 mL; for cyst rupture, 1-6 mL is intentionally used to exceed joint/cyst capacity.",
+      "educationalObjective": "Facet capsules are often fenestrated, allowing anesthetic spread to the epidural space and adjacent structures, which reduces the diagnostic specificity of intra-articular injections compared to medial branch blocks."
+    }
+  ]
+}

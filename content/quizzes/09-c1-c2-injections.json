@@ -1,0 +1,190 @@
+{
+  "topicId": "c1-c2-injections",
+  "questions": [
+    {
+      "id": "c12-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "When performing a fluoroscopy-guided lateral atlantoaxial joint (LAAJ) injection, what is the target on AP imaging according to IPSIS?",
+      "options": [
+        "The center of the C1-2 joint",
+        "The most medial aspect of the C1-2 joint adjacent to the dens",
+        "The junction of the medial two-thirds and lateral one-third of the joint",
+        "The most lateral margin of the C1-2 joint"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "The center of the joint overlies the thecal sac, which covers the medial half of the C1-2 lateral articulation. Targeting the center risks dural puncture or intrathecal injection.",
+        "1": "The most medial aspect is dangerously close to the thecal sac and spinal cord. The safe corridor is the lateral half of the joint.",
+        "3": "The most lateral margin is too close to the vertebral artery, which courses immediately anterior and lateral to the joint. The target must be medial to the vertebral artery."
+      },
+      "explanation": "IPSIS specifies that the AP fluoroscopic target is the junction of the medial two-thirds and lateral one-third of the C1-2 joint. This target navigates the narrow safe corridor: medial to the vertebral artery, lateral to the thecal sac (which covers the medial half of the joint), and lateral or inferior to the C2 dorsal root ganglion. This constrained pathway requires meticulous needle manipulation.",
+      "comparisonTable": {
+        "headers": ["Structure", "Location Relative to Target", "Risk if Violated"],
+        "rows": [
+          ["Vertebral artery", "Anterior and lateral", "Arterial injury, stroke, death"],
+          ["Thecal sac", "Medial (covers medial half)", "Dural puncture, intrathecal injection"],
+          ["C2 DRG", "Directly posterior to joint", "Neural injury, C2 neuralgia"],
+          ["Spinal cord", "Medial", "Cord injury, paralysis"]
+        ]
+      },
+      "educationalObjective": "The LAAJ injection target is the junction of the medial two-thirds and lateral one-third of the joint — navigating between the vertebral artery laterally, thecal sac medially, and C2 DRG posteriorly."
+    },
+    {
+      "id": "c12-002",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Which steroid must be used for C1-2 atlantoaxial joint injections, and which local anesthetic combination should be avoided?",
+      "options": [
+        "Triamcinolone is preferred; avoid combining with bupivacaine",
+        "Dexamethasone is strongly recommended; avoid combining with ropivacaine due to precipitation",
+        "Betamethasone is preferred; avoid combining with ropivacaine",
+        "Any non-particulate steroid is acceptable; no local anesthetic restrictions apply"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Triamcinolone is a particulate steroid. Nonparticulate dexamethasone is strongly recommended for C1-2 injections due to the needle's proximity to the vertebral artery — particulate steroids risk catastrophic embolic infarction if injected into the artery.",
+        "2": "Betamethasone is a particulate steroid and should not be used near the vertebral artery. Additionally, while ropivacaine should be avoided, it is specifically the dexamethasone-ropivacaine combination that precipitates.",
+        "3": "While nonparticulate steroid is correct in principle, there IS a specific restriction: ropivacaine must not be mixed with dexamethasone because it causes injectate precipitation, which could obstruct the small joint or needle."
+      },
+      "explanation": "IPSIS strongly recommends nonparticulate dexamethasone for LAAJ injections due to the needle's proximity to the vertebral artery. Particulate steroids risk catastrophic embolic spinal cord or brainstem infarction if inadvertently injected into the artery. Additionally, ropivacaine must not be mixed with dexamethasone because this combination causes injectate precipitation. Lidocaine or bupivacaine are acceptable anesthetic alternatives.",
+      "educationalObjective": "Dexamethasone is mandatory for C1-2 injections (vertebral artery proximity risk), and ropivacaine must be avoided because it precipitates when mixed with dexamethasone."
+    },
+    {
+      "id": "c12-003",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "The C1-2 atlantoaxial joint is innervated by a discrete neural trunk that can be targeted with a medial branch block, similar to the approach used for lower cervical facet joints.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "The C1-2 joint is innervated by 6-9 small articular branches that extend anteriorly from the C2 ganglion and spinal nerve directly into the joint capsule, plus ventral innervation from the prevertebral plexus. There is NO discrete neural trunk supplying the joint. This means that intra-articular anesthetic injection is the only reliable method to block the C1-2 joint. The medial branch block paradigm used for C2-3 and lower cervical facet joints does not apply at C1-2."
+      },
+      "explanation": "Unlike lower cervical facet joints that can be diagnosed with medial branch blocks targeting a discrete nerve, the C1-2 joint receives innervation from 6-9 small articular branches directly from the C2 ganglion — with no discrete neural trunk. Additionally, the C0-1 and C1-2 joints are anatomically anterior to the plane of the spinal nerves and are not true facet (zygapophysial) joints. Intra-articular injection is therefore the only way to anesthetize the C1-2 joint.",
+      "educationalObjective": "The C1-2 joint has no discrete neural trunk (innervated by 6-9 small articular branches from C2) — intra-articular injection is the only reliable method to block the joint, and medial branch block paradigms do not apply."
+    },
+    {
+      "id": "c12-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "When performing a C1-2 joint injection, dental fillings and appliances obscure fluoroscopic visualization. According to IPSIS, what technique may help?",
+      "options": [
+        "Switch to lateral-only views and proceed without AP confirmation",
+        "Use open-mouthed views or slight head rotation away from the injection side",
+        "Increase fluoroscopic voltage to penetrate through the dental hardware",
+        "Defer the procedure and perform under CT guidance instead"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Lateral views alone are insufficient for safe C1-2 joint targeting. AP views are essential to confirm the needle is in the correct mediolateral position relative to the vertebral artery and thecal sac.",
+        "2": "Increasing voltage does not effectively eliminate artifact from dense metallic dental hardware and may degrade overall image quality.",
+        "3": "While CT guidance is an alternative, the question asks about managing this during fluoroscopy. IPSIS provides specific fluoroscopic techniques to work around dental hardware."
+      },
+      "explanation": "IPSIS notes that dental fillings and appliances frequently obscure visualization of the C1-2 joint on AP fluoroscopy. Open-mouthed views (similar to an odontoid view) can project the joint above the dental hardware, and slight head rotation away from the injection side can shift the hardware out of the field of view. True AP is verified by centering the dens within the ring of C1.",
+      "educationalObjective": "Open-mouthed views or slight head rotation away from the injection side can overcome dental hardware artifact during fluoroscopy-guided C1-2 joint injection."
+    },
+    {
+      "id": "c12-005",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What is the maximum total injectate volume recommended for a C1-2 atlantoaxial joint injection?",
+      "acceptedAnswers": [
+        "1 mL",
+        "1 ml",
+        "1mL",
+        "1ml",
+        "1.0 mL",
+        "less than 1 mL",
+        "<1 mL",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The C1-2 joint volume is frequently less than 1.0 mL, especially in arthritic joints. IPSIS recommends that total injectate volume should not exceed 1 mL. Only 0.1-0.2 mL of contrast should be used to confirm position, preserving capacity for the diagnostic/therapeutic injectate. A practical tip is to aspirate contrast from the needle hub and replace it with therapeutic injectate to maximize medication delivery within the limited joint volume.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Total injectate for C1-2 joint injection should not exceed 1 mL — the joint capacity is often less than 1 mL, especially in arthritic joints, so use only 0.1-0.2 mL contrast to preserve capacity."
+    },
+    {
+      "id": "c12-006",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 72-year-old woman with rheumatoid arthritis presents with suboccipital pain provoked by head rotation. Before performing a C1-2 joint injection, which additional assessment is mandatory?",
+      "options": [
+        "EMG/nerve conduction study of the C2 dermatome",
+        "Vertebral artery Doppler ultrasonography",
+        "Flexion-extension lateral cervical radiographs to assess atlantodental interval for instability",
+        "CT angiography of the circle of Willis"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "EMG/NCS of C2 may be helpful for C2 neuralgia but is not the mandatory pre-injection assessment in RA patients. The critical safety concern is instability.",
+        "1": "While vertebral artery position should be assessed with pre-procedure imaging (CT or MRI), Doppler ultrasonography is not the standard assessment. The priority in RA is assessing C1-2 stability.",
+        "3": "CTA of the circle of Willis is not a standard pre-injection assessment. Pre-procedure CT or MRI to map the vertebral artery relative to the joint is appropriate, but instability assessment takes priority in RA."
+      },
+      "explanation": "In rheumatoid arthritis patients, C1-2 instability assessment is mandatory before injection. RA has a well-established predilection for the atlantoaxial joint and can cause pannus formation, joint erosion, and progressive instability. The atlantodental interval (ADI) should be measured — greater than 3 mm in adults suggests significant instability. Unstable C1-2 joints may require stabilization (fusion) rather than injection. Flexion-extension views assess dynamic instability.",
+      "educationalObjective": "In RA patients, always assess C1-2 stability (ADI >3 mm = instability) with flexion-extension radiographs before injection — RA predisposes to atlantoaxial instability requiring fusion rather than injection."
+    },
+    {
+      "id": "c12-007",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "Atlantoaxial joint arthropathy is a well-recognized and commonly diagnosed cause of suboccipital pain in elderly patients.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "AA joint arthropathy is a real and significant cause of suboccipital pain, but it is markedly UNDERDIAGNOSED. The joint is not routinely evaluated on standard cervical MRI protocols. CT scanning is often better for evaluating AA joint degeneration. Many practitioners do not perform C1-2 injections, meaning the pathology goes unrecognized. Dr. O'Brien emphasizes that you will miss it if you do not actively look for it."
+      },
+      "explanation": "AA joint arthropathy is markedly underdiagnosed, not commonly diagnosed. The joint is not routinely evaluated on standard cervical MRI protocols, and CT is often better for evaluating degeneration. Many practitioners do not perform C1-2 injections at all, so the pathology goes unrecognized. Dr. O'Brien emphasizes that the typical patient is over 70, mostly women, often with RA, and the diagnosis requires actively considering it in the differential.",
+      "educationalObjective": "AA joint arthropathy is markedly underdiagnosed — the joint is not on standard cervical MRI protocols, many practitioners avoid the injection, and the diagnosis requires actively looking for it."
+    },
+    {
+      "id": "c12-008",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During a C1-2 joint injection, arthrogram contrast is seen extravasating posteriorly into the epidural space. What is the appropriate next step?",
+      "options": [
+        "Proceed with the therapeutic injection since epidural spread provides additional benefit",
+        "Inject the therapeutic injectate at half the planned dose",
+        "Do NOT deliver the therapeutic injectate through this needle position",
+        "Reposition the needle more medially and repeat the arthrogram"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Epidural spread at the craniocervical junction is dangerous, not beneficial. Medication in the upper cervical epidural space risks respiratory compromise, brainstem effects, and high epidural block. The therapeutic injection must not be delivered.",
+        "1": "Even a reduced dose should not be delivered through a needle communicating with the epidural space at the craniocervical junction. The risk of high epidural or intrathecal effects outweighs any therapeutic benefit.",
+        "3": "More medial repositioning moves the needle closer to the thecal sac and spinal cord, increasing rather than decreasing risk. The appropriate response is to withhold the therapeutic injection entirely."
+      },
+      "explanation": "IPSIS explicitly states that if contrast extravasates posteriorly into the epidural space during a C1-2 arthrogram, the therapeutic injectate should NOT be delivered. At the craniocervical junction, medication in the epidural space risks respiratory compromise and brainstem effects. The diagnostic information from the arthrogram may still be valuable, but the therapeutic injection must be aborted.",
+      "educationalObjective": "If arthrogram contrast extravasates into the epidural space during C1-2 injection, do NOT deliver the therapeutic injectate — medication in the upper cervical epidural space risks respiratory and brainstem compromise."
+    },
+    {
+      "id": "c12-009",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient presents with chronic occipital headache after a motor vehicle accident. Which two diagnoses should be distinguished in the differential, and how do their treatment pathways differ?",
+      "options": [
+        "C1-2 arthropathy (treated with intra-articular injection) vs C2-3 facet pain/third occipital headache (treated with TON block/RFA)",
+        "C1-2 arthropathy (treated with medial branch block) vs greater occipital neuralgia (treated with nerve section)",
+        "Tension headache (treated with physical therapy) vs migraine (treated with triptans)",
+        "C1-2 instability (treated with fusion) vs cervical myelopathy (treated with laminectomy)"
+      ],
+      "correctAnswer": 0,
+      "wrongAnswerExplanations": {
+        "1": "C1-2 arthropathy cannot be treated with medial branch blocks because the joint has no discrete neural trunk (6-9 small articular branches instead). The diagnostic tool is intra-articular injection, not MBB.",
+        "2": "While tension headache and migraine are in the broad differential, the question asks about the key interventional spine distinction. Post-traumatic cervicogenic headache from C1-2 vs C2-3 facet pathology is the critical diagnostic question for interventional management.",
+        "3": "While instability and myelopathy should be excluded, these are not the primary diagnostic distinction in the setting of chronic post-traumatic occipital headache amenable to interventional treatment."
+      },
+      "explanation": "The critical distinction in post-traumatic occipital headache is C1-2 (atlantoaxial) arthropathy versus C2-3 facet pain (third occipital headache). Lord SM et al. showed that third occipital headache from the C2-3 facet is a common cause of post-whiplash headache. C1-2 arthropathy is diagnosed with intra-articular injection (no discrete nerve trunk exists), while C2-3 facet pain is diagnosed with third occipital nerve blocks and treated with TON RFA. These are fundamentally different treatment pathways.",
+      "educationalObjective": "In post-traumatic occipital headache, distinguish C1-2 arthropathy (diagnosed by intra-articular injection) from C2-3 facet/third occipital headache (diagnosed by TON blocks, treated by TON RFA) — treatment pathways are fundamentally different."
+    },
+    {
+      "id": "c12-010",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "An anomalous vertebral artery loop coursing over the posterolateral aspect of the C1-2 joint, occurring in fewer than 1% of patients, is an absolute contraindication to performing a lateral atlantoaxial joint injection.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "IPSIS identifies the anomalous vertebral artery loop over the posterolateral C1-2 joint as a contraindication. In this variant, the artery exits between C1 and C2 posterior elements (rather than above C1), placing it directly in the needle path. Pre-procedure advanced imaging (CT or MRI) is essential to identify this variation before the procedure. The artery cannot be safely avoided in these cases."
+      },
+      "explanation": "In fewer than 1% of patients, a vertebral artery loop courses over the posterolateral aspect of the C1-2 joint, placing the artery directly in the planned needle path. IPSIS identifies this as a contraindication to LAAJ injection. The variant involves the vertebral artery exiting between C1 and C2 posterior elements rather than above C1 in the normal course. This is why pre-procedure CT or MRI is essential — it can identify this life-threatening anatomic variation before an injection is attempted.",
+      "educationalObjective": "An anomalous vertebral artery loop over the posterolateral C1-2 joint (<1% of patients) is a contraindication to LAAJ injection — pre-procedure CT or MRI is essential to identify this variant."
+    }
+  ]
+}

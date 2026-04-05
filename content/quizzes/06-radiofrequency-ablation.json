@@ -58,6 +58,184 @@
       "explanation": "Standard conventional lumbar RFA parameters are 80°C for 60-90 seconds. This creates a predictable thermal lesion approximately 5-6mm in diameter around the electrode. Some practitioners use multiple lesions at slightly different positions to increase coverage. The IPSIS Technical Manual specifies 80°C as the standard target temperature.",
       "wrongAnswerExplanations": {},
       "educationalObjective": "Standard conventional RFA parameters are 80°C for 60-90 seconds, creating a lesion approximately 5-6mm in diameter."
+    },
+    {
+      "id": "rfa-004",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Why does the conventional radiofrequency electrode need to be placed parallel to the medial branch nerve rather than perpendicular?",
+      "options": [
+        "The thermal lesion extends primarily from the electrode tip, and parallel placement positions the tip along the nerve course",
+        "The thermal lesion extends laterally from the electrode shaft (not the tip), so parallel placement maximizes the length of nerve captured within the lesion zone",
+        "Perpendicular placement causes the electrode to overshoot into the neural foramen",
+        "Parallel placement is only a preference — perpendicular produces equivalent denervation rates"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "This is a common misconception. The conventional RF thermal lesion does NOT extend primarily from the electrode tip. It extends laterally from the shaft of the active electrode. This is why parallel alignment is critical — it creates an elongated lesion along the nerve rather than a point contact.",
+        "2": "While safety is always a concern, the primary reason for parallel placement is to maximize lesion-nerve contact, not to avoid foraminal entry. Proper fluoroscopic guidance and depth control prevent foraminal penetration regardless of orientation.",
+        "3": "Electrode orientation is critical for conventional RF. Studies show that parallel placement significantly increases the probability of complete denervation. The Schneider (2020) systematic review confirmed that parallel large-gauge electrode placement yields the best outcomes."
+      },
+      "explanation": "The conventional RF thermal lesion extends laterally from the electrode shaft, not from the tip. This creates an elongated, cylindrical lesion approximately 1 cm long by the width of the electrode. When the electrode is parallel to the nerve, the entire length of the lesion zone overlaps with the nerve, dramatically increasing the probability of complete denervation. Perpendicular placement creates only a point of contact with the nerve and may miss it entirely. This is one of the most critical technical principles of conventional RFA and a key differentiator from cooled RF (where the larger, more spherical lesion is more forgiving of angle).",
+      "educationalObjective": "The RF lesion extends laterally from the electrode shaft — parallel placement maximizes nerve capture by overlapping the full lesion length with the nerve course."
+    },
+    {
+      "id": "rfa-005",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "How does the lesion created by cooled radiofrequency technology differ from a conventional RF lesion?",
+      "options": [
+        "Cooled RF creates a smaller, more precise lesion",
+        "Cooled RF creates a larger, more spherical lesion compared to conventional RF",
+        "Cooled RF creates the same lesion size but at a lower temperature",
+        "Cooled RF creates multiple small lesions simultaneously"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Cooled RF actually creates LARGER lesions than conventional RF. Internal cooling of the electrode tip allows higher power delivery to surrounding tissue without charring at the electrode-tissue interface.",
+        "2": "While the electrode tip is maintained at a lower temperature, the surrounding tissue temperature is higher and the lesion extends further from the electrode, creating a larger overall lesion — not the same size.",
+        "3": "Cooled RF does not create multiple lesions. It creates a single larger, more spherical lesion around the electrode. Multiple lesions require repositioning and re-lesioning."
+      },
+      "explanation": "Cooled RF internally cools the electrode tip during lesioning, which prevents charring at the electrode-tissue interface and allows higher power delivery to surrounding tissue. This creates a larger, more spherical lesion compared to the elongated cylindrical lesion of conventional RF. The larger lesion may improve nerve capture rates, especially where nerve courses are anatomically variable. Cooled RF is particularly useful for SI joint lateral branch ablation where nerve positions are highly variable. However, IPSIS advocates for conventional single large-gauge cannula technique in the cervical spine and advises safety studies before using cooled RF cervically.",
+      "comparisonTable": {
+        "headers": ["Parameter", "Conventional RF", "Cooled RF"],
+        "rows": [
+          ["Lesion shape", "Elongated, cylindrical", "Larger, more spherical"],
+          ["Electrode orientation", "Parallel to nerve (critical)", "Less angle-dependent"],
+          ["Best use case", "Lumbar/cervical medial branch", "SI joint lateral branches"],
+          ["Cervical use", "Standard of care", "Safety data still needed (IPSIS)"]
+        ]
+      },
+      "educationalObjective": "Cooled RF creates larger, more spherical lesions than conventional RF — useful for variable nerve anatomy but not yet validated cervically (IPSIS)."
+    },
+    {
+      "id": "rfa-006",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During lumbar medial branch RFA, sensory stimulation at 50 Hz reproduces concordant pain at 0.3 V. Motor stimulation at 2 Hz shows no limb movement at 2.0 V but demonstrates multifidus contraction. What is the correct interpretation?",
+      "options": [
+        "The electrode is too close to the motor nerve root — reposition before lesioning",
+        "Optimal placement: the electrode is near the medial branch nerve with no motor nerve root involvement",
+        "The multifidus contraction indicates the electrode is on the wrong nerve",
+        "Motor stimulation results are unreliable — proceed based on sensory testing alone"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Multifidus contraction is expected and desirable — the multifidus is innervated by the medial branch nerve, which is the target. The absence of limb motor response at 2.0 V confirms the electrode is NOT near a motor nerve root.",
+        "2": "Multifidus contraction actually confirms the electrode is near the correct nerve. The medial branch nerve innervates the multifidus muscle, so multifidus contraction at 2 Hz is a positive confirmation of proper electrode placement.",
+        "3": "While IPSIS notes that no study has definitively proven motor stimulation prevents nerve injury, the stimulation parameters here indicate proper placement. Sensory stimulation reproducing concordant pain at <0.5 V combined with appropriate motor stimulation provides complementary confirmation."
+      },
+      "explanation": "This scenario describes optimal electrode placement. Sensory stimulation at 50 Hz reproducing concordant pain below 0.5 V confirms the electrode is near the target medial branch nerve. Motor stimulation at 2 Hz showing multifidus contraction (the muscle innervated by the medial branch) with NO limb motor response at up to 2.0 V confirms that the electrode is near the medial branch and not near a motor nerve root. IPSIS notes that motor stimulation has not been proven to prevent nerve injury, but the combined stimulation profile supports proceeding with lesioning.",
+      "educationalObjective": "Optimal RFA placement: sensory at 50 Hz with concordant pain <0.5 V, plus motor at 2 Hz showing multifidus contraction without limb response at <2.0 V."
+    },
+    {
+      "id": "rfa-007",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient had an excellent response to their first lumbar medial branch RFA, achieving 90% pain relief for 14 months before pain recurred. According to guidelines, how frequently can repeat RFA be performed, and what is the expected success rate?",
+      "options": [
+        "Once per year; 50% success rate on repeat",
+        "Maximum 2 times per year; 60-90% success rate on repeat",
+        "Every 6 months indefinitely; >95% success rate on repeat",
+        "Repeat RFA is not recommended — proceed to surgical fusion"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "While once per year is conservative, guidelines allow up to 2 times per year. The success rate of 50% underestimates the evidence — published studies show 60-90% success on repeat procedures.",
+        "2": "While nerves can regenerate as early as 6 months, performing RFA every 6 months indefinitely is not supported by guidelines. The maximum is 2 times per year, and the success rate, while high, is not >95%.",
+        "3": "Repeat RFA is well-supported by evidence. Rambaransingh et al. (2010) demonstrated that repeat RFA provides comparable relief to the initial procedure. Repeat RFA is a standard treatment approach for recurrent facet pain after a successful initial ablation."
+      },
+      "explanation": "Medial branch nerves regenerate through Wallerian degeneration, typically within 6-18 months. Per UpToDate guidelines, repeat RFA may be performed a maximum of 2 times per year. Published studies report 60-90% success rates on repeat procedures in patients who responded to the initial RFA (Rambaransingh 2010). This patient's scenario — 90% relief for 14 months before recurrence — represents an excellent initial response and is a strong predictor of success with repeat ablation. Some payers may require interval diagnostic blocks before approving repeat RFA.",
+      "educationalObjective": "Repeat RFA: maximum 2x/year per guidelines; 60-90% success rate on repeat in initial responders; nerve regeneration occurs at 6-18 months."
+    },
+    {
+      "id": "rfa-008",
+      "type": "short-answer",
+      "domain": "clinical-decision-making",
+      "question": "What is the typical timeline for medial branch nerve regeneration after radiofrequency ablation?",
+      "acceptedAnswers": [
+        "6-18 months",
+        "6 to 18 months",
+        "six to eighteen months",
+        "6-12 months",
+        "9-18 months"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Medial branch nerves regenerate via Wallerian degeneration, typically within 6-18 months after RFA. The median duration of relief is approximately 10 months, though some patients achieve 18+ months and others recur as early as 6 months. This regeneration is the mechanism of pain recurrence and the basis for repeat RFA. Patients should be counseled that RFA provides durable but not permanent relief, and that repeat procedures are expected when pain returns.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Medial branch nerves regenerate in 6-18 months (median ~10 months) via Wallerian degeneration, which is why repeat RFA is needed."
+    },
+    {
+      "id": "rfa-009",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "Which of the following was NOT a methodological criticism of the JAMA MINT trial (Juch 2017)?",
+      "options": [
+        "Used single diagnostic blocks instead of dual controlled blocks",
+        "Accepted only 50% pain relief threshold instead of 80%",
+        "Used electrode placement perpendicular to the nerve instead of parallel",
+        "Followed patients for only 3 months, which is inadequate given the 2-6 week onset of RFA effect"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "This IS a valid criticism. The MINT trial used single diagnostic blocks, not the dual-block paradigm. Single blocks have a 25-40% false-positive rate, meaning many enrolled patients likely did not have true facet-mediated pain.",
+        "1": "This IS a valid criticism. The 50% threshold is below the evidence-based 80% standard and allows patients with mixed or non-facet pain into the study.",
+        "3": "This IS a valid criticism. RFA takes 2-6 weeks for Wallerian degeneration and full effect, so a 3-month follow-up captures only a brief window of potential benefit."
+      },
+      "explanation": "The MINT trial was criticized for patient selection methodology (single blocks at 50% threshold), short follow-up (3 months), and general technical concerns. Electrode orientation perpendicular to the nerve was not a specifically cited criticism of this trial. The five major criticisms were: (1) single blocks only, (2) 50% relief threshold, (3) inadequate follow-up, (4) technical concerns about electrode placement, and (5) inclusion of patients who may not have had true facet-mediated pain. This trial illustrates how patient selection methodology directly determines RFA outcomes.",
+      "educationalObjective": "The MINT trial's negative result was driven by poor patient selection (single block, 50% threshold) and short follow-up — not by a specific electrode orientation error."
+    },
+    {
+      "id": "rfa-010",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "During cervical medial branch radiofrequency neurotomy, the cannula tip may safely advance ventral to the anterior margin of the articular pillar if sensory stimulation is concordant.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "This is a critical safety violation. IPSIS explicitly states that the cannula tip must NEVER advance ventral to the anterior margin of the articular pillar (C3-6) or the SAP (C7/TON). Advancing past this landmark risks injury to the cervical nerve root and vertebral artery, which lie ventral to the articular pillar. Positive sensory stimulation does NOT override this safety boundary — it cannot guarantee the cannula is safely posterior to vulnerable structures."
+      },
+      "explanation": "The anterior margin of the articular pillar is an absolute safety boundary in cervical RFA. IPSIS states that the cannula tip must NEVER advance ventral to this margin at C3-6, or ventral to the SAP at C7/TON. The cervical neural foramen and vertebral artery lie ventral to the articular pillar. Foraminal oblique views provide essential auxiliary imaging to verify the cannula is safely posterior to these structures. If the physician is uncertain about cannula position, RF lesioning should NOT commence. Sensory stimulation alone does not ensure proper placement or prevent injury.",
+      "educationalObjective": "The cannula must never advance past the anterior articular pillar margin in cervical RFA — this is an absolute safety boundary regardless of stimulation results (IPSIS)."
+    },
+    {
+      "id": "rfa-011",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "For lumbar medial branch RFA using IPSIS technique, what fluoroscopic trajectory and tube angulation are recommended to achieve parallel cannula placement along the nerve?",
+      "options": [
+        "True AP approach with no tube angulation",
+        "30-40 degrees contralateral obliquity with 15-20 degrees cephalad tilt",
+        "15-20 degrees ipsilateral obliquity with approximately 35-40 degrees declined (caudal) tilt",
+        "True lateral approach with maximum cephalad angulation"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A true AP approach without angulation does not parallel the cannula to the medial branch nerve. The nerve crosses the lateral SAP base at an angle that requires both obliquity and declination to match.",
+        "1": "Contralateral obliquity would direct the cannula away from the ipsilateral medial branch target. Additionally, cephalad tilt is the opposite of what is needed — the IPSIS technique uses a declined (caudal) tilt.",
+        "3": "A true lateral approach is used for depth confirmation (verifying the active tip overlies the middle two-fourths of the SAP), not for primary cannula placement."
+      },
+      "explanation": "The IPSIS lumbar RFA technique specifies 15-20 degrees of ipsilateral obliquity to help avoid the mamillo-accessory ligament and position the cannula alongside the nerve. A declined fluoroscopic tilt of approximately 35-40 degrees is required to parallel the cannula to the nerve as it crosses the lateral SAP base. Excessive obliquity (25-30 degrees) results in a more transverse approach that is less parallel to the nerve and less effective. True lateral imaging then confirms depth: the active tip should overlie the middle two-fourths of the lateral SAP for L1-4 medial branches.",
+      "educationalObjective": "IPSIS lumbar RFA trajectory: 15-20 degrees ipsilateral obliquity + 35-40 degrees declination to achieve parallel cannula-nerve alignment."
+    },
+    {
+      "id": "rfa-012",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "In the Dreyfuss (2000) prospective trial, what percentage of patients achieved greater than 90% pain relief at 12 months, and how was nerve ablation accuracy verified?",
+      "options": [
+        "30% achieved >90% relief; accuracy confirmed by post-procedure MRI",
+        "60% achieved >90% relief; accuracy confirmed by multifidus EMG showing 90% denervation",
+        "80% achieved >90% relief; accuracy confirmed by repeat medial branch blocks",
+        "90% achieved >90% relief; accuracy confirmed by patient-reported outcomes only"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The success rate was higher than 30%, and MRI was not used to verify nerve ablation. Post-procedure MRI cannot reliably visualize the small thermal lesion on a medial branch nerve.",
+        "2": "While overall success was high (almost 90% achieved >50% relief), the specific >90% relief rate was 60%, not 80%. Verification was by multifidus EMG, not repeat blocks.",
+        "3": "90% is the approximate rate for >50% relief, not >90% relief. The 60% rate for >90% relief was verified objectively by multifidus EMG, not solely by patient-reported outcomes."
+      },
+      "explanation": "The Dreyfuss (2000) trial is one of the most cited RFA studies. Using controlled diagnostic blocks for patient selection, 60% of patients achieved greater than 90% pain relief at 12 months. Multifidus EMG confirmed 90% accuracy in nerve ablation — an objective verification that the medial branch was successfully lesioned. Overall, almost 90% achieved greater than 50% relief for at least one year. Significant improvements were also seen in physical functioning, lifting capacity, return to work, and medication reduction.",
+      "educationalObjective": "Dreyfuss (2000): 60% achieved >90% relief at 12 months; multifidus EMG confirmed 90% ablation accuracy with controlled block patient selection."
     }
   ]
 }

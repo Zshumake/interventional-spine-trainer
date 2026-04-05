@@ -1,0 +1,196 @@
+{
+  "topicId": "sympathetic-blocks",
+  "questions": [
+    {
+      "id": "symb-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "A 42-year-old woman with upper extremity CRPS undergoes a stellate ganglion block. Which finding confirms a successful sympathetic block?",
+      "options": [
+        "Contralateral Horner syndrome",
+        "Ipsilateral miosis, ptosis, and anhidrosis",
+        "Bilateral pupil dilation and diaphoresis",
+        "Ipsilateral mydriasis, lid retraction, and hyperhidrosis"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Horner syndrome occurs ipsilateral to the block, not contralateral. A contralateral response would suggest aberrant needle placement or systemic spread.",
+        "2": "Bilateral pupil dilation and diaphoresis are not features of sympathetic blockade. Sympathetic block causes miosis (not mydriasis) and anhidrosis (not diaphoresis).",
+        "3": "These findings represent the opposite of Horner syndrome. Sympathetic blockade removes sympathetic tone, causing miosis (not mydriasis), ptosis (not lid retraction), and anhidrosis (not hyperhidrosis)."
+      },
+      "explanation": "Successful stellate ganglion block is confirmed by ipsilateral Horner syndrome: miosis (pupillary constriction from loss of sympathetic dilator pupillae tone), ptosis (drooping of the upper eyelid from loss of Muller muscle innervation), and anhidrosis (absent sweating from loss of sudomotor fibers). These signs appear within minutes and indicate effective sympathectomy of the cervicothoracic region.",
+      "comparisonTable": {
+        "headers": ["Component", "Sympathetic Function", "Effect of Block"],
+        "rows": [
+          ["Pupil", "Dilator pupillae (mydriasis)", "Miosis"],
+          ["Eyelid", "Muller muscle (lid elevation)", "Ptosis"],
+          ["Sweat glands", "Sudomotor activation", "Anhidrosis"],
+          ["Blood vessels", "Vasoconstriction", "Vasodilation and warmth"]
+        ]
+      },
+      "educationalObjective": "Horner syndrome (miosis, ptosis, anhidrosis) ipsilateral to the injection is the hallmark confirmation of a successful stellate ganglion block."
+    },
+    {
+      "id": "symb-002",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "When performing a stellate ganglion block, the needle is advanced to a position anterior to which anatomic landmark?",
+      "options": [
+        "The spinous process of C6",
+        "The transverse process of C7",
+        "The uncinate process of C5",
+        "The anterior tubercle of T1"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The spinous process is a posterior midline structure and is not the target. The stellate ganglion lies anterolateral to the vertebral body, targeted at the transverse process of C7.",
+        "2": "The uncinate process is part of the uncovertebral joint in the cervical spine and is not the traditional fluoroscopic landmark for stellate ganglion block.",
+        "3": "While the stellate ganglion receives contributions from T1, the standard approach targets anterior to the C7 transverse process, not T1."
+      },
+      "explanation": "The stellate ganglion block targets the area anterior to the transverse process of C7 under fluoroscopy or ultrasound guidance, with the patient supine. The stellate ganglion supplies sympathetic fibers to C7, C8, and T1 anterior rami and the brachial plexus, with visceral branches to the inferior cardiac nerve and cardiac plexus.",
+      "educationalObjective": "The standard target for stellate ganglion block is anterior to the C7 transverse process, with the patient positioned supine."
+    },
+    {
+      "id": "symb-003",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 55-year-old man with lower extremity CRPS Type I has failed physical therapy, pharmacotherapy, and multiple lumbar epidural injections. Which sympathetic block is most appropriate?",
+      "options": [
+        "Stellate ganglion block",
+        "Celiac plexus block",
+        "Lumbar sympathetic block",
+        "Superior hypogastric plexus block"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "The stellate ganglion provides sympathetic innervation to the head, neck, upper chest, and upper extremities. For lower extremity CRPS, the lumbar sympathetic chain is the correct target.",
+        "1": "The celiac plexus innervates upper abdominal viscera and is primarily indicated for pancreatic cancer pain and upper abdominal visceral pain, not extremity CRPS.",
+        "3": "The superior hypogastric plexus innervates pelvic visceral structures. It is indicated for chronic pelvic pain and pelvic cancer pain, not lower extremity somatic conditions."
+      },
+      "explanation": "Lower extremity CRPS is treated with lumbar sympathetic block, targeting the anterolateral aspect of the L2-L3 vertebral bodies under fluoroscopic guidance. Upper extremity CRPS is treated with stellate ganglion block. This anatomic principle -- matching the sympathetic target to the affected region -- is fundamental to sympathetic block selection.",
+      "comparisonTable": {
+        "headers": ["Block", "Target Level", "Region Covered"],
+        "rows": [
+          ["Stellate ganglion", "C7 TP", "Head, neck, upper extremity"],
+          ["Celiac plexus", "T12-L1", "Upper abdominal viscera"],
+          ["Lumbar sympathetic", "L2-L3", "Lower extremity"],
+          ["Superior hypogastric plexus", "L5", "Pelvic viscera"],
+          ["Ganglion impar", "Sacrococcygeal junction", "Perineum, coccyx"]
+        ]
+      },
+      "educationalObjective": "Upper extremity CRPS is treated with stellate ganglion block; lower extremity CRPS is treated with lumbar sympathetic block at L2-L3."
+    },
+    {
+      "id": "symb-004",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "Sedation should be avoided during diagnostic sympathetic blocks because it increases the false-positive rate by impairing the patient's ability to accurately report pain relief.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "This statement is true. Sedation impairs the patient's ability to provide reliable real-time feedback on pain relief during a diagnostic block. Since the clinical question hinges on the patient's pain assessment, sedation increases false-positive rates and can lead to inappropriate progression to neurolytic procedures."
+      },
+      "explanation": "For diagnostic sympathetic blocks where the clinical question depends on the patient's real-time pain assessment, sedation should be minimized or avoided. Deep sedation impairs the patient's ability to accurately report pain relief, increasing the false-positive rate. The patient must be alert enough to provide reliable feedback on pain reduction. This principle applies broadly to all diagnostic nerve blocks.",
+      "educationalObjective": "Avoid sedation during diagnostic sympathetic blocks to ensure accurate patient self-report of pain relief and prevent false-positive results."
+    },
+    {
+      "id": "symb-005",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A celiac plexus block is performed at the T12-L1 level for intractable pancreatic cancer pain. Which complication requires the closest monitoring in the immediate post-procedure period?",
+      "options": [
+        "Horner syndrome",
+        "Lower extremity weakness",
+        "Hypotension",
+        "Urinary retention"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Horner syndrome is specific to stellate ganglion block, not celiac plexus block. Horner syndrome involves the cervicothoracic sympathetic chain, which is anatomically remote from the celiac plexus.",
+        "1": "Lower extremity weakness would suggest somatic nerve injury, which is not a typical complication of celiac plexus block. The celiac plexus is a prevertebral sympathetic structure separate from somatic nerves.",
+        "3": "Urinary retention is more associated with superior hypogastric plexus or ganglion impar procedures that affect pelvic autonomic innervation, not celiac plexus block."
+      },
+      "explanation": "Following celiac plexus block, sympathectomy removes the sympathetic contribution to splanchnic vascular tone, resulting in parasympathetic predominance. This leads to vasodilation and hypotension, as well as diarrhea from unopposed parasympathetic GI activity. Patients should be observed for at least one hour post-procedure with blood pressure monitoring and IV hydration.",
+      "educationalObjective": "Hypotension and diarrhea are the primary post-procedure concerns after celiac plexus block, resulting from parasympathetic predominance after sympathectomy."
+    },
+    {
+      "id": "symb-006",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A diagnostic sympathetic block with local anesthetic is performed for a patient with suspected sympathetically mediated pain. Which combination of findings defines a positive diagnostic block?",
+      "options": [
+        "Pain relief alone, regardless of other examination findings",
+        "Vasodilation and temperature increase without subjective pain relief",
+        "Subjective pain relief plus objective signs of sympathectomy (vasodilation and temperature increase)",
+        "Pain relief confirmed only by a 24-hour pain diary"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Pain relief alone is insufficient. Without objective evidence of sympathectomy, the relief may be due to placebo effect, systemic absorption of local anesthetic, or sedation-related false-positive. Both subjective and objective criteria must be met.",
+        "1": "Vasodilation and temperature changes confirm that the sympathetic chain was blocked, but without pain relief they indicate that the pain is not sympathetically mediated. Both components are required for a positive diagnostic block.",
+        "3": "A 24-hour pain diary is useful for tracking duration of relief but does not replace the requirement for objective sympathectomy signs. The diagnostic determination should include assessment within minutes of the injection."
+      },
+      "explanation": "A successful diagnostic sympathetic block requires BOTH subjective pain relief AND objective signs of sympathectomy (vasodilation, temperature increase) within minutes of injection. Pain relief alone could be placebo. Sympathectomy signs alone prove the block worked but that the pain is not sympathetically mediated. Only when both criteria are met can the clinician confidently attribute the pain to sympathetic pathways and consider progression to therapeutic or neurolytic procedures.",
+      "educationalObjective": "A positive diagnostic sympathetic block requires both subjective pain relief AND objective sympathectomy signs (vasodilation, temperature increase) -- pain relief alone is insufficient."
+    },
+    {
+      "id": "symb-007",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "Which sympathetic block targets the sacrococcygeal junction and is indicated for coccydynia and perineal pain?",
+      "acceptedAnswers": [
+        "ganglion impar block",
+        "ganglion impar",
+        "ganglion of walther",
+        "ganglion of Walther block"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ganglion impar block targets the terminal convergence of the bilateral sympathetic chains at the sacrococcygeal junction on the anterior surface of the sacrum. It is performed in the prone position under fluoroscopic guidance. Indications include coccydynia, perineal pain, and lower pelvic pain. In a retrospective study, 91% of patients treated with ganglion impar block or subsequent neuroablation achieved at least 50% pain reduction.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "The ganglion impar block targets the sacrococcygeal junction for coccydynia and perineal pain, representing the terminal convergence of the bilateral sympathetic chains."
+    },
+    {
+      "id": "symb-008",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "Celiac plexus neurolysis is the most extensively studied sympathetic block, with its strongest evidence supporting use for pancreatic cancer pain.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "This statement is true. Celiac plexus neurolysis has the strongest evidence base among sympathetic blocks, particularly for pancreatic cancer pain. Multiple studies have demonstrated its effectiveness for reducing pain and opioid requirements in patients with pancreatic and upper abdominal malignancies, and it has become a standard component of cancer pain management algorithms."
+      },
+      "explanation": "Celiac plexus neurolysis is the most extensively studied sympathetic block. Multiple studies have demonstrated effectiveness for reducing pain and opioid requirements in patients with pancreatic and upper abdominal malignancies. The procedure is performed at the T12-L1 level via bilateral posterior paravertebral approach under fluoroscopy or CT, or alternatively via endoscopic ultrasound during upper GI endoscopy.",
+      "educationalObjective": "Celiac plexus neurolysis has the strongest evidence among sympathetic blocks and is a standard intervention for intractable pancreatic cancer pain."
+    },
+    {
+      "id": "symb-009",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient presents with chronic pelvic visceral pain from advanced cervical cancer refractory to opioid therapy. Which sympathetic block is most appropriate?",
+      "options": [
+        "Celiac plexus block",
+        "Lumbar sympathetic block",
+        "Superior hypogastric plexus block",
+        "Stellate ganglion block"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "The celiac plexus innervates upper abdominal viscera (stomach, small intestine, liver, pancreas). Pelvic visceral pain from cervical cancer requires targeting the superior hypogastric plexus at L5.",
+        "1": "Lumbar sympathetic block targets the lower extremities, not pelvic viscera. It is indicated for lower extremity CRPS and vascular insufficiency.",
+        "3": "The stellate ganglion innervates the head, neck, and upper extremities. It has no role in pelvic pain management."
+      },
+      "explanation": "The superior hypogastric plexus block targets the anterior aspect of the L5 vertebral body and innervates pelvic visceral structures. It is indicated for chronic pelvic pain from cancer (including cervical cancer) and endometriosis. A retrospective study of 180 patients with pelvic cancer pain found that approximately 50% achieved at least 50% pain reduction at six months following superior hypogastric plexus neurolysis with phenol.",
+      "educationalObjective": "The superior hypogastric plexus block (target: anterior to L5) is the appropriate sympathetic block for pelvic visceral pain from cancer or endometriosis."
+    },
+    {
+      "id": "symb-010",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "In the cervical and lumbar regions, sympathetic ganglia are physically separated from somatic nerves, allowing selective sympathetic blockade without somatic sensory loss.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "This statement is true. A key anatomic advantage in the cervical and lumbar regions is that sympathetic structures are physically separated from somatic nerves, enabling selective sympathetic blockade. This separation does not exist in the thoracic region, where the sympathetic chain lies close to somatic nerves, neuraxial structures, and the pleura."
+      },
+      "explanation": "The cervical and lumbar regions offer a key anatomic advantage for sympathetic blocks: the sympathetic ganglia are physically separated from somatic nerves, enabling selective sympathetic blockade without somatic sensory loss. This separation does not exist in the thoracic region, where the sympathetic chain lies close to somatic nerves, neuraxial structures, and the pleura, making selective thoracic sympathetic blockade more challenging and risky.",
+      "educationalObjective": "Selective sympathetic blockade is possible in the cervical and lumbar regions because the ganglia are physically separated from somatic nerves -- this advantage is absent in the thoracic region."
+    }
+  ]
+}

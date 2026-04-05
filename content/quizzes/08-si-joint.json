@@ -1,0 +1,203 @@
+{
+  "topicId": "si-joint",
+  "questions": [
+    {
+      "id": "sij-001",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 55-year-old woman presents with chronic left buttock pain. When asked to point with one finger to her area of maximal pain, she points to the area immediately inferomedial to the left PSIS. Which statement about this finding is most accurate?",
+      "options": [
+        "This is the Fortin finger test, which has high specificity and effectively rules in SI joint pain",
+        "This is the Fortin finger test, which has high sensitivity and a negative result effectively rules out SI joint pain",
+        "This test is unreliable because all lower lumbar pathology refers to the buttock region",
+        "This finding is diagnostic for SI joint pain and no further workup is needed"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The Fortin finger test has approximately 100% sensitivity but only 50-60% specificity. It is excellent for ruling OUT SI joint pain (high sensitivity) but does NOT rule it in (low specificity), since other structures can cause pain in the same location.",
+        "2": "While it is true that many lower lumbar structures refer to the buttock, the Fortin test remains a valuable screening tool. Its near-100% sensitivity means a negative test effectively excludes SI joint pain from the differential.",
+        "3": "A positive Fortin test is only a screening finding. Further workup including provocation tests (3+ positive) and controlled diagnostic injections are needed to confirm the diagnosis."
+      },
+      "explanation": "The Fortin finger test asks the patient to localize maximal pain with one finger. A positive result (pointing inferomedial to the PSIS within one fingerbreadth) has approximately 100% sensitivity but only 50-60% specificity for SI joint pain. Its clinical value is primarily as a screening tool: a negative Fortin test effectively rules out SI joint pain as a primary diagnosis. However, a positive test requires further evaluation with provocation tests and diagnostic injection.",
+      "comparisonTable": {
+        "headers": ["Test Characteristic", "Fortin Finger Test", "Laslett Composite (3+ tests)"],
+        "rows": [
+          ["Sensitivity", "~100%", "~94%"],
+          ["Specificity", "50-60%", "Higher than individual tests"],
+          ["Clinical Role", "Screening / rule-out", "Diagnostic confirmation"],
+          ["Validated Against", "SI joint distension mapping", "Diagnostic injection response"]
+        ]
+      },
+      "educationalObjective": "The Fortin finger test has near-100% sensitivity — a negative test effectively rules out SI joint pain, but a positive test requires further evaluation with provocation tests and diagnostic injection."
+    },
+    {
+      "id": "sij-002",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "According to Laslett et al. (2005), how many positive SI joint provocation tests are needed to achieve approximately 94% sensitivity for SI joint pain confirmed by diagnostic injection?",
+      "options": [
+        "1 or more positive tests",
+        "2 or more positive tests",
+        "3 or more positive tests",
+        "All 6 provocation tests must be positive"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "A single positive provocation test has variable sensitivity and specificity. The composite approach is significantly more reliable than any single test.",
+        "1": "Two positive tests improve diagnostic accuracy over one, but the threshold for high sensitivity (94%) established by Laslett requires 3 or more positive tests.",
+        "3": "Requiring all 6 tests to be positive would dramatically reduce sensitivity. The threshold of 3 or more provides the optimal balance of sensitivity and specificity."
+      },
+      "explanation": "Laslett et al. (2005) demonstrated that 3 or more positive SI joint provocation tests yield approximately 94% sensitivity for SI joint pain confirmed by diagnostic injection. The provocation tests include distraction, compression, thigh thrust, Gaenslen, FABER (Patrick), and sacral thrust. Individual tests have variable sensitivity and specificity, but the composite approach is significantly more reliable.",
+      "educationalObjective": "Three or more positive SI joint provocation tests achieve approximately 94% sensitivity for SI joint pain (Laslett 2005) — the composite approach is far more reliable than any single test."
+    },
+    {
+      "id": "sij-003",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "When performing sacral lateral branch blocks (SLBBs) for a right-sided SI joint using the IPSIS clockface technique, the S2 targets are at which positions?",
+      "options": [
+        "6 and 7:30 o'clock",
+        "2:30, 4, and 5:30 o'clock",
+        "9:30 and 11 o'clock",
+        "4:30 and 6 o'clock"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "6 and 7:30 o'clock are the S1 targets for a LEFT-sided procedure. Remember that clockface positions are mirror-imaged between sides.",
+        "2": "9:30 and 11 o'clock are the S3 targets for a LEFT-sided procedure.",
+        "3": "4:30 and 6 o'clock are the S1 targets for a RIGHT-sided procedure, not S2."
+      },
+      "explanation": "The IPSIS clockface technique for SLBBs uses specific targets around each dorsal sacral foramen, placed 8-10 mm lateral to the arcuate line inflection point. For a right-sided procedure: S1 targets are at 4:30 and 6, S2 targets are at 2:30, 4, and 5:30, and S3 targets are at 1 and 2:30. The left-sided positions are mirror images. At each target, 0.2 mL anesthetic is injected on periosteum and then 0.2 mL after withdrawing one bevel-length (multi-site, multi-depth technique).",
+      "comparisonTable": {
+        "headers": ["Foramen", "Left Side", "Right Side"],
+        "rows": [
+          ["S1", "6 and 7:30", "4:30 and 6"],
+          ["S2", "6:30, 8, and 9:30", "2:30, 4, and 5:30"],
+          ["S3", "9:30 and 11", "1 and 2:30"]
+        ]
+      },
+      "educationalObjective": "IPSIS clockface SLBB targets for right-sided procedures: S1 at 4:30/6, S2 at 2:30/4/5:30, S3 at 1/2:30 — all placed 8-10 mm lateral to the arcuate line inflection point."
+    },
+    {
+      "id": "sij-004",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "SI joint radiofrequency ablation addresses both the anterior innervation (L2-S2 ventral rami) and the posterior innervation (S1-S3 lateral branches) of the joint.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "SI joint RFA only addresses the posterior innervation via the S1-S3 lateral branches (and L5 dorsal ramus). The anterior SI joint, which receives dominant innervation from L2-S2 ventral rami, remains fully innervated after RFA. This is a fundamental limitation of SI joint RFA and partially explains the equivocal evidence for the procedure."
+      },
+      "explanation": "The SI joint has dual innervation: the anterior joint is innervated predominantly by L2-S2 ventral rami, while the posterior SI joint complex (ligaments, posterior capsule, syndesmosis) is innervated by the posterior sacral network from S1-S3 lateral branches. RFA targets only the posterior lateral branches and the L5 dorsal ramus. The anterior innervation remains intact, which is one reason SI joint RFA evidence is more equivocal than facet RFA evidence.",
+      "educationalObjective": "SI joint RFA addresses only the posterior innervation (S1-S3 lateral branches) — the anterior joint (L2-S2 ventral rami) remains fully innervated, which is a key limitation of the procedure."
+    },
+    {
+      "id": "sij-005",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "Which trial provided the strongest RCT evidence for minimally invasive SI joint fusion compared to non-surgical management?",
+      "options": [
+        "Patel N et al. (2012) — cooled RFA vs sham",
+        "INSITE Trial — Polly DW et al. (2015) — iFuse vs non-surgical management",
+        "Laslett M et al. (2005) — provocation test validation",
+        "Cohen SP et al. (2008) — conventional RFA"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Patel (2012) is the key positive RCT for cooled radiofrequency ablation, not SI joint fusion. It showed benefit of cooled RFA over sham at 3 months.",
+        "2": "Laslett (2005) studied the diagnostic accuracy of provocation tests for SI joint pain. It is a diagnostic validation study, not a treatment trial.",
+        "3": "Cohen (2008) studied conventional (non-cooled) RFA and showed inconsistent results. It does not address SI joint fusion."
+      },
+      "explanation": "The INSITE Trial (Polly DW et al., 2015, Annals of Surgery) was a prospective multicenter RCT comparing minimally invasive SI joint fusion using triangular titanium implants (iFuse) to non-surgical management. It showed significantly superior outcomes for fusion in VAS pain, ODI disability, and quality of life at 6 months. The SALLY study (Dengler 2019) and iMIA Trial (Duhon 2016) provided additional supporting evidence with durable outcomes.",
+      "educationalObjective": "The INSITE Trial (Polly 2015) is the landmark RCT showing minimally invasive SI joint fusion is superior to non-surgical management for confirmed SI joint pain."
+    },
+    {
+      "id": "sij-006",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What is the minimum distance (in mm) that SLBB targets must be placed lateral to the arcuate line inflection point to avoid unintended foraminal needle placement?",
+      "acceptedAnswers": [
+        "8-10 mm",
+        "8-10",
+        "8 to 10 mm",
+        "8 mm",
+        "10 mm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IPSIS specifies that all SLBB targets must be placed 8-10 mm lateral to the arcuate line inflection point. This is critical because the perceived lateral margin of the sacral foramen on fluoroscopy is actually deep within the foramen — the true lateral margin is oblique to the X-ray beam and invisible. Placing needles at what appears to be the foraminal margin on fluoroscopy would actually place them within the foramen, risking ventral ramus injury.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "SLBB targets must be 8-10 mm lateral to the arcuate line inflection point because the perceived fluoroscopic foraminal margin is actually deep within the foramen — a critical safety consideration to avoid ventral ramus injury."
+    },
+    {
+      "id": "sij-007",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 75-year-old osteoporotic woman presents with acute onset pain over the right PSIS region. The Fortin finger test is positive and there are 3 positive provocation tests. Before proceeding to a diagnostic SI joint injection, which condition must be excluded?",
+      "options": [
+        "Lumbar disc herniation at L5-S1",
+        "Greater trochanteric bursitis",
+        "Sacral insufficiency fracture",
+        "Hip osteoarthritis"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "While lumbar disc pathology should be in the differential, the most urgent diagnosis to exclude in an elderly osteoporotic woman with acute SI-region pain is a sacral insufficiency fracture, which can present identically to SI joint pain.",
+        "1": "Greater trochanteric bursitis causes lateral hip pain, not typically pain localized to the PSIS.",
+        "3": "Hip osteoarthritis typically presents with groin pain and restricted range of motion, not pain localized inferomedial to the PSIS."
+      },
+      "explanation": "In elderly osteoporotic patients (especially postmenopausal women), sacral insufficiency fractures must be excluded because they present identically to SI joint pain — pain in the same location with positive provocation tests. The fracture will NOT respond to SI joint injection. Diagnosis requires MRI (STIR sequence shows marrow edema) or CT (fracture lines in sacral ala). Treatment is rest, analgesics, and osteoporosis management.",
+      "educationalObjective": "Always exclude sacral insufficiency fractures in elderly osteoporotic patients presenting with acute SI-region pain — MRI (STIR) or CT is required, as the presentation is identical to SI joint pain."
+    },
+    {
+      "id": "sij-008",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Blind SI joint injections (without imaging guidance) achieve intra-articular placement in approximately 50-60% of attempts.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Blind SI joint injections have extremely poor accuracy — only 12-22% intra-articular placement rate without imaging guidance. This is far lower than many practitioners assume. Fluoroscopic, CT, or ultrasound guidance is mandatory for reliable joint access."
+      },
+      "explanation": "Blind SI joint injections have an alarmingly low accuracy rate of only 12-22% for intra-articular placement. This makes image guidance (fluoroscopy, CT, or ultrasound) mandatory for both diagnostic and therapeutic SI joint injections. Without confirmed intra-articular placement, the diagnostic value of the injection is meaningless.",
+      "educationalObjective": "Blind SI joint injections are only 12-22% accurate — image guidance is mandatory for reliable intra-articular placement."
+    },
+    {
+      "id": "sij-009",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "Dr. O'Brien identifies a fundamental problem with existing SI joint RFA evidence. What is the primary methodological concern?",
+      "options": [
+        "Studies used cooled RF instead of conventional RF technology",
+        "Studies selected patients using intra-articular blocks but treated posterior structures with lateral branch RFA",
+        "Studies did not include a sham control group",
+        "Studies used too few electrodes to achieve adequate lateral branch coverage"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Cooled RF is actually the preferred technology for SI joint RFA and is associated with the most positive results (Patel 2012). This is not the fundamental methodological concern.",
+        "2": "While some studies lack sham controls, the primary concern Dr. O'Brien identifies is the mismatch between the diagnostic method (intra-articular blocks) and the treatment target (posterior lateral branches).",
+        "3": "Electrode coverage is a technical concern, but the fundamental issue is patient selection: using intra-articular blocks to select patients for a procedure targeting posterior structures is a conceptual mismatch."
+      },
+      "explanation": "Dr. O'Brien identifies the core problem with SI joint RFA evidence: studies selected patients using intra-articular blocks, but RFA targets the posterior lateral branches — a fundamentally different structure. Intra-articular blocks diagnose pain from the synovial joint (innervated primarily by L2-S2 ventral rami anteriorly), while RFA addresses the posterior SI joint complex (S1-S3 lateral branches). IPSIS emphasizes that sacral lateral branch blocks, not intra-articular blocks, should be used to predict RFA response.",
+      "educationalObjective": "The fundamental problem with SI joint RFA evidence is the mismatch between patient selection (intra-articular blocks) and treatment target (posterior lateral branches) — SLBBs should select for SLBRFN."
+    },
+    {
+      "id": "sij-010",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "After performing sacral lateral branch blocks, what bedside finding confirms that the block reached the intended targets?",
+      "options": [
+        "Decreased pain with lumbar flexion",
+        "Negative Fortin finger test on repeat examination",
+        "Hypoesthesia of the medial buttock skin in the middle cluneal nerve distribution",
+        "Absent deep tendon reflexes at the ankle"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Decreased pain with lumbar flexion is not specific to SI joint lateral branch blocks and would suggest lumbar spine pathology if anything.",
+        "1": "A repeat Fortin test would evaluate subjective pain localization, not objective nerve block confirmation. It does not confirm that the correct neural targets were anesthetized.",
+        "3": "Absent ankle reflexes would suggest S1 nerve root blockade (ventral ramus), which would actually indicate the block was placed too deep (within the foramen). This would be an adverse sign, not a desired endpoint."
+      },
+      "explanation": "IPSIS specifies that a technically adequate SLBB should produce hypoesthesia (numbness) of the medial buttock skin in the middle cluneal nerve distribution. The middle cluneal nerves arise from the posterior sacral network — the same plexus that innervates the posterior SI joint complex. Demonstrating medial buttock numbness is a useful bedside confirmation that the lateral branch blocks reached the intended targets.",
+      "educationalObjective": "A successful SLBB should produce medial buttock hypoesthesia in the middle cluneal nerve distribution — a bedside confirmation that the posterior sacral network was anesthetized."
+    }
+  ]
+}

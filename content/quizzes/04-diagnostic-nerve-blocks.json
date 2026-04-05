@@ -1,0 +1,195 @@
+{
+  "topicId": "diagnostic-nerve-blocks",
+  "questions": [
+    {
+      "id": "dnb-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "What is the recommended injectate volume for a diagnostic selective nerve root block (SNRB) in the lumbar spine per IPSIS guidelines?",
+      "options": [
+        "0.2 mL of high-concentration anesthetic",
+        "0.5 mL of standard-concentration anesthetic",
+        "1.0 mL of local anesthetic plus steroid",
+        "2.0 mL of local anesthetic"
+      ],
+      "correctAnswer": 0,
+      "wrongAnswerExplanations": {
+        "1": "Although 0.5 mL was historically considered a low volume, the Furman et al. (2008) study demonstrated that even 0.5 mL is nonselective in the lumbar spine — injectate spreads to adjacent levels. IPSIS now recommends 0.2 mL.",
+        "2": "Adding steroid increases the total volume and destroys diagnostic specificity. IPSIS explicitly states that no steroid should be used for diagnostic blocks.",
+        "3": "2.0 mL is a therapeutic volume used for transforaminal epidural steroid injections. This volume would spread to multiple adjacent levels and completely invalidate any diagnostic specificity."
+      },
+      "explanation": "IPSIS specifies 0.2 mL of high-concentration anesthetic (e.g., 4% lidocaine) for lumbar diagnostic selective nerve blocks. The Furman et al. (2008) study demonstrated that even volumes as low as 0.5 mL are nonselective in the lumbar spine, with injectate spreading to adjacent foraminal levels. This evidence underpins the IPSIS recommendation for ultra-low volumes. No steroid should be added, and contrast (0.2-0.3 mL) must be injected first to confirm limited spread to the target nerve only.",
+      "educationalObjective": "IPSIS recommends 0.2 mL of high-concentration anesthetic for lumbar diagnostic SNBs — even 0.5 mL is nonselective per Furman (2008)."
+    },
+    {
+      "id": "dnb-002",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "In the Sasso et al. (2005) study, when the selective nerve root block result and MRI findings disagreed about the symptomatic level, which predictor was associated with better surgical outcomes?",
+      "options": [
+        "MRI findings",
+        "EMG/NCS results",
+        "Selective nerve root block result",
+        "Clinical examination alone"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "This is the key teaching point of the Sasso study. When surgery was performed at the MRI-identified level despite a negative SNRB at that level, outcomes were poor. The nerve block result was the superior predictor.",
+        "1": "EMG/NCS was not the primary comparison in the Sasso study. While EMG is highly specific when positive, it was not shown to be a better surgical predictor than SNRBs.",
+        "3": "Clinical examination alone was not compared head-to-head in the Sasso study. The study specifically compared SNRB results to MRI findings as predictors of surgical success."
+      },
+      "explanation": "The Sasso study established that when SNRB results and MRI findings disagreed about the symptomatic level, surgical outcomes were significantly better when surgery followed the nerve block result rather than the MRI finding. A positive SNRB correlated with approximately 90%+ successful surgical outcome at that level, while a negative SNRB followed by surgery at that level yielded poor outcomes regardless of MRI pathology. This is particularly important in the cervical spine where multilevel disc herniations are common.",
+      "educationalObjective": "Sasso (2005) demonstrated that SNRB results are better predictors of surgical success than MRI alone, especially when the two disagree."
+    },
+    {
+      "id": "dnb-003",
+      "type": "true-false",
+      "domain": "clinical-decision-making",
+      "question": "Adding corticosteroid to a diagnostic selective nerve root block improves the diagnostic accuracy of the procedure.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Adding steroid to a diagnostic SNRB is counterproductive. The additional volume of steroid increases total injectate volume, which degrades diagnostic specificity by allowing spread to adjacent structures and levels. IPSIS explicitly states that no steroid should be used for diagnostic blocks. Steroids are appropriate for therapeutic transforaminal injections but undermine the very purpose of a diagnostic block."
+      },
+      "explanation": "Adding steroid to a diagnostic SNRB is explicitly contraindicated by IPSIS guidelines. The added volume destroys diagnostic specificity by promoting spread beyond the target nerve. A diagnostic SNRB uses only a small volume (0.2 mL) of high-concentration local anesthetic to selectively anesthetize a single nerve root. The goal is to confirm a pain generator, not to treat inflammation. Therapeutic TFESI (which uses steroid) has an entirely different purpose and is not segmentally specific.",
+      "educationalObjective": "Steroid must never be added to diagnostic nerve blocks — the additional volume degrades specificity (IPSIS)."
+    },
+    {
+      "id": "dnb-004",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "What is the reported false-positive rate for a single diagnostic selective nerve root block?",
+      "options": [
+        "5-10%",
+        "10-15%",
+        "22-38%",
+        "50-60%"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "5-10% is the false-positive rate after controlled (dual) blocks, not single blocks. The dual block paradigm reduces the rate from 22-38% down to this range.",
+        "1": "This range underestimates the false-positive rate of single blocks. North et al. (1996) established the rate at 22-38%.",
+        "3": "While the false-positive rate of single blocks is significant, it does not approach 50-60%. This would render the test diagnostically useless."
+      },
+      "explanation": "The false-positive rate for single diagnostic blocks is 22-38% per North et al. (1996). This unacceptably high rate is one of the strongest arguments for the controlled (dual) block paradigm in facet pain diagnosis, where two separate blocks with concordant responses reduce the false-positive rate to approximately 5-10%. For selective nerve root blocks used in surgical planning, clinical correlation with imaging and examination findings helps improve specificity even with a single block.",
+      "educationalObjective": "Single diagnostic blocks have a false-positive rate of 22-38% (North 1996), supporting the controlled dual-block paradigm for facet pain."
+    },
+    {
+      "id": "dnb-005",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A patient with chronic radicular pain has MRI showing disc herniations at C5-6 and C6-7. The surgeon is considering a two-level anterior cervical discectomy and fusion. What is the most appropriate next step?",
+      "options": [
+        "Proceed with two-level ACDF based on MRI findings",
+        "Obtain EMG/NCS to confirm both levels before surgery",
+        "Perform diagnostic selective nerve root blocks at C6 and C7 to identify the symptomatic level",
+        "Trial of bilateral cervical epidural steroid injections"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Proceeding directly to two-level ACDF without diagnostic confirmation risks unnecessary multilevel fusion. SNRBs may identify that only one level is symptomatic, allowing a single-level procedure with better outcomes and less adjacent segment degeneration.",
+        "1": "EMG/NCS is specific but not sensitive — many patients with genuine radiculopathy have normal EMG results. A negative EMG does not rule out radicular pain at a given level. SNRBs are more sensitive for identifying the symptomatic level.",
+        "3": "Epidural steroid injections spread to multiple levels and are NOT segmentally specific. They cannot identify which level is the pain generator and should never be used for diagnostic purposes."
+      },
+      "explanation": "Diagnostic SNRBs are most valuable in the cervical spine where multilevel disease is common on MRI, especially over age 50. Identifying the true symptomatic level can reduce a planned two-level ACDF to a single-level procedure, which has better outcomes and preserves adjacent segments. The Sasso study specifically demonstrated that surgical outcomes guided by positive SNRB results were significantly better than those guided by MRI alone.",
+      "comparisonTable": {
+        "headers": ["Approach", "Advantage", "Limitation"],
+        "rows": [
+          ["MRI alone", "Identifies structural pathology", "Cannot confirm which level is symptomatic; multilevel findings common"],
+          ["EMG/NCS", "Highly specific when positive", "Not sensitive — many true radiculopathies have normal EMG"],
+          ["Diagnostic SNRB", "Most sensitive for confirming pain generator", "22-38% false-positive rate for single block; requires active pain"]
+        ]
+      },
+      "educationalObjective": "Cervical diagnostic SNRBs can identify the symptomatic level in multilevel disease, potentially converting a two-level fusion to a single-level procedure."
+    },
+    {
+      "id": "dnb-006",
+      "type": "true-false",
+      "domain": "evidence",
+      "question": "The double-block paradigm for diagnostic blocks has no significant drawbacks and should always be used before any interventional procedure.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "While the double-block paradigm reduces false-positive rates, UpToDate highlights an important tradeoff: dual blocks may simultaneously increase false-negative rates, potentially excluding patients who would benefit from treatment. In one RCT of 151 patients with suspected facet pain, clinical diagnostic methods alone (without blocks) were associated with greater treatment success than selection by positive single or double blocks. The double-block paradigm is standard for facet pain workup but is not universally required for all interventional procedures."
+      },
+      "explanation": "The double-block paradigm reduces false positives from 25-40% down to 5-10%, which is its primary strength. However, UpToDate highlights a significant tradeoff: it may simultaneously increase false negatives, excluding patients who would benefit from treatment. One randomized trial of 151 patients found that clinical diagnostic methods alone yielded greater treatment success for RFA than patient selection based on blocks. This does not invalidate dual blocks but places them in a more nuanced evidence context where pre-test probability and clinical judgment remain important.",
+      "educationalObjective": "The dual-block paradigm reduces false positives but may increase false negatives — it represents a tradeoff, not a universally superior approach (UpToDate)."
+    },
+    {
+      "id": "dnb-007",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Why is lidocaine preferred over bupivacaine as the local anesthetic for diagnostic selective nerve root blocks?",
+      "options": [
+        "Lidocaine produces a denser motor block",
+        "Lidocaine has a shorter duration, limiting the period of motor block and recovery time",
+        "Lidocaine is less likely to cause an allergic reaction",
+        "Lidocaine provides superior diagnostic specificity at the same volume"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "A denser motor block would actually be undesirable for a diagnostic procedure. The goal is sensory blockade with minimal motor effect.",
+        "2": "True allergic reactions to amide local anesthetics (both lidocaine and bupivacaine) are extremely rare. This is not the primary reason for preference.",
+        "3": "At the same volume, diagnostic specificity is primarily determined by the volume and spread pattern, not the specific anesthetic agent. Both provide equivalent specificity at equal volumes."
+      },
+      "explanation": "IPSIS recommends lidocaine for diagnostic selective nerve blocks because its shorter duration (30-90 minutes vs 2-6 hours for bupivacaine) limits the period of motor block and allows a shorter recovery period. The patient can be assessed quickly and return to normal activity sooner. For controlled dual blocks in facet pain workup, the two anesthetics (lidocaine and bupivacaine) are used on separate days specifically to validate concordant responses — shorter relief with lidocaine and longer with bupivacaine.",
+      "educationalObjective": "Lidocaine is preferred for diagnostic SNBs due to its shorter duration, which limits motor block duration and shortens recovery time (IPSIS)."
+    },
+    {
+      "id": "dnb-008",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "A physician performs a diagnostic SNRB and injects 2.5 mL of anesthetic through a transforaminal approach. The patient reports 100% pain relief. Why should this result be interpreted with caution?",
+      "options": [
+        "The relief percentage is too high to be credible",
+        "Transforaminal injections should not be used diagnostically",
+        "The volume is excessive and likely spread to adjacent levels, compromising diagnostic specificity",
+        "The anesthetic duration is too short for valid assessment"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "100% relief is actually a strong positive result and increases diagnostic confidence, provided the technical aspects of the block were sound.",
+        "1": "Transforaminal injections CAN be used diagnostically, but only with small volumes (0.2 mL per IPSIS) and lateral needle positioning to restrict spread. The approach itself is not the problem — the volume is.",
+        "3": "The anesthetic duration is not relevant to this question. The issue is volume, not timing."
+      },
+      "explanation": "A 2.5 mL volume is a therapeutic transforaminal dose, not a diagnostic one. At this volume, anesthetic will spread to adjacent foraminal levels via the epidural space, potentially anesthetizing multiple nerve roots simultaneously. Furman et al. (2008) showed that even 0.5 mL is nonselective in the lumbar spine. IPSIS recommends 0.2 mL for diagnostic blocks. IPSIS also explicitly states that therapeutic transforaminal injections spread intentionally to the ventral epidural space and adjacent foraminal levels via Hofmann's ligament fenestrations, and should NEVER be used as a diagnostic test.",
+      "educationalObjective": "Excessive injectate volume during diagnostic blocks spreads to adjacent levels and destroys specificity — therapeutic volumes (2-4 mL) must never be used diagnostically."
+    },
+    {
+      "id": "dnb-009",
+      "type": "short-answer",
+      "domain": "evidence",
+      "question": "According to the Sasso study, what approximate surgical success rate was associated with a positive diagnostic SNRB (>75% relief) at the operative level?",
+      "acceptedAnswers": [
+        "90%",
+        "90 percent",
+        "greater than 90%",
+        ">90%",
+        "approximately 90%",
+        "90%+"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sasso et al. (2005) demonstrated that a positive diagnostic SNRB (>75% pain relief) correlated with approximately 90%+ successful surgical outcome at that level. Conversely, a negative SNRB followed by surgery at that level yielded poor outcomes regardless of MRI pathology. This study established that the nerve block result is a better predictor of surgical success than MRI alone and supports the routine use of SNRBs in pre-surgical workup for multilevel disease.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Sasso (2005): positive SNRB predicts approximately 90%+ surgical success rate, establishing SNRB results as superior to MRI for surgical planning."
+    },
+    {
+      "id": "dnb-010",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "Which of the following is the MOST important prerequisite for a valid diagnostic nerve block result?",
+      "options": [
+        "MRI-confirmed pathology at the target level",
+        "Positive EMG findings at the target level",
+        "The patient must have active concordant pain at the time of the block",
+        "The patient must be sedated for accurate pain assessment"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "While MRI findings increase pre-test probability, they are not required for a valid block. Many patients have discordant MRI and clinical findings. The block tests the nerve, not the imaging.",
+        "1": "EMG is complementary but not a prerequisite. Many patients with true radicular pain have normal EMG results (EMG is specific but not sensitive).",
+        "3": "Sedation is actually discouraged during diagnostic blocks because it increases the false-positive rate. Patients must remain conscious and conversant to accurately report pain changes."
+      },
+      "explanation": "The patient MUST have active concordant pain at the time of the diagnostic block for the result to be valid. If the patient is having a good day with minimal pain, neither a positive nor negative result can be meaningfully interpreted. The concordant pain is the specific pattern that brought them in — not general soreness or procedure-related discomfort. UpToDate and IPSIS both discourage sedation because it impairs the patient's ability to report pain changes accurately and increases the false-positive rate.",
+      "educationalObjective": "Active concordant pain at the time of the block is the most critical prerequisite for valid diagnostic results — sedation is discouraged."
+    }
+  ]
+}

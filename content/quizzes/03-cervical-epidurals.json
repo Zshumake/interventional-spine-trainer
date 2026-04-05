@@ -1,0 +1,212 @@
+{
+  "topicId": "cervical-epidurals",
+  "questions": [
+    {
+      "id": "cerv-001",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During cervical TFESI, what steroid preparation is acceptable and what is the maximum recommended dose per IPSIS?",
+      "options": [
+        "Triamcinolone 40 mg",
+        "Dexamethasone 10 mg",
+        "Methylprednisolone 40 mg",
+        "Betamethasone 6 mg"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Triamcinolone is a particulate steroid that can cause catastrophic embolic infarction of the spinal cord or brain if injected into the vertebral or radiculomedullary arteries. It is never acceptable for cervical TFESI.",
+        "2": "Methylprednisolone is a particulate steroid. Per the Scanlon 2007 study, the majority of catastrophic neurological complications from cervical ESI occurred with particulate steroids.",
+        "3": "Betamethasone is a particulate steroid with aggregation properties that can occlude arterioles. It is contraindicated for cervical TFESI."
+      },
+      "explanation": "Only nonparticulate dexamethasone is acceptable for cervical TFESI, with a maximum recommended dose of 10 mg per injection per IPSIS. The multi-society practice guideline (Rathmell et al. 2015) established consensus safeguards: real-time fluoroscopy or DSI, injection through microbore extension tubing, and nonparticulate steroids only. Most interventional spine experts consider particulate steroid use in cervical TFESI to be below the standard of care.",
+      "educationalObjective": "Only dexamethasone (max 10 mg per IPSIS) is acceptable for cervical TFESI; particulate steroids are considered below the standard of care due to catastrophic embolization risk."
+    },
+    {
+      "id": "cerv-002",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "What is the recommended access level for cervical interlaminar epidural per IPSIS?",
+      "options": [
+        "C5-6 (most commonly stenotic level)",
+        "C6-7 (widest cervical epidural space)",
+        "C7-T1 (preferred), with C6-7 and T1-2 as alternatives",
+        "Any level from C3-4 to C7-T1 based on pathology"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "IPSIS explicitly states that interlaminar access should never be performed above C6-7. C5-6 is too high and carries unacceptable risk of cord injury.",
+        "1": "While C6-7 is an acceptable alternative, C7-T1 is the preferred level because it offers the widest posterior epidural space in the cervical region.",
+        "3": "Access above C6-7 is contraindicated per IPSIS. The recommended levels are C7-T1 (preferred), C6-7, or T1-2 only."
+      },
+      "explanation": "Per IPSIS, cervical interlaminar access should be performed at C7-T1 (preferred), C6-7, or T1-2. Interlaminar access should never be performed above C6-7. The posterior cervical epidural space is only 1.5-2 mm at C6-7, making lower levels safer. If significant stenosis exists at C7-T1, a subjacent level such as T1-2 may be considered.",
+      "educationalObjective": "Cervical interlaminar epidural should be performed at C7-T1 (preferred), C6-7, or T1-2; never access above C6-7 due to the extremely narrow posterior epidural space."
+    },
+    {
+      "id": "cerv-003",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "A midline approach is preferred over paramedian for cervical interlaminar epidural at C7-T1.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "A paramedian approach is preferred at C7-T1 because approximately 70% of patients have midline ligamentum flavum defects (gaps) at this level per IPSIS data. A midline approach through a ligamentum flavum gap would bypass the structure that provides loss-of-resistance feedback, potentially resulting in unrecognized dural puncture or cord contact."
+      },
+      "explanation": "Per IPSIS, approximately 70% of patients have midline ligamentum flavum defects at C7-T1. This high prevalence of midline gaps means a midline approach could bypass the ligamentum flavum entirely, eliminating the LOR feedback that signals epidural entry. The paramedian approach avoids these midline gaps and provides a safety advantage for cervical interlaminar access.",
+      "educationalObjective": "Paramedian approach is preferred for cervical interlaminar epidural at C7-T1 because ~70% of patients have midline ligamentum flavum defects that would compromise loss-of-resistance detection."
+    },
+    {
+      "id": "cerv-004",
+      "type": "multiple-choice",
+      "domain": "evidence",
+      "question": "The Scanlon et al. (2007) survey in Anesthesiology identified serious neurological complications from cervical epidural steroid injections. What was the primary finding?",
+      "options": [
+        "All complications occurred with the interlaminar approach",
+        "78 cases of serious complications were identified, with the majority occurring with particulate steroid injections",
+        "Complications were equally distributed between particulate and non-particulate steroids",
+        "Only 5 cases were identified, all involving dural puncture"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "The study included complications from both cervical TFESI and interlaminar approaches, though the catastrophic embolic events were primarily from transforaminal injections with particulate steroids.",
+        "2": "The complications were not equally distributed. The majority of catastrophic events occurred with particulate steroid injections, which fundamentally changed practice toward non-particulate steroids.",
+        "3": "The study identified 78 cases, far more than 5, and the complications included brain infarction, spinal cord infarction, and death — not just dural puncture."
+      },
+      "explanation": "The Scanlon 2007 survey was a landmark study that identified 78 cases of serious neurological complications from cervical epidural steroid injections, including brain infarction (stroke), spinal cord infarction, and death. The majority of catastrophic events occurred with particulate steroid injections. This study fundamentally changed the standard of care, driving the universal adoption of dexamethasone for cervical TFESI.",
+      "educationalObjective": "Scanlon 2007 identified 78 cases of serious neurological complications from cervical ESI, predominantly from particulate steroids, fundamentally changing practice to mandate dexamethasone for cervical TFESI."
+    },
+    {
+      "id": "cerv-005",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Deep sedation or general anesthesia is acceptable for cervical interlaminar epidural procedures when the patient is anxious.",
+      "correctAnswer": false,
+      "wrongAnswerExplanations": {
+        "true": "Per IPSIS, spinal cord injury during interlaminar access has been specifically associated with deep sedation or general anesthesia. These are unnecessary for cervical procedures and should not be used. The patient must always remain conscious and communicative to report neurological symptoms during needle advancement. If moderate sedation is administered, the patient must remain able to communicate."
+      },
+      "explanation": "Per IPSIS, deep sedation and general anesthesia are contraindicated for cervical interlaminar epidural access. Cord injuries have been directly associated with oversedation during these procedures. The patient must remain conscious and communicative to provide real-time feedback about neurological symptoms (paresthesias, pain, weakness) during needle advancement. This is a critical safety measure given the posterior cervical epidural space is only 1.5-2 mm at C6-7.",
+      "educationalObjective": "Deep sedation and general anesthesia are contraindicated for cervical interlaminar epidurals because cord injuries have been associated with oversedation; the patient must remain conscious and communicative."
+    },
+    {
+      "id": "cerv-006",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "During cervical TFESI, where must the needle tip remain on lateral fluoroscopy at all times?",
+      "options": [
+        "In the anterior half of the foramen to maximize epidural spread",
+        "In the posterior half of the foramen",
+        "At the midpoint of the foramen",
+        "Lateral to the foramen in the paraspinal muscles"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "Advancing the needle into the anterior half of the foramen risks vertebral artery puncture. The vertebral artery runs through the transverse foramen from C6 to C1, directly anterior and lateral to the neural foramen.",
+        "2": "The midpoint of the foramen is too anterior. The ascending and deep cervical arteries course in the posterior cervical foramen, and the vertebral artery lies anteriorly — the needle must stay in the posterior half.",
+        "3": "The needle must enter the foramen to achieve epidural spread. Remaining lateral to the foramen would not deliver medication to the epidural space."
+      },
+      "explanation": "During cervical TFESI, the needle must remain in the posterior half of the foramen on lateral view at all times. The vertebral artery runs through the transverse foramen from C6 to C1, directly anterior and lateral to the neural foramen. Advancing the needle anteriorly risks vertebral artery puncture with catastrophic consequences including brainstem infarction and death.",
+      "educationalObjective": "The cervical TFESI needle must stay in the posterior half of the foramen on lateral view to avoid the vertebral artery, which lies directly anterior."
+    },
+    {
+      "id": "cerv-007",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 52-year-old presents with unilateral C6 radiculopathy from a C5-6 foraminal disc herniation. Pre-procedure MRI shows the vertebral artery filling the C5-6 foramen on the symptomatic side. What is the most appropriate course of action?",
+      "options": [
+        "Proceed with cervical TFESI using a slightly modified trajectory",
+        "Use CT guidance instead of fluoroscopy to improve safety",
+        "Do not perform TFESI at C5-6 on this side; consider cervical interlaminar or contralateral TFESI",
+        "Use a larger gauge needle for better directional control"
+      ],
+      "correctAnswer": 2,
+      "wrongAnswerExplanations": {
+        "0": "Per IPSIS, vertebral artery position that precludes safe foraminal access is a procedure-specific contraindication to cervical TFESI. No trajectory modification can make this safe.",
+        "1": "While CT guidance offers some advantages, if the vertebral artery fills the foramen, no imaging modality makes needle placement in that foramen safe.",
+        "3": "A larger gauge needle increases tissue trauma and does not address the fundamental problem of the vertebral artery occupying the target foramen."
+      },
+      "explanation": "Per IPSIS, location of the vertebral artery that precludes safe foraminal access is a specific contraindication to cervical TFESI. The vertebral artery usually enters the transverse foramen at C6 but may enter at C5, and aberrant positioning can fill the foramen entirely. Pre-procedure axial imaging is essential to identify vertebral artery position. Alternative approaches include cervical interlaminar at C7-T1 or, if anatomy permits, TFESI at an adjacent level.",
+      "educationalObjective": "Aberrant vertebral artery position filling the target foramen is a specific contraindication to cervical TFESI per IPSIS; always assess vascular anatomy on pre-procedure imaging."
+    },
+    {
+      "id": "cerv-008",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What approximate percentage of cervical TFESIs demonstrate benign extravascular perivertebral artery contrast flow that must be distinguished from true intravascular injection?",
+      "acceptedAnswers": [
+        "50%",
+        "50",
+        "approximately 50%",
+        "about 50%",
+        "~50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Approximately 50% of cervical TFESIs demonstrate benign extravascular perivertebral artery contrast flow. This flow occurs along the external surface of the vertebral artery within the interstitium of the venous plexus and must be distinguished from true intravascular or intramural injection. Recognizing this benign pattern prevents unnecessary procedure abandonment while maintaining vigilance for genuinely dangerous vascular patterns.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Benign extravascular perivertebral artery contrast flow occurs in ~50% of cervical TFESIs and must be distinguished from true intravascular injection to avoid unnecessary procedure abandonment."
+    },
+    {
+      "id": "cerv-009",
+      "type": "true-false",
+      "domain": "procedural",
+      "question": "Particulate steroids are acceptable for cervical interlaminar epidural injections because there is no arterial communication between the dorsal epidural space and the spinal cord.",
+      "correctAnswer": true,
+      "wrongAnswerExplanations": {
+        "false": "Per IPSIS, particulate steroids ARE acceptable for cervical interlaminar because there is no arterial communication between the dorsal epidural space and the spinal cord. The maximum dose is 40 mg methylprednisolone or equivalent. The dexamethasone mandate applies only to transforaminal approaches where the needle is in proximity to radiculomedullary and vertebral arteries."
+      },
+      "explanation": "Per IPSIS, particulate steroids are acceptable for cervical interlaminar epidural injection because there is no arterial communication between the dorsal epidural space and the spinal cord. The embolic infarction risk that mandates dexamethasone use applies specifically to transforaminal approaches where the needle enters the foramen near radiculomedullary and vertebral arteries. Maximum dose is 40 mg methylprednisolone or equivalent.",
+      "educationalObjective": "Particulate steroids are acceptable for cervical interlaminar epidurals (max 40 mg methylprednisolone); dexamethasone is mandatory only for cervical TFESI where arterial embolization risk exists."
+    },
+    {
+      "id": "cerv-010",
+      "type": "multiple-choice",
+      "domain": "clinical-decision-making",
+      "question": "A 58-year-old with right C7 radiculopathy from a C6-7 disc herniation reports 80% pain relief after a cervical TFESI with dexamethasone. The pain recurs 4 months later. Per UpToDate guidelines, what is the appropriate next step?",
+      "options": [
+        "Repeat the cervical TFESI since the initial injection provided meaningful benefit",
+        "Refuse further injections and refer directly to surgery",
+        "Switch to a particulate steroid for longer-lasting relief",
+        "Perform a cervical interlaminar instead since TFESI has been tried"
+      ],
+      "correctAnswer": 0,
+      "wrongAnswerExplanations": {
+        "1": "An 80% response with recurrence at 4 months is a strong indication for repeat injection. UpToDate supports repeat injection when symptoms recur after initial response, spaced no more frequently than every 3 months.",
+        "2": "Particulate steroids are contraindicated for cervical TFESI regardless of the clinical scenario. Dexamethasone is mandatory to prevent catastrophic embolic complications.",
+        "3": "There is no indication to switch approaches when the initial TFESI provided an excellent response. Repeat the same successful approach."
+      },
+      "explanation": "Per UpToDate, repeat injection is appropriate when symptoms recur after an initial positive response, spaced no more frequently than every 3 months. This patient had an 80% response with recurrence at 4 months, making repeat cervical TFESI with dexamethasone the evidence-based choice. Maximum of 4 injections per site per 12 months applies. Switching to particulate steroids is never acceptable for cervical TFESI.",
+      "educationalObjective": "Repeat cervical TFESI with dexamethasone is appropriate when symptoms recur after a good initial response, following the 3-month minimum interval and 4 injections per year limit."
+    },
+    {
+      "id": "cerv-011",
+      "type": "multiple-choice",
+      "domain": "procedural",
+      "question": "Per IPSIS, when the lamina and superior articular process (SAP) ventral cortex are NOT coplanar in the cervical spine, what is the consequence of using the laminar angle approach for cervical TFESI?",
+      "options": [
+        "The needle will contact bone too early and fail to enter the foramen",
+        "The needle will be placed dangerously deep into the foramen before bony contact",
+        "The trajectory will be too lateral, missing the foramen entirely",
+        "The fluoroscopic image will be too oblique to see the foramen"
+      ],
+      "correctAnswer": 1,
+      "wrongAnswerExplanations": {
+        "0": "When anatomy is noncoplanar, using the laminar angle would not cause premature bony contact — it would actually allow the needle to advance too far before contacting bone.",
+        "2": "The issue is not lateral misdirection but rather depth; the needle follows the laminar plane past the SAP and enters the foramen more deeply than intended.",
+        "3": "The fluoroscopic image quality is not the primary concern; the danger is that the trajectory based on the lamina does not match the SAP orientation, allowing unsafe depth."
+      },
+      "explanation": "Per IPSIS, the laminar angle approach can only be safely applied when the ventral SAP and laminar cortical surfaces are in the same plane (coplanar). When they are NOT coplanar, guiding the needle along the lamina rather than the SAP places the needle dangerously deep into the foramen before bony contact occurs. In these cases, the SAP angle approach (modified Levi technique) must be used, with the obliquity angle measured from pre-procedure MRI or CT to match the SAP ventral cortex.",
+      "educationalObjective": "When cervical lamina and SAP are not coplanar, the laminar angle approach places the needle dangerously deep; use the SAP angle (Levi) technique with pre-procedure imaging measurements instead."
+    },
+    {
+      "id": "cerv-012",
+      "type": "short-answer",
+      "domain": "procedural",
+      "question": "What local anesthetic must NOT be mixed with dexamethasone for cervical TFESI because it produces large crystals capable of arteriolar occlusion?",
+      "acceptedAnswers": [
+        "ropivacaine",
+        "naropin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ropivacaine must never be mixed with dexamethasone because this combination produces large crystals capable of arteriolar occlusion. Per IPSIS, if local anesthetic is mixed with dexamethasone for cervical TFESI, only lidocaine or bupivacaine should be used. This drug incompatibility negates the safety advantage of using a non-particulate steroid and could cause the same type of embolic catastrophe that dexamethasone is intended to prevent.",
+      "wrongAnswerExplanations": {},
+      "educationalObjective": "Ropivacaine must never be combined with dexamethasone — the mixture produces large crystals that negate the safety of non-particulate steroid and risk arteriolar occlusion."
+    }
+  ]
+}
