@@ -1,0 +1,65 @@
+{
+  "id": "case-005-anticoag-dilemma",
+  "topicIds": ["11-anticoagulation-management", "01-transforaminal-epidurals"],
+  "difficulty": "advanced",
+  "title": "Anticoagulation Dilemma: High-Risk Patient Needs TFESI",
+  "presentation": {
+    "history": "A 72-year-old male with a mechanical aortic valve on warfarin (target INR 2.5-3.5) presents with 2 months of left-sided L5 radiculopathy. Pain is 8/10, limiting his ability to walk more than one block. He has failed physical therapy and gabapentin. His cardiologist manages his anticoagulation. Current INR is 2.8. He also takes aspirin 81 mg daily per his cardiologist's recommendation.",
+    "exam": "Positive left straight leg raise at 50 degrees. Weakness of left EHL (4/5). Diminished sensation over the left lateral leg and dorsal foot. Antalgic gait. No upper motor neuron signs.",
+    "imaging": "MRI lumbar spine shows a left paracentral disc herniation at L4-5 with compression of the left L5 nerve root. Moderate left lateral recess stenosis at L4-5."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How would you classify this patient's bleeding risk and thromboembolic risk for the planned lumbar TFESI?",
+      "type": "multiple-choice",
+      "options": [
+        "Low bleeding risk procedure, low thromboembolic risk patient",
+        "Low bleeding risk procedure, high thromboembolic risk patient",
+        "High bleeding risk procedure, high thromboembolic risk patient",
+        "High bleeding risk procedure, low thromboembolic risk patient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lumbar TFESI is classified as a HIGH bleeding risk (intermediate-to-high risk) procedure per ASRA guidelines because the needle passes through the posterior epidural space near the dorsal epidural venous plexus and into the neural foramen where radiculomedullary arteries may be present. Epidural hematoma, though rare, can cause catastrophic cord or cauda equina compression. This patient has HIGH thromboembolic risk due to his mechanical aortic valve - mechanical heart valves carry the highest risk of thromboembolic events when anticoagulation is interrupted, with an annual thromboembolism rate of approximately 4% without anticoagulation. Older-generation aortic valves and mitral mechanical valves carry the highest risk."
+    },
+    {
+      "id": "q2",
+      "prompt": "Based on ASRA guidelines, what is the recommended approach for warfarin management before this procedure?",
+      "type": "multiple-choice",
+      "options": [
+        "Proceed with the TFESI without stopping warfarin as long as INR is below 3.0",
+        "Stop warfarin 5 days before, check INR day of procedure (must be below 1.5), and coordinate with cardiology for bridging anticoagulation",
+        "Stop warfarin 2 days before and proceed when INR drops below 2.0",
+        "Switch to a DOAC which is safer for procedures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Per ASRA guidelines for high/intermediate bleeding risk procedures, warfarin must be discontinued 5 days prior with an INR confirmed below 1.5 (ideally below 1.2) on the day of the procedure. Given this patient's high thromboembolic risk (mechanical aortic valve), bridging anticoagulation with IV unfractionated heparin or subcutaneous LMWH is recommended during the warfarin-free period. The bridge is typically started when INR falls below 2.0 (usually 2-3 days after stopping warfarin) and discontinued the morning of the procedure (UFH 4-6 hours prior, LMWH 24 hours prior). Proceeding at INR 2.8 or only partially lowered INR poses unacceptable epidural hematoma risk."
+    },
+    {
+      "id": "q3",
+      "prompt": "What role does cardiology play in this case, and what specific question must you ask them?",
+      "type": "short-answer",
+      "acceptedAnswers": [
+        "bridging",
+        "bridging anticoagulation",
+        "whether bridging is recommended",
+        "bridge therapy",
+        "Is bridging anticoagulation recommended"
+      ],
+      "explanation": "Cardiology consultation is essential for this patient. The specific question is whether bridging anticoagulation is recommended during the warfarin-free period. The cardiologist knows the specific valve type, position, and the patient's individual thromboembolic risk factors (prior TIA/stroke, atrial fibrillation, heart failure). Not all mechanical valves carry the same risk - a newer-generation bileaflet aortic valve in a patient without other risk factors may have a lower bridging threshold than an older tilting-disc mitral valve. The cardiologist also manages the bridge protocol (type, dose, and timing of heparin) and monitors for complications. This is a shared decision that must be documented. You should never make unilateral decisions about anticoagulation in patients with mechanical valves."
+    },
+    {
+      "id": "q4",
+      "prompt": "If cardiology deems the bridging risk too high, what alternative approaches could you offer this patient?",
+      "type": "multiple-choice",
+      "options": [
+        "There are no alternatives; the patient must accept the risk or forgo treatment",
+        "Consider a caudal epidural (lower bleeding risk) or alternative non-interventional treatments while maintaining anticoagulation",
+        "Perform the TFESI anyway since the pain is severe",
+        "Switch to a DOAC which does not require bridging"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If bridging is deemed too risky, alternatives include: (1) Caudal epidural - classified as low-to-intermediate bleeding risk since the needle is distant from the thecal sac and epidural venous plexus; some guidelines allow this at lower INR thresholds. (2) Oral steroid taper (methylprednisolone dose pack) as a temporizing measure. (3) Continued conservative management optimization (physical therapy modification, neuropathic medications). (4) Referral for surgical consultation if symptoms are progressive or severe, as surgery can be performed with controlled anticoagulation management in a hospital setting. Switching anticoagulants for a mechanical valve is a cardiology decision and DOACs are actually contraindicated in mechanical heart valves (RE-ALIGN trial)."
+    }
+  ]
+}

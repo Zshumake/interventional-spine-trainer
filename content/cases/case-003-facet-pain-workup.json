@@ -1,0 +1,64 @@
+{
+  "id": "case-003-facet-pain-workup",
+  "topicIds": ["05-facet-pain-medial-branch-blocks", "06-radiofrequency-ablation"],
+  "difficulty": "intermediate",
+  "title": "Facet-Mediated Pain: Diagnostic Workup to RFA",
+  "presentation": {
+    "history": "A 68-year-old male presents with 2 years of bilateral axial low back pain without radicular features. Pain is rated 5-6/10, worse with prolonged standing, walking downhill, and transitioning from sitting to standing. Extension-based activities like reaching overhead aggravate symptoms. Pain does not radiate below the knees. He has tried physical therapy, chiropractic care, and NSAIDs with only modest relief.",
+    "exam": "Paraspinal tenderness bilaterally at L4-5 and L5-S1. Pain reproduced with lumbar extension and extension-rotation maneuvers. No radicular signs: strength 5/5 throughout, intact sensation, symmetric reflexes. Negative straight leg raise bilaterally. Negative SI joint provocation tests.",
+    "imaging": "MRI lumbar spine shows multilevel facet arthropathy, most pronounced at L4-5 and L5-S1 bilaterally with facet joint effusions. Mild disc desiccation at L4-5 and L5-S1 without significant herniation or stenosis. No spondylolisthesis."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why can't you diagnose facet-mediated pain based on imaging alone?",
+      "type": "multiple-choice",
+      "options": [
+        "MRI is not sensitive enough to detect facet arthropathy",
+        "Imaging findings of facet arthropathy are poorly correlated with symptoms; many asymptomatic people have identical findings",
+        "CT scan is required instead of MRI for facet assessment",
+        "Facet arthropathy can only be seen on standing X-rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Imaging findings of facet arthropathy correlate poorly with clinical symptoms. Studies have shown that facet joint degeneration, hypertrophy, and even effusions are extremely common in asymptomatic individuals, especially over age 60. The prevalence of facet arthropathy on MRI increases with age regardless of pain status. Therefore, imaging cannot confirm that the facet joints are the pain generator - it can only confirm structural pathology exists. The diagnosis of facet-mediated pain requires a positive response to controlled diagnostic medial branch blocks, which temporarily anesthetize the nerves supplying the suspected facet joints."
+    },
+    {
+      "id": "q2",
+      "prompt": "Describe the medial branch block (MBB) protocol for this patient. Which nerves need to be blocked?",
+      "type": "short-answer",
+      "acceptedAnswers": [
+        "L3, L4, L5 medial branches and S1 dorsal ramus",
+        "L3 L4 L5 medial branches bilateral",
+        "bilateral L3, L4, L5 medial branches and L5 dorsal ramus",
+        "L3, L4, L5 medial branch, L5 dorsal ramus"
+      ],
+      "explanation": "Each lumbar facet joint is innervated by the medial branch nerves from two levels. The L4-5 facet joint is innervated by the L3 and L4 medial branches, and the L5-S1 facet joint is innervated by the L4 medial branch and the L5 dorsal ramus. Therefore, to block the L4-5 and L5-S1 facet joints bilaterally, you must target the L3, L4, and L5 medial branches (the L5 contribution being the L5 dorsal ramus, which has a different anatomical course than the L3 and L4 medial branches). The L3 and L4 medial branches run in a groove between the superior articular process and transverse process of the level below (L4 and L5 vertebrae respectively). The L5 dorsal ramus runs in the groove between the S1 superior articular process and the sacral ala."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the dual (comparative) block paradigm, and why is it important?",
+      "type": "multiple-choice",
+      "options": [
+        "Using two different steroid preparations to see which works better",
+        "Performing two sets of diagnostic blocks with different local anesthetics to reduce false-positive rates and confirm the diagnosis before RFA",
+        "Blocking both the medial and lateral branches simultaneously",
+        "Performing blocks on two separate days using the same anesthetic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dual (comparative) block paradigm involves performing two sets of diagnostic MBBs on separate occasions using local anesthetics with different durations of action (typically lidocaine and bupivacaine). A positive response requires concordant relief: shorter duration of relief with lidocaine and longer relief with bupivacaine. This reduces the false-positive rate from approximately 25-40% (with single blocks) to around 10%. The high false-positive rate of single blocks is attributed to placebo response, spread to adjacent structures, and patient expectation bias. Insurance and evidence-based guidelines (including SIS/ASIPP) recommend dual blocks before proceeding to RFA to ensure appropriate patient selection."
+    },
+    {
+      "id": "q4",
+      "prompt": "After two concordantly positive MBBs (>80% relief each time), this patient is a candidate for radiofrequency ablation. What is the minimum relief threshold most guidelines recommend for RFA candidacy?",
+      "type": "multiple-choice",
+      "options": [
+        "Any subjective improvement",
+        "At least 50% pain relief on both diagnostic blocks",
+        "At least 80% pain relief on both diagnostic blocks",
+        "Complete (100%) pain relief on both blocks"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most evidence-based guidelines (SIS, ASIPP, and the pivotal RFA trials) recommend at least 80% pain relief on dual comparative MBBs as the threshold for RFA candidacy. Some insurance carriers accept 50% relief, but the evidence for superior RFA outcomes is strongest with the 80% threshold. The landmark studies by Dreyfuss et al. and the Cochrane reviews used 80% as the cutoff, and patients meeting this criterion had significantly better RFA outcomes than those with only 50% relief. Using a stricter threshold improves the positive predictive value of the diagnostic blocks and leads to better patient selection for the ablation procedure."
+    }
+  ]
+}

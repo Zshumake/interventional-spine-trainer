@@ -1,0 +1,64 @@
+{
+  "id": "case-001-lumbar-radiculopathy",
+  "topicIds": ["01-transforaminal-epidurals"],
+  "difficulty": "beginner",
+  "title": "Lumbar Radiculopathy: L5 Distribution",
+  "presentation": {
+    "history": "A 58-year-old male presents with 3 months of right-sided low back pain radiating down the posterolateral leg to the dorsum of the foot. Pain is rated 7/10 and worsened by sitting and forward bending. He has failed 6 weeks of physical therapy, oral NSAIDs, and a course of gabapentin. He works as an accountant and is having difficulty sitting through meetings.",
+    "exam": "Antalgic gait favoring the right side. Positive straight leg raise at 45 degrees on the right. Weakness of right EHL (4/5) and tibialis anterior (4+/5). Diminished sensation over the right lateral leg and dorsal foot. Reflexes symmetric at the knee and ankle bilaterally.",
+    "imaging": "MRI lumbar spine shows a right paracentral disc herniation at L4-5 contacting and displacing the traversing right L5 nerve root. No central canal stenosis. No other significant disc pathology. Mild bilateral facet arthropathy at L4-5 and L5-S1."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Based on the history, examination, and imaging, what is the most likely diagnosis?",
+      "type": "multiple-choice",
+      "options": [
+        "Right L4 radiculopathy from L3-4 disc herniation",
+        "Right L5 radiculopathy from L4-5 disc herniation",
+        "Right S1 radiculopathy from L5-S1 disc herniation",
+        "Lumbar facet arthropathy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The clinical picture is consistent with an L5 radiculopathy. The L5 nerve root supplies the EHL and tibialis anterior (both weak here), provides sensation to the lateral leg and dorsal foot (diminished here), and is the traversing root at L4-5 (confirmed by MRI showing L4-5 disc herniation compressing the right L5 root). L4 radiculopathy would show quad weakness and diminished patellar reflex. S1 would show ankle reflex changes and plantar flexion weakness."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the most appropriate interventional procedure for this patient?",
+      "type": "multiple-choice",
+      "options": [
+        "Right L4-5 interlaminar epidural steroid injection",
+        "Right L5-S1 transforaminal epidural steroid injection",
+        "Right L4-5 transforaminal epidural steroid injection",
+        "Caudal epidural steroid injection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A right L5-S1 transforaminal epidural steroid injection (TFESI) is the best choice. With TFESI, you target the affected nerve root at the level where it exits the neuroforamen. The L5 nerve root exits at the L5-S1 foramen, so the injection is performed at L5-S1. This delivers medication directly to the ventral epidural space around the affected nerve root with the highest target specificity. The interlaminar approach at L4-5 could work but has less ventral epidural spread. Caudal would require a larger volume and has less specificity for L5."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which steroid would you select for this lumbar TFESI, and why?",
+      "type": "short-answer",
+      "acceptedAnswers": [
+        "dexamethasone",
+        "Dexamethasone",
+        "dexamethasone sodium phosphate",
+        "Decadron"
+      ],
+      "explanation": "Dexamethasone (a non-particulate steroid) is the safest choice for transforaminal injections. While particulate steroids (triamcinolone, methylprednisolone, betamethasone) have historically been used in lumbar TFESI and some argue they have longer duration of action, the MAPS guidelines and most current practice favor dexamethasone for TFESIs due to the lower risk of catastrophic embolic events. Particulate steroids can aggregate and cause vascular occlusion if inadvertently injected intra-arterially. This risk is higher in cervical TFESI (where dexamethasone is mandatory) but the principle extends to lumbar procedures. Many practitioners use dexamethasone 10 mg (1 mL) for lumbar TFESI."
+    },
+    {
+      "id": "q4",
+      "prompt": "The patient returns 2 weeks after the injection reporting 70% pain relief. How do you interpret this response and what is your next step?",
+      "type": "multiple-choice",
+      "options": [
+        "The case is closed; no further treatment is needed",
+        "Good response; continue conservative care and consider a repeat injection in 2-4 weeks if pain recurs",
+        "Poor response; refer immediately for surgical decompression",
+        "Inadequate response; repeat the injection today"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 70% improvement after a single TFESI is an excellent response. The next step is to maximize conservative treatment (physical therapy focusing on core stabilization and nerve gliding) while the steroid effect provides a window of reduced pain. If symptoms recur, a repeat TFESI can be considered in 2-4 weeks. Most guidelines allow up to 3 epidural injections in a 6-month period. There is no indication for immediate surgery given the good response, and repeating today is premature. The goal is durable relief with as few injections as possible."
+    }
+  ]
+}

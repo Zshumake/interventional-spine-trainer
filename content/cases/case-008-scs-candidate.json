@@ -1,0 +1,66 @@
+{
+  "id": "case-008-scs-candidate",
+  "topicIds": ["14-neuromodulation-scs"],
+  "difficulty": "advanced",
+  "title": "Spinal Cord Stimulation: FBSS Candidate Evaluation",
+  "presentation": {
+    "history": "A 48-year-old male presents with 2 years of persistent left leg radicular pain following an L4-5 decompressive laminectomy. Surgery was performed for left L5 radiculopathy with good initial relief of leg symptoms, but pain returned at 3 months post-op and has been worsening. Current pain is 7/10 in the left posterior thigh and calf with intermittent burning and tingling. He rates his back pain at 3/10 (mild). He has failed physical therapy, gabapentin 1800 mg/day, duloxetine 60 mg, and two transforaminal epidural steroid injections (minimal relief). He is on opioid therapy (oxycodone 10 mg TID) and wants to reduce his medication dependence.",
+    "exam": "Well-healed midline lumbar scar. Left lower extremity: positive Tinel sign over the left buttock/sciatic notch region. Decreased sensation in the left L5-S1 dermatomes. Left ankle reflex diminished. Strength 4+/5 left EHL, otherwise 5/5. Mild antalgic gait. No signs of myelopathy.",
+    "imaging": "MRI lumbar spine shows post-surgical changes at L4-5 with epidural fibrosis (scar tissue) around the left L5 nerve root. No recurrent disc herniation. No hardware present. EMG/NCS shows chronic left L5 and S1 radiculopathy with fibrillation potentials suggesting ongoing denervation.",
+    "emg": "EMG/NCS shows chronic left L5 and S1 radiculopathy with fibrillation potentials in left tibialis anterior and medial gastrocnemius, suggesting ongoing denervation. Left H-reflex is prolonged. No evidence of peripheral neuropathy."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Does this patient meet candidacy criteria for spinal cord stimulation (SCS)? Identify the key factors.",
+      "type": "multiple-choice",
+      "options": [
+        "No - he needs more epidural injections first",
+        "No - SCS is only for cancer pain",
+        "Yes - he has FBSS with predominantly leg > back pain, neuropathic features, failed conservative and interventional treatments, and no surgical indication for revision",
+        "Yes - anyone with chronic pain after spine surgery qualifies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This patient is an excellent SCS candidate based on established criteria: (1) Failed back surgery syndrome (FBSS) with persistent radicular pain after anatomically successful surgery. (2) Predominantly leg pain > back pain - traditional SCS is most effective for extremity neuropathic pain (though newer waveforms expand this). (3) Neuropathic pain features (burning, tingling) - SCS works best for neuropathic pain generators. (4) Failed adequate conservative treatment including physical therapy, multimodal pharmacotherapy, and interventional procedures. (5) No surgically correctable lesion (no recurrent herniation; epidural fibrosis is not a surgical indication). (6) Pain duration > 6 months. (7) The PROCESS trial and other Level I evidence support SCS for FBSS with predominantly limb pain."
+    },
+    {
+      "id": "q2",
+      "prompt": "What mandatory evaluation must occur before proceeding with SCS implantation?",
+      "type": "multiple-choice",
+      "options": [
+        "Repeat MRI with contrast to rule out recurrent herniation",
+        "Psychological screening to assess for comorbid psychiatric conditions, coping mechanisms, secondary gain, and realistic expectations",
+        "Genetic testing for pain sensitivity",
+        "Trial of IV ketamine infusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Psychological screening is mandatory before SCS implantation per all major guidelines and insurance requirements. The evaluation assesses: (1) Untreated or poorly managed psychiatric comorbidities (depression, anxiety, PTSD) that may impair outcomes. (2) Catastrophizing and maladaptive coping strategies. (3) Secondary gain issues (litigation, disability claims). (4) Substance use disorders, especially problematic opioid use. (5) Realistic expectations about SCS outcomes - patients should understand that SCS aims for significant pain reduction (typically 50%+), not complete pain elimination. (6) Cognitive ability to manage the device. (7) Social support system. Psychological red flags do not necessarily exclude a patient but may indicate need for treatment optimization before proceeding. Studies consistently show that patients who pass psychological screening have significantly better SCS outcomes."
+    },
+    {
+      "id": "q3",
+      "prompt": "Describe the SCS trial process and what constitutes a successful trial.",
+      "type": "multiple-choice",
+      "options": [
+        "A permanent system is implanted immediately; if it doesn't work, it is explanted",
+        "A temporary trial with percutaneous leads for 5-10 days; success is typically defined as 50% or greater pain reduction with functional improvement",
+        "A single test stimulation in the office lasting 1 hour",
+        "A 30-day trial with an external pulse generator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SCS trial is a critical step that involves: (1) Percutaneous placement of temporary epidural leads (typically at the T8-T10 level for lumbar/leg pain) under fluoroscopic guidance. (2) Leads are connected to a temporary external pulse generator. (3) Trial period of 5-10 days during which the patient tests stimulation in their normal daily activities. (4) Success criteria: typically at least 50% pain reduction, functional improvement (increased activity, reduced medication use, improved sleep), and patient satisfaction. Most insurance carriers require at least 50% pain reduction. (5) If the trial is successful, the patient proceeds to permanent implantation with an IPG (implantable pulse generator). (6) If unsuccessful, leads are removed with minimal morbidity. The trial is important because it allows real-world testing before committing to a permanent implant."
+    },
+    {
+      "id": "q4",
+      "prompt": "What SCS waveform options would you consider for this patient, and what is a key differentiator?",
+      "type": "multiple-choice",
+      "options": [
+        "Only traditional low-frequency tonic stimulation is available",
+        "Traditional tonic, high-frequency (HF10), burst, and differential target multiplexed (DTM) are available; HF10 and burst provide paresthesia-free stimulation",
+        "SCS waveform selection does not affect outcomes",
+        "Only burst stimulation is FDA approved"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modern SCS offers multiple waveform options: (1) Traditional tonic stimulation (~40-60 Hz) - produces paresthesia (tingling) that masks pain; requires paresthesia mapping during trial. (2) HF10 (high-frequency at 10 kHz) - paresthesia-free; shown in the SENZA-RCT to be superior to traditional tonic for both back and leg pain; does not require intraoperative paresthesia mapping. (3) Burst stimulation - delivers packets of high-frequency pulses mimicking natural neural firing patterns; paresthesia-free; shown non-inferior or superior to tonic in several trials. (4) DTM (Differential Target Multiplexed) - multiplexed waveform targeting different neural elements simultaneously. Key differentiator: HF10 and burst are paresthesia-free, which many patients prefer as they find constant tingling bothersome. HF10 was the first to show superiority over traditional tonic in an RCT and has expanded the indication to include axial back pain, which traditional tonic addressed less effectively."
+    }
+  ]
+}

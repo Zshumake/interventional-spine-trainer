@@ -1,0 +1,52 @@
+{
+  "id": "case-006-failed-epidural",
+  "topicIds": ["01-transforaminal-epidurals", "05-facet-pain-medial-branch-blocks", "08-si-joint"],
+  "difficulty": "intermediate",
+  "title": "Failed Epidural: Reassessing the Pain Generator",
+  "presentation": {
+    "history": "A 52-year-old female was referred after two right L5-S1 transforaminal epidural steroid injections provided zero relief. She reports right-sided low back and buttock pain rated 6/10 for 8 months. Pain is described as a deep ache in the right low back and gluteal region, sometimes extending to the posterior thigh. She does not have pain below the knee. Original referral was for 'right L5 radiculopathy' based on MRI findings.",
+    "exam": "No radicular signs: strength 5/5 in all myotomes, intact sensation, symmetric reflexes. Negative straight leg raise bilaterally. Right-sided paraspinal tenderness at L4-5 and L5-S1. Pain with lumbar extension and right-sided extension-rotation. Fortin finger test equivocal. SI joint provocation: positive FABER and thigh thrust on the right, negative distraction, compression, and Gaenslen tests (2/6 positive).",
+    "imaging": "MRI lumbar spine shows a small right paracentral disc protrusion at L5-S1 contacting but not significantly compressing the S1 nerve root. Moderate bilateral facet arthropathy at L4-5 and L5-S1. Mild disc desiccation at L4-5."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why did the epidural steroid injections likely fail in this patient?",
+      "type": "multiple-choice",
+      "options": [
+        "The injections were performed at the wrong level",
+        "The steroid dose was too low",
+        "The disc protrusion seen on MRI is likely an incidental finding and not the primary pain generator; her pain pattern suggests a different source",
+        "Epidural steroids never work and should not be offered"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This case illustrates a critical principle: imaging abnormalities do not equal pain generators. The small disc protrusion at L5-S1 is likely an incidental finding. Key clues: (1) She lacks radicular signs - no dermatomal weakness, sensory loss, or reflex changes. (2) Her pain pattern (axial LBP with buttock pain, no pain below the knee) is not consistent with radiculopathy. (3) The exam shows extension-based pain reproduction and paraspinal tenderness, suggesting facet-mediated pain. The original referral was based on imaging correlation that did not match the clinical picture. This is why a thorough history and exam must drive diagnosis, not imaging alone."
+    },
+    {
+      "id": "q2",
+      "prompt": "Based on the exam findings, what is the most likely primary pain generator?",
+      "type": "multiple-choice",
+      "options": [
+        "Right L5-S1 disc herniation causing radiculopathy",
+        "Facet-mediated pain from L4-5 and L5-S1 facet arthropathy",
+        "Right SI joint dysfunction",
+        "Discogenic pain from L4-5 disc degeneration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The clinical picture most strongly supports facet-mediated pain: (1) Axial (non-radicular) low back pain pattern. (2) Pain with extension and extension-rotation maneuvers - classic facet loading. (3) Paraspinal tenderness at L4-5 and L5-S1. (4) Imaging shows significant facet arthropathy at the symptomatic levels. While SI joint cannot be entirely excluded (2/6 positive provocation tests), this is below the Laslett threshold of 3+ positive tests for clinical suspicion. Discogenic pain is possible but typically presents with flexion-based pain and central disc loading symptoms. The next step should be diagnostic medial branch blocks targeting the L4-5 and L5-S1 facet joints."
+    },
+    {
+      "id": "q3",
+      "prompt": "When should you consider referring this patient for a surgical evaluation?",
+      "type": "multiple-choice",
+      "options": [
+        "Immediately, since epidural injections failed",
+        "Only after the correct pain generator is identified and appropriate interventional treatment has been attempted",
+        "Surgery is never appropriate for this type of pain",
+        "After 3 more epidural injections at the same level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surgical referral should be considered only after: (1) The correct pain generator is identified through appropriate diagnostic workup (MBBs for facet, SI joint injection for SI joint, provocation discography for discogenic pain). (2) Appropriate interventional treatment targeting the correct structure has been tried (e.g., RFA after positive MBBs). (3) The patient has progressive neurological deficit or red flag symptoms (cauda equina syndrome, severe weakness, myelopathy). In this case, the epidurals 'failed' because they targeted the wrong pain generator, not because interventional treatment is ineffective. Repeating epidurals at the same level would be inappropriate. Surgery for axial back pain from facet arthropathy is generally not indicated."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "case-002-cervical-radiculopathy",
+  "topicIds": ["03-cervical-epidurals"],
+  "difficulty": "intermediate",
+  "title": "Cervical Radiculopathy: C6 Distribution",
+  "presentation": {
+    "history": "A 45-year-old female presents with 6 weeks of left neck pain radiating to the left lateral forearm and thumb. Pain is 8/10, worse with left cervical extension and ipsilateral rotation. She is a software engineer and reports difficulty typing due to arm pain. She has completed 4 weeks of physical therapy with minimal improvement and failed a methylprednisolone dose pack.",
+    "exam": "Limited cervical range of motion, especially extension and left lateral rotation. Positive Spurling test on the left. Left biceps weakness (4+/5) and diminished biceps reflex. Sensation decreased over the left lateral forearm and thumb. Negative Hoffman sign bilaterally. Normal gait without myelopathic features.",
+    "imaging": "MRI cervical spine shows a left paracentral disc herniation at C5-6 compressing the left C6 nerve root. No cord signal change. No significant central canal stenosis. Mild disc desiccation at C4-5 without neural compression."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What approach would you recommend for a cervical epidural steroid injection in this patient?",
+      "type": "multiple-choice",
+      "options": [
+        "Left C5-6 transforaminal epidural steroid injection",
+        "C7-T1 interlaminar epidural steroid injection with contrast-confirmed left lateral flow",
+        "Left C5-6 selective nerve root block",
+        "Either transforaminal or interlaminar is equally appropriate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For cervical epidurals, the interlaminar approach is generally preferred over transforaminal due to the significantly higher risk of vertebral artery injury and spinal cord infarction with cervical TFESI. The C7-T1 interlaminar approach provides access to the epidural space at a level where the ligamentum flavum is most reliably fused in the midline, reducing risk of dural puncture. Using contrast (fluoroscopy with live AP and lateral views), you confirm epidural spread and aim for lateral flow toward the affected left C6 root. Some practitioners perform cervical TFESI, but the risk-benefit ratio generally favors interlaminar in the cervical spine."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which steroid is MANDATORY for cervical epidural injections, and why?",
+      "type": "short-answer",
+      "acceptedAnswers": [
+        "dexamethasone",
+        "Dexamethasone",
+        "dexamethasone sodium phosphate",
+        "Decadron",
+        "non-particulate steroid"
+      ],
+      "explanation": "Dexamethasone (a non-particulate corticosteroid) is mandatory for cervical transforaminal injections per MAPS (Multisociety Pain Workgroup) guidelines. Particulate steroids (methylprednisolone, triamcinolone, betamethasone) can aggregate and cause embolic infarction of the spinal cord or brainstem if inadvertently injected into a radiculomedullary artery (e.g., artery of Adamkiewicz variant) or vertebral artery. Cases of quadriplegia, brainstem stroke, and death have been reported with particulate steroids in cervical TFESI. While the interlaminar approach carries lower arterial risk than transforaminal, many practitioners still use dexamethasone exclusively in the cervical spine regardless of approach."
+    },
+    {
+      "id": "q3",
+      "prompt": "What specific risks should be discussed during informed consent for a cervical epidural steroid injection?",
+      "type": "multiple-choice",
+      "options": [
+        "Only the standard risks: infection, bleeding, allergic reaction",
+        "Standard risks plus spinal cord injury, epidural hematoma, and dural puncture",
+        "Standard risks plus spinal cord injury, epidural hematoma, dural puncture, vertebral artery injury, and brainstem/spinal cord infarction",
+        "No specific consent is needed beyond general procedural consent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cervical epidural injections carry unique catastrophic risks that must be disclosed. Beyond standard risks (infection, bleeding, allergic reaction, steroid side effects), the consent must include: (1) spinal cord injury from direct needle trauma, (2) epidural hematoma with potential for cord compression, (3) dural puncture and post-dural puncture headache, (4) vertebral artery injury (especially with transforaminal approach), and (5) brainstem or spinal cord infarction from inadvertent intra-arterial injection or arterial spasm. While these complications are rare, they are potentially devastating and patients must be informed to make an autonomous decision about proceeding."
+    }
+  ]
+}

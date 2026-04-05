@@ -1,0 +1,52 @@
+{
+  "id": "case-004-si-joint-pain",
+  "topicIds": ["08-si-joint"],
+  "difficulty": "beginner",
+  "title": "Sacroiliac Joint Pain: Diagnosis and Treatment",
+  "presentation": {
+    "history": "A 42-year-old female presents with 4 months of left-sided buttock pain that occasionally radiates to the posterior thigh but never below the knee. Pain is rated 6/10, worse with prolonged sitting on hard surfaces, getting out of a car, and rolling over in bed. She is a runner and noticed symptom onset after increasing her weekly mileage. She has a history of two vaginal deliveries. Physical therapy focusing on lumbar stabilization has not helped.",
+    "exam": "No lumbar tenderness. Negative lumbar extension-rotation. Positive Fortin finger test: patient points directly to the left posterior superior iliac spine (PSIS) as the epicenter of pain. SI joint provocation tests: positive distraction, compression, thigh thrust, and FABER tests on the left (4/6 positive). Gaenslen test positive on the left. No radicular findings: full strength, intact sensation, symmetric reflexes.",
+    "imaging": "MRI lumbar spine is unremarkable with no significant disc or facet pathology. X-ray pelvis shows mild sclerotic changes at the left SI joint. No sacral fracture or sacroiliitis."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Based on the exam findings, how confident can you be that the SI joint is the pain generator?",
+      "type": "multiple-choice",
+      "options": [
+        "Very confident - no further diagnostic workup needed, proceed directly to treatment",
+        "Moderately confident - clinical exam is suggestive but a diagnostic SI joint injection is needed to confirm before definitive treatment",
+        "Not confident at all - the exam findings are nonspecific",
+        "Imaging confirmation with CT scan is required before any conclusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With a positive Fortin finger test and 4/6 positive provocation tests, the clinical suspicion for SI joint pain is high. The Laslett criteria state that 3 or more positive provocation tests have good sensitivity and specificity for SI joint pain. However, clinical exam alone cannot definitively confirm the SI joint as the pain generator. A diagnostic SI joint injection with local anesthetic under fluoroscopic guidance is the reference standard to confirm the diagnosis. At least 75% pain relief during the anesthetic phase confirms the SI joint as the source. This is important before committing to more invasive treatments like radiofrequency ablation."
+    },
+    {
+      "id": "q2",
+      "prompt": "You perform a fluoroscopy-guided left SI joint injection. What confirms proper needle placement before injecting?",
+      "type": "multiple-choice",
+      "options": [
+        "Patient reports immediate pain relief",
+        "The needle tip is seen within the inferior joint space and contrast arthrogram confirms intra-articular spread without vascular uptake",
+        "Aspiration of synovial fluid",
+        "EMG confirmation of the S1-S3 nerve roots"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluoroscopy-guided SI joint injection requires confirmation of intra-articular needle placement via contrast arthrogram. The needle is typically advanced into the inferior aspect of the SI joint (the synovial portion) under AP fluoroscopic guidance. Before injecting steroid or anesthetic, contrast is injected to confirm: (1) intra-articular spread with a characteristic joint line pattern, (2) no vascular uptake that would indicate intravascular placement, and (3) no extravasation suggesting the needle is outside the joint. The arthrogram pattern should show contrast filling the joint space. This step is critical for both diagnostic accuracy and therapeutic efficacy."
+    },
+    {
+      "id": "q3",
+      "prompt": "The patient achieves 90% relief lasting 4 hours after the diagnostic injection but pain returns to baseline. What treatment options would you discuss?",
+      "type": "multiple-choice",
+      "options": [
+        "Therapeutic SI joint steroid injection only",
+        "Surgical SI joint fusion as first-line",
+        "Therapeutic SI joint steroid injection with discussion of SI joint lateral branch radiofrequency ablation if short-lived steroid relief",
+        "Referral for a second opinion since the injection wore off"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 90% relief confirms the SI joint as the pain generator. Treatment options include: (1) Therapeutic SI joint steroid injection - may provide weeks to months of relief and allow rehabilitation; (2) SI joint lateral branch radiofrequency ablation - targets the S1-S3 lateral branches and L5 dorsal ramus that supply the posterior SI joint; this can provide 6-12+ months of relief and is appropriate if steroid injections provide only short-lived benefit; (3) Physical therapy focusing specifically on SI joint stabilization (not lumbar). Surgical fusion is reserved for patients who have failed all conservative and interventional options. A stepwise approach starting with steroid injection, progressing to RFA if needed, is most appropriate."
+    }
+  ]
+}

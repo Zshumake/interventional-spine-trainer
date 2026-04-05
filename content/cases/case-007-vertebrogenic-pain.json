@@ -1,0 +1,65 @@
+{
+  "id": "case-007-vertebrogenic-pain",
+  "topicIds": ["10-discogenic-pain-bvn-ablation"],
+  "difficulty": "advanced",
+  "title": "Vertebrogenic Pain: Modic Changes and BVN Ablation",
+  "presentation": {
+    "history": "A 55-year-old female presents with 18 months of chronic axial low back pain rated 5-7/10. Pain is constant with a deep, aching quality centered in the low back. It is aggravated by prolonged sitting, standing, and any sustained posture. She describes morning stiffness lasting 30-45 minutes. She has failed extensive conservative treatment including physical therapy (12 weeks), NSAIDs, duloxetine, lumbar medial branch blocks (negative - less than 50% relief), and SI joint injections (negative). She is not a surgical candidate per spine surgery evaluation.",
+    "exam": "Midline lumbar tenderness over the L4-5 spinous processes. Pain with axial loading. No radicular findings. Negative facet loading maneuvers. Negative SI joint provocation tests. Full strength and intact reflexes.",
+    "imaging": "MRI lumbar spine shows Modic Type 1 changes (bone marrow edema pattern) at L4-5 endplates bilaterally. L4-5 disc shows moderate desiccation and loss of height. No significant disc herniation or stenosis. Facet joints are mildly arthritic without significant pathology."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What are Modic Type 1 changes, and why are they clinically significant in this context?",
+      "type": "multiple-choice",
+      "options": [
+        "Fatty degeneration of endplates - a benign incidental finding with no clinical significance",
+        "Bone marrow edema/inflammation of the vertebral endplates - associated with active inflammation and vertebrogenic pain",
+        "Sclerotic changes of endplates - associated with chronic facet arthropathy",
+        "Normal age-related changes seen in all patients over 50"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modic Type 1 changes represent bone marrow edema and inflammation of the vertebral endplates, appearing as hypointense on T1-weighted and hyperintense on T2-weighted MRI sequences. They are clinically significant because they are associated with active inflammation and nociception via the basivertebral nerve (BVN), which provides sensory innervation to the vertebral endplates. Unlike Modic Type 2 (fatty degeneration, more stable) or Type 3 (sclerosis), Type 1 changes correlate most strongly with pain. The inflammatory cascade involves tumor necrosis factor, interleukin-6, and other pro-inflammatory mediators within the vertebral body, creating a pain signal transmitted by the BVN."
+    },
+    {
+      "id": "q2",
+      "prompt": "This patient has failed facet blocks, SI joint injections, and is not a surgical candidate. What emerging treatment targets the vertebrogenic pain pathway?",
+      "type": "short-answer",
+      "acceptedAnswers": [
+        "BVN ablation",
+        "basivertebral nerve ablation",
+        "Intracept",
+        "INTRACEPT",
+        "basivertebral nerve radiofrequency ablation"
+      ],
+      "explanation": "Basivertebral nerve (BVN) ablation (marketed as the Intracept procedure) is an emerging treatment that targets vertebrogenic pain by ablating the basivertebral nerve within the vertebral body. The BVN is a sensory nerve that enters the vertebral body through the posterior cortex and branches within the vertebral body to innervate the endplates. In patients with Modic changes, the BVN transmits nociceptive signals from inflamed endplates. The ablation is performed using a transpedicular approach under fluoroscopic guidance, with the radiofrequency probe advanced to the junction of the posterior and middle thirds of the vertebral body where the BVN trunk is located."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the key evidence supporting BVN ablation, and what were the primary outcomes of the SMART trial?",
+      "type": "multiple-choice",
+      "options": [
+        "The SMART trial showed no difference between BVN ablation and sham procedure",
+        "The SMART trial was a randomized sham-controlled trial that showed statistically significant and clinically meaningful improvement in pain and function at 3 months, with durable results through 5 years of follow-up",
+        "The SMART trial only studied patients with Modic Type 2 changes",
+        "BVN ablation evidence is limited to case reports only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SMART (Superiority of Intracept Basivertebral Nerve Ablation vs. Standard Care) trial was a landmark randomized, sham-controlled, FDA IDE trial. Key findings: (1) Statistically significant and clinically meaningful improvement in ODI (Oswestry Disability Index) and VAS pain scores in the BVN ablation group versus sham at 3 months (the primary endpoint). (2) Durable results maintained through 5-year follow-up data. (3) The treatment group achieved a mean ODI improvement exceeding 20 points, well above the minimum clinically important difference. (4) The trial enrolled patients with Modic Type 1 or Type 2 changes at 1-2 levels (L3-S1). This sham-controlled design is significant because it helps control for placebo response, which is a major confounder in pain procedure trials."
+    },
+    {
+      "id": "q4",
+      "prompt": "What are the candidacy criteria for BVN ablation?",
+      "type": "multiple-choice",
+      "options": [
+        "Any patient with chronic low back pain and lumbar disc degeneration",
+        "Patients with Modic Type 1 or Type 2 changes at 1-2 levels (L3-S1), chronic LBP for 6+ months, failed conservative treatment, and other pain generators excluded",
+        "Only patients under age 50 with Modic Type 1 changes",
+        "Patients with any Modic changes regardless of prior treatment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BVN ablation candidacy requires: (1) Modic Type 1 or Type 2 changes at 1-2 contiguous vertebral levels between L3-S1 on MRI. (2) Chronic low back pain for at least 6 months. (3) Failure of at least 6 months of conservative treatment. (4) Other pain generators must be excluded - negative medial branch blocks (ruling out facet pain), negative SI joint injections, no significant radiculopathy. (5) ODI score of 30 or greater. (6) No current or prior spinal infection, spinal tumor, or prior surgery at the target level. The key is that this is a diagnosis of exclusion - facet, SI joint, and radicular pain generators must be ruled out first. Modic Type 3 (sclerotic) changes are generally not considered candidates as the sclerosis represents a burned-out, less inflammatory state."
+    }
+  ]
+}
