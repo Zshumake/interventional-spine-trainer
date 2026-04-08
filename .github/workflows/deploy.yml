@@ -40,7 +40,7 @@ jobs:
       - name: Remove server-only routes for static export
         run: |
           rm -rf src/app/api
-          rm -rf src/app/quiz/session
+          # quiz/session is now a client-component shell — keep it.
 
       - name: Build static export
         run: npx next build

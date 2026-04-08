@@ -62,9 +62,12 @@ export function QuizSession({
     async (rating: number) => {
       const topicId = questionTopicMap[currentQuestion.id];
 
-      // Record the review via API
+      // Record the review via API. In static export builds (GitHub Pages),
+      // the /api/quiz route does not exist; the call will 404 and we silently
+      // ignore it so the quiz still flows.
+      const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
       try {
-        await fetch("/api/quiz", {
+        const res = await fetch(`${basePath}/api/quiz`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -75,8 +78,11 @@ export function QuizSession({
             correct: isCorrect,
           }),
         });
-      } catch (err) {
-        console.error("Failed to record quiz answer:", err);
+        if (!res.ok && res.status !== 404) {
+          console.warn("Quiz API responded", res.status);
+        }
+      } catch {
+        // No network or no API in static export — ignore.
       }
 
       // Track results

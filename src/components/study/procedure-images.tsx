@@ -17,6 +17,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
+import { withBasePath } from "@/lib/base-path";
 
 export interface ProcedureImage {
   src: string;
@@ -67,7 +68,7 @@ export function ProcedureImages({
             }
           >
             <Image
-              src={current.src}
+              src={withBasePath(current.src)}
               alt={current.alt}
               fill
               className="object-contain"
@@ -82,7 +83,7 @@ export function ProcedureImages({
             <DialogTitle className="sr-only">{current.alt}</DialogTitle>
             <div className="relative w-full aspect-[16/10] bg-black rounded">
               <Image
-                src={current.src}
+                src={withBasePath(current.src)}
                 alt={current.alt}
                 fill
                 className="object-contain"
@@ -159,7 +160,7 @@ export function ProcedureImages({
                 )}
               >
                 <Image
-                  src={img.src}
+                  src={withBasePath(img.src)}
                   alt={img.alt}
                   fill
                   className="object-cover"
