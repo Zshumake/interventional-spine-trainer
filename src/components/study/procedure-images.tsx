@@ -34,7 +34,7 @@ interface ProcedureImagesProps {
 
 export function ProcedureImages({
   images,
-  title = "Fluoroscopic Views",
+  title = "Procedure Images",
 }: ProcedureImagesProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 

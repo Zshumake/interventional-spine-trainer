@@ -9,33 +9,17 @@ export const PROCEDURE_IMAGES: Record<string, ProcedureImage[]> = {
   "transforaminal-epidurals": [
     {
       src: "/images/procedures/tfesi-kumar-fig1.jpg",
-      alt: "TFESI needle advancement under fluoroscopy",
+      alt: "TFESI technique demonstration on anatomic spine model",
       caption:
-        "Fluoroscopic-guided transforaminal epidural steroid injection showing needle advancement toward the neuroforamen. The needle is positioned in the safe triangle below the pedicle.",
+        "Side-by-side technique demonstration on an anatomic lumbar spine model: (A) Traditional safe-triangle approach vs (B) Kumar (subpedicular/Kambin) approach, showing relative needle trajectories to the exiting nerve root.",
       credit: "Kumar et al., PMC10653120, CC BY",
       creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653120/",
     },
     {
       src: "/images/procedures/tfesi-kumar-fig2.jpg",
-      alt: "TFESI AP view with contrast spread",
+      alt: "TFESI fluoroscopy: AP needle advancement and contrast spread",
       caption:
-        "AP fluoroscopic view showing contrast spread pattern during lumbar TFESI. Note the epidural flow pattern outlining the nerve root sleeve.",
-      credit: "Kumar et al., PMC10653120, CC BY",
-      creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653120/",
-    },
-    {
-      src: "/images/procedures/tfesi-kumar-fig3.jpg",
-      alt: "TFESI lateral view confirming needle position",
-      caption:
-        "Lateral fluoroscopic view confirming needle tip position in the anterior epidural space at the level of the neuroforamen.",
-      credit: "Kumar et al., PMC10653120, CC BY",
-      creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653120/",
-    },
-    {
-      src: "/images/procedures/tfesi-kumar-fig4.jpg",
-      alt: "TFESI contrast flow pattern",
-      caption:
-        "Final contrast flow pattern showing epidural spread. A good pattern outlines the nerve root and flows medially into the epidural space.",
+        "Fluoroscopic sequence during lumbar TFESI: (Figure 2A) progressive needle advancement under AP fluoroscopy toward the subpedicular target; (Figure 2B) AP view showing the final needle tip position; (Figure 2C) contrast spread outlining the nerve root sleeve and flowing into the ventral epidural space.",
       credit: "Kumar et al., PMC10653120, CC BY",
       creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653120/",
     },
@@ -43,23 +27,15 @@ export const PROCEDURE_IMAGES: Record<string, ProcedureImage[]> = {
       src: "/images/procedures/scotty-dog-s1-tfesi-fig1.jpg",
       alt: "Scotty dog oblique view for S1 TFESI",
       caption:
-        "Oblique 'Scotty dog' fluoroscopic view used for S1 transforaminal approach. The Scotty dog anatomy is visible: ear (SAP), eye (pedicle), nose (transverse process), neck (pars interarticularis).",
+        "S1 transforaminal approach under fluoroscopy: (A) oblique 'Scotty dog' view with needle entering the S1 foramen, (B) AP view showing the S1 foramen target, and (C) final needle position with contrast spread along the S1 nerve root.",
       credit: "Lee et al., PMC7581171, CC BY-NC",
       creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7581171/",
     },
     {
       src: "/images/procedures/scotty-dog-s1-tfesi-fig2.jpg",
-      alt: "AP vs oblique approach comparison for S1 TFESI",
+      alt: "S1 TFESI — Scotty dog landmarks outlined",
       caption:
-        "Comparison of AP approach vs oblique Scotty dog approach for S1 transforaminal epidural steroid injection. The oblique approach provides better visualization of the safe triangle.",
-      credit: "Lee et al., PMC7581171, CC BY-NC",
-      creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7581171/",
-    },
-    {
-      src: "/images/procedures/scotty-dog-s1-tfesi-fig3.jpg",
-      alt: "S1 TFESI contrast pattern comparison",
-      caption:
-        "Contrast flow patterns comparing AP and oblique Scotty dog approaches for S1 TFESI.",
+        "S1 transforaminal approach with the 'Scotty dog' anatomy outlined on the oblique view (A), and corresponding AP (B) and final needle/contrast (C) views. Outlining helps trainees recognize the L5/S1 vertebral landmarks under fluoroscopy.",
       credit: "Lee et al., PMC7581171, CC BY-NC",
       creditUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7581171/",
     },
