@@ -7,7 +7,7 @@
       "id": "s1",
       "phase": "Pre-Procedure",
       "action": "Perform time-out: verify patient identity, procedure, level, laterality, allergies, and anticoagulation status.",
-      "safety": "Confirm no contrast allergy. If allergic, pre-medicate or use gadolinium-based contrast alternative.",
+      "safety": "Confirm no contrast allergy. If allergic, pre-medicate with steroids and antihistamines per ACR protocol. NEVER use gadolinium as an epidural contrast alternative — intrathecal/epidural gadolinium is neurotoxic and can cause encephalopathy, seizures, and death.",
       "teaching": "ASIPP and SIS guidelines mandate a standardized time-out for all interventional spine procedures. Verify coagulation labs if on anticoagulants per ASRA guidelines."
     },
     {

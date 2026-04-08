@@ -132,7 +132,7 @@
       "id": "stellate-ganglion",
       "term": "Stellate Ganglion",
       "aliases": ["stellate ganglion", "cervicothoracic ganglion"],
-      "definition": "The sympathetic ganglion formed by fusion of the inferior cervical and first thoracic ganglia, located anterior to the C7 transverse process. Stellate ganglion block is indicated for upper extremity CRPS, phantom limb pain, and vascular insufficiency.",
+      "definition": "The sympathetic ganglion formed by fusion of the inferior cervical and first thoracic ganglia, located anterior to the C7-T1 transverse process. The needle target for blockade is the anterolateral C6 transverse process (Chassaignac's tubercle) — injectate diffuses caudad to the ganglion. The C6 target avoids the vertebral artery (which enters the C6 transverse foramen) and the apical pleura at C7. Indicated for upper extremity CRPS, phantom limb pain, and vascular insufficiency.",
       "relatedTopics": ["sympathetic-blocks"],
       "relatedSection": "technique"
     },
@@ -460,7 +460,7 @@
       "id": "stellate-ganglion-block",
       "term": "Stellate Ganglion Block",
       "aliases": ["stellate ganglion block", "sgb", "cervicothoracic sympathetic block"],
-      "definition": "Injection of local anesthetic at the C7 anterior tubercle (Chassaignac tubercle at C6 historically) to block the cervicothoracic sympathetic chain. Indicated for upper extremity CRPS, phantom limb pain, and refractory angina. Confirmed by ipsilateral Horner syndrome.",
+      "definition": "Injection of local anesthetic at the anterolateral C6 transverse process (Chassaignac's tubercle) to block the cervicothoracic sympathetic chain. The needle target is C6 — not C7 — to avoid the vertebral artery (which enters the transverse foramen at C6) and the apical pleura. Injectate then diffuses caudad along the prevertebral fascia to reach the stellate ganglion at C7-T1. Indicated for upper extremity CRPS, phantom limb pain, and refractory angina. Confirmed by ipsilateral Horner syndrome.",
       "relatedTopics": ["sympathetic-blocks"],
       "relatedSection": "technique"
     },
@@ -1956,7 +1956,7 @@
       "id": "chase-sign",
       "term": "Chassaignac Tubercle",
       "aliases": ["chassaignac tubercle", "carotid tubercle", "c6 anterior tubercle"],
-      "definition": "The prominent anterior tubercle of the C6 transverse process, historically used as a landmark for stellate ganglion block. Modern approaches often target the C7 level, but Chassaignac's tubercle remains an important anatomic reference for cervical sympathetic chain procedures.",
+      "definition": "The prominent anterior tubercle of the C6 transverse process — the standard needle target for stellate ganglion block. C6 is preferred over C7 because the vertebral artery enters the transverse foramen at C6 (so the C6 transverse process protects the artery from a properly placed anterolateral needle), and because the apical pleura is in close proximity at C7. Local anesthetic deposited at C6 diffuses caudally along the prevertebral fascia to anesthetize the stellate (cervicothoracic) ganglion at C7-T1.",
       "relatedTopics": ["sympathetic-blocks"],
       "relatedSection": "technique"
     },

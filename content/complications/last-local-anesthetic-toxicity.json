@@ -1,0 +1,115 @@
+{
+  "id": "last-local-anesthetic-toxicity",
+  "title": "Local Anesthetic Systemic Toxicity (LAST)",
+  "procedure": "Bilateral Lumbar Medial Branch Block + Diagnostic SI Joint Injection",
+  "difficulty": "advanced",
+  "setup": "You are performing a bilateral L3-L5 medial branch block followed by a diagnostic right SI joint injection on a 62-year-old, 58 kg woman with chronic axial low back pain. To improve her diagnostic information, you have drawn up 0.5% bupivacaine for the MBBs and plan to use additional bupivacaine for the SI joint injection. The total bupivacaine dose you have prepared is approaching the upper end of the weight-based maximum (~2 mg/kg for plain bupivacaine).",
+  "trigger": "Approximately three minutes after completing the right L4 MBB injection, the patient reports a metallic taste, perioral numbness, and tinnitus. She becomes anxious, then agitated. Within another minute she has a brief generalized tonic-clonic seizure lasting about 30 seconds. After the seizure her HR drops from 86 to 42 bpm with a wide-complex rhythm on the monitor, BP falls to 70/40 mmHg, and SpO2 drops to 86% on room air.",
+  "timeLimit": 30,
+  "decisions": [
+    {
+      "id": "d1-recognition",
+      "prompt": "What is the most likely diagnosis and your first immediate action?",
+      "options": [
+        {
+          "label": "Local anesthetic systemic toxicity (LAST) — stop injecting, call for help and the LAST cart, manage the airway with 100% oxygen, and prepare 20% lipid emulsion",
+          "correct": true,
+          "feedback": "Correct. The prodrome of metallic taste, perioral numbness, and tinnitus followed by seizure and cardiovascular collapse with a wide-complex rhythm is the classic progression of LAST from bupivacaine. Bupivacaine is the most cardiotoxic of the commonly used local anesthetics because of its high protein binding and long dissociation time from cardiac sodium channels. Per the ASRA Checklist for Treatment of Local Anesthetic Systemic Toxicity, the first steps are: stop injecting, call for help, manage the airway with 100% oxygen, and immediately retrieve the LAST/lipid emulsion cart."
+        },
+        {
+          "label": "Vasovagal reaction — place the patient supine, elevate her legs, and continue the procedure once she recovers",
+          "correct": false,
+          "feedback": "Incorrect. A vasovagal episode does not produce metallic taste, perioral numbness, tinnitus, or a generalized tonic-clonic seizure. Those are pathognomonic CNS prodromal features of LAST. Misclassifying LAST as a vasovagal episode delays lipid emulsion therapy and can be fatal."
+        },
+        {
+          "label": "Anaphylaxis — administer epinephrine 0.3 mg IM, IV fluids, diphenhydramine, and methylprednisolone",
+          "correct": false,
+          "feedback": "Incorrect. True allergy to amide local anesthetics is exceedingly rare, and anaphylaxis would not present with isolated CNS prodrome (metallic taste, tinnitus) followed by seizure and wide-complex bradyarrhythmia. Standard adult epinephrine doses (>=1 mcg/kg bolus) are also specifically discouraged in LAST per ASRA — they can worsen ventricular arrhythmias triggered by bupivacaine."
+        },
+        {
+          "label": "Cervicogenic syncope from prone positioning — turn the patient supine and observe",
+          "correct": false,
+          "feedback": "Incorrect. The CNS prodrome and the rhythm change point unequivocally to LAST. Delaying targeted treatment to observe for spontaneous recovery is dangerous because bupivacaine cardiotoxicity is notoriously refractory to standard ACLS measures."
+        }
+      ]
+    },
+    {
+      "id": "d2-lipid-dosing",
+      "prompt": "You have called for help and the lipid emulsion cart is at the bedside. The patient weighs 58 kg. What is the correct initial 20% lipid emulsion dose and infusion plan?",
+      "options": [
+        {
+          "label": "20% lipid emulsion 1.5 mL/kg IV bolus over 2-3 minutes (approximately 90 mL), then start a continuous infusion at 0.25 mL/kg/min (~14.5 mL/min)",
+          "correct": true,
+          "feedback": "Correct. Per the ASRA LAST checklist, the initial 20% lipid emulsion dose is 1.5 mL/kg lean body mass IV bolus over 2-3 minutes, followed by a continuous infusion at 0.25 mL/kg/min. Bolus may be repeated 1-2 times for persistent cardiovascular collapse, and the infusion rate can be doubled to 0.5 mL/kg/min if blood pressure remains low. The total upper limit is approximately 12 mL/kg over the first 30 minutes."
+        },
+        {
+          "label": "20% lipid emulsion 0.5 mL/kg IV bolus, then 0.05 mL/kg/min infusion",
+          "correct": false,
+          "feedback": "Incorrect. This dose is too low and is not the ASRA-recommended regimen. Underdosing lipid emulsion in cardiotoxic LAST can fail to reverse cardiovascular collapse."
+        },
+        {
+          "label": "20% lipid emulsion 5 mL/kg IV bolus, then 1 mL/kg/min infusion",
+          "correct": false,
+          "feedback": "Incorrect. This exceeds the recommended initial bolus by more than threefold and exceeds the upper limit infusion rate. Overdosing lipid emulsion is associated with pancreatitis, ARDS, and laboratory interference."
+        },
+        {
+          "label": "Defer lipid emulsion until after a trial of high-dose epinephrine and vasopressors",
+          "correct": false,
+          "feedback": "Incorrect. Lipid emulsion is the definitive antidote for LAST and should be given as soon as the diagnosis is recognized. Standard-dose epinephrine and vasopressin are explicitly discouraged or downsized in LAST because they can worsen bupivacaine-induced ventricular arrhythmias. Lipid is the priority."
+        }
+      ]
+    },
+    {
+      "id": "d3-acls-modifications",
+      "prompt": "While lipid emulsion is being given, the patient becomes pulseless with ventricular fibrillation. Which ACLS modifications apply specifically to LAST cardiac arrest?",
+      "options": [
+        {
+          "label": "Begin chest compressions and defibrillate per ACLS, but reduce epinephrine to small boluses (<=1 mcg/kg, e.g. 50-100 mcg in this patient), AVOID vasopressin, AVOID calcium channel blockers and beta-blockers, and AVOID lidocaine or other local anesthetics as antiarrhythmics; amiodarone is preferred for ventricular arrhythmias",
+          "correct": true,
+          "feedback": "Correct. The ASRA LAST checklist explicitly modifies standard ACLS: epinephrine doses are reduced to <=1 mcg/kg (typically 50-100 mcg boluses) because high-dose epinephrine impairs lipid resuscitation and worsens bupivacaine-mediated arrhythmias; vasopressin is avoided; calcium channel blockers and beta-blockers are avoided because they aggravate cardiotoxicity; and lidocaine, procainamide, and other local anesthetics are explicitly contraindicated as antiarrhythmics. Amiodarone is the preferred antiarrhythmic. Notify the nearest facility with cardiopulmonary bypass capability — bypass may be needed for refractory bupivacaine arrest."
+        },
+        {
+          "label": "Standard ACLS with epinephrine 1 mg IV q3-5 min, vasopressin 40 units, and lidocaine 1-1.5 mg/kg for ventricular arrhythmias",
+          "correct": false,
+          "feedback": "Incorrect. This is unmodified ACLS and is harmful in LAST. Full-dose epinephrine and vasopressin worsen bupivacaine cardiotoxicity and impair lipid emulsion efficacy. Lidocaine is itself a local anesthetic and is explicitly contraindicated in LAST cardiac arrest — it adds to the very toxicity you are trying to reverse."
+        },
+        {
+          "label": "Withhold compressions and defibrillation until lipid emulsion has had time to work",
+          "correct": false,
+          "feedback": "Incorrect. CPR and defibrillation must continue throughout LAST resuscitation. Effective compressions are essential to circulate the lipid emulsion, which works in part by sequestering lipophilic local anesthetic out of cardiac tissue."
+        },
+        {
+          "label": "Administer flumazenil for the bupivacaine seizure and observe",
+          "correct": false,
+          "feedback": "Incorrect. Flumazenil is a benzodiazepine reversal agent and has no role in LAST. If a benzodiazepine is needed to terminate seizures, midazolam in small doses is preferred; however, propofol should be AVOIDED in cardiovascularly unstable LAST patients because of its negative inotropic and vasodilatory effects."
+        }
+      ]
+    },
+    {
+      "id": "d4-disposition",
+      "prompt": "After two lipid boluses, an infusion, and modified ACLS, ROSC is achieved. The patient is intubated and hemodynamically stable on a low-dose norepinephrine infusion. What is the appropriate disposition and reporting?",
+      "options": [
+        {
+          "label": "Transfer to an ICU for at least 12 hours of hemodynamic and rhythm monitoring (LAST can recur after initial recovery), continue to monitor for pancreatitis and ARDS related to lipid emulsion, debrief the team, file an adverse event report, and submit the case to the LipidRescue registry (lipidrescue.org)",
+          "correct": true,
+          "feedback": "Correct. ASRA recommends at least 12 hours of monitoring after a significant LAST event because cardiovascular collapse can recur as bupivacaine redistributes from tissue stores. Lipid emulsion can cause pancreatitis, ARDS, and laboratory artifact, so monitor amylase, lipase, and oxygenation. Debrief the team, complete an institutional adverse event report, and submit the case to the LipidRescue registry, which collects outcomes data on LAST events. Also review your local anesthetic dosing practice — this case used bupivacaine doses near the upper limit, which is the most preventable risk factor for LAST."
+        },
+        {
+          "label": "Discharge home from the recovery area once vitals are normal",
+          "correct": false,
+          "feedback": "Incorrect. LAST can have a delayed or recurrent course as the local anesthetic redistributes from peripheral tissues. ASRA recommends a minimum of 12 hours of monitoring after a significant LAST event."
+        },
+        {
+          "label": "Admit to a regular medical floor with telemetry and discharge in the morning",
+          "correct": false,
+          "feedback": "Incorrect. After LAST cardiac arrest with ROSC, ICU-level monitoring is appropriate. Telemetry alone is insufficient given the risk of recurrent cardiotoxicity, the need for ongoing vasopressor support, and the potential complications of high-dose lipid emulsion (pancreatitis, ARDS)."
+        },
+        {
+          "label": "Transfer to psychiatry for evaluation of the seizure and 'panic attack'",
+          "correct": false,
+          "feedback": "Incorrect. The seizure was a CNS manifestation of bupivacaine toxicity, not a primary psychiatric event. Psychiatric referral is inappropriate and dangerously misclassifies a life-threatening drug toxicity."
+        }
+      ]
+    }
+  ]
+}

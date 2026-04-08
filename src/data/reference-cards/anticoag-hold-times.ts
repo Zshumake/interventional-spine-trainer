@@ -55,8 +55,8 @@ export const anticoagHoldTimesCard = {
     },
     dabigatran: {
       peripheral: { text: "Continue", badge: "default" as const },
-      intermediate: { text: "Hold 48-72h", badge: "warning" as const },
-      neuraxial: { text: "Hold 3-5 days", badge: "destructive" as const },
+      intermediate: { text: "Hold 4 days (CrCl >50)", badge: "warning" as const },
+      neuraxial: { text: "Hold 4-5 days (CrCl >50); 6 days if CrCl <50", badge: "destructive" as const },
     },
     enoxaparin_prophy: {
       peripheral: { text: "Continue", badge: "default" as const },
@@ -76,7 +76,7 @@ export const anticoagHoldTimesCard = {
   },
   footnotes: [
     "Green = generally safe to continue. Yellow = case-by-case, coordinate with prescriber. Red = must hold.",
-    "Dabigatran: extend hold to 5 days if CrCl < 50 mL/min",
+    "Dabigatran: hold 4-5 days for high-bleeding-risk procedures with CrCl >=50 mL/min; extend to 6 days if CrCl <50 mL/min, per ASRA 2018 (Narouze) guidelines.",
     "DOACs: no reliable coagulation test confirms clearance. Anti-Xa levels may help for factor Xa inhibitors.",
     "Never hold P2Y12 inhibitors within 6 months of bare-metal stent or 12 months of drug-eluting stent without cardiology approval",
     "Bridging is NOT recommended for DOACs. For warfarin patients with mechanical valves, discuss bridging with prescriber.",

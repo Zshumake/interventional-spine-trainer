@@ -63,7 +63,7 @@
     "tfesi-recommendation": {
       "question": "Recommended: Transforaminal Epidural Steroid Injection",
       "type": "outcome",
-      "outcome": "Perform TFESI at the level below the disc pathology to target the traversing nerve root. Use dexamethasone (non-particulate) for cervical TFESI. For lumbar, dexamethasone is increasingly preferred. Include local anesthetic in the injectate. Limit to max 4 injections per 12 months. Reassess response at 2-4 weeks.",
+      "outcome": "Perform TFESI to target the affected nerve root. For a paracentral disc herniation compressing the traversing root (e.g., L4-5 disc affecting the L5 root), the traversing root is most easily reached at the foramen below the disc, where it exits — the conventional level is therefore L5-S1 for L4-5 pathology, with the needle placed in the L5-S1 subpedicular safe triangle. (Some operators alternatively use a subpedicular approach at the level of the disc itself to reach the traversing root in the lateral recess.) For foraminal stenosis, inject AT the level of pathology to bathe the exiting root within the stenotic foramen. Use dexamethasone (non-particulate is mandatory for cervical TFESI and strongly preferred for lumbar). Limit to a maximum of 4 injections per site per 12 months. Reassess response at 2-4 weeks.",
       "outcomeColor": "green",
       "evidenceCitation": "Riew et al. (2000): 71% of patients receiving TFESI with steroid avoided surgery, sustained at 5+ years. Systematic reviews show modest short-term benefit (MD 7.6 on 0-100 pain scale, RR 0.62 for surgery at 3 months)."
     },
